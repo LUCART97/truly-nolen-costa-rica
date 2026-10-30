@@ -158,7 +158,7 @@ def footer():
 <nav aria-label="Servicios del pie"><h2>Servicios</h2>{s}<a href="{BASE}#consulta">Otras consultas</a><a href="{BASE}#metodo">Cómo trabajamos</a></nav>
 <nav aria-label="Guía de plagas del pie"><h2>Guía de plagas</h2>{p}<a href="{BASE}#consulta">Consultar por otra plaga</a></nav>
 <nav aria-label="Truly Nolen"><h2>Truly Nolen {PAIS}</h2><a href="{BASE}#nosotros">Nuestra forma de cuidar</a><a href="{BASE}#metodo">Cómo trabajamos</a><a href="{BASE}#cobertura">Consultar cobertura</a><a href="{BASE}#preguntas">Preguntas frecuentes</a>{f'<a href="{BASE}blog/">Blog</a>' if ARTICULOS else ""}<a href="{BASE}#contacto">Solicitar atención</a></nav>
-<div class="footer-office"><h2>Hablemos</h2><p data-preview-office>{PAIS}</p><a href="{BASE}#contacto" data-abrir-chat>Escribir a Truly AI</a></div>
+<div class="footer-office"><h2>Hablemos</h2><p data-preview-office>{PAIS}</p><a href="#contacto" data-abrir-chat>Escribir a Truly AI</a></div>
 </div>
 <div class="footer-legal"><p>© Truly Nolen · {PAIS}</p><nav aria-label="Información legal"><a href="{BASE}privacidad/">Privacidad</a><a href="{BASE}terminos/">Términos de uso</a><a href="{BASE}accesibilidad/">Accesibilidad</a></nav></div>
 </footer>
@@ -252,8 +252,9 @@ def pagina_legal(clave, titulo):
         # Las fotos con licencia CC BY / CC BY-SA exigen nombrar al autor y la licencia.
         items = "".join(f'<li><a href="{escape(u)}" target="_blank" rel="noopener noreferrer">{escape(t)}</a></li>' for t, u in FICHA["creditosFotos"])
         creditos = f'<h2 style="margin-top:40px">Créditos de las fotos</h2><p>Algunas fotos de este sitio se usan con licencia libre:</p><ul style="overflow-wrap:anywhere">{items}</ul>'
-    html += f'<main id="contenido"><section class="section legal-content"><p class="eyebrow">Truly Nolen · {PAIS}</p><h1>{titulo}</h1><p>{escape(FICHA["legales"][clave])}</p>{creditos}<a class="button" href="{BASE}">← Volver al sitio</a></section></main>'
-    return html + footer() + CHAT + "</body></html>\n"
+    html += f'<main id="contenido"><section class="section legal-content"><p class="eyebrow">Truly Nolen · {PAIS}</p><h1>{titulo}</h1><p>{escape(FICHA["legales"][clave])}</p>{creditos}<a class="button" href="{BASE}">← Volver al sitio</a></section>'
+    # Con su sección de contacto, «Escribir a Truly AI» del pie abre el chat aquí mismo en vez de llevar al inicio
+    return html + contacto() + "</main>" + footer() + CHAT + "</body></html>\n"
 
 
 def tarjeta_articulo(a, destacada=False):

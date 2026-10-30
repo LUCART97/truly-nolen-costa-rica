@@ -35,7 +35,10 @@ Doble clic en **abrir-sitio.bat**. Se abre http://127.0.0.1:8790/oficinas/costa-
 - [x] **Ronda de pulido 2 (30-oct):** auditoría completa con 0 hallazgos y los 6 artículos limpios. Revisiones nuevas: texto, archivos sin usar, movimiento reducido y carrito en 9 tamaños de pantalla.
   - Corregido: se borraron dos archivos sin usar (`footer-costa-rica.png` de 2,8 MB y el carrito viejo). En pantallas muy bajas, como 1280 × 720, el carrito se oculta en vez de tapar el texto. El blog no deja huecos con 2, 4 o 6 artículos.
   - Falso positivo: «Rattus rattus» es el nombre científico.
-- [ ] Ronda de pulido 3 (mínimo; se termina cuando una ronda completa sale sin hallazgos)
+- [x] **Ronda de pulido 3 (30-oct): cerrada con 0 hallazgos.** Pruebas de uso real: menú en celular, teclado, preguntas frecuentes, chat desde cada tipo de página, peso de cada página, sitemap y datos estructurados del blog.
+  - Corregido: «Escribir a Truly AI» del pie llevaba al inicio en vez de abrir el chat en la misma página. Las páginas legales ahora tienen su sección de contacto. La foto de Industria pasó de 400 a 213 KB.
+  - Aceptado: el video de la portada (2,8 MB) es la película del catálogo y se carga diferido.
+  - Repositorio: https://github.com/LUCART97/truly-nolen-costa-rica (privado).
 - [x] Imagen para redes 1200×630 (`costa-rica-social.jpg`) con `og:image` en todas las páginas, y favicon
 
 ## Lo que falta (en orden)
