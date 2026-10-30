@@ -112,13 +112,13 @@
     "imagen": "costa-rica-social.jpg",
     "titulo": "Truly Nolen Costa Rica | Control de plagas",
     "descripcion": "Control de plagas en Costa Rica para hogares, comercios e industrias. Escríbale a Truly AI y le orientamos en el siguiente paso.",
-    "imagenAlt": "Sala con vista al Volcán Arenal, Costa Rica"
+    "imagenAlt": "Carrito amarillo de Truly Nolen en una carretera de montaña con el Volcán Arenal al atardecer, Costa Rica"
   },
   "pelicula": {
-    "poster": "costa-rica-desktop.webp",
-    "video": "costa-rica-desktop.mp4",
-    "origen": "Película del machote oficial de Costa Rica del catálogo Truly Inbound (trulyinbound.ai/machotes/costa-rica/). Pendiente: portada propia con el carrito de Truly (método de la skill, paso 5).",
-    "videoStatus": "catalogo"
+    "poster": "cr-portada-gemini.webp",
+    "video": "cr-portada-gemini.mp4",
+    "videoStatus": "reviewed",
+    "origen": "gemini_generated_video_bb304fdd.mp4 entregado por Cesar (Descargas, 30-oct-2026), generado con Gemini (IA). Sin audio, bucle con fundido de 0,5 s, H.264 con el color del catálogo, 1280x720, 9,5 s, 24 cps. Licencia de uso comercial POR CONFIRMAR."
   },
   "footer": {
     "file": "footer-costa-rica.webp",
@@ -1945,7 +1945,13 @@
     "terminos": "Términos de uso del sitio de Truly Nolen Costa Rica: alcance de la información, confirmación de servicios y créditos de las fotos con licencia libre.",
     "accesibilidad": "Cómo recorrer el sitio de Truly Nolen Costa Rica con el teclado, ampliar el texto y reducir el movimiento, y cómo reportar una dificultad de acceso."
   },
-  "carrito": {
+  "peliculaCatalogo": {
+    "poster": "costa-rica-desktop.webp",
+    "video": "costa-rica-desktop.mp4",
+    "origen": "Película del machote oficial de Costa Rica del catálogo Truly Inbound (trulyinbound.ai/machotes/costa-rica/). Pendiente: portada propia con el carrito de Truly (método de la skill, paso 5).",
+    "videoStatus": "catalogo"
+  },
+  "carritoEsquina": {
     "file": "cr-carrito-truly.webp",
     "alt": "Carrito amarillo de Truly Nolen con orejas y nariz roja",
     "ancho": "clamp(160px,15vw,200px)",
@@ -1961,5 +1967,44 @@
     "maximo": 300,
     "minimo": 100,
     "margen": 10
+  },
+  "peliculaMontajeArenal": {
+    "poster": "cr-portada-arenal.webp",
+    "video": "cr-portada-arenal.mp4",
+    "videoStatus": "reviewed",
+    "origen": "Foto real «Volcan Arenal - panoramio» de Hiram Montiel Calderón (30-jul-2008), Wikimedia Commons, CC BY-SA 3.0, espejada, con el letrero y el «KPH 40» del asfalto borrados. Carrito: carro-con-bigotes-cuadro1.jpg (carpeta PRÁCTICA del escritorio) recortado con rembg y con el color ajustado. Animación por cuadro sin IA (asfalto que avanza, acercamiento coseno 5 %, ruedas girando, baches), 1920x1080, 12 s, 25 cps, H.264 con el color del catálogo. Póster = cuadro 0.",
+    "encuadre": "right center"
+  },
+  "peliculaRecreacion": {
+    "poster": "cr-portada-carretera-arenal.webp",
+    "video": "cr-portada-carretera-arenal.mp4",
+    "videoStatus": "reviewed",
+    "origen": "Recreación de la portada del borrador de Venezuela: mismo carrito (carro-con-bigotes-cuadro1.jpg, misma posición y tamaño x1,5), carretera con líneas que corren hacia la cámara y, de fondo, «Arenal Volcano 02» de Bernard Gagnon (31-ene-2023), Wikimedia Commons, CC0. Animación por cuadro sin IA, 8 s, 25 cps, 1920x1080, H.264 con el color del catálogo. Póster = cuadro 0."
+  },
+  "peliculaPalmeras": {
+    "poster": "cr-portada-volcan-palmeras.webp",
+    "video": "cr-portada-volcan-palmeras.mp4",
+    "videoStatus": "reviewed",
+    "origen": "Película del borrador de Venezuela (venezuela-desktop.mp4: carro, carretera, palmeras y cámara intactos) con el cielo y el mar reemplazados cuadro por cuadro por «Arenal Volcano 02» de Bernard Gagnon (31-ene-2023), Wikimedia Commons, CC0. Carro protegido con máscara rembg por cuadro. Sin IA generativa. 1280x720, 5,2 s, 24 cps, color del catálogo."
+  },
+  "peliculaViaArenal": {
+    "poster": "cr-portada-via-arenal.webp",
+    "video": "cr-portada-via-arenal.mp4",
+    "videoStatus": "reviewed",
+    "origen": "Toma del borrador de Venezuela (venezuela-desktop.mp4): se conservan solo el carro y la vía con su movimiento real. Palmeras, césped, cielo y mar reemplazados cuadro por cuadro por «Arenal Volcano 02» de Bernard Gagnon (31-ene-2023), Wikimedia Commons, CC0, con bosque que avanza con la cámara, banquina de tierra y etalonaje común (curva, color, textura, grano, viñeta). Máscara del carro con rembg, corregida en los cuadros donde perdía las orejas. Sin IA generativa. 1280x720, 5,2 s, 24 cps."
+  },
+  "peliculaCr22Zoom": {
+    "poster": "cr-portada-cr22.webp",
+    "video": "cr-portada-cr22.mp4",
+    "videoStatus": "reviewed",
+    "encuadre": "right center",
+    "origen": "«cr 22.jpeg» entregada por Cesar (Descargas, 30-oct-2026; origen y licencia POR CONFIRMAR). Película sin IA desde la foto: acercamiento 7 % con curva coseno, 1920x1080, 12 s, 25 cps, H.264 con el color del catálogo. Póster = cuadro 0."
+  },
+  "peliculaCr22Avance": {
+    "poster": "cr-portada-cr22-avance.webp",
+    "video": "cr-portada-cr22-avance.mp4",
+    "videoStatus": "reviewed",
+    "encuadre": "right center",
+    "origen": "«cr 22.jpeg» entregada por Cesar (origen y licencia POR CONFIRMAR). Animación sin IA generativa: carro recortado (rembg) fijo con ruedas girando, suspensión y vibración; fondo sin el carro (relleno con asfalto y follaje de la misma foto) que avanza desde el punto de fuga con paralaje; volcán y cielo quietos. 1920x1080, 10 s, 25 cps, color del catálogo."
   }
 }

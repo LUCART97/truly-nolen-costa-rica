@@ -353,6 +353,7 @@ def pagina_inicio():
     html += f'<body class="country-site jardin" data-machote="{ID}" data-oficina="{ID}">' + nav() + '<main id="contenido">'
     html += f"""<section class="cinema" id="inicio"><div class="film"><picture><source media="(max-width:760px)" srcset="{ASSETS}{pel['poster']}"/><img src="{ASSETS}{pel['poster']}" alt=""/></picture>
 {f'<video muted loop playsinline preload="none" aria-hidden="true" data-src="{ASSETS}{pel["video"]}"></video>' if pel.get("video") else ""}{carrito()}</div>
+{f'<style>@media(min-width:761px){{body.country-site #inicio .film :is(img,video){{object-position:{pel["encuadre"]}}}}}</style>' if pel.get("encuadre") else ""}
 <div class="hero-text"><p class="eyebrow">Truly Nolen · <span data-preview-office>{PAIS}</span></p><h1>{escape(I['h1'])}</h1><p>{escape(I['intro'])}</p><a class="button" href="#contacto">{escape(I['cta'])}</a></div>
 <a class="discover" href="#servicios">{escape(I['descubre'])}</a></section>
 <section id="servicios" class="section services"><div class="section-heading"><p class="eyebrow">Truly Nolen · {PAIS}</p><h2>{escape(I['serviciosTitulo'])}</h2><p>{escape(I['serviciosTexto'])}</p></div>
