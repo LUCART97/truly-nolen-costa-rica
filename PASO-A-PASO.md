@@ -3,6 +3,12 @@
 ## Cómo ver el borrador
 Doble clic en **abrir-sitio.bat**. Se abre http://127.0.0.1:8790/oficinas/costa-rica/
 
+## En internet (GitHub Pages)
+https://lucart97.github.io/truly-nolen-costa-rica/ lleva a la portada de Costa Rica.
+- Se publica sola con cada cambio en la rama `borrador-costa-rica` y se regenera una vez al día (00:05 hora de Costa Rica), para que el blog salga en su fecha. El proceso está en `.github/workflows/pages.yml`.
+- Para apagarla: GitHub → Settings → Pages.
+- Tiene «no indexar»: Google no la muestra, pero cualquiera con el enlace la ve.
+
 ## Cómo corregir
 1. Cambiar el texto en `ficha/costa-rica.json` (todo el contenido está ahí).
 2. Correr `uv run --python 3.12 python generar.py`. Ese comando rehace las 13 páginas y revisa enlaces, imágenes y trato de usted.
