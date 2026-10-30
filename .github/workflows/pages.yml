@@ -1,0 +1,45 @@
+# Publica el borrador de Truly Nolen Costa Rica en GitHub Pages:
+# https://lucart97.github.io/truly-nolen-costa-rica/
+# Se regenera con cada cambio en la rama borrador-costa-rica y una vez al día (goteo del blog: los artículos
+# salen solos en su fecha, hora de Costa Rica). Para apagarlo: Settings → Pages.
+name: Publicar en GitHub Pages
+
+on:
+  push:
+    branches: [borrador-costa-rica]
+  schedule:
+    - cron: "5 6 * * *"          # 00:05 en Costa Rica (UTC-6)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}oficinas/costa-rica/
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: borrador-costa-rica
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generar el sitio (con el goteo del blog al día)
+        run: python generar.py
+      - name: Ajustar rutas para Pages
+        run: python publicar_pages.py "/${{ github.event.repository.name }}"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: despliegue
+        uses: actions/deploy-pages@v4
