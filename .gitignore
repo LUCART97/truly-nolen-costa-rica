@@ -1,0 +1,10 @@
+# Fotos candidatas y página para elegirlas: ya cumplieron su función, no van al repositorio
+opciones/
+sitio/_elegir/
+
+# Python y sistema
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini
+.DS_Store
