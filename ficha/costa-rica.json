@@ -59,7 +59,7 @@
       {
         "plaga": "cucarachas",
         "titulo": "Limpie el polvo donde se esconden",
-        "texto": "Las heces, los vómitos y los restos de las cucarachas aportan alérgenos al polvo de la casa. En un estudio con pacientes alérgicos de Costa Rica, el 68 % reaccionó a por lo menos un extracto de cucaracha.",
+        "texto": "Las heces, los vómitos y los restos de las cucarachas aportan alérgenos al polvo de la casa. En un estudio con pacientes alérgicos de Costa Rica, el 68 % reaccionó a por lo menos un extracto de cucaracha (estudio de 1992).",
         "fuente": "Revista Costarricense de Salud Pública"
       },
       {
@@ -83,7 +83,7 @@
       {
         "plaga": "moscas",
         "titulo": "Tape la basura y los desechos",
-        "texto": "Las moscas se crían en los desechos orgánicos. Un estudio de la UCR en San José encontró Salmonella en moscas recogidas en el Matadero y el Mercado. Basureros con tapa y restos de comida fuera de la cocina.",
+        "texto": "Las moscas se crían en los desechos orgánicos. Un estudio de la UCR encontró Salmonella en moscas recogidas en San José. Basureros con tapa y restos de comida fuera de la cocina.",
         "fuente": "Revista de Biología Tropical, UCR"
       },
       {
@@ -319,7 +319,7 @@
               },
               {
                 "h": "¿Qué incluye?",
-                "p": "Revisión del interior, el perímetro y las áreas verdes; medidas de control según lo que se encuentre, e indicaciones para preparar a su familia y a sus mascotas."
+                "p": "Revisión del interior, el perímetro y las áreas verdes, medidas de control según lo que se encuentre e indicaciones para preparar a su familia y a sus mascotas."
               },
               {
                 "h": "¿Cómo sigue?",
@@ -408,7 +408,7 @@
             "items": [
               {
                 "h": "Zancudos",
-                "p": "El Aedes aegypti transmite el dengue y se cría en los recipientes donde se guarda agua. A la semana 40 de 2026 el Ministerio de Salud contaba 5.814 casos, un 35 % más que en 2025."
+                "p": "El Aedes aegypti transmite el dengue y se cría en los recipientes donde se guarda agua. A la semana 40 de 2026 el Ministerio de Salud contaba 5.814 casos, más que los 3.798 de la misma semana de 2025."
               },
               {
                 "h": "Ratas y ratones",
@@ -416,7 +416,7 @@
               },
               {
                 "h": "Cucarachas",
-                "p": "Entre las más frecuentes en las casas del país están la cucaracha americana, la australiana y la alemana."
+                "p": "Varios autores señalan como las más frecuentes en las casas a la cucaracha americana, la australiana, la alemana y la de Madeira."
               },
               {
                 "h": "Comején",
@@ -527,7 +527,7 @@
               },
               {
                 "h": "¿Cómo sigue?",
-                "p": "Registro de hallazgos y recomendaciones. Si tiene varias sucursales, se acuerda el alcance de cada una."
+                "p": "Cada aplicación deja su hoja de servicio, como pide el Decreto 38335-S-MTSS. Si tiene varias sucursales, se acuerda el alcance de cada una."
               }
             ]
           },
@@ -620,7 +620,7 @@
             "items": [
               {
                 "valor": "68 %",
-                "texto": "de ochenta pacientes alérgicos severos de Costa Rica reaccionó a por lo menos un extracto de cucaracha.",
+                "texto": "de ochenta pacientes alérgicos severos de Costa Rica reaccionó a por lo menos un extracto de cucaracha (estudio de 1992).",
                 "fuente": "Revista Costarricense de Salud Pública (Calderón)"
               }
             ]
@@ -691,7 +691,7 @@
         "preguntas": [
           [
             "¿Pueden venir fuera del horario de atención?",
-            "Cuéntenos sus horarios de atención y cuándo podría recibir al equipo; la visita se coordina según su operación."
+            "Cuéntenos sus horarios de atención y cuándo podría recibir al equipo. La visita se coordina según su operación."
           ],
           [
             "¿Qué información necesitan?",
@@ -699,7 +699,7 @@
           ],
           [
             "Tengo varias sucursales. ¿Cómo se organiza?",
-            "Se acuerda el alcance de cada local en la propuesta, con su propio registro de hallazgos."
+            "Se acuerda el alcance de cada local en la propuesta. Cada aplicación deja su hoja de servicio, como pide el Decreto 38335-S-MTSS."
           ]
         ],
         "fuentes": [
@@ -739,11 +739,11 @@
               },
               {
                 "h": "¿Qué incluye?",
-                "p": "Inspección de las áreas de proceso, almacenamiento y perímetro, control según los hallazgos y registro de cada visita."
+                "p": "Inspección de las áreas de proceso, almacenamiento y perímetro, control según lo que se encuentre y la hoja de servicio de cada aplicación, como pide el Decreto 38335-S-MTSS."
               },
               {
                 "h": "¿Cómo sigue?",
-                "p": "Seguimiento con la frecuencia acordada y documentación de hallazgos y recomendaciones para sus revisiones."
+                "p": "Seguimiento con la frecuencia acordada y la hoja de servicio de cada aplicación para sus revisiones."
               }
             ]
           },
@@ -816,7 +816,7 @@
                   "Quién la guarda",
                   ""
                 ],
-                "El original es para el cliente y la copia queda con la empresa como comprobante; las autoridades pueden solicitarla.",
+                "El original es para el cliente y la copia queda con la empresa como comprobante. Las autoridades pueden solicitarla.",
                 "art. 6"
               ]
             ],
@@ -877,7 +877,7 @@
           ],
           [
             "¿Entregan registros para auditorías?",
-            "Cada visita deja su registro de hallazgos y recomendaciones. Indíquenos qué documentación le piden para incluirla en la propuesta."
+            "Cada aplicación deja su hoja de servicio, como pide el Decreto 38335-S-MTSS. Indíquenos qué documentación le piden para incluirla en la propuesta."
           ],
           [
             "Tenemos varias plantas. ¿Cómo se organiza?",
@@ -913,13 +913,13 @@
                 "fuente": "Ministerio de Salud, Boletín Epidemiológico N.º 39 (23-oct-2026)"
               },
               {
-                "valor": "35 %",
-                "texto": "más casos que a la misma semana de 2025, cuando se reportaron 3.798.",
+                "valor": "3.798",
+                "texto": "casos a la misma semana de 2025. En 2026 ya son 5.814.",
                 "fuente": "Ministerio de Salud, Boletín Epidemiológico N.º 39"
               },
               {
                 "valor": "683",
-                "texto": "casos en Grecia, el cantón con más casos acumulados. Orotina tiene la tasa más alta.",
+                "texto": "casos en Grecia, el cantón con más casos acumulados. Entre los diez cantones con más casos, Orotina tiene la tasa más alta.",
                 "fuente": "Ministerio de Salud, Boletín Epidemiológico N.º 39"
               }
             ]
@@ -931,7 +931,7 @@
             "items": [
               {
                 "h": "El del dengue",
-                "p": "El virus del dengue se transmite por la picadura de hembras infectadas de Aedes aegypti."
+                "p": "El virus del dengue se transmite por la picadura de hembras infectadas, principalmente de Aedes aegypti."
               },
               {
                 "h": "De día",
@@ -1180,12 +1180,12 @@
             "items": [
               {
                 "valor": "68 %",
-                "texto": "de ochenta pacientes alérgicos severos de Costa Rica reaccionó a por lo menos un extracto de cucaracha.",
+                "texto": "de ochenta pacientes alérgicos severos de Costa Rica reaccionó a por lo menos un extracto de cucaracha (estudio de 1992).",
                 "fuente": "Revista Costarricense de Salud Pública (Calderón)"
               },
               {
                 "valor": "61,3 %",
-                "texto": "de esos pacientes reaccionó a la cucaracha americana, Periplaneta americana.",
+                "texto": "de esos pacientes reaccionó a la cucaracha americana, Periplaneta americana (estudio de 1992).",
                 "fuente": "Revista Costarricense de Salud Pública (Calderón)"
               }
             ]
@@ -1197,7 +1197,7 @@
             "items": [
               {
                 "h": "Las más frecuentes",
-                "p": "Periplaneta americana, Periplaneta australasiae, Blattella germanica y Leucophaea maderae."
+                "p": "Periplaneta americana, Periplaneta australasiae, Blattella germanica y Rhyparobia maderae (antes Leucophaea maderae)."
               },
               {
                 "h": "Lo que dejan",
@@ -1304,7 +1304,7 @@
               },
               {
                 "h": "Muy común",
-                "p": "Un reportaje de 2026 la describe como una plaga de gran relevancia, posiblemente la más común en el país."
+                "p": "Un investigador de la UCR, citado en un reportaje de 2026, la describe como una plaga de gran relevancia, posiblemente la más común en el país."
               },
               {
                 "h": "En la ciudad",
@@ -1323,7 +1323,7 @@
               },
               {
                 "h": "Plantas cortadas",
-                "p": "Hojas recortadas en semicírculos de un día para otro."
+                "p": "Un jardín puede quedar arrasado en cuestión de horas."
               },
               {
                 "h": "Filas en la cocina",
@@ -1475,7 +1475,7 @@
               },
               {
                 "h": "Silencio",
-                "p": "Pueden pasar hasta tres años desarrollando una colonia sin mostrar señales."
+                "p": "Según la especie, pueden pasar hasta tres años desarrollando una colonia sin mostrar señales."
               }
             ]
           },
@@ -1565,7 +1565,7 @@
         "imagenOrigen": "Ilustración del borrador de Venezuela, reutilizada.",
         "eyebrow": "Guía de alacranes",
         "lema": "La picadura duele,<br/>pero casi nunca es letal.",
-        "intro": "Los alacranes se esconden en lugares oscuros de la casa. Según investigadores del Instituto Clodomiro Picado de la UCR, los de Costa Rica no son letales.",
+        "intro": "Los alacranes se esconden en lugares oscuros de la casa. Según un investigador del Instituto Clodomiro Picado de la UCR, los de Costa Rica no son letales.",
         "bloques": [
           {
             "tipo": "cifras",
@@ -1586,7 +1586,7 @@
             "items": [
               {
                 "h": "No son letales",
-                "p": "Investigadores del Instituto Clodomiro Picado describen el riesgo de muerte por picadura en el país como prácticamente nulo."
+                "p": "Un investigador del Instituto Clodomiro Picado describe el escorpionismo en el país como prácticamente nulo."
               },
               {
                 "h": "Sí duelen",
@@ -1823,7 +1823,7 @@
             "items": [
               {
                 "valor": "24 %",
-                "texto": "de los cultivos de moscas domésticas recogidas en el Matadero y el Mercado de San José mostró Salmonella.",
+                "texto": "de los lotes de moscas domésticas recogidas en San José (Matadero, Mercado y un laboratorio de la UCR) mostró Salmonella.",
                 "fuente": "Revista de Biología Tropical, UCR (1959)"
               },
               {
@@ -1847,14 +1847,14 @@
                   "Mosca doméstica",
                   ""
                 ],
-                "La que entra a la casa y al negocio. Un estudio de la UCR en San José encontró Salmonella y Shigella en moscas recogidas en el Matadero y el Mercado."
+                "La que entra a la casa y al negocio. Un estudio de la UCR encontró Salmonella y Shigella en moscas recogidas en San José."
               ],
               [
                 [
                   "Mosca del establo",
                   ""
                 ],
-                "Stomoxys calcitrans pica al ganado y se reproduce en desechos orgánicos como el rastrojo de piña. Se le llama mosca de la piña, aunque Senasa aclara que es un nombre erróneo."
+                "Stomoxys calcitrans pica al ganado y se reproduce en desechos orgánicos como el rastrojo de piña. Se le llama mosca de la piña, aunque un especialista del INTA aclara que es un nombre erróneo."
               ],
               [
                 [

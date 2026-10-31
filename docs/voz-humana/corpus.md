@@ -70,7 +70,7 @@ Estas son las señales que describen las fuentes:
 
 Bolitas finas cerca de la madera: son el excremento del comején de madera seca (Kurú).
 
-Las «abuelitas» : así se les ha dicho en Costa Rica a los insectos negruzcos de alas finas que, al inicio del invierno (abril o mayo), revolotean alrededor de los bombillos y pierden las alas con solo tocarlos (Kurú). Son comején buscando dónde fundar una colonia nueva. Paniagua describe esos enjambres de termitas con alas como algo que se ve con frecuencia después de lluvias fuertes. UC IPM aclara que ver enjambres de termitas voladoras «no siempre significa» que su casa esté infestada.
+Las «abuelitas» : así se les ha dicho en Costa Rica a los insectos negruzcos de alas finas que, al inicio del invierno (abril o mayo), revolotean alrededor de los bombillos y pierden las alas con solo tocarlos (Kurú). Son comején buscando dónde fundar una colonia nueva. The Tico Times (2007) describe esos enjambres de termitas con alas como algo que se ve con frecuencia después de lluvias fuertes. UC IPM aclara que ver enjambres de termitas voladoras «no siempre significa» que su casa esté infestada.
 
 Tubos de tierra entre el suelo y la madera: así llega el comején subterráneo a la madera, por «tubos de refugio de tierra» (UC IPM).
 
@@ -78,7 +78,7 @@ Tubos de tierra entre el suelo y la madera: así llega el comején subterráneo 
 
 La guía de UC IPM dice que «es necesaria una inspección cuidadosa» para ubicar los daños y las colonias, y así aprovechar mejor los tratamientos localizados. Fumigar sin saber dónde está la colonia es gastar producto donde no hace falta.
 
-Kurú agrega un dato local: la preservación de la madera con tratamientos a presión existe en Costa Rica, pero es una tecnología poco utilizada en el país. La madera nueva sin tratar, cada vez menos resistente, queda expuesta.
+Kurú agrega un dato local: preservar la madera con insecticidas es una tecnología poco utilizada en Costa Rica, aunque en el país existen plantas de tratamiento a presión. Y las maderas que se usan hoy son cada vez menos resistentes.
 
 ## Madera tratada contra el comején: lo que probó el TEC
 
@@ -186,17 +186,17 @@ Truly Nolen Costa Rica · 30 de octubre de 2026 · 6 min de lectura
 
 Foto: Federico Figueroa Cabezas, Aedes aegypti en Costa Rica, iNaturalist, licencia CC BY 4.0
 
-Para acabar con los zancudos en casa hay que quitarles el agua donde se crían. Es la medida que más pesa contra el dengue, y en Costa Rica hace falta: a la semana 40 de 2026 el Ministerio de Salud contaba 5.814 casos acumulados de dengue, según su Boletín Epidemiológico N.º 39 (23 de octubre de 2026).
+Para acabar con los zancudos en casa hay que quitarles el agua donde se crían. Según la OMS, la prevención del dengue se basa en controlar a los zancudos, y en Costa Rica hace falta: a la semana 40 de 2026 el Ministerio de Salud contaba 5.814 casos acumulados de dengue, según su Boletín Epidemiológico N.º 39 (23 de octubre de 2026).
 
 ## El dengue subió en Costa Rica en 2026
 
-Esos 5.814 casos son un 35 % más que a la misma semana de 2025, cuando se reportaron 3.798, según el mismo boletín. En todo 2025 se notificaron 6.019 casos, de acuerdo con el Perfil Epidemiológico 2025 del Ministerio de Salud.
+Esos 5.814 casos superan los 3.798 de la misma semana de 2025, según el mismo boletín. En todo 2025 se notificaron 6.019 casos, de acuerdo con el Perfil Epidemiológico 2025 del Ministerio de Salud.
 
-El boletín señala que la región Central Norte tiene el mayor número de casos y que la tasa más alta está en el Pacífico Central. Los cantones con más casos acumulados son Grecia (683), Alajuela (617), Orotina (555), Puntarenas (357) y La Cruz (233). Orotina tiene la tasa más alta de todos.
+El boletín señala que la región Central Norte tiene el mayor número de casos y que la tasa más alta está en el Pacífico Central. Los cantones con más casos acumulados son Grecia (683), Alajuela (617), Orotina (555), Puntarenas (357) y La Cruz (233). De esos cinco cantones, Orotina tiene la tasa más alta (2.182,2 por 100.000 habitantes).
 
 ## Los zancudos y la época lluviosa
 
-El Perfil Epidemiológico 2025 explica que la curva de casos mostró «un patrón estacional asociado a condiciones climáticas favorables para el vector, especialmente durante los períodos lluviosos». La Organización Mundial de la Salud (OMS) agrega que el virus se transmite por la picadura de hembras infectadas de Aedes aegypti , y que los mosquitos que transmiten el dengue «están activos durante el día».
+El Perfil Epidemiológico 2025 explica que la curva de casos mostró «un patrón estacional asociado a condiciones climáticas favorables para el vector, especialmente durante los períodos lluviosos». La Organización Mundial de la Salud (OMS) agrega que el virus se transmite por la picadura de hembras infectadas, principalmente de Aedes aegypti , y que los mosquitos que transmiten el dengue «están activos durante el día».
 
 ## Qué revisar y eliminar cada semana contra los zancudos
 
@@ -212,7 +212,7 @@ Llantas, botellas, latas y cualquier objeto del patio que junte agua de lluvia.
 
 Canoas y desagües tapados por hojas.
 
-El trabajo también se hace en la calle: de la semana 1 a la 39 de 2026, el Ministerio de Salud reporta 486.412 viviendas visitadas y 1.353.431 depósitos eliminados. El Ministerio recuerda que el control del dengue es una responsabilidad compartida entre instituciones, familias, comunidades y sector privado.
+El trabajo también se hace en la calle: de la semana 1 a la 39 de 2026, el Ministerio de Salud reporta 486.412 viviendas visitadas y 1.353.431 depósitos eliminados. El Ministerio recuerda que el control del dengue es una responsabilidad compartida entre instituciones, familias, comunidades, sector privado y gobiernos locales (Delfino.cr, 26 de agosto de 2026).
 
 ## Protéjase de las picaduras
 
@@ -238,11 +238,11 @@ Si quiere repasar las señales, entre a la guía de zancudos .
 
 ¿Cuántos casos de dengue hay en Costa Rica en 2026? +
 
-Según el Boletín Epidemiológico N.º 39 del Ministerio de Salud (23 de octubre de 2026), a la semana 40 de 2026 se acumulaban 5.814 casos de dengue, un 35 % más que a la misma semana de 2025.
+Según el Boletín Epidemiológico N.º 39 del Ministerio de Salud (23 de octubre de 2026), a la semana 40 de 2026 se acumulaban 5.814 casos de dengue, más que los 3.798 de la misma semana de 2025.
 
 ¿En qué cantones hay más dengue? +
 
-El mismo boletín ubica a Grecia, Alajuela, Orotina, Puntarenas y La Cruz como los cantones con más casos acumulados a la semana 40 de 2026. Orotina tiene la tasa más alta.
+El mismo boletín ubica a Grecia, Alajuela, Orotina, Puntarenas y La Cruz como los cantones con más casos acumulados a la semana 40 de 2026. De esos cinco cantones, Orotina tiene la tasa más alta (2.182,2 por 100.000 habitantes).
 
 ¿A qué hora pica el zancudo del dengue? +
 
@@ -328,7 +328,7 @@ Prevención · Costa Rica
 
 ## Cómo prevenir cada plaga.
 
-Un consejo concreto por plaga, sacado de fuentes de Costa Rica, para empezar hoy mismo en su casa o su negocio.
+Un consejo concreto por plaga, con su fuente, para empezar hoy mismo en su casa o su negocio.
 
 ## Vacíe el agua quieta cada semana
 
@@ -354,7 +354,7 @@ Cucarachas
 
 ## Limpie el polvo donde se esconden
 
-Las heces, los vómitos y los restos de las cucarachas aportan alérgenos al polvo de la casa. En un estudio con pacientes alérgicos de Costa Rica, el 68 % reaccionó a por lo menos un extracto de cucaracha.
+Las heces, los vómitos y los restos de las cucarachas aportan alérgenos al polvo de la casa. En un estudio con pacientes alérgicos de Costa Rica, el 68 % reaccionó a por lo menos un extracto de cucaracha (estudio de 1992).
 
 Fuente: Revista Costarricense de Salud Pública
 
@@ -386,7 +386,7 @@ Moscas
 
 ## Tape la basura y los desechos
 
-Las moscas se crían en los desechos orgánicos. Un estudio de la UCR en San José encontró Salmonella en moscas recogidas en el Matadero y el Mercado. Basureros con tapa y restos de comida fuera de la cocina.
+Las moscas se crían en los desechos orgánicos. Un estudio de la UCR encontró Salmonella en moscas recogidas en San José. Basureros con tapa y restos de comida fuera de la cocina.
 
 Fuente: Revista de Biología Tropical, UCR
 
@@ -632,7 +632,7 @@ Guía de alacranes · Costa Rica
 
 # La picadura duele, pero casi nunca es letal.
 
-Los alacranes se esconden en lugares oscuros de la casa. Según investigadores del Instituto Clodomiro Picado de la UCR, los de Costa Rica no son letales.
+Los alacranes se esconden en lugares oscuros de la casa. Según un investigador del Instituto Clodomiro Picado de la UCR, los de Costa Rica no son letales.
 
 Lo que se ha registrado
 
@@ -648,7 +648,7 @@ Cómo es
 
 ### No son letales
 
-Investigadores del Instituto Clodomiro Picado describen el riesgo de muerte por picadura en el país como prácticamente nulo.
+Un investigador del Instituto Clodomiro Picado describe el escorpionismo en el país como prácticamente nulo.
 
 ### Sí duelen
 
@@ -1016,7 +1016,7 @@ A principios de la estación lluviosa salen con alas de sus galerías.
 
 ### Silencio
 
-Pueden pasar hasta tres años desarrollando una colonia sin mostrar señales.
+Según la especie, pueden pasar hasta tres años desarrollando una colonia sin mostrar señales.
 
 Prepare la inspección
 
@@ -1162,11 +1162,11 @@ Lo que se ha medido en Costa Rica
 
 ## También causan alergias.
 
-de ochenta pacientes alérgicos severos de Costa Rica reaccionó a por lo menos un extracto de cucaracha.
+de ochenta pacientes alérgicos severos de Costa Rica reaccionó a por lo menos un extracto de cucaracha (estudio de 1992).
 
 Revista Costarricense de Salud Pública (Calderón)
 
-de esos pacientes reaccionó a la cucaracha americana, Periplaneta americana.
+de esos pacientes reaccionó a la cucaracha americana, Periplaneta americana (estudio de 1992).
 
 Cómo es
 
@@ -1174,7 +1174,7 @@ Cómo es
 
 ### Las más frecuentes
 
-Periplaneta americana, Periplaneta australasiae, Blattella germanica y Leucophaea maderae.
+Periplaneta americana, Periplaneta australasiae, Blattella germanica y Rhyparobia maderae (antes Leucophaea maderae).
 
 ### Lo que dejan
 
@@ -1332,7 +1332,7 @@ Atta cephalotes es la zompopa más común de Costa Rica y se encuentra en todo e
 
 ### Muy común
 
-Un reportaje de 2026 la describe como una plaga de gran relevancia, posiblemente la más común en el país.
+Un investigador de la UCR, citado en un reportaje de 2026, la describe como una plaga de gran relevancia, posiblemente la más común en el país.
 
 ### En la ciudad
 
@@ -1348,7 +1348,7 @@ Filas de zompopas cargando pedazos de hojas o flores.
 
 ### Plantas cortadas
 
-Hojas recortadas en semicírculos de un día para otro.
+Un jardín puede quedar arrasado en cuestión de horas.
 
 ### Filas en la cocina
 
@@ -1498,7 +1498,7 @@ Lo que se ha medido en Costa Rica
 
 ## Un problema con historia.
 
-de los cultivos de moscas domésticas recogidas en el Matadero y el Mercado de San José mostró Salmonella.
+de los lotes de moscas domésticas recogidas en San José (Matadero, Mercado y un laboratorio de la UCR) mostró Salmonella.
 
 Revista de Biología Tropical, UCR (1959)
 
@@ -1516,11 +1516,11 @@ Lo que se sabe
 
 Mosca doméstica
 
-La que entra a la casa y al negocio. Un estudio de la UCR en San José encontró Salmonella y Shigella en moscas recogidas en el Matadero y el Mercado.
+La que entra a la casa y al negocio. Un estudio de la UCR encontró Salmonella y Shigella en moscas recogidas en San José.
 
 Mosca del establo
 
-Stomoxys calcitrans pica al ganado y se reproduce en desechos orgánicos como el rastrojo de piña. Se le llama mosca de la piña, aunque Senasa aclara que es un nombre erróneo.
+Stomoxys calcitrans pica al ganado y se reproduce en desechos orgánicos como el rastrojo de piña. Se le llama mosca de la piña, aunque un especialista del INTA aclara que es un nombre erróneo.
 
 Cuánto afecta
 
@@ -2028,11 +2028,11 @@ casos de dengue acumulados a la semana 40 de 2026.
 
 Ministerio de Salud, Boletín Epidemiológico N.º 39 (23-oct-2026)
 
-más casos que a la misma semana de 2025, cuando se reportaron 3.798.
+casos a la misma semana de 2025. En 2026 ya son 5.814.
 
 Ministerio de Salud, Boletín Epidemiológico N.º 39
 
-casos en Grecia, el cantón con más casos acumulados. Orotina tiene la tasa más alta.
+casos en Grecia, el cantón con más casos acumulados. Entre los diez cantones con más casos, Orotina tiene la tasa más alta.
 
 Cómo es
 
@@ -2040,7 +2040,7 @@ Cómo es
 
 ### El del dengue
 
-El virus del dengue se transmite por la picadura de hembras infectadas de Aedes aegypti.
+El virus del dengue se transmite por la picadura de hembras infectadas, principalmente de Aedes aegypti.
 
 ### De día
 
@@ -2240,7 +2240,7 @@ Inspección de las áreas de trabajo y de almacenamiento, control según la acti
 
 ### ¿Cómo sigue?
 
-Registro de hallazgos y recomendaciones. Si tiene varias sucursales, se acuerda el alcance de cada una.
+Cada aplicación deja su hoja de servicio, como pide el Decreto 38335-S-MTSS. Si tiene varias sucursales, se acuerda el alcance de cada una.
 
 Antes de empezar recibe una propuesta con el alcance y las condiciones para su negocio.
 
@@ -2310,7 +2310,7 @@ Lo que se ha medido en Costa Rica
 
 ## Las cucarachas también afectan la salud.
 
-de ochenta pacientes alérgicos severos de Costa Rica reaccionó a por lo menos un extracto de cucaracha.
+de ochenta pacientes alérgicos severos de Costa Rica reaccionó a por lo menos un extracto de cucaracha (estudio de 1992).
 
 Revista Costarricense de Salud Pública (Calderón)
 
@@ -2370,7 +2370,7 @@ Preguntas frecuentes
 
 ¿Pueden venir fuera del horario de atención? +
 
-Cuéntenos sus horarios de atención y cuándo podría recibir al equipo; la visita se coordina según su operación.
+Cuéntenos sus horarios de atención y cuándo podría recibir al equipo. La visita se coordina según su operación.
 
 ¿Qué información necesitan? +
 
@@ -2378,7 +2378,7 @@ Qué observa, en qué áreas y desde cuándo, y los requisitos de acceso que deb
 
 Tengo varias sucursales. ¿Cómo se organiza? +
 
-Se acuerda el alcance de cada local en la propuesta, con su propio registro de hallazgos.
+Se acuerda el alcance de cada local en la propuesta. Cada aplicación deja su hoja de servicio, como pide el Decreto 38335-S-MTSS.
 
 Cómo trabajamos
 
@@ -2456,7 +2456,7 @@ Casas, apartamentos y condominios con actividad de plagas o que quieren prevenir
 
 ### ¿Qué incluye?
 
-Revisión del interior, el perímetro y las áreas verdes; medidas de control según lo que se encuentre, e indicaciones para preparar a su familia y a sus mascotas.
+Revisión del interior, el perímetro y las áreas verdes, medidas de control según lo que se encuentre e indicaciones para preparar a su familia y a sus mascotas.
 
 ### ¿Cómo sigue?
 
@@ -2516,7 +2516,7 @@ Lo que hay que saber en Costa Rica
 
 ### Zancudos
 
-El Aedes aegypti transmite el dengue y se cría en los recipientes donde se guarda agua. A la semana 40 de 2026 el Ministerio de Salud contaba 5.814 casos, un 35 % más que en 2025.
+El Aedes aegypti transmite el dengue y se cría en los recipientes donde se guarda agua. A la semana 40 de 2026 el Ministerio de Salud contaba 5.814 casos, más que los 3.798 de la misma semana de 2025.
 
 ### Ratas y ratones
 
@@ -2524,7 +2524,7 @@ El Ministerio de Salud señala a las ratas entre los reservorios más frecuentes
 
 ### Cucarachas
 
-Entre las más frecuentes en las casas del país están la cucaracha americana, la australiana y la alemana.
+Varios autores señalan como las más frecuentes en las casas a la cucaracha americana, la australiana, la alemana y la de Madeira.
 
 ### Comején
 
@@ -2654,11 +2654,11 @@ Plantas de alimentos y bebidas, bodegas, centros de distribución, beneficios y 
 
 ### ¿Qué incluye?
 
-Inspección de las áreas de proceso, almacenamiento y perímetro, control según los hallazgos y registro de cada visita.
+Inspección de las áreas de proceso, almacenamiento y perímetro, control según lo que se encuentre y la hoja de servicio de cada aplicación, como pide el Decreto 38335-S-MTSS.
 
 ### ¿Cómo sigue?
 
-Seguimiento con la frecuencia acordada y documentación de hallazgos y recomendaciones para sus revisiones.
+Seguimiento con la frecuencia acordada y la hoja de servicio de cada aplicación para sus revisiones.
 
 Antes de empezar recibe una propuesta con el alcance y las condiciones para su instalación.
 
@@ -2716,7 +2716,7 @@ art. 6
 
 Quién la guarda
 
-El original es para el cliente y la copia queda con la empresa como comprobante; las autoridades pueden solicitarla.
+El original es para el cliente y la copia queda con la empresa como comprobante. Las autoridades pueden solicitarla.
 
 Pregunte lo que aplica a su caso: Cada industria tiene sus propios requisitos de inocuidad y auditoría. Cuéntenos cuáles le piden para preparar la propuesta.
 
@@ -2768,7 +2768,7 @@ La visita se coordina con sus turnos y paradas. Cuéntenos su operación para pr
 
 ¿Entregan registros para auditorías? +
 
-Cada visita deja su registro de hallazgos y recomendaciones. Indíquenos qué documentación le piden para incluirla en la propuesta.
+Cada aplicación deja su hoja de servicio, como pide el Decreto 38335-S-MTSS. Indíquenos qué documentación le piden para incluirla en la propuesta.
 
 Tenemos varias plantas. ¿Cómo se organiza? +
 

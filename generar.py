@@ -315,7 +315,7 @@ def pagina_blog():
 <div><p class="eyebrow">{escape(p['titulo'])}</p><h2><a href="{url}">{escape(c['titulo'])}</a></h2><p>{escape(c['texto'])}</p><p style="font-size:13px;color:var(--muted)">Fuente: {escape(c['fuente'])}</p><a class="text-link" href="{url}">Ver la guía de {escape(p['titulo'].lower())} →</a></div></article>"""
     if consejos:
         html += f"""<section class="section blog-lista"><div class="section-heading"><p class="eyebrow">Prevención · {PAIS}</p><h2>Cómo prevenir<br/>cada plaga.</h2>
-<p>Un consejo concreto por plaga, sacado de fuentes de Costa Rica, para empezar hoy mismo en su casa o su negocio.</p></div><div class="blog-grid">{consejos}</div></section>
+<p>Un consejo concreto por plaga, con su fuente, para empezar hoy mismo en su casa o su negocio.</p></div><div class="blog-grid">{consejos}</div></section>
 """
     if FICHA["blog"].get("consulta"):
         html += consulta("¿Necesita eliminar una plaga?", "Empecemos<br/>por lo que ve.", T["consultaDetalleTexto"], FICHA["blog"]["consulta"])
@@ -334,7 +334,11 @@ def pagina_articulo(a):
                 estilos=HEAD_BLOG, og_tipo="article", extra_ld=[posting, faqpage])
     credito = ""
     if a.get("credito"):
-        credito = f'<p class="blog-meta"><a href="{escape(a["creditoUrl"])}" target="_blank" rel="noopener noreferrer">{escape(a["credito"])}</a></p>'
+        texto, licencia = a["credito"], ""
+        if a.get("licencia") and texto.endswith(a["licencia"][0]):   # la licencia CC BY exige enlazarla
+            texto = texto[: -len(a["licencia"][0])].rstrip()
+            licencia = f' <a href="{escape(a["licencia"][1])}" target="_blank" rel="noopener noreferrer license">{escape(a["licencia"][0])}</a>'
+        credito = f'<p class="blog-meta"><a href="{escape(a["creditoUrl"])}" target="_blank" rel="noopener noreferrer">{escape(texto)}</a>{licencia}</p>'
     html += BODY_INICIO + nav() + '<main id="contenido">'
     html += f"""<article class="section blog-articulo"><nav class="blog-migas" aria-label="Ruta"><a href="{BASE}">Inicio</a> · <a href="{BASE}blog/">Blog</a> · <span>{escape(a['tema'])}</span></nav>
 <p class="eyebrow">{escape(a['tema'])}</p><h1>{escape(a['title'])}</h1><p class="blog-entrada">{escape(a['excerpt'])}</p>
