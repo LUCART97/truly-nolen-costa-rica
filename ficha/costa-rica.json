@@ -115,10 +115,10 @@
     "imagenAlt": "Carrito amarillo de Truly Nolen en una carretera de montaña con el Volcán Arenal al atardecer, Costa Rica"
   },
   "pelicula": {
-    "poster": "cr-portada-gemini.webp",
-    "video": "cr-portada-gemini.mp4",
+    "poster": "cr-portada-gemini-5s.webp",
+    "video": "cr-portada-gemini-5s.mp4",
     "videoStatus": "reviewed",
-    "origen": "gemini_generated_video_bb304fdd.mp4 entregado por Cesar (Descargas, 30-oct-2026), generado con Gemini (IA). Sin audio, bucle con fundido de 0,5 s, H.264 con el color del catálogo, 1280x720, 9,5 s, 24 cps. Licencia de uso comercial POR CONFIRMAR."
+    "origen": "gemini_generated_video_bb304fdd.mp4 entregado por Cesar (Descargas, 30-oct-2026), generado con Gemini (IA). Recortado a los segundos 0 a 5 exactos (120 cuadros, pedido de Cesar), sin fundido ni audio, H.264 con el color del catálogo, 1280x720, 24 cps. Ojo: según flujo.py el carro retrocede del segundo 1 al 5, casi todo el clip (Cesar eligió este tramo igual). Licencia de uso comercial POR CONFIRMAR."
   },
   "footer": {
     "file": "footer-costa-rica.webp",
@@ -128,9 +128,9 @@
   },
   "fotos": {
     "nosotros": {
-      "file": "cr-nosotros-tecnico.webp",
-      "alt": "Técnico de Truly Nolen revisando con linterna debajo de un mueble de cocina",
-      "origen": "Catálogo Truly Inbound (uniforme-tecnico-20261021). Pendiente: técnico costarricense con emblema real (paso 6)."
+      "file": "cr-nosotros-tecnica-cr.webp",
+      "alt": "Técnica de Truly Nolen destapando un estañón en el patio de una casa para revisar si hay agua estancada",
+      "origen": "Generada con IA (FLUX.1-schnell, licencia Apache 2.0, en el espacio público de Hugging Face black-forest-labs/FLUX.1-schnell), semilla 101, 864x1152, 30-oct-2026. Técnica costarricense de la escena «zancudos en el patio» elegida por Cesar. Se le quitó un tatuaje con letras inventadas y se puso el emblema real (tn-emblema.png, sin su relleno amarillo para que se vea la tela de la camisa) con emblema.py, 74 px de alto, sobre el bolsillo."
     },
     "casa": {
       "file": "cr-casa-cocina.webp",
@@ -138,13 +138,13 @@
       "origen": "Wikimedia Commons, Shixart1985, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Modern_kitchen_and_dining_area_in_a_bright_apartment_on_a_sunny_day_with_simple_decor_and_furniture.jpg). Elegida por el dueño el 30-oct-2026."
     },
     "operacion": {
-      "file": "cr-operacion-tecnico.webp",
-      "alt": "Técnico de Truly Nolen inspeccionando con linterna la base de un equipo",
-      "origen": "Catálogo Truly Inbound (uniforme-residencial-20261021), provisional."
+      "file": "cr-operacion-tecnico-cr.webp",
+      "alt": "Técnico de Truly Nolen agachado revisando una estación de cebo para roedores en la pared de una bodega con sacos apilados",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo y se puso el emblema real (tn-emblema.png, sin su relleno amarillo) con emblema.py, 64 px de alto."
     }
   },
   "inicio": {
-    "h1": "Más espacio para vivir tranquilo.",
+    "h1": "Pura vida en casa, sin plagas.",
     "intro": "Prevención y atención para compartir su hogar con tranquilidad.",
     "cta": "Conversemos",
     "descubre": "Descubra el cuidado Truly Nolen ↓",
@@ -1938,6 +1938,14 @@
     [
       "Chinche de cama: dibujo de John Curtis, British Entomology, vol. 7, lámina 569 (1836), dominio público, Wikimedia Commons",
       "https://commons.wikimedia.org/wiki/File:British_Entomology_Volume_7_(John_Curtis)_Plate_569.jpg"
+    ],
+    [
+      "Portada del blog: ImagePerson, Termite Nest Costa Rica, Wikimedia Commons, licencia CC BY 4.0",
+      "https://commons.wikimedia.org/wiki/File:Termite_Nest_Costa_Rica_0329.jpg"
+    ],
+    [
+      "Portada del blog: Federico Figueroa Cabezas, Aedes aegypti en Costa Rica, iNaturalist, licencia CC BY 4.0",
+      "https://www.inaturalist.org/observations/134488408"
     ]
   ],
   "legalesDescripcion": {
@@ -2006,5 +2014,27 @@
     "videoStatus": "reviewed",
     "encuadre": "right center",
     "origen": "«cr 22.jpeg» entregada por Cesar (origen y licencia POR CONFIRMAR). Animación sin IA generativa: carro recortado (rembg) fijo con ruedas girando, suspensión y vibración; fondo sin el carro (relleno con asfalto y follaje de la misma foto) que avanza desde el punto de fuga con paralaje; volcán y cielo quietos. 1920x1080, 10 s, 25 cps, color del catálogo."
+  },
+  "peliculaGeminiCompleta": {
+    "poster": "cr-portada-gemini.webp",
+    "video": "cr-portada-gemini.mp4",
+    "origen": "gemini_generated_video_bb304fdd.mp4 entregado por Cesar (Descargas, 30-oct-2026), generado con Gemini (IA). Sin audio, bucle con fundido de 0,5 s, H.264 con el color del catálogo, 1280x720, 9,5 s, 24 cps. Licencia de uso comercial POR CONFIRMAR."
+  },
+  "peliculaGemini6s": {
+    "poster": "cr-portada-gemini-6s.webp",
+    "video": "cr-portada-gemini-6s.mp4",
+    "origen": "gemini_generated_video_bb304fdd.mp4 entregado por Cesar (Descargas, 30-oct-2026), generado con Gemini (IA). Recortado a los segundos 0 a 6 exactos (144 cuadros, pedido de Cesar), sin fundido ni audio, H.264 con el color del catálogo, 1280x720, 24 cps. Ojo: según flujo.py el carro retrocede del segundo 1 al 5 (Cesar eligió este tramo igual). Licencia de uso comercial POR CONFIRMAR."
+  },
+  "fotosAnteriores": {
+    "nosotros": {
+      "file": "cr-nosotros-tecnico.webp",
+      "alt": "Técnico de Truly Nolen revisando con linterna debajo de un mueble de cocina",
+      "origen": "Catálogo Truly Inbound (uniforme-tecnico-20261021). Pendiente: técnico costarricense con emblema real (paso 6)."
+    },
+    "operacion": {
+      "file": "cr-operacion-tecnico.webp",
+      "alt": "Técnico de Truly Nolen inspeccionando con linterna la base de un equipo",
+      "origen": "Catálogo Truly Inbound (uniforme-residencial-20261021), provisional."
+    }
   }
 }
