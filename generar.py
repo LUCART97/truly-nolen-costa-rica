@@ -76,7 +76,9 @@ HOY = date.fromisoformat(os.environ["FECHA_HOY"]) if os.environ.get("FECHA_HOY")
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
 TODOS_ARTICULOS = sorted((json.loads(p.read_text(encoding="utf-8")) for p in (RAIZ / "ficha" / "blog").glob("*.json")),
                          key=lambda a: (a["fecha"], a["slug"]), reverse=True)
-ARTICULOS = [a for a in TODOS_ARTICULOS if date.fromisoformat(a["fecha"]) <= HOY]
+# Pausa del goteo (decisión del dueño): con blog.pausadoHasta no sale nada con fecha posterior, aunque llegue su día.
+PAUSA = date.fromisoformat(FICHA["blog"]["pausadoHasta"]) if FICHA["blog"].get("pausadoHasta") else None
+ARTICULOS = [a for a in TODOS_ARTICULOS if date.fromisoformat(a["fecha"]) <= (min(HOY, PAUSA) if PAUSA else HOY)]
 
 
 def fecha_larga(iso):
@@ -478,7 +480,7 @@ def main():
     trato = revisar_trato(paginas)
     print(f"{len(paginas)} páginas generadas en {carpeta}")
     pendientes = [a for a in TODOS_ARTICULOS if a not in ARTICULOS]
-    print(f"  blog ({HOY}): {len(ARTICULOS)} publicados" + (f", {len(pendientes)} en espera: " + ", ".join(f"{a['slug']} ({a['fecha']})" for a in pendientes) if pendientes else ""))
+    print(f"  blog ({HOY}{f", goteo pausado hasta {PAUSA}" if PAUSA else ""}): {len(ARTICULOS)} publicados" + (f", {len(pendientes)} en espera: " + ", ".join(f"{a['slug']} ({a['fecha']})" for a in pendientes) if pendientes else ""))
     for e in sorted(set(errores)):
         print("  ✗", e)
     for h in trato:

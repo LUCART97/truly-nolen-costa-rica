@@ -37,6 +37,7 @@
   "url": "https://trulyinbound.ai/oficinas/costa-rica/",
   "blog": {
     "porDia": 2,
+    "pausadoHasta": "2026-10-30",
     "consejos": [
       {
         "plaga": "zancudos",
@@ -128,9 +129,9 @@
   },
   "fotos": {
     "nosotros": {
-      "file": "cr-nosotros-tecnica-cr.webp",
+      "file": "cr-nosotros-tecnica-cr-b25e.webp",
       "alt": "Técnica de Truly Nolen destapando un estañón en el patio de una casa para revisar si hay agua estancada",
-      "origen": "Generada con IA (FLUX.1-schnell, licencia Apache 2.0, en el espacio público de Hugging Face black-forest-labs/FLUX.1-schnell), semilla 101, 864x1152, 30-oct-2026. Técnica costarricense de la escena «zancudos en el patio» elegida por Cesar. Se le quitó un tatuaje con letras inventadas y se puso el emblema real (tn-emblema.png, sin su relleno amarillo para que se vea la tela de la camisa) con emblema.py, 74 px de alto, sobre el bolsillo."
+      "origen": "Generada con IA (FLUX.1-schnell, licencia Apache 2.0, en el espacio público de Hugging Face black-forest-labs/FLUX.1-schnell), semilla 101, 864x1152, 30-oct-2026. Técnica costarricense de la escena «zancudos en el patio» elegida por Cesar. Se le quitó un tatuaje con letras inventadas y se puso el emblema real (tn-emblema.png, sin su relleno amarillo para que se vea la tela de la camisa) con emblema.py, 74 px de alto, sobre el bolsillo. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela). Opción B elegida por defecto: logo inclinado 8° hacia la derecha con perspectiva (pecho girado). Logo BORDADO (opción 2 elegida por Cesar, 31-oct-2026): textura de hilo, relieve leve, puntada de borde y sombra corta sobre la tela; girado 25° a la derecha, en diagonal con la inclinación de la camisa (pedido de Cesar), con perspectiva (bordado.py). Logo corrido a la derecha para centrarlo con el bolsillo (pedido de Cesar). Logo bajado un poco (pedido de Cesar)."
     },
     "casa": {
       "file": "cr-casa-cocina.webp",
@@ -138,9 +139,9 @@
       "origen": "Wikimedia Commons, Shixart1985, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Modern_kitchen_and_dining_area_in_a_bright_apartment_on_a_sunny_day_with_simple_decor_and_furniture.jpg). Elegida por el dueño el 30-oct-2026."
     },
     "operacion": {
-      "file": "cr-operacion-tecnico-cr.webp",
+      "file": "cr-operacion-tecnico-cr-b25g.webp",
       "alt": "Técnico de Truly Nolen agachado revisando una estación de cebo para roedores en la pared de una bodega con sacos apilados",
-      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo y se puso el emblema real (tn-emblema.png, sin su relleno amarillo) con emblema.py, 64 px de alto."
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo y se puso el emblema real (tn-emblema.png, sin su relleno amarillo) con emblema.py, 64 px de alto. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela). Opción B elegida por defecto: logo inclinado 8° hacia la derecha con perspectiva (pecho girado). Logo BORDADO (opción 2 elegida por Cesar, 31-oct-2026): textura de hilo, relieve leve, puntada de borde y sombra corta sobre la tela; girado 25° a la derecha, en diagonal con la inclinación de la camisa (pedido de Cesar), con perspectiva (bordado.py). Logo corrido a la derecha para centrarlo con el bolsillo (pedido de Cesar). Logo bajado un poco (pedido de Cesar). Logo un poco a la izquierda y más abajo, por encima del bolsillo (pedido de Cesar). Bajado y corrido a la izquierda otra vez (pedido de Cesar)."
     }
   },
   "inicio": {
@@ -2256,5 +2257,87 @@
       "alt": "Técnico de Truly Nolen agachado observando una caja negra con orificios junto a la pared de una bodega con sacos apilados",
       "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido 77b7e1cd-efe3-483c-adf5-6022fc62ee2b, opción 2 de 4), ampliada x2 con Real-ESRGAN en AI Horde (pedido 778a1bd0-173a-45e6-ae90-053fc28fac5f), 30-oct-2026. Técnico costarricense, escena «bodega de café», caja con orificios junto a la pared, sin carnet (pedido de Cesar). Se borró un logo inventado del pecho y se estampó el emblema real (tn-emblema.png, sin su relleno amarillo) en perspectiva (62 % de ancho, el pecho está girado) siguiendo luz, textura y pliegues (estampa.py), más grano fino de foto. Guardada a 1600x1200."
     }
+  },
+  "fotosLogoPegado": {
+    "nosotros": {
+      "file": "cr-nosotros-tecnica-cr.webp",
+      "alt": "Técnica de Truly Nolen destapando un estañón en el patio de una casa para revisar si hay agua estancada",
+      "origen": "Generada con IA (FLUX.1-schnell, licencia Apache 2.0, en el espacio público de Hugging Face black-forest-labs/FLUX.1-schnell), semilla 101, 864x1152, 30-oct-2026. Técnica costarricense de la escena «zancudos en el patio» elegida por Cesar. Se le quitó un tatuaje con letras inventadas y se puso el emblema real (tn-emblema.png, sin su relleno amarillo para que se vea la tela de la camisa) con emblema.py, 74 px de alto, sobre el bolsillo."
+    },
+    "operacion": {
+      "file": "cr-operacion-tecnico-cr.webp",
+      "alt": "Técnico de Truly Nolen agachado revisando una estación de cebo para roedores en la pared de una bodega con sacos apilados",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo y se puso el emblema real (tn-emblema.png, sin su relleno amarillo) con emblema.py, 64 px de alto."
+    }
+  },
+  "fotosLogoSinInclinar": {
+    "nosotros": {
+      "file": "cr-nosotros-tecnica-cr-nat.webp",
+      "alt": "Técnica de Truly Nolen destapando un estañón en el patio de una casa para revisar si hay agua estancada",
+      "origen": "Generada con IA (FLUX.1-schnell, licencia Apache 2.0, en el espacio público de Hugging Face black-forest-labs/FLUX.1-schnell), semilla 101, 864x1152, 30-oct-2026. Técnica costarricense de la escena «zancudos en el patio» elegida por Cesar. Se le quitó un tatuaje con letras inventadas y se puso el emblema real (tn-emblema.png, sin su relleno amarillo para que se vea la tela de la camisa) con emblema.py, 74 px de alto, sobre el bolsillo. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela)."
+    },
+    "operacion": {
+      "file": "cr-operacion-tecnico-cr-nat.webp",
+      "alt": "Técnico de Truly Nolen agachado revisando una estación de cebo para roedores en la pared de una bodega con sacos apilados",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo y se puso el emblema real (tn-emblema.png, sin su relleno amarillo) con emblema.py, 64 px de alto. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela)."
+    }
+  },
+  "fotosLogoEstampadoB": {
+    "nosotros": {
+      "file": "cr-nosotros-tecnica-cr-nat2.webp",
+      "alt": "Técnica de Truly Nolen destapando un estañón en el patio de una casa para revisar si hay agua estancada",
+      "origen": "Generada con IA (FLUX.1-schnell, licencia Apache 2.0, en el espacio público de Hugging Face black-forest-labs/FLUX.1-schnell), semilla 101, 864x1152, 30-oct-2026. Técnica costarricense de la escena «zancudos en el patio» elegida por Cesar. Se le quitó un tatuaje con letras inventadas y se puso el emblema real (tn-emblema.png, sin su relleno amarillo para que se vea la tela de la camisa) con emblema.py, 74 px de alto, sobre el bolsillo. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela). Opción B elegida por defecto: logo inclinado 8° hacia la derecha con perspectiva (pecho girado)."
+    },
+    "operacion": {
+      "file": "cr-operacion-tecnico-cr-nat2.webp",
+      "alt": "Técnico de Truly Nolen agachado revisando una estación de cebo para roedores en la pared de una bodega con sacos apilados",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo y se puso el emblema real (tn-emblema.png, sin su relleno amarillo) con emblema.py, 64 px de alto. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela). Opción B elegida por defecto: logo inclinado 8° hacia la derecha con perspectiva (pecho girado)."
+    }
+  },
+  "fotosLogoBordado8": {
+    "nosotros": {
+      "file": "cr-nosotros-tecnica-cr-bord.webp",
+      "alt": "Técnica de Truly Nolen destapando un estañón en el patio de una casa para revisar si hay agua estancada",
+      "origen": "Generada con IA (FLUX.1-schnell, licencia Apache 2.0, en el espacio público de Hugging Face black-forest-labs/FLUX.1-schnell), semilla 101, 864x1152, 30-oct-2026. Técnica costarricense de la escena «zancudos en el patio» elegida por Cesar. Se le quitó un tatuaje con letras inventadas y se puso el emblema real (tn-emblema.png, sin su relleno amarillo para que se vea la tela de la camisa) con emblema.py, 74 px de alto, sobre el bolsillo. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela). Opción B elegida por defecto: logo inclinado 8° hacia la derecha con perspectiva (pecho girado). Logo BORDADO (opción 2 elegida por Cesar, 31-oct-2026): textura de hilo, relieve leve, puntada de borde y sombra corta sobre la tela; inclinado 8° con perspectiva (bordado.py)."
+    },
+    "operacion": {
+      "file": "cr-operacion-tecnico-cr-bord.webp",
+      "alt": "Técnico de Truly Nolen agachado revisando una estación de cebo para roedores en la pared de una bodega con sacos apilados",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo y se puso el emblema real (tn-emblema.png, sin su relleno amarillo) con emblema.py, 64 px de alto. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela). Opción B elegida por defecto: logo inclinado 8° hacia la derecha con perspectiva (pecho girado). Logo BORDADO (opción 2 elegida por Cesar, 31-oct-2026): textura de hilo, relieve leve, puntada de borde y sombra corta sobre la tela; inclinado 8° con perspectiva (bordado.py)."
+    }
+  },
+  "fotosLogoBordado25": {
+    "nosotros": {
+      "file": "cr-nosotros-tecnica-cr-b25.webp",
+      "alt": "Técnica de Truly Nolen destapando un estañón en el patio de una casa para revisar si hay agua estancada",
+      "origen": "Generada con IA (FLUX.1-schnell, licencia Apache 2.0, en el espacio público de Hugging Face black-forest-labs/FLUX.1-schnell), semilla 101, 864x1152, 30-oct-2026. Técnica costarricense de la escena «zancudos en el patio» elegida por Cesar. Se le quitó un tatuaje con letras inventadas y se puso el emblema real (tn-emblema.png, sin su relleno amarillo para que se vea la tela de la camisa) con emblema.py, 74 px de alto, sobre el bolsillo. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela). Opción B elegida por defecto: logo inclinado 8° hacia la derecha con perspectiva (pecho girado). Logo BORDADO (opción 2 elegida por Cesar, 31-oct-2026): textura de hilo, relieve leve, puntada de borde y sombra corta sobre la tela; girado 25° a la derecha, en diagonal con la inclinación de la camisa (pedido de Cesar), con perspectiva (bordado.py)."
+    },
+    "operacion": {
+      "file": "cr-operacion-tecnico-cr-b25.webp",
+      "alt": "Técnico de Truly Nolen agachado revisando una estación de cebo para roedores en la pared de una bodega con sacos apilados",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo y se puso el emblema real (tn-emblema.png, sin su relleno amarillo) con emblema.py, 64 px de alto. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela). Opción B elegida por defecto: logo inclinado 8° hacia la derecha con perspectiva (pecho girado). Logo BORDADO (opción 2 elegida por Cesar, 31-oct-2026): textura de hilo, relieve leve, puntada de borde y sombra corta sobre la tela; girado 25° a la derecha, en diagonal con la inclinación de la camisa (pedido de Cesar), con perspectiva (bordado.py)."
+    }
+  },
+  "fotosLogoBordado25d": {
+    "nosotros": {
+      "file": "cr-nosotros-tecnica-cr-b25d.webp",
+      "alt": "Técnica de Truly Nolen destapando un estañón en el patio de una casa para revisar si hay agua estancada",
+      "origen": "Generada con IA (FLUX.1-schnell, licencia Apache 2.0, en el espacio público de Hugging Face black-forest-labs/FLUX.1-schnell), semilla 101, 864x1152, 30-oct-2026. Técnica costarricense de la escena «zancudos en el patio» elegida por Cesar. Se le quitó un tatuaje con letras inventadas y se puso el emblema real (tn-emblema.png, sin su relleno amarillo para que se vea la tela de la camisa) con emblema.py, 74 px de alto, sobre el bolsillo. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela). Opción B elegida por defecto: logo inclinado 8° hacia la derecha con perspectiva (pecho girado). Logo BORDADO (opción 2 elegida por Cesar, 31-oct-2026): textura de hilo, relieve leve, puntada de borde y sombra corta sobre la tela; girado 25° a la derecha, en diagonal con la inclinación de la camisa (pedido de Cesar), con perspectiva (bordado.py). Logo corrido a la derecha para centrarlo con el bolsillo (pedido de Cesar)."
+    },
+    "operacion": {
+      "file": "cr-operacion-tecnico-cr-b25d.webp",
+      "alt": "Técnico de Truly Nolen agachado revisando una estación de cebo para roedores en la pared de una bodega con sacos apilados",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo y se puso el emblema real (tn-emblema.png, sin su relleno amarillo) con emblema.py, 64 px de alto. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela). Opción B elegida por defecto: logo inclinado 8° hacia la derecha con perspectiva (pecho girado). Logo BORDADO (opción 2 elegida por Cesar, 31-oct-2026): textura de hilo, relieve leve, puntada de borde y sombra corta sobre la tela; girado 25° a la derecha, en diagonal con la inclinación de la camisa (pedido de Cesar), con perspectiva (bordado.py). Logo corrido a la derecha para centrarlo con el bolsillo (pedido de Cesar)."
+    }
+  },
+  "fotosLogoHombreAnterior": {
+    "file": "cr-operacion-tecnico-cr-b25e.webp",
+    "alt": "Técnico de Truly Nolen agachado revisando una estación de cebo para roedores en la pared de una bodega con sacos apilados",
+    "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo y se puso el emblema real (tn-emblema.png, sin su relleno amarillo) con emblema.py, 64 px de alto. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela). Opción B elegida por defecto: logo inclinado 8° hacia la derecha con perspectiva (pecho girado). Logo BORDADO (opción 2 elegida por Cesar, 31-oct-2026): textura de hilo, relieve leve, puntada de borde y sombra corta sobre la tela; girado 25° a la derecha, en diagonal con la inclinación de la camisa (pedido de Cesar), con perspectiva (bordado.py). Logo corrido a la derecha para centrarlo con el bolsillo (pedido de Cesar). Logo bajado un poco (pedido de Cesar)."
+  },
+  "fotosLogoHombreAnterior2": {
+    "file": "cr-operacion-tecnico-cr-b25f.webp",
+    "alt": "Técnico de Truly Nolen agachado revisando una estación de cebo para roedores en la pared de una bodega con sacos apilados",
+    "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo y se puso el emblema real (tn-emblema.png, sin su relleno amarillo) con emblema.py, 64 px de alto. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela). Opción B elegida por defecto: logo inclinado 8° hacia la derecha con perspectiva (pecho girado). Logo BORDADO (opción 2 elegida por Cesar, 31-oct-2026): textura de hilo, relieve leve, puntada de borde y sombra corta sobre la tela; girado 25° a la derecha, en diagonal con la inclinación de la camisa (pedido de Cesar), con perspectiva (bordado.py). Logo corrido a la derecha para centrarlo con el bolsillo (pedido de Cesar). Logo bajado un poco (pedido de Cesar). Logo un poco a la izquierda y más abajo, por encima del bolsillo (pedido de Cesar)."
   }
 }
