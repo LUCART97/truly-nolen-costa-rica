@@ -116,10 +116,16 @@
     "imagenAlt": "Carrito amarillo de Truly Nolen en una carretera de montaña con el Volcán Arenal al atardecer, Costa Rica"
   },
   "pelicula": {
-    "poster": "cr-portada-gemini-5s.webp",
-    "video": "cr-portada-gemini-5s.mp4",
+    "poster": "costa-rica-desktop.webp",
+    "video": "costa-rica-desktop.mp4",
     "videoStatus": "reviewed",
-    "origen": "gemini_generated_video_bb304fdd.mp4 entregado por Cesar (Descargas, 30-oct-2026), generado con Gemini (IA). Recortado a los segundos 0 a 5 exactos (120 cuadros, pedido de Cesar), sin fundido ni audio, H.264 con el color del catálogo, 1280x720, 24 cps. Ojo: según flujo.py el carro retrocede del segundo 1 al 5, casi todo el clip (Cesar eligió este tramo igual). Licencia de uso comercial POR CONFIRMAR."
+    "sha256Poster": "4afbbff04fd12b34957f16ad4edac08088f18a0a7835a8d0e3a711f03af7dd00",
+    "sha256Video": "09562dd2793b762944c526fb89a018a71f5e6dc4c6f4b61ccfe8e12d801e8ece",
+    "width": 1280,
+    "height": 720,
+    "duration": 10.03,
+    "medicion": "flujo.py: asfalto con el mismo signo en los 20 tramos (avanza, nunca retrocede); quieto.py: nariz 22,0-23,4 px (cambio 6 %), x 78-79 %, y 67-68 %; 12 cuadros revisados sin otros carros.",
+    "origen": "Video generado con Gemini (Crear vídeo, modelo Pro) en la cuenta de Cesar el 31-oct-2026, a partir de «Carro costarica.jfif» (imagen entregada por Cesar) con el texto de la receta; sin audio, recodificado al color del catálogo; póster = cuadro 0. Licencia de uso comercial del contenido de Gemini: POR CONFIRMAR."
   },
   "footer": {
     "file": "footer-costa-rica.webp",
@@ -226,7 +232,53 @@
         "No sé qué plaga encontré",
         "Quisiera ayuda para identificar lo que observé."
       ]
-    ]
+    ],
+    "cifras": [
+      {
+        "valor": "5.814",
+        "texto": "casos de dengue a la semana 40 de 2026; en la misma semana de 2025 fueron 3.798.",
+        "fuente": "Ministerio de Salud, Boletín Epidemiológico N.º 39 (23-oct-2026)"
+      },
+      {
+        "valor": "90 %",
+        "texto": "de los criaderos de zancudos está dentro de las viviendas.",
+        "fuente": "Ministerio de Salud (26-ago-2025)"
+      },
+      {
+        "valor": "52,6 %",
+        "texto": "de los casos de leptospirosis estudiados reporta presencia de roedores.",
+        "fuente": "Acta Médica Costarricense"
+      },
+      {
+        "valor": "68 %",
+        "texto": "de ochenta pacientes alérgicos severos reaccionó a la cucaracha (estudio de 1992).",
+        "fuente": "Revista Costarricense de Salud Pública"
+      }
+    ],
+    "cifrasMarca": [
+      [
+        "65",
+        "países",
+        "presencia internacional"
+      ],
+      [
+        "300+",
+        "oficinas",
+        "atención cerca de usted"
+      ],
+      [
+        "80+",
+        "años",
+        "de experiencia"
+      ]
+    ],
+    "cifrasMarcaFuente": "https://globaltni.com/es/ (31-oct-2026): «65 países presencia internacional · 300+ oficinas atención cerca de usted · 80+ años de experiencia · una marca reconocible nuestro auto emblemático»",
+    "programaTitulo": "Un programa para su espacio.",
+    "programaTexto": "De su casa a su negocio o su planta. Elija el servicio que necesita conocer.",
+    "comercialTitulo": "Control de plagas para su actividad.",
+    "comercialFrase": "La prevención es parte de su operación.",
+    "plagasTexto": "Las que más vemos en Costa Rica. Cada guía explica las señales y qué hacer, con fuentes.",
+    "ayudaTexto": "Consejos para prevenir plagas y cómo trabajamos."
   },
   "metodo": [
     [
@@ -301,8 +353,8 @@
         "slug": "hogares",
         "titulo": "Hogares",
         "resumen": "Casas, apartamentos y condominios: cocina, baños, perímetro y patio.",
-        "imagen": "cr-hogar-cocina.webp",
-        "imagenOrigen": "Wikimedia Commons, Shixart1985, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Modern_kitchen_design_featuring_minimalistic_elements,_warm_lighting,_and_high-end_appliances_in_a_contemporary_setting.jpg). Elegida por el dueño el 30-oct-2026.",
+        "imagen": "cr-hogar-cocina-v2.webp",
+        "imagenOrigen": "Generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido 5547d035-dcc1-4fd6-abb8-41421149e283, opción 2 elegida por Cesar (31-oct-2026); ampliada x2 con Real-ESRGAN (AI Horde c70879cc-72f9-4b54-838f-887301b0eb87).",
         "eyebrow": "Servicio residencial",
         "lema": "Su casa,<br/>de adentro hacia afuera.",
         "intro": "Desde la cocina hasta el patio. Revisamos su casa o apartamento para encontrar dónde está la actividad de plagas y qué la favorece, cuidando a su familia y a sus mascotas.",
@@ -500,14 +552,15 @@
             "https://dialnet.unirioja.es/descarga/articulo/5123386.pdf"
           ]
         ],
-        "descripcion": "Control de plagas para casas y apartamentos en Costa Rica: interior, perímetro y jardín, con indicaciones para su familia y sus mascotas. Escríbale a Truly AI."
+        "descripcion": "Control de plagas para casas y apartamentos en Costa Rica: interior, perímetro y jardín, con indicaciones para su familia y sus mascotas. Escríbale a Truly AI.",
+        "imagenAnterior": "cr-hogar-cocina.webp"
       },
       {
         "slug": "comercios",
         "titulo": "Comercios",
         "resumen": "Sodas, restaurantes, pulperías, hoteles y oficinas, con la visita coordinada a su horario.",
-        "imagen": "cr-comercio-cafeteria.webp",
-        "imagenOrigen": "Wikimedia Commons, Shixart1985, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Modern_cafe_interior_design_with_empty_tables_and_stylish_decor_located_in_an_urban_area.jpg). Elegida por el dueño el 30-oct-2026.",
+        "imagen": "cr-comercio-soda-v2.webp",
+        "imagenOrigen": "Generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido 2fd0fd13-67cc-4f66-bac1-d4233a7c671c, opción 4 elegida por Cesar (31-oct-2026); ampliada x2 con Real-ESRGAN (AI Horde a1c8c44b-2b30-4365-9eb5-dfdea2c953a7).",
         "eyebrow": "Servicio comercial",
         "lema": "Control de plagas<br/>para su negocio.",
         "intro": "Para sodas, restaurantes, pulperías, supermercados, hoteles y oficinas en Costa Rica.",
@@ -716,14 +769,15 @@
             "Ministerio de Salud de Costa Rica (2002). Protocolo para la prevención y control de la leptospirosis",
             "https://www.binasss.sa.cr/opac-ms/media/digitales/Leptospirosis%20-%20Protocolo%20para%20Prevenci%c3%b3n%20y%20Control.pdf"
           ]
-        ]
+        ],
+        "imagenAnterior": "cr-comercio-cafeteria.webp"
       },
       {
         "slug": "industria",
         "titulo": "Industria",
         "resumen": "Plantas, bodegas y centros de distribución. La norma pide una hoja de servicio por cada aplicación.",
-        "imagen": "cr-industria-bodega.webp",
-        "imagenOrigen": "Wikimedia Commons, Nick Saltmarsh, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Distribution_centre_(J_Sainsbury%27s).jpg). Elegida por el dueño el 30-oct-2026.",
+        "imagen": "cr-industria-planta-v2.webp",
+        "imagenOrigen": "Generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido 7b0e170a-f2a4-4f8e-9fcf-691bbd6d0b93, opción 4 elegida por Cesar (31-oct-2026); ampliada x2 con Real-ESRGAN (AI Horde 3ccca4fd-3ff6-41d8-b246-e33af620e83c).",
         "eyebrow": "Servicio industrial",
         "lema": "Control de plagas<br/>para plantas y bodegas.",
         "intro": "Plantas de alimentos, bodegas, centros de distribución y agroindustria. El programa parte de conocer su proceso, sus turnos y la documentación que le piden.",
@@ -890,7 +944,8 @@
             "Decreto Ejecutivo 38335-S-MTSS (2014). Reglamento para regular la actividad de control de plagas mediante la aplicación de plaguicidas de uso doméstico y profesional",
             "https://www.binasss.sa.cr/opac-ms/media/digitales/Regulaci%c3%b3n%20de%20la%20actividad%20de%20control%20de%20plagas%20mediante%20la%20aplicaci%c3%b3n%20de%20plaguicidas%20de%20uso%20dom%c3%a9stico%20y%20profesional.pdf"
           ]
-        ]
+        ],
+        "imagenAnterior": "cr-industria-bodega.webp"
       }
     ],
     "plagas": [
@@ -2077,36 +2132,20 @@
   },
   "creditosFotos": [
     [
-      "«Modern kitchen design featuring minimalistic elements, warm lighting, and high-end appliances in a contemporary setting», de Shixart1985, Wikimedia Commons, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
-      "https://commons.wikimedia.org/wiki/File:Modern_kitchen_design_featuring_minimalistic_elements,_warm_lighting,_and_high-end_appliances_in_a_contemporary_setting.jpg"
-    ],
-    [
-      "«Modern kitchen and dining area in a bright apartment on a sunny day with simple decor and furniture», de Shixart1985, Wikimedia Commons, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
-      "https://commons.wikimedia.org/wiki/File:Modern_kitchen_and_dining_area_in_a_bright_apartment_on_a_sunny_day_with_simple_decor_and_furniture.jpg"
-    ],
-    [
-      "«Modern cafe interior design with empty tables and stylish decor located in an urban area», de Shixart1985, Wikimedia Commons, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
-      "https://commons.wikimedia.org/wiki/File:Modern_cafe_interior_design_with_empty_tables_and_stylish_decor_located_in_an_urban_area.jpg"
-    ],
-    [
-      "«Distribution centre (J Sainsbury's)», de Nick Saltmarsh, Wikimedia Commons, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
-      "https://commons.wikimedia.org/wiki/File:Distribution_centre_(J_Sainsbury%27s).jpg"
-    ],
-    [
-      "«Atta cephalotes (Costa Rica) 2», de Hans Hillewaert, Wikimedia Commons, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)",
+      "Zompopas (Atta cephalotes, Costa Rica): foto de Hans Hillewaert, Wikimedia Commons, licencia CC BY-SA 4.0",
       "https://commons.wikimedia.org/wiki/File:Atta_cephalotes_(Costa_Rica)_2.jpg"
     ],
     [
-      "Chinche de cama: dibujo de John Curtis, British Entomology, vol. 7, lámina 569 (1836), dominio público, Wikimedia Commons",
-      "https://commons.wikimedia.org/wiki/File:British_Entomology_Volume_7_(John_Curtis)_Plate_569.jpg"
-    ],
-    [
-      "Portada del blog: ImagePerson, Termite Nest Costa Rica, Wikimedia Commons, licencia CC BY 4.0",
+      "Nido de comején en Costa Rica (portada del blog): foto de ImagePerson, Wikimedia Commons, licencia CC BY 4.0",
       "https://commons.wikimedia.org/wiki/File:Termite_Nest_Costa_Rica_0329.jpg"
     ],
     [
-      "Portada del blog: Federico Figueroa Cabezas, Aedes aegypti en Costa Rica, iNaturalist, licencia CC BY 4.0",
+      "Zancudo Aedes aegypti en Costa Rica (guía de zancudos y blog): foto de Federico Figueroa Cabezas, iNaturalist, licencia CC BY 4.0",
       "https://www.inaturalist.org/observations/134488408"
+    ],
+    [
+      "Comején, ratas, cucarachas y chinches de cama: fotos de Truly Nolen (trulynolen.com)",
+      "https://www.trulynolen.com/"
     ]
   ],
   "legalesDescripcion": {
@@ -2339,5 +2378,87 @@
     "file": "cr-operacion-tecnico-cr-b25f.webp",
     "alt": "Técnico de Truly Nolen agachado revisando una estación de cebo para roedores en la pared de una bodega con sacos apilados",
     "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo y se puso el emblema real (tn-emblema.png, sin su relleno amarillo) con emblema.py, 64 px de alto. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela). Opción B elegida por defecto: logo inclinado 8° hacia la derecha con perspectiva (pecho girado). Logo BORDADO (opción 2 elegida por Cesar, 31-oct-2026): textura de hilo, relieve leve, puntada de borde y sombra corta sobre la tela; girado 25° a la derecha, en diagonal con la inclinación de la camisa (pedido de Cesar), con perspectiva (bordado.py). Logo corrido a la derecha para centrarlo con el bolsillo (pedido de Cesar). Logo bajado un poco (pedido de Cesar). Logo un poco a la izquierda y más abajo, por encima del bolsillo (pedido de Cesar)."
+  },
+  "ruta": {
+    "aprobado": {
+      "portada": "2026-10-31",
+      "carro": "2026-10-31"
+    }
+  },
+  "decisionesReceta2": {
+    "fecha": "2026-10-31",
+    "trato": "usted",
+    "plagas": [
+      "zancudos",
+      "ratas-y-ratones",
+      "cucarachas",
+      "comejen",
+      "hormigas-y-zompopas",
+      "chinches-de-cama"
+    ],
+    "lugarPortada": {
+      "opcion": "B",
+      "foto": "https://commons.wikimedia.org/wiki/File:Volc%C3%A1n_Arenal_en_Costa_Rica.jpg",
+      "licencia": "CC BY-SA 4.0",
+      "autor": "Pequeño mar (Wikimedia Commons)"
+    },
+    "nota": "Menú del paso 2 de la receta nueva. Cesar eligió la B; trato y plagas por recomendación aceptada con «dale»."
+  },
+  "receta2": {
+    "footer": {
+      "estado": "listo",
+      "file": "sitio/oficinas/costa-rica/assets/footer-costa-rica-arenal-final.webp",
+      "sha256": "53f6257d58e5bc6f97ba34d6c3085d5d1c02f7f44f0a8ad0ff5c430b9499a400",
+      "alt": "Volcán Arenal y la laguna de Arenal vistos desde un camino empedrado con casas de teja y flores, con el escarabajo de Truly. Acuarela",
+      "origen": "Imagen entregada por Cesar (Escritorio, «Captura de pantalla 2026-10-31 163449.png», 31-oct-2026) como pie final; fondo igualado al papel 247,246,241. Origen y licencia de la imagen: POR CONFIRMAR con Cesar."
+    },
+    "casaZonas": {
+      "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas-v2.webp",
+      "alt": "Casa moderna de dos pisos en las colinas de Costa Rica, con el interior iluminado en rojo, el perímetro y el jardín, y el Volcán Arenal al fondo",
+      "origen": "Foto de arquitectura generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido a9993ea2-0309-4251-89d8-47bd029cdaf3, opción 1 elegida por Cesar (31-oct-2026); ampliada x2 con Real-ESRGAN."
+    },
+    "footerAnterior": {
+      "estado": "listo",
+      "file": "sitio/oficinas/costa-rica/assets/footer-costa-rica-arenal.webp",
+      "sha256": "93f540bdeb84b25a2cfe1b215a429564a34e1b0133a588c4c33a28ace52c5987",
+      "alt": "Volcán Arenal, Costa Rica, con el escarabajo de Truly en la carretera. Acuarela",
+      "origen": "Acuarela generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido 62c40bc8-ac3c-41e3-a623-068083520b62, opción 3 elegida por Cesar (31-oct-2026); ampliada x2 con Real-ESRGAN (AI Horde 313281fc-ea75-490c-b8a6-05ece92a49ef) y fondo igualado al papel 247,246,241 (receta, Anexo B). La receta pide Midjourney; se hizo con IA gratuita."
+    },
+    "footerOpcion1": {
+      "estado": "listo",
+      "file": "sitio/oficinas/costa-rica/assets/footer-costa-rica-pie-ve-1.webp",
+      "sha256": "780f7b20143e373df461b7e5c7b60ec9bc39e79b6d33bc70953440b8b39e2a41",
+      "alt": "Carretera hacia el Volcán Arenal, Costa Rica, con un puesto de frutas y el escarabajo de Truly. Ilustración",
+      "origen": "Ilustración generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido 4bd6af38-e5c4-4cc6-a14d-3965eb018887, opción 1, con el estilo del pie de Venezuela (lápiz de color, tinta y acuarela), pedido por Cesar (31-oct-2026); ampliada x2 con Real-ESRGAN (AI Horde 5567a8b1-2a3d-4aa2-8446-e4aa19a9128c), nariz roja redonda pintada a mano, bordes disueltos y fondo igualado al papel 247,246,241."
+    },
+    "casaZonasAnterior": {
+      "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas.webp",
+      "alt": "Casa moderna en corte con el interior en rojo, el perímetro en amarillo y el jardín en verde, con el Volcán Arenal al fondo",
+      "origen": "Render generado con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido a71f4242-cec6-450d-953a-9f73f0a6f669, opción 1 elegida por Cesar (31-oct-2026); ampliado x2 con Real-ESRGAN (AI Horde 0146757b-6070-4890-b032-b7f25fe347dd)."
+    }
+  },
+  "creditosFotosAnteriores": [
+    [
+      "«Modern kitchen design featuring minimalistic elements, warm lighting, and high-end appliances in a contemporary setting», de Shixart1985, Wikimedia Commons, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
+      "https://commons.wikimedia.org/wiki/File:Modern_kitchen_design_featuring_minimalistic_elements,_warm_lighting,_and_high-end_appliances_in_a_contemporary_setting.jpg"
+    ],
+    [
+      "«Modern kitchen and dining area in a bright apartment on a sunny day with simple decor and furniture», de Shixart1985, Wikimedia Commons, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
+      "https://commons.wikimedia.org/wiki/File:Modern_kitchen_and_dining_area_in_a_bright_apartment_on_a_sunny_day_with_simple_decor_and_furniture.jpg"
+    ],
+    [
+      "«Modern cafe interior design with empty tables and stylish decor located in an urban area», de Shixart1985, Wikimedia Commons, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
+      "https://commons.wikimedia.org/wiki/File:Modern_cafe_interior_design_with_empty_tables_and_stylish_decor_located_in_an_urban_area.jpg"
+    ],
+    [
+      "«Distribution centre (J Sainsbury's)», de Nick Saltmarsh, Wikimedia Commons, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
+      "https://commons.wikimedia.org/wiki/File:Distribution_centre_(J_Sainsbury%27s).jpg"
+    ]
+  ],
+  "peliculaGemini5s": {
+    "poster": "cr-portada-gemini-5s.webp",
+    "video": "cr-portada-gemini-5s.mp4",
+    "videoStatus": "reviewed",
+    "origen": "gemini_generated_video_bb304fdd.mp4 entregado por Cesar (Descargas, 30-oct-2026), generado con Gemini (IA). Recortado a los segundos 0 a 5 exactos (120 cuadros, pedido de Cesar), sin fundido ni audio, H.264 con el color del catálogo, 1280x720, 24 cps. Ojo: según flujo.py el carro retrocede del segundo 1 al 5, casi todo el clip (Cesar eligió este tramo igual). Licencia de uso comercial POR CONFIRMAR."
   }
 }

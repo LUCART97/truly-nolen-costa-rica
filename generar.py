@@ -141,12 +141,35 @@ def head(titulo, descripcion, ruta, migas=None, inicio=False, estilos=None, og_t
 <meta property="og:image" content="{SOCIAL}"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="{alt}"/>
 <meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="{t}"/><meta name="twitter:description" content="{d}"/><meta name="twitter:image" content="{SOCIAL}"/>
 {"".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in ld)}
-{estilos or (HEAD_INICIO if inicio else HEAD_DETALLE)}</head>
+{estilos or (HEAD_INICIO if inicio else HEAD_DETALLE)}{R2_CSS}</head>
 """
 
 
 SERV = FICHA["paginas"]["servicios"]
 PLAG = FICHA["paginas"]["plagas"]
+# Receta nueva (31-oct-2026): solo las plagas que eligió el dueño; las demás quedan en la ficha, sin página.
+_ELEGIDAS = FICHA.get("decisionesReceta2", {}).get("plagas")
+if _ELEGIDAS:
+    PLAG = [x for x in PLAG if x["slug"] in _ELEGIDAS]
+R2 = FICHA.get("receta2", {})
+_FP = RAIZ / "docs" / "design" / "oficinas" / ID / "fotos-plagas.json"
+FOTOS_PLAGAS = {f["plaga"]: f for f in json.loads(_FP.read_text(encoding="utf-8"))} if _FP.exists() else {}
+
+
+def foto_plaga(x):
+    """Foto real de la plaga (receta: nunca ilustración); si no hay, la imagen de la ficha."""
+    f = FOTOS_PLAGAS.get(x["slug"])
+    return f["file"].split("/assets/")[-1] if f else x["imagen"]
+
+
+# Diseño de las oficinas: el CSS del molde oficial (copiado de la página de Venezuela) más dos ajustes propios.
+R2_CSS = "<style>" + leer("diseno-oficina.css") + """
+.r2-credito{font-size:12px;color:var(--muted);margin:8px 0 0;overflow-wrap:anywhere}
+body.country-site[data-oficina] .local-footer .footer-place img{mix-blend-mode:normal}
+@media(min-width:901px){.g-plagas-grid[style*="--n:4"]{grid-template-columns:repeat(2,minmax(0,1fr))}.g-plagas-grid[style*="--n:2"]{grid-template-columns:repeat(2,minmax(0,1fr))}
+.blog-consejos{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
+.g-zonas-lista .g-lista{margin-top:10px}
+</style>"""
 
 
 def nav():
@@ -165,11 +188,11 @@ def nav():
 
 
 def footer():
-    f = FICHA["footer"]
+    f = {**FICHA["footer"], **({"file": R2["footer"]["file"].split("/assets/")[-1], "alt": R2["footer"]["alt"]} if R2.get("footer") else {})}
     s = "".join(f'<a href="{BASE}servicios/{x["slug"]}/">{escape(x["titulo"])}</a>' for x in SERV)
     p = "".join(f'<a href="{BASE}plagas/{x["slug"]}/">{escape(x["titulo"])}</a>' for x in PLAG)
     return f"""<footer class="country-footer local-footer" aria-label="Pie de página">
-<figure class="footer-place"><img src="{ASSETS}{f['file']}" alt="{escape(f['alt'])}" width="1774" height="887" loading="lazy" decoding="async"/><figcaption>{escape(f['caption'])}</figcaption></figure>
+<figure class="footer-place"><img src="{ASSETS}{f['file']}" alt="{escape(f['alt'])}" width="1414" height="558" loading="lazy" decoding="async"/><figcaption>{escape(f['caption'])}</figcaption></figure>
 <div class="footer-intro"><a class="brand" href="{BASE}"><img src="/tn-emblema.png" alt=""/><span>Truly Nolen <small data-preview-office>{PAIS}</small></span></a><p>{T['footerLema']}</p><a class="text-link" href="{BASE}#contacto">Conversemos</a></div>
 <div class="footer-columns">
 <nav aria-label="Servicios del pie"><h2>Servicios</h2>{s}<a href="{BASE}#consulta">Otras consultas</a><a href="{BASE}#metodo">Cómo trabajamos</a></nav>
@@ -203,9 +226,15 @@ def faq(eyebrow, titulo, preguntas, ident='id="preguntas" '):
     return f'<section {ident}class="section faq"><div><p class="eyebrow">{eyebrow}</p><h2>{titulo}</h2></div><div>{items}</div></section>\n'
 
 
-def contacto():
-    return f"""<section id="contacto" class="section contact"><div><p class="eyebrow">Truly Nolen · {PAIS}</p><h2>{escape(T['contactoTitulo'])}</h2><p>{escape(T['contactoTexto'])}</p></div>
-<div class="contact-channels" style="display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px;align-self:end"><a class="button" href="#contacto" data-abrir-chat>Escribir en el chat</a><a class="text-link" href="{WA}" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a></div></section>
+def contacto(lista=None):
+    """Cierre único de cada página (molde): datos y canales, línea de cobertura y tarjeta de Truly AI."""
+    I = FICHA["inicio"]
+    lista = lista or I["consultaStarters"]
+    return f"""<section id="contacto" class="section local-consult g-cierre"><div><span id="consulta"></span><span id="cobertura"></span><p class="eyebrow">Truly Nolen · {PAIS}</p><h2>{escape(T['contactoTitulo'])}</h2><p>{escape(T['contactoTexto'])}</p>
+<p class="g-cierre-zona">{escape(I['coberturaTexto'])} <a class="text-link" href="#contacto" data-abrir-chat data-chat-prompt="{escape(I['coberturaPrompt'])}">Consultar mi zona</a></p>
+<div class="contact-channels" style="display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px;align-self:end"><a class="button" href="#contacto" data-abrir-chat>Escribir en el chat</a><a class="text-link" href="{WA}" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a></div></div>
+<div class="marco-entry"><div class="marco-entry-heading"><img src="/oficinas/assets/truly-carrito-asistente.svg" alt="" width="72" height="48" loading="lazy"/><div><h3>Truly AI</h3><p>Asistente virtual · {PAIS}</p></div></div>
+<p class="marco-entry-label">Cuéntele a Truly AI qué está viendo</p><div class="marco-starts">{starters(lista)}</div><p class="marco-entry-note">{escape(T['nota'])}</p></div></section>
 """
 
 
@@ -213,53 +242,117 @@ def tarjeta_servicio(i, x):
     return f'<a class="service" href="{BASE}servicios/{x["slug"]}/"><img src="{ASSETS}{x["imagen"]}" alt="" loading="lazy"/><div><span>{i:02d}</span><h3>{escape(x["titulo"])}</h3><p>{escape(x["resumen"])}</p><span class="service-action">Ver servicio</span></div></a>'
 
 
-def tarjeta_plaga(x):
-    return f'<a href="{BASE}plagas/{x["slug"]}/"><img src="{ASSETS}{x["imagen"]}" loading="lazy" alt=""/><h3>{escape(x["titulo"])}</h3><span>Conocer más</span></a>'
+def g_cab(eyebrow, titulo, texto=""):
+    intro = f'<p class="g-intro">{escape(texto)}</p>' if texto else ""
+    return f'<header class="g-cab"><p class="g-ey">{escape(eyebrow)}</p><h2>{titulo}</h2>{intro}</header>'
+
+
+def g_tabla(eyebrow, titulo, columnas, filas, texto="", nota="", tema="Tema"):
+    """Tabla del molde: número · tema · columnas (texto o lista de puntos)."""
+    cab = "".join(f'<th scope="col">{escape(c)}</th>' for c in [tema, *columnas])
+    cuerpo = ""
+    for i, (nombre, *celdas) in enumerate(filas, 1):
+        tds = "".join(f'<td data-col="{escape(c)}">' + (f'<ul class="g-lista">{"".join(f"<li>{escape(x)}</li>" for x in v)}</ul>' if isinstance(v, list) else escape(v)) + "</td>"
+                      for c, v in zip(columnas, celdas))
+        cuerpo += f'<tr><td class="g-t-n">{i:02d}</td><th scope="row">{escape(re.sub(r"^\d+\s*·\s*", "", nombre))}</th>{tds}</tr>'
+    nota = nota_html(nota)
+    return (f'<section class="section g g-bloque">{g_cab(eyebrow, titulo, texto)}<div class="g-tabla-marco"><table class="g-tabla"><thead><tr>'
+            f'<th scope="col" aria-label="Número"></th>{cab}</tr></thead><tbody>{cuerpo}</tbody></table></div>{nota}</section>\n')
+
+
+def g_plagas(eyebrow, titulo, texto, lista, textos=None, nota=""):
+    textos = textos or {}
+    arts = ""
+    for x in lista:
+        url = f"{BASE}plagas/{x['slug']}/"
+        arts += (f'<article><a class="g-pl-fig" href="{url}"><img src="{ASSETS}{foto_plaga(x)}" alt="" loading="lazy"/></a><h3>{escape(x["titulo"])}</h3>'
+                 f'<p class="g-pl-sub">{escape(x["eyebrow"])}</p><p>{escape(textos.get(x["slug"]) or x.get("resumenCorto") or primera_frase(x["intro"]))}</p>'
+                 f'<a class="g-mas" href="{url}">Ver la guía<span aria-hidden="true">→</span></a></article>')
+    nota = nota_html(nota)
+    return f'<section id="plagas" class="section g g-plagas">{g_cab(eyebrow, titulo, texto)}<div class="g-plagas-grid" style="--n:{len(lista)}">{arts}</div>{nota}</section>\n'
+
+
+def nota_html(n):
+    if not n:
+        return ""
+    m = re.match(r"^([^:.]{3,60}):\s+(.)(.*)$", n, flags=re.S)
+    if m:
+        return f'<p class="g-nota"><strong>{escape(m.group(1))}.</strong> {escape(m.group(2).upper() + m.group(3))}</p>'
+    return f'<p class="g-nota">{escape(n)}</p>'
+
+
+def primera_frase(texto):
+    texto = re.sub("<[^>]+>", " ", texto).strip()
+    m = re.match(r"(.+?[.!?])(\s|$)", texto)
+    return m.group(1) if m else texto
+
+
+def g_zonas(detalle=None):
+    """detalle: filas de la tabla de zonas de Hogares ([nombre, subtítulo], [puntos]); si viene, la casa lleva el detalle."""
+    I = FICHA["inicio"]
+    casa_img = R2["casaZonas"]["file"].split("/assets/")[-1] if R2.get("casaZonas") else FICHA["fotos"]["casa"]["file"]
+    casa_alt = R2["casaZonas"]["alt"] if R2.get("casaZonas") else FICHA["fotos"]["casa"]["alt"]
+    colores = ["g-z-rojo", "g-z-amarillo", "g-z-verde"]
+    if detalle:
+        zonas = "".join(f'<li class="{c}"><h3>{escape(re.sub(r"^\d+\s*·\s*", "", f[0][0]))}</h3><p>{escape(f[0][1])}</p><ul class="g-lista">{"".join(f"<li>{escape(x)}</li>" for x in f[1])}</ul></li>'
+                        for c, f in zip(colores, detalle))
+    else:
+        zonas = "".join(f'<li class="{c}"><h3>{escape(a)}</h3><p>{escape(b)}</p></li>' for c, (a, b) in zip(colores, I["casaZonas"]))
+    return (f'<section class="section g g-zonas"><div class="g-zonas-grid"><figure class="g-zonas-fig"><img src="{ASSETS}{casa_img}" alt="{escape(casa_alt)}" loading="lazy"/></figure>'
+            f'<div>{g_cab("Tres zonas para revisar", escape(I["casaTitulo"]), I["casaTexto"])}<ul class="g-zonas-lista">{zonas}</ul>'
+            f'<a class="g-link" href="{BASE}servicios/hogares/">{escape(I["casaLink"])}<span aria-hidden="true">→</span></a></div></div></section>\n')
 
 
 def bloque(b):
     tipo = b["tipo"]
+    if tipo == "tarjetas" and b["eyebrow"].startswith("Qué puede esperar"):
+        arts = "".join(f'<article><span class="g-n">{i:02d}</span><h3>{escape(it["h"])}</h3><p>{escape(it["p"])}</p></article>' for i, it in enumerate(b["items"], 1))
+        nota = f'<p class="g-nota">{escape(b["nota"])}</p>' if b.get("nota") else ""
+        return f'<section class="section g g-esperar">{g_cab(b["eyebrow"], b["titulo"], b.get("texto", ""))}<div class="g-cols g-cols-3">{arts}</div>{nota}</section>\n'
+    por_titulo = {x["titulo"]: x for x in PLAG}
+    if tipo == "tarjetas" and sum(it["h"] in por_titulo for it in b["items"]) >= 2:
+        # tarjetas que hablan de plagas con página propia: van como tarjetas con foto, con su texto
+        lista = [por_titulo[it["h"]] for it in b["items"] if it["h"] in por_titulo]
+        textos = {por_titulo[it["h"]]["slug"]: it["p"] for it in b["items"] if it["h"] in por_titulo}
+        resto = " ".join(f'{it["h"]}: {it["p"]}' for it in b["items"] if it["h"] not in por_titulo)
+        return g_plagas(b["eyebrow"], b["titulo"], b.get("texto", ""), lista, textos, resto).replace('id="plagas" ', 'data-plagas-propias ')
     if tipo == "tarjetas":
-        arts = ""
-        for it in b["items"]:
-            checks = "".join(f"<li>{escape(c)}</li>" for c in it.get("checks", []))
-            arts += f'<article><h3>{escape(it["h"])}</h3><p>{escape(it["p"])}</p>{f"<ul class=\"checks\">{checks}</ul>" if checks else ""}</article>'
-        texto = f'<p>{escape(b["texto"])}</p>' if b.get("texto") else ""
-        nota = f'<p class="nota-bloque">{escape(b["nota"])}</p>' if b.get("nota") else ""
-        return f'<section class="section detail-guidance"><div class="section-heading"><p class="eyebrow">{escape(b["eyebrow"])}</p><h2>{b["titulo"]}</h2>{texto}</div><div class="guidance-grid">{arts}</div>{nota}</section>\n'
+        filas = [[it["h"], it["p"], it["checks"]] if it.get("checks") else [it["h"], it["p"]] for it in b["items"]]
+        columnas = ["Qué significa", "Qué revisamos"] if any(it.get("checks") for it in b["items"]) else ["Qué significa"]
+        return g_tabla(b["eyebrow"], b["titulo"], columnas, filas, b.get("texto", ""), b.get("nota", ""))
     if tipo == "tabla":
         cols = b["columnas"]
-
-        def celda(c, i):
-            etiqueta = f' data-label="{escape(cols[i])}"' if cols[i] else ""
-            if i == 0 and isinstance(c, list):        # [título, subtítulo]
-                sub = f"<span>{escape(c[1])}</span>" if len(c) > 1 and c[1] else ""
-                return f"<th scope=\"row\" role=\"rowheader\"{etiqueta}><strong>{escape(c[0])}</strong>{sub}</th>"
-            if isinstance(c, list):                   # lista de puntos
-                return f"<td role=\"cell\"{etiqueta}><ul>{''.join(f'<li>{escape(x)}</li>' for x in c)}</ul></td>"
-            return f"<td role=\"cell\"{etiqueta}>{escape(c)}</td>"
-        cabeza = "".join(f'<th scope="col" role="columnheader">{escape(c)}</th>' for c in cols)
-        filas = "".join('<tr role="row">' + "".join(celda(c, i) for i, c in enumerate(f)) + "</tr>" for f in b["filas"])
-        texto = f'<p>{escape(b["texto"])}</p>' if b.get("texto") else ""
-        nota = f'<p class="nota-bloque">{escape(b["nota"])}</p>' if b.get("nota") else ""
-        return f'<section class="section detail-tabla"><div class="section-heading"><p class="eyebrow">{escape(b["eyebrow"])}</p><h2>{b["titulo"]}</h2>{texto}</div><div class="tabla-marco"><table class="tabla-tn" role="table" aria-label="{escape(re.sub("<[^>]+>", " ", b["titulo"]).strip())}"><thead><tr role="row">{cabeza}</tr></thead><tbody>{filas}</tbody></table></div>{nota}</section>\n'
+        if len(cols) == 2 and all(isinstance(f[0], list) and isinstance(f[1], list) for f in b["filas"]):
+            # listas de puntos: [título, subtítulo] + puntos → tema · qué significa · qué revisamos
+            filas = [[f[0][0], f[0][1], f[1]] for f in b["filas"]]
+            return g_tabla(b["eyebrow"], b["titulo"], ["Detalle", cols[1]], filas, b.get("texto", ""), b.get("nota", ""), tema=cols[0])
+        filas = [[f[0][0] if isinstance(f[0], list) else f[0], *f[1:]] for f in b["filas"]]
+        return g_tabla(b["eyebrow"], b["titulo"], cols[1:], filas, b.get("texto", ""), b.get("nota", ""))
     if tipo == "cifras":
-        arts = "".join(f'<article><strong>{escape(it["valor"])}</strong><p>{escape(it["texto"])}</p><small>{escape(it["fuente"])}</small></article>' for it in b["items"])
-        return f'<section class="section detail-stats"><div class="section-heading"><p class="eyebrow">{escape(b["eyebrow"])}</p><h2>{b["titulo"]}</h2></div><div class="stats">{arts}</div></section>\n'
+        arts = "".join(f'<article><b>{escape(it["valor"])}</b><p>{escape(it["texto"])}</p><small>{escape(it["fuente"])}</small></article>' for it in b["items"])
+        return f'<section class="section g g-dato">{g_cab(b["eyebrow"], b["titulo"])}<div class="g-dato-fila">{arts}</div></section>\n'
     if tipo == "consulta":
-        return consulta("Cuéntele a Truly AI qué está viendo", "¿Por dónde<br/>empezamos?", T["consultaDetalleTexto"], b["starters"])
+        return ""   # un solo cierre por página (receta): sus atajos van en la tarjeta de Truly AI del cierre
     if tipo == "relacionadas":
         if b["lista"] == "plagas":
-            items = "".join(tarjeta_plaga(x) for x in PLAG if x["slug"] in b["slugs"])
-            return f'<section class="section pests"><div class="section-heading"><p class="eyebrow">{escape(b["eyebrow"])}</p><h2>{b["titulo"]}</h2></div><div class="pest-grid">{items}</div></section>\n'
-        items = "".join(tarjeta_servicio(i, x) for i, x in enumerate(SERV, 1) if x["slug"] in b["slugs"])
-        return f'<section class="section services"><div class="section-heading"><p class="eyebrow">{escape(b["eyebrow"])}</p><h2>{b["titulo"]}</h2></div><div class="service-grid">{items}</div></section>\n'
+            return g_plagas(b["eyebrow"], b["titulo"], "", [x for x in PLAG if x["slug"] in b["slugs"]]).replace('id="plagas" ', "")
+        elegidos = [x for x in SERV if x["slug"] in b["slugs"]]
+        items = "".join(tarjeta_servicio(i, x) for i, x in enumerate(elegidos, 1))
+        cols = f' style="grid-template-columns:repeat({len(elegidos)},minmax(0,1fr))"' if len(elegidos) < 3 else ""
+        return f'<section class="section services"><div class="section-heading"><p class="eyebrow">{escape(b["eyebrow"])}</p><h2>{b["titulo"]}</h2></div><div class="service-grid"{cols}>{items}</div></section>\n'
     raise ValueError(f"tipo de bloque desconocido: {tipo}")
 
 
 def fuentes(lista):
     items = "".join(f'<li><a href="{escape(u)}" target="_blank" rel="noopener noreferrer">{escape(t)}</a></li>' for t, u in lista)
-    return f'<section class="section detail-sources"><div><p class="eyebrow">Fuentes</p><h2>De dónde sale esta información.</h2><p class="nota">{escape(T["fuentesNota"])}</p></div><ol>{items}</ol></section>\n'
+    return f'<section class="section detail-sources"><div><p class="eyebrow">Fuentes</p><h2>De dónde sale esta información.</h2><p class="nota" style="margin-top:16px">{escape(T["fuentesNota"])}</p></div><ol>{items}</ol></section>\n'
+
+
+def imagen_hero(x, tipo):
+    if tipo == "plaga" and x["slug"] in FOTOS_PLAGAS:
+        f = FOTOS_PLAGAS[x["slug"]]
+        return f'<figure style="margin:0"><img src="{ASSETS}{foto_plaga(x)}" alt="{escape(f["alt"])}"/><figcaption class="r2-credito">Foto: <a href="{escape(f["pagina"])}" target="_blank" rel="noopener noreferrer">{escape(f["credito"])}</a></figcaption></figure>'
+    return f'<img src="{ASSETS}{x["imagen"]}" alt="{escape(x["titulo"])}"/>'
 
 
 def pagina_detalle(x, ruta, tipo):
@@ -268,11 +361,21 @@ def pagina_detalle(x, ruta, tipo):
     html += BODY_DETALLE + nav() + '<main id="contenido">'
     html += f"""<section class="section detail-hero"><a class="text-link" href="{BASE}">← Volver al inicio</a><div class="story"><div>
 <p class="eyebrow">{escape(x['eyebrow'])} · {PAIS}</p><h1>{x['lema']}</h1><p>{escape(x['intro'])}</p><a class="button" href="#contacto">Conversemos</a></div>
-<img src="{ASSETS}{x['imagen']}" alt="{escape(x['titulo'])}"/></div></section>
+{imagen_hero(x, tipo)}</div></section>
 """
-    html += "".join(bloque(b) for b in x["bloques"])
+    bloques = [bloque(b) for b in x["bloques"]]
+    if any("data-plagas-propias" in h for h in bloques):
+        bloques = [h for h, b in zip(bloques, x["bloques"]) if not (b["tipo"] == "relacionadas" and b["lista"] == "plagas")]
+    if tipo == "servicio" and x["slug"] == "hogares":
+        k = next((i for i, b in enumerate(x["bloques"]) if b["tipo"] == "tabla" and "zonas" in b["eyebrow"].lower()), None)
+        if k is not None:
+            bloques[k] = g_zonas(x["bloques"][k]["filas"])
+        else:
+            bloques.insert(1, g_zonas())
+    html += "".join(bloques)
     html += faq("Preguntas frecuentes", "Lo que más nos preguntan.", x.get("preguntas") or FICHA["faq"], ident="")
-    html += metodo("Cómo trabajamos") + fuentes(x["fuentes"]) + contacto() + "</main>" + footer() + CHAT + "</body></html>\n"
+    atajos = next((b["starters"] for b in x["bloques"] if b["tipo"] == "consulta"), None)
+    html += fuentes(x["fuentes"]) + contacto(atajos) + "</main>" + footer() + CHAT + "</body></html>\n"
     return html
 
 
@@ -293,7 +396,7 @@ def pagina_legal(clave, titulo):
 def tarjeta_articulo(a, destacada=False):
     url = f"{BASE}blog/{a['slug']}/"
     return f"""<article class="blog-card{' blog-featured' if destacada else ''}"><a href="{url}" tabindex="-1" aria-hidden="true"><img src="{ASSETS}{a['cover']}" alt="" loading="lazy"/></a>
-<div><p class="eyebrow">{escape(a['tema'])}</p><h2><a href="{url}">{escape(a['title'])}</a></h2><p>{escape(a['excerpt'])}</p><a class="text-link" href="{url}">Leer guía →</a></div></article>"""
+<div><p class="eyebrow">{escape(a['tema'])}</p><h2><a href="{url}">{escape(a['title'])}</a></h2><p>{escape(a['excerpt'])}</p><a class="text-link" href="{url}">Leer el artículo →</a></div></article>"""
 
 
 def pagina_blog():
@@ -311,17 +414,17 @@ def pagina_blog():
     plagas = {p["slug"]: p for p in PLAG}
     consejos = ""
     for c in FICHA["blog"].get("consejos", []):
+        if c["plaga"] not in plagas:
+            continue
         p = plagas[c["plaga"]]
         url = f"{BASE}plagas/{p['slug']}/"
-        consejos += f"""<article class="blog-card"><a href="{url}" tabindex="-1" aria-hidden="true"><img src="{ASSETS}{p['imagen']}" alt="" loading="lazy" style="object-fit:contain;background:#f7f6f1;padding:12px 18%"/></a>
+        consejos += f"""<article class="blog-card"><a href="{url}" tabindex="-1" aria-hidden="true"><img src="{ASSETS}{foto_plaga(p)}" alt="" loading="lazy"/></a>
 <div><p class="eyebrow">{escape(p['titulo'])}</p><h2><a href="{url}">{escape(c['titulo'])}</a></h2><p>{escape(c['texto'])}</p><p style="font-size:13px;color:var(--muted)">Fuente: {escape(c['fuente'])}</p><a class="text-link" href="{url}">Ver la guía de {escape(p['titulo'].lower())} →</a></div></article>"""
     if consejos:
         html += f"""<section class="section blog-lista"><div class="section-heading"><p class="eyebrow">Prevención · {PAIS}</p><h2>Cómo prevenir<br/>cada plaga.</h2>
-<p>Un consejo concreto por plaga, con su fuente, para empezar hoy mismo en su casa o su negocio.</p></div><div class="blog-grid">{consejos}</div></section>
+<p>Un consejo concreto por plaga, con su fuente, para empezar hoy mismo en su casa o su negocio.</p></div><div class="blog-grid blog-consejos">{consejos}</div></section>
 """
-    if FICHA["blog"].get("consulta"):
-        html += consulta("¿Necesita eliminar una plaga?", "Empecemos<br/>por lo que ve.", T["consultaDetalleTexto"], FICHA["blog"]["consulta"])
-    return html + contacto() + "</main>" + footer() + CHAT + "</body></html>\n"
+    return html + contacto(FICHA["blog"].get("consulta")) + "</main>" + footer() + CHAT + "</body></html>\n"
 
 
 def pagina_articulo(a):
@@ -352,7 +455,7 @@ def pagina_articulo(a):
     html += fuentes(a["fuentes"])
     otros = [x for x in ARTICULOS if x["slug"] != a["slug"]][:2]
     if otros:
-        html += f'<section class="section"><div class="section-heading"><p class="eyebrow">Blog</p><h2>Artículos relacionados</h2></div><div class="blog-grid">{"".join(tarjeta_articulo(x) for x in otros)}</div></section>\n'
+        html += f'<section class="section"><div class="section-heading"><p class="eyebrow">Blog</p><h2>Artículos relacionados</h2></div><div class="blog-grid">{"".join(tarjeta_articulo(x, len(otros) == 1) for x in otros)}</div></section>\n'
     return html + contacto() + "</main>" + footer() + CHAT + "</body></html>\n"
 
 
@@ -384,40 +487,52 @@ animation:hc-ruedas .2s steps(4) infinite,hc-motor .09s ease-in-out infinite alt
 
 
 def pagina_inicio():
-    I, F = FICHA["inicio"], FICHA["fotos"]
+    I = FICHA["inicio"]
     pel = FICHA["pelicula"]
-    html = head(FICHA["seo"]["titulo"], FICHA["seo"]["descripcion"], "", inicio=True)
+    html = head(FICHA["seo"]["titulo"], FICHA["seo"]["descripcion"], "", inicio=True).replace("</head>", '<script defer src="/oficinas/assets/escenas.js"></script></head>')
     html += f'<body class="country-site jardin" data-machote="{ID}" data-oficina="{ID}">' + nav() + '<main id="contenido">'
-    # Sombra de Guatemala: solo a la izquierda, donde va el texto, y un poco abajo (no la oscura del catálogo, que apaga todo).
-    html += ('<style>body.country-site[data-oficina] .cinema::after{background:linear-gradient(90deg,rgba(21,33,40,.65) 0,'
-             'rgba(21,33,40,.6) 21%,transparent 54%),linear-gradient(0deg,rgba(21,33,40,.51),transparent 30%)}</style>')
-    html += f"""<section class="cinema" id="inicio"><div class="film"><picture><source media="(max-width:760px)" srcset="{ASSETS}{pel['poster']}"/><img src="{ASSETS}{pel['poster']}" alt=""/></picture>
-{f'<video muted loop playsinline preload="none" aria-hidden="true" data-src="{ASSETS}{pel["video"]}"></video>' if pel.get("video") else ""}{carrito()}</div>
-{f'<style>@media(min-width:761px){{body.country-site #inicio .film :is(img,video){{object-position:{pel["encuadre"]}}}}}</style>' if pel.get("encuadre") else ""}
-<div class="hero-text"><p class="eyebrow">Truly Nolen · <span data-preview-office>{PAIS}</span></p><h1>{escape(I['h1'])}</h1><p>{escape(I['intro'])}</p><a class="button" href="#contacto">{escape(I['cta'])}</a></div>
-<a class="discover" href="#servicios">{escape(I['descubre'])}</a></section>
-<section id="servicios" class="section services"><div class="section-heading"><p class="eyebrow">Truly Nolen · {PAIS}</p><h2>{escape(I['serviciosTitulo'])}</h2><p>{escape(I['serviciosTexto'])}</p></div>
-<div class="service-grid">{"".join(tarjeta_servicio(i, x) for i, x in enumerate(SERV, 1))}</div></section>
+    # 1 · película (carro y mundo, escenas.js)
+    html += f"""<section class="cinema" id="inicio"><div class="film"><picture><source media="(max-width:760px)" srcset="{ASSETS}{pel['poster']}"/><img src="{ASSETS}{pel['poster']}" alt=""/></picture>{f'<video muted loop playsinline preload="none" aria-hidden="true" data-src="{ASSETS}{pel["video"]}"></video>' if pel.get("video") else ""}</div>
+<div class="hero-text"><p class="eyebrow">Truly Nolen · <span data-preview-office>{PAIS}</span></p><h1>{escape(I['h1'])}</h1><p>{escape(I['intro'])}</p><a class="button" href="#contacto">{escape(I['cta'])}</a></div><a class="discover" href="#servicios">{escape(I['descubre'])}</a></section>
 """
-    benef = "".join(f'<article><img src="/oficinas/assets/{ic}" alt="" width="56" height="56" loading="lazy"/><h3>{escape(h)}</h3><p>{escape(p)}</p></article>' for ic, h, p in I["beneficios"])
-    html += f"""<section id="nosotros" class="section local-benefits"><div class="section-heading"><p class="eyebrow">Truly Nolen · {PAIS}</p><h2>{escape(I['nosotrosTitulo'])}</h2><p>{escape(I['nosotrosTexto'])}</p></div>
-<div class="benefits-layout"><img class="benefits-photo" src="{ASSETS}{F['nosotros']['file']}" alt="{escape(F['nosotros']['alt'])}" loading="lazy"/><div class="benefits-grid">{benef}</div></div></section>
-"""
-    zonas = "".join(f"<li><strong>{escape(a)}</strong><span>{escape(b)}</span></li>" for a, b in I["casaZonas"])
-    b1, b2 = I["operacionBotones"]
-    html += f"""<section class="section local-home"><div class="home-visual"><img src="{ASSETS}{F['casa']['file']}" alt="{escape(F['casa']['alt'])}" loading="lazy"/></div>
-<div><p class="eyebrow">De adentro hacia afuera</p><h2>{escape(I['casaTitulo'])}</h2><p>{escape(I['casaTexto'])}</p><ol>{zonas}</ol><a class="text-link" href="{BASE}servicios/hogares/">{escape(I['casaLink'])}</a></div></section>
-<section class="local-operation"><img src="{ASSETS}{F['operacion']['file']}" alt="{escape(F['operacion']['alt'])}" loading="lazy"/>
-<div><p class="eyebrow">Comercio e industria</p><h2>{escape(I['operacionTitulo'])}</h2><p>{escape(I['operacionTexto'])}</p>
-<div class="operation-actions"><a class="button" href="{BASE}servicios/comercios/">{escape(b1)}</a><a class="button" href="{BASE}servicios/industria/">{escape(b2)}</a></div></div></section>
-<section id="plagas" class="section pests"><div class="section-heading"><p class="eyebrow">01 / Guía de plagas</p><h2>Reconozca las señales.</h2></div><div class="pest-grid">{"".join(tarjeta_plaga(x) for x in PLAG)}</div></section>
-"""
-    html += metodo("02 / Cómo trabajamos")
-    html += f"""<section id="cobertura" class="section local-coverage"><div><p class="eyebrow">Aquí, en {PAIS}</p><h2>{escape(I['coberturaTitulo'])}</h2></div>
-<div><p>{escape(I['coberturaTexto'])}</p><a class="text-link" href="#contacto" data-abrir-chat data-chat-prompt="{escape(I['coberturaPrompt'])}">Consultar mi zona</a></div></section>
-"""
-    html += faq("03 / Preguntas frecuentes", "Lo que más nos preguntan.", FICHA["faq"])
-    html += consulta("Cuéntele a Truly AI qué está viendo", escape(I["consultaTitulo"]), I["consultaTexto"], I["consultaStarters"], ident='id="consulta" ')
+    # 2 · cifras de la marca (globaltni.com/es)
+    cif = "".join(f'<div><b>{escape(a)}</b> <span>{escape(b)}</span><small>{escape(c)}</small></div>' for a, b, c in I["cifrasMarca"])
+    html += f'<section class="g-cifras" aria-label="Truly Nolen en el mundo"><div class="g-cifras-in">{cif}<div class="g-cifra-carro"><img src="/oficinas/assets/truly-carrito-asistente.svg" alt=""/><span>una marca reconocible<small>nuestro carro emblemático</small></span></div></div></section>\n'
+    # 3 · el programa: los 3 servicios
+    iconos = ['<path d="M4 11.5 12 5l8 6.5M6.5 10v9h11v-9M10 19v-5h4v5"/>',
+              '<path d="M4 9h16l-1.5-4h-13zM5 9v10h14V9M9 19v-5h6v5M4 9a2.7 2.7 0 0 0 5.3 0 2.7 2.7 0 0 0 5.4 0 2.7 2.7 0 0 0 5.3 0"/>',
+              '<path d="M3 20V10l5 3V10l5 3V10l5 3V5h3v15zM7 17h2M12 17h2M17 17h2"/>']
+    prog = "".join(f'<a class="g-prog{" g-prog-1" if i == 0 else ""}" href="{BASE}servicios/{x["slug"]}/"><span class="g-prog-ico"><svg viewBox="0 0 24 24" aria-hidden="true">{iconos[i]}</svg></span>'
+                   f'<h3>{escape(x["titulo"])}</h3><p>{escape(x["resumen"])}</p><span class="g-flecha" aria-hidden="true">↓</span></a>' for i, x in enumerate(SERV[:3]))
+    html += f'<section id="servicios" class="section g g-programa">{g_cab(f"Truly Nolen · {PAIS}", escape(I["programaTitulo"]), I["programaTexto"])}<div class="g-prog-fila">{prog}</div></section>\n'
+    # 4 · las 3 zonas de la casa
+    html += g_zonas()
+    # 5 · comercio e industria
+    com = next(x for x in SERV if x["slug"] == "comercios"); ind = next(x for x in SERV if x["slug"] == "industria")
+    esperar = next(b for b in com["bloques"] if b["tipo"] == "tarjetas" and b["eyebrow"].startswith("Qué puede esperar"))
+    sect = "".join(f'<a class="g-sector" href="{BASE}servicios/comercios/"><span><h3>{escape(it["h"])}</h3><p>{escape(it["p"])}</p></span><span aria-hidden="true">→</span></a>' for it in esperar["items"])
+    sect += f'<a class="g-sector" href="{BASE}servicios/industria/"><span><h3>{escape(ind["titulo"])}</h3><p>{escape(ind["resumen"])}</p></span><span aria-hidden="true">→</span></a>'
+    F = FICHA["fotos"]["operacion"]
+    html += (f'<section class="section g g-comercial">{g_cab("Comercio e industria", escape(I["comercialTitulo"]), com["resumen"])}<div class="g-com-grid">'
+             f'<a class="g-com-foto" href="{BASE}servicios/comercios/"><img src="{ASSETS}{F["file"]}" alt="" loading="lazy"/><span><b>{escape(I["comercialFrase"])}</b><em>{escape(I["operacionBotones"][0])} →</em></span></a>'
+             f'<div class="g-sectores">{sect}</div></div></section>\n')
+    # 6 · cómo trabajamos
+    pasos = "".join(f'<article><span class="g-n">{i:02d}</span><h3>{escape(h)}</h3><p>{escape(t)}</p></article>' for i, (h, t) in enumerate(FICHA["metodo"], 1))
+    html += f'<section id="metodo" class="section g g-metodo"><span id="nosotros"></span>{g_cab("Cómo trabajamos", "Cuatro pasos, de la consulta<br/>al seguimiento.")}<div class="g-cols g-cols-4">{pasos}</div></section>\n'
+    # 7 · guía de plagas
+    html += g_plagas("Guía de plagas", "Reconozca la plaga.<br/>Entienda sus hábitos.", I["plagasTexto"], PLAG)
+    # 8 · blog y preguntas
+    faqs = "".join(f'<details{" open" if i == 0 else ""}><summary>{escape(q)}<span aria-hidden="true">+</span></summary><p>{escape(a)}</p></details>' for i, (q, a) in enumerate(FICHA["faq"]))
+    blog = ""
+    if ARTICULOS:
+        a = ARTICULOS[0]
+        url = f"{BASE}blog/{a['slug']}/"
+        blog = (f'<article class="g-blog"><div class="g-blog-top"><img src="{ASSETS}{a["cover"]}" alt="" loading="lazy"/><p class="g-ey">Del blog</p></div>'
+                f'<h3><a href="{url}">{escape(a["title"])}</a></h3><p>{escape(a["excerpt"])}</p><a class="g-link" href="{url}">Leer el artículo<span aria-hidden="true">→</span></a>'
+                f'<a class="g-link g-link-2" href="{BASE}blog/">Ver todo el blog<span aria-hidden="true">→</span></a></article>')
+    html += (f'<section class="section g g-ayuda">{g_cab("Blog y preguntas", "Prevención y respuestas<br/>para usted.", I["ayudaTexto"])}<div class="g-ayuda-grid">{blog}'
+             f'<div class="g-faq" id="preguntas"><h3>Lo que más nos preguntan.</h3>{faqs}</div></div></section>\n')
+    # 9 · cierre
     html += contacto() + "</main>" + footer() + CHAT + "</body></html>\n"
     return html
 

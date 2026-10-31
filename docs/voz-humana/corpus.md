@@ -16,6 +16,16 @@ Puede recorrer este sitio con el teclado, ampliar el texto y usar la preferencia
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
 
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
+
+### Truly AI
+
+Asistente virtual · Costa Rica
+
+Cuéntele a Truly AI qué está viendo
+
+Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
+
 Costa Rica · Volcán Arenal
 
 Control de plagas en Costa Rica.
@@ -152,6 +162,16 @@ Truly Nolen · Costa Rica
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
 
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
+
+### Truly AI
+
+Asistente virtual · Costa Rica
+
+Cuéntele a Truly AI qué está viendo
+
+Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
+
 Costa Rica · Volcán Arenal
 
 Control de plagas en Costa Rica.
@@ -282,6 +302,16 @@ Truly Nolen · Costa Rica
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
 
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
+
+### Truly AI
+
+Asistente virtual · Costa Rica
+
+Cuéntele a Truly AI qué está viendo
+
+Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
+
 Costa Rica · Volcán Arenal
 
 Control de plagas en Costa Rica.
@@ -366,14 +396,6 @@ Un investigador de la UCR advierte que los túneles de las zompopas pueden lleva
 
 Fuente: Observador.cr (2026)
 
-Pulgas y garrapatas
-
-## Aspire donde duerme la mascota
-
-Si el perro duerme en un sillón de tela, la UNA recomienda aspirar tres veces a la semana, porque ahí se concentran las pupas de las pulgas. Y revisar a los perros después de visitar fincas, potreros o playas.
-
-Fuente: UNA (2018) · Teletica (2026)
-
 Chinches de cama
 
 ## Revise la maleta al volver
@@ -382,41 +404,21 @@ Las chinches de cama viajan escondidas en el equipaje, los muebles y las pertene
 
 Fuente: UCR (2020) · CDC
 
-Moscas
-
-## Tape la basura y los desechos
-
-Las moscas se crían en los desechos orgánicos. Un estudio de la UCR encontró Salmonella en moscas recogidas en San José. Basureros con tapa y restos de comida fuera de la cocina.
-
-Fuente: Revista de Biología Tropical, UCR
-
-Alacranes
-
-## Sacuda zapatos y ropa
-
-Los alacranes se esconden en lugares oscuros y poco movidos. Sacuda zapatos, ropa y toallas antes de usarlos. Según el Instituto Clodomiro Picado de la UCR, los de Costa Rica no son letales, pero la picadura duele.
-
-Fuente: CRHoy (2017) · referencia general
-
-¿Necesita eliminar una plaga?
-
-## Empecemos por lo que ve.
-
-Elija una opción y Truly AI le responde aquí mismo, o escríbale lo que está viendo.
-
-### Truly AI
-
-Asistente virtual · Costa Rica
-
-¿Por dónde empezamos?
-
-Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
-
 Truly Nolen · Costa Rica
 
 ## Cuéntenos qué necesita proteger.
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
+
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
+
+### Truly AI
+
+Asistente virtual · Costa Rica
+
+Cuéntele a Truly AI qué está viendo
+
+Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Costa Rica · Volcán Arenal
 
@@ -448,9 +450,17 @@ Truly Nolen · Costa Rica
 
 Le explicamos qué plaga tiene, qué la atrae y qué hacer primero.
 
-## Control de plagas para su casa, negocio e industria.
+presencia internacional
 
-Elija dónde tiene el problema: su casa, su negocio o su planta.
+atención cerca de usted
+
+de experiencia
+
+nuestro carro emblemático
+
+## Un programa para su espacio.
+
+De su casa a su negocio o su planta. Elija el servicio que necesita conocer.
 
 ### Hogares
 
@@ -464,273 +474,39 @@ Sodas, restaurantes, pulperías, hoteles y oficinas, con la visita coordinada a 
 
 Plantas, bodegas y centros de distribución. La norma pide una hoja de servicio por cada aplicación.
 
-## Una plaga se ve por los detalles.
-
-Bolitas finas, excrementos, zancudos que pican de día: con esas señales empezamos.
-
-### Conocer su espacio
-
-El tipo de actividad, los ambientes y lo que usted observa orientan la evaluación.
-
-### Un plan explicado
-
-Pregunte qué incluye la propuesta, qué zonas contempla y cómo se hará el trabajo.
-
-### Indicaciones claras
-
-Avísenos si hay niños, mascotas o condiciones particulares para darle las indicaciones que apliquen.
-
-### Seguimiento acordado
-
-La frecuencia de visitas y las revisiones se definen según el servicio contratado.
-
-### Coordinación con su equipo
-
-Comparta los horarios, requisitos de acceso y documentación que necesita su operación.
-
-### Una consulta a tiempo
-
-Avísenos de cualquier cambio que note para orientarle en el siguiente paso.
-
-De adentro hacia afuera
+Tres zonas para revisar
 
 ## Revisamos adentro, el perímetro y el patio.
 
 El perímetro es por donde entran. Díganos dónde ve la plaga.
 
-Interior Cocina, baños, dormitorios y bodega.
+### Interior
 
-Perímetro exterior Paredes, puertas, verjas y espacios junto a la vivienda.
+Cocina, baños, dormitorios y bodega.
 
-Áreas verdes Jardín, macetas y vegetación alrededor de la propiedad.
+### Perímetro exterior
+
+Paredes, puertas, verjas y espacios junto a la vivienda.
+
+### Áreas verdes
+
+Jardín, macetas y vegetación alrededor de la propiedad.
 
 Comercio e industria
 
-## En un negocio, la visita se acomoda a su horario.
+## Control de plagas para su actividad.
 
-Restaurantes, sodas, hoteles, supermercados, oficinas y plantas necesitan una evaluación que considere sus horarios, actividad y requisitos de documentación.
+### ¿Para quién?
 
-01 / Guía de plagas
+Sodas, restaurantes, panaderías, pulperías, supermercados, hoteles, consultorios y oficinas.
 
-## Reconozca las señales.
+### ¿Qué incluye?
 
-### Zancudos
+Inspección de las áreas de trabajo y de almacenamiento, control según la actividad y coordinación de horarios y accesos con el encargado.
 
-### Ratas y ratones
+### ¿Cómo sigue?
 
-### Cucarachas
-
-### Hormigas y zompopas
-
-### Comején
-
-### Alacranes
-
-### Chinches de cama
-
-### Moscas
-
-### Pulgas y garrapatas
-
-02 / Cómo trabajamos
-
-## Cuatro pasos, de la consulta al seguimiento.
-
-### Nos cuenta
-
-Díganos qué vio, dónde y desde cuándo.
-
-### Evaluamos
-
-Revisamos la zona y buscamos qué le da agua, comida y refugio a la plaga.
-
-### Proponemos
-
-Explicamos el plan y las indicaciones antes de comenzar.
-
-### Seguimiento
-
-Las visitas de seguimiento se acuerdan en la propuesta.
-
-Aquí, en Costa Rica
-
-## ¿En qué provincia y cantón está?
-
-Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso.
-
-03 / Preguntas frecuentes
-
-## Lo que más nos preguntan.
-
-¿Cómo comienza el servicio? +
-
-El equipo revisa su consulta, confirma si podemos atenderle y coordina la evaluación que corresponda.
-
-¿Puedo solicitar atención para mi negocio? +
-
-Sí. El tipo de actividad, los horarios y las condiciones del espacio ayudan a definir el programa.
-
-¿Qué debo preparar antes de la visita? +
-
-Le indicaremos las medidas que aplican al servicio, incluyendo cualquier precaución para personas y mascotas.
-
-¿Cómo consulto la cobertura? +
-
-Indique su provincia, su cantón y el tipo de espacio. Le confirmaremos si podemos atenderle y cómo coordinar la atención.
-
-¿La evaluación tiene costo? +
-
-Pregúntele al equipo antes de coordinar la visita. El costo y las condiciones dependen de la ubicación y del servicio que necesite.
-
-¿Una visita es suficiente? +
-
-El equipo define el alcance y el seguimiento después de evaluar su situación. Las visitas y condiciones se explican en la propuesta.
-
-Cuéntele a Truly AI qué está viendo
-
-## ¿Qué necesita proteger?
-
-No hace falta saber el nombre de la plaga. Cuéntenos qué vio, dónde y desde cuándo.
-
-### Truly AI
-
-Asistente virtual · Costa Rica
-
-¿Por dónde empezamos?
-
-Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
-
-## Cuéntenos qué necesita proteger.
-
-Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
-
-Costa Rica · Volcán Arenal
-
-Control de plagas en Costa Rica.
-
-## Servicios
-
-## Guía de plagas
-
-## Truly Nolen Costa Rica
-
-## Hablemos
-
-© Truly Nolen · Costa Rica
-
-Converse aquí
-
-<!-- /oficinas/costa-rica/plagas/alacranes/ -->
-
-Costa Rica
-
-Servicios ⌄
-
-Plagas ⌄
-
-Guía de alacranes · Costa Rica
-
-# La picadura duele, pero casi nunca es letal.
-
-Los alacranes se esconden en lugares oscuros de la casa. Según un investigador del Instituto Clodomiro Picado de la UCR, los de Costa Rica no son letales.
-
-Lo que se ha registrado
-
-## De 24 casos en 1992 a 405 en 1999.
-
-casos de picadura de alacrán registrados en 1999, frente a 24 en 1992.
-
-Centro Nacional de Intoxicaciones, según CRHoy (2017)
-
-Cómo es
-
-## Lo que dicen en el país.
-
-### No son letales
-
-Un investigador del Instituto Clodomiro Picado describe el escorpionismo en el país como prácticamente nulo.
-
-### Sí duelen
-
-Una picadura molesta y asusta. Si alguien tiene una reacción fuerte, busque atención médica.
-
-### Dónde se esconden
-
-Lugares oscuros y poco movidos: debajo de objetos, en grietas y entre cosas guardadas.
-
-Prepare la inspección
-
-## Lo que ayuda al técnico.
-
-Qué hacer
-
-Qué mirar
-
-Revise antes de usar Zapatos, ropa y toallas.
-
-Sacúdalos antes de ponérselos.
-
-Anote dónde aparecen Y a qué hora.
-
-Baños, bodegas y cielorraso.
-
-Patio, leña y escombros.
-
-Ordene lo guardado Menos escondites.
-
-Cajas, ropa y objetos contra la pared.
-
-Cuéntele a Truly AI qué está viendo
-
-## ¿Por dónde empezamos?
-
-Elija una opción y Truly AI le responde aquí mismo, o escríbale lo que está viendo.
-
-### Truly AI
-
-Asistente virtual · Costa Rica
-
-Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
-
-Servicios
-
-## Proteja su casa o su negocio.
-
-### Hogares
-
-Casas, apartamentos y condominios: cocina, baños, perímetro y patio.
-
-### Comercios
-
-Sodas, restaurantes, pulperías, hoteles y oficinas, con la visita coordinada a su horario.
-
-Preguntas frecuentes
-
-## Lo que más nos preguntan.
-
-¿Cómo comienza el servicio? +
-
-El equipo revisa su consulta, confirma si podemos atenderle y coordina la evaluación que corresponda.
-
-¿Puedo solicitar atención para mi negocio? +
-
-Sí. El tipo de actividad, los horarios y las condiciones del espacio ayudan a definir el programa.
-
-¿Qué debo preparar antes de la visita? +
-
-Le indicaremos las medidas que aplican al servicio, incluyendo cualquier precaución para personas y mascotas.
-
-¿Cómo consulto la cobertura? +
-
-Indique su provincia, su cantón y el tipo de espacio. Le confirmaremos si podemos atenderle y cómo coordinar la atención.
-
-¿La evaluación tiene costo? +
-
-Pregúntele al equipo antes de coordinar la visita. El costo y las condiciones dependen de la ubicación y del servicio que necesite.
-
-¿Una visita es suficiente? +
-
-El equipo define el alcance y el seguimiento después de evaluar su situación. Las visitas y condiciones se explican en la propuesta.
+Cada aplicación deja su hoja de servicio, como pide el Decreto 38335-S-MTSS. Si tiene varias sucursales, se acuerda el alcance de cada una.
 
 Cómo trabajamos
 
@@ -752,27 +528,105 @@ Explicamos el plan y las indicaciones antes de comenzar.
 
 Las visitas de seguimiento se acuerdan en la propuesta.
 
-Fuentes
+Guía de plagas
 
-## De dónde sale esta información.
+## Reconozca la plaga. Entienda sus hábitos.
 
-Cada dato de esta página viene de una fuente pública que usted puede revisar.
+Las que más vemos en Costa Rica. Cada guía explica las señales y qué hacer, con fuentes.
 
-CRHoy (27-ene-2017). ¿Les tiene miedo? Los alacranes ticos no son letales
+### Zancudos
 
-Ministerio de Salud de Argentina. Prevención ante escorpiones o alacranes (referencia general, no Costa Rica)
+Guía de zancudos
 
-Truly Nolen · Costa Rica
+El zancudo del dengue, Aedes aegypti, se cría en los recipientes donde se guarda agua.
+
+### Ratas y ratones
+
+Guía de ratas y ratones
+
+Ratas y ratones buscan comida, agua y refugio en la casa o el negocio.
+
+### Cucarachas
+
+Guía de cucarachas
+
+En Costa Rica, varios autores señalan como las más frecuentes en las casas a la cucaracha americana, la australiana, la alemana y la de Madeira.
+
+### Hormigas y zompopas
+
+Guía de hormigas y zompopas
+
+Además de las hormigas que entran a la cocina, en Costa Rica están las zompopas, las hormigas cortadoras de hojas que pueden dejar sin hojas un jardín.
+
+### Comején
+
+Guía de comején
+
+En Costa Rica se les dice comején a las termitas.
+
+### Chinches de cama
+
+Guía de chinches de cama
+
+En 2017 se encontraron chinches de cama en un apartamento de Heredia, y la Universidad de Costa Rica lo confirmó como el primer caso con métodos moleculares en Centroamérica.
+
+Blog y preguntas
+
+## Prevención y respuestas para usted.
+
+Consejos para prevenir plagas y cómo trabajamos.
+
+Del blog
+
+### Dengue en Costa Rica: cómo acabar con los zancudos en casa
+
+Los casos de dengue subieron en Costa Rica en 2026. Para acabar con los zancudos en casa hay que quitarles el agua donde se crían. Le contamos qué tapar, vaciar y limpiar cada semana.
+
+### Lo que más nos preguntan.
+
+¿Cómo comienza el servicio? +
+
+El equipo revisa su consulta, confirma si podemos atenderle y coordina la evaluación que corresponda.
+
+¿Puedo solicitar atención para mi negocio? +
+
+Sí. El tipo de actividad, los horarios y las condiciones del espacio ayudan a definir el programa.
+
+¿Qué debo preparar antes de la visita? +
+
+Le indicaremos las medidas que aplican al servicio, incluyendo cualquier precaución para personas y mascotas.
+
+¿Cómo consulto la cobertura? +
+
+Indique su provincia, su cantón y el tipo de espacio. Le confirmaremos si podemos atenderle y cómo coordinar la atención.
+
+¿La evaluación tiene costo? +
+
+Pregúntele al equipo antes de coordinar la visita. El costo y las condiciones dependen de la ubicación y del servicio que necesite.
+
+¿Una visita es suficiente? +
+
+El equipo define el alcance y el seguimiento después de evaluar su situación. Las visitas y condiciones se explican en la propuesta.
 
 ## Cuéntenos qué necesita proteger.
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
 
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
+
+### Truly AI
+
+Asistente virtual · Costa Rica
+
+Cuéntele a Truly AI qué está viendo
+
+Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
+
 Costa Rica · Volcán Arenal
 
 Control de plagas en Costa Rica.
 
-## Guía de plagas
+## Servicios
 
 ## Truly Nolen Costa Rica
 
@@ -796,19 +650,31 @@ Guía de chinches de cama · Costa Rica
 
 En 2017 se encontraron chinches de cama en un apartamento de Heredia, y la Universidad de Costa Rica lo confirmó como el primer caso con métodos moleculares en Centroamérica.
 
+Foto: Truly Nolen (trulynolen.com, Bed Bugs)
+
 Cómo es
 
 ## Un insecto que viaja en el equipaje.
 
-### En Costa Rica
+Tema
+
+Qué significa
+
+01
+
+En Costa Rica
 
 Investigadores de la UCR confirmaron la especie Cimex lectularius en muestras de una cama en Heredia, recogidas en junio de 2017.
 
-### Cómo llegan
+02
+
+Cómo llegan
 
 Se dispersan escondidas en el equipaje, los muebles y las pertenencias.
 
-### Lo que causan
+03
+
+Lo que causan
 
 La familia de Heredia reportó erupción en pies y manos e insomnio por las picaduras. Según los CDC, no se sabe que transmitan enfermedades.
 
@@ -816,15 +682,15 @@ Señales
 
 ## Cómo saber si las tiene.
 
-### Manchas
+Manchas
 
 Manchas de sangre color óxido en el colchón o en los muebles cercanos.
 
-### Mudas
+Mudas
 
 Restos de la piel que dejan al mudar, y chinches en los pliegues del colchón y las sábanas.
 
-### Olor
+Olor
 
 Un olor dulce y mohoso en el cuarto.
 
@@ -834,9 +700,13 @@ Prepare la inspección
 
 Qué hacer
 
+Detalle
+
 Qué mirar
 
-Revise la cama Donde se esconden de día.
+Revise la cama
+
+Donde se esconden de día.
 
 Costuras del colchón y el somier.
 
@@ -844,25 +714,17 @@ Marco y cabecera de la cama.
 
 Grietas y muebles cercanos.
 
-Después de viajar Revise la maleta.
+Después de viajar
+
+Revise la maleta.
 
 Costuras y pliegues del equipaje.
 
-Una foto ayuda Para confirmar qué es.
+Una foto ayuda
+
+Para confirmar qué es.
 
 Del insecto, las manchas o las picaduras.
-
-Cuéntele a Truly AI qué está viendo
-
-## ¿Por dónde empezamos?
-
-Elija una opción y Truly AI le responde aquí mismo, o escríbale lo que está viendo.
-
-### Truly AI
-
-Asistente virtual · Costa Rica
-
-Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Servicios
 
@@ -904,26 +766,6 @@ Pregúntele al equipo antes de coordinar la visita. El costo y las condiciones d
 
 El equipo define el alcance y el seguimiento después de evaluar su situación. Las visitas y condiciones se explican en la propuesta.
 
-Cómo trabajamos
-
-## Cuatro pasos, de la consulta al seguimiento.
-
-### Nos cuenta
-
-Díganos qué vio, dónde y desde cuándo.
-
-### Evaluamos
-
-Revisamos la zona y buscamos qué le da agua, comida y refugio a la plaga.
-
-### Proponemos
-
-Explicamos el plan y las indicaciones antes de comenzar.
-
-### Seguimiento
-
-Las visitas de seguimiento se acuerdan en la propuesta.
-
 Fuentes
 
 ## De dónde sale esta información.
@@ -941,6 +783,16 @@ Truly Nolen · Costa Rica
 ## Cuéntenos qué necesita proteger.
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
+
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
+
+### Truly AI
+
+Asistente virtual · Costa Rica
+
+Cuéntele a Truly AI qué está viendo
+
+Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Costa Rica · Volcán Arenal
 
@@ -970,19 +822,31 @@ Guía de comején · Costa Rica
 
 En Costa Rica se les dice comején a las termitas. Trabajan en silencio dentro de la madera de la casa, la decoración y los muebles.
 
+Foto: Truly Nolen (trulynolen.com, Drywood Termites)
+
 Cómo es
 
 ## Termitas que trabajan en silencio.
 
-### Tres tipos
+Tema
+
+Qué significa
+
+01
+
+Tres tipos
 
 Hay termitas subterráneas, de madera seca y de madera húmeda.
 
-### En Costa Rica
+02
+
+En Costa Rica
 
 La termita de madera seca, Cryptotermes brevis, es el problema más frecuente en las construcciones del país.
 
-### Ni el Teatro Nacional
+03
+
+Ni el Teatro Nacional
 
 En 2006 se documentó que el cedro amargo, el pochote y la quina del Teatro Nacional estaban fuertemente dañados por termitas de madera seca.
 
@@ -990,15 +854,15 @@ Lo que se ha probado en Costa Rica
 
 ## La madera tratada resiste más.
 
-### Preservar con boro
+Preservar con boro
 
 Un estudio del Instituto Tecnológico de Costa Rica comprobó que preservar la madera con sales inorgánicas de boro es altamente efectivo contra el comején de madera seca.
 
-### Teca nacional
+Teca nacional
 
 La misma investigación encontró que la teca de plantaciones del país es altamente resistente a este comején.
 
-### Ninguna es inmune
+Ninguna es inmune
 
 Aun así, la revista Kurú advierte que no hay madera inmune al ataque de estos insectos.
 
@@ -1006,15 +870,15 @@ Señales
 
 ## Cómo saber si lo tiene.
 
-### Bolitas finas
+Bolitas finas
 
 Son su excremento. Cuando las ve, la colonia ya está establecida.
 
-### Enjambres con alas
+Enjambres con alas
 
 A principios de la estación lluviosa salen con alas de sus galerías.
 
-### Silencio
+Silencio
 
 Según la especie, pueden pasar hasta tres años desarrollando una colonia sin mostrar señales.
 
@@ -1024,35 +888,31 @@ Prepare la inspección
 
 Qué hacer
 
+Detalle
+
 Qué mirar
 
-Fotografíe las señales Y anote dónde están.
+Fotografíe las señales
+
+Y anote dónde están.
 
 Bolitas, alas sueltas o madera hueca.
 
 Puertas, marcos, closets y muebles.
 
-Revise la madera La que ya está dañada también cuenta.
+Revise la madera
+
+La que ya está dañada también cuenta.
 
 Zonas que suenan huecas.
 
 Muebles de madera dañados.
 
-No barra las bolitas Ayudan a identificarlo.
+No barra las bolitas
+
+Ayudan a identificarlo.
 
 Déjelas donde están hasta la visita.
-
-Cuéntele a Truly AI qué está viendo
-
-## ¿Por dónde empezamos?
-
-Elija una opción y Truly AI le responde aquí mismo, o escríbale lo que está viendo.
-
-### Truly AI
-
-Asistente virtual · Costa Rica
-
-Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Servicios
 
@@ -1094,26 +954,6 @@ Pregúntele al equipo antes de coordinar la visita. El costo y las condiciones d
 
 El equipo define el alcance y el seguimiento después de evaluar su situación. Las visitas y condiciones se explican en la propuesta.
 
-Cómo trabajamos
-
-## Cuatro pasos, de la consulta al seguimiento.
-
-### Nos cuenta
-
-Díganos qué vio, dónde y desde cuándo.
-
-### Evaluamos
-
-Revisamos la zona y buscamos qué le da agua, comida y refugio a la plaga.
-
-### Proponemos
-
-Explicamos el plan y las indicaciones antes de comenzar.
-
-### Seguimiento
-
-Las visitas de seguimiento se acuerdan en la propuesta.
-
 Fuentes
 
 ## De dónde sale esta información.
@@ -1129,6 +969,16 @@ Truly Nolen · Costa Rica
 ## Cuéntenos qué necesita proteger.
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
+
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
+
+### Truly AI
+
+Asistente virtual · Costa Rica
+
+Cuéntele a Truly AI qué está viendo
+
+Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Costa Rica · Volcán Arenal
 
@@ -1158,6 +1008,8 @@ Guía de cucarachas · Costa Rica
 
 En Costa Rica, varios autores señalan como las más frecuentes en las casas a la cucaracha americana, la australiana, la alemana y la de Madeira.
 
+Foto: Truly Nolen (trulynolen.com)
+
 Lo que se ha medido en Costa Rica
 
 ## También causan alergias.
@@ -1172,15 +1024,25 @@ Cómo es
 
 ## Cuatro especies conocidas.
 
-### Las más frecuentes
+Tema
+
+Qué significa
+
+01
+
+Las más frecuentes
 
 Periplaneta americana, Periplaneta australasiae, Blattella germanica y Rhyparobia maderae (antes Leucophaea maderae).
 
-### Lo que dejan
+02
+
+Lo que dejan
 
 Sus heces, vómitos y restos del exoesqueleto aportan alérgenos al polvo de la casa.
 
-### Grandes infestaciones
+03
+
+Grandes infestaciones
 
 Las cucarachas domésticas pueden producir grandes infestaciones en las viviendas.
 
@@ -1190,35 +1052,31 @@ Prepare la inspección
 
 Qué hacer
 
+Detalle
+
 Qué mirar
 
-Mire de noche Es cuando más salen.
+Mire de noche
+
+Es cuando más salen.
 
 Cocina, baños y desagües.
 
 Detrás de la refrigeradora y la cocina.
 
-Busque rastros Además de los insectos.
+Busque rastros
+
+Además de los insectos.
 
 Puntos negros como pimienta.
 
 Cápsulas de huevos en rincones.
 
-Una foto ayuda Para saber cuál es.
+Una foto ayuda
+
+Para saber cuál es.
 
 El tamaño y el color cambian según la especie.
-
-Cuéntele a Truly AI qué está viendo
-
-## ¿Por dónde empezamos?
-
-Elija una opción y Truly AI le responde aquí mismo, o escríbale lo que está viendo.
-
-### Truly AI
-
-Asistente virtual · Costa Rica
-
-Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Servicios
 
@@ -1260,26 +1118,6 @@ Pregúntele al equipo antes de coordinar la visita. El costo y las condiciones d
 
 El equipo define el alcance y el seguimiento después de evaluar su situación. Las visitas y condiciones se explican en la propuesta.
 
-Cómo trabajamos
-
-## Cuatro pasos, de la consulta al seguimiento.
-
-### Nos cuenta
-
-Díganos qué vio, dónde y desde cuándo.
-
-### Evaluamos
-
-Revisamos la zona y buscamos qué le da agua, comida y refugio a la plaga.
-
-### Proponemos
-
-Explicamos el plan y las indicaciones antes de comenzar.
-
-### Seguimiento
-
-Las visitas de seguimiento se acuerdan en la propuesta.
-
 Fuentes
 
 ## De dónde sale esta información.
@@ -1293,6 +1131,16 @@ Truly Nolen · Costa Rica
 ## Cuéntenos qué necesita proteger.
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
+
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
+
+### Truly AI
+
+Asistente virtual · Costa Rica
+
+Cuéntele a Truly AI qué está viendo
+
+Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Costa Rica · Volcán Arenal
 
@@ -1322,19 +1170,31 @@ Guía de hormigas y zompopas · Costa Rica
 
 Además de las hormigas que entran a la cocina, en Costa Rica están las zompopas, las hormigas cortadoras de hojas que pueden dejar sin hojas un jardín.
 
+Foto: Hans Hillewaert, Wikimedia Commons, licencia CC BY-SA 4.0 (Costa Rica)
+
 Cómo es
 
 ## Zompopas, cada vez más cerca.
 
-### La especie
+Tema
+
+Qué significa
+
+01
+
+La especie
 
 Atta cephalotes es la zompopa más común de Costa Rica y se encuentra en todo el país, en elevaciones medias y bajas.
 
-### Muy común
+02
+
+Muy común
 
 Un investigador de la UCR, citado en un reportaje de 2026, la describe como una plaga de gran relevancia, posiblemente la más común en el país.
 
-### En la ciudad
+03
+
+En la ciudad
 
 El mismo reportaje relaciona su avance en la ciudad con los fragmentos de bosque y áreas verdes que quedan entre las construcciones.
 
@@ -1342,15 +1202,15 @@ Señales
 
 ## Cómo saber si las tiene.
 
-### Caminos de hojas
+Caminos de hojas
 
 Filas de zompopas cargando pedazos de hojas o flores.
 
-### Plantas cortadas
+Plantas cortadas
 
 Un jardín puede quedar arrasado en cuestión de horas.
 
-### Filas en la cocina
+Filas en la cocina
 
 Otras hormigas siguen siempre el mismo camino hacia la comida o el agua.
 
@@ -1360,33 +1220,29 @@ Prepare la inspección
 
 Qué hacer
 
+Detalle
+
 Qué mirar
 
-Siga la fila Hasta donde pueda.
+Siga la fila
+
+Hasta donde pueda.
 
 De dónde vienen.
 
 Hacia dónde van.
 
-Ubique la tierra suelta Puede ser la entrada al nido.
+Ubique la tierra suelta
+
+Puede ser la entrada al nido.
 
 Montículos en el jardín o junto a paredes.
 
-Anote desde cuándo Y qué plantas afectan.
+Anote desde cuándo
+
+Y qué plantas afectan.
 
 Una foto de la fila y de las hojas cortadas ayuda.
-
-Cuéntele a Truly AI qué está viendo
-
-## ¿Por dónde empezamos?
-
-Elija una opción y Truly AI le responde aquí mismo, o escríbale lo que está viendo.
-
-### Truly AI
-
-Asistente virtual · Costa Rica
-
-Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Servicios
 
@@ -1427,26 +1283,6 @@ Pregúntele al equipo antes de coordinar la visita. El costo y las condiciones d
 ¿Una visita es suficiente? +
 
 El equipo define el alcance y el seguimiento después de evaluar su situación. Las visitas y condiciones se explican en la propuesta.
-
-Cómo trabajamos
-
-## Cuatro pasos, de la consulta al seguimiento.
-
-### Nos cuenta
-
-Díganos qué vio, dónde y desde cuándo.
-
-### Evaluamos
-
-Revisamos la zona y buscamos qué le da agua, comida y refugio a la plaga.
-
-### Proponemos
-
-Explicamos el plan y las indicaciones antes de comenzar.
-
-### Seguimiento
-
-Las visitas de seguimiento se acuerdan en la propuesta.
 
 Fuentes
 
@@ -1466,353 +1302,15 @@ Truly Nolen · Costa Rica
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
 
-Costa Rica · Volcán Arenal
-
-Control de plagas en Costa Rica.
-
-## Guía de plagas
-
-## Truly Nolen Costa Rica
-
-## Hablemos
-
-© Truly Nolen · Costa Rica
-
-Converse aquí
-
-<!-- /oficinas/costa-rica/plagas/moscas/ -->
-
-Costa Rica
-
-Servicios ⌄
-
-Plagas ⌄
-
-Guía de moscas · Costa Rica
-
-# Donde hay desechos, llegan las moscas.
-
-La mosca doméstica busca basura y restos de comida. En el campo, la mosca del establo se cría en desechos orgánicos como el rastrojo de piña, y en 2016 provocó una emergencia sanitaria.
-
-Lo que se ha medido en Costa Rica
-
-## Un problema con historia.
-
-de los lotes de moscas domésticas recogidas en San José (Matadero, Mercado y un laboratorio de la UCR) mostró Salmonella.
-
-Revista de Biología Tropical, UCR (1959)
-
-cantones incluidos en la emergencia sanitaria por la mosca del establo en 2016.
-
-Decreto 39902-MAG, según Semanario Universidad (2016)
-
-Cómo es
-
-## Dos moscas distintas.
-
-Tema
-
-Lo que se sabe
-
-Mosca doméstica
-
-La que entra a la casa y al negocio. Un estudio de la UCR encontró Salmonella y Shigella en moscas recogidas en San José.
-
-Mosca del establo
-
-Stomoxys calcitrans pica al ganado y se reproduce en desechos orgánicos como el rastrojo de piña. Se le llama mosca de la piña, aunque un especialista del INTA aclara que es un nombre erróneo.
-
-Cuánto afecta
-
-Con 25 moscas por animal, el ganado pierde cerca de un kilo diario, y la producción de leche baja hasta un 50 %.
-
-Prepare la inspección
-
-## Lo que ayuda al técnico.
-
-Qué hacer
-
-Qué mirar
-
-Ubique la basura Es donde se crían.
-
-Basureros sin tapa.
-
-Restos de comida y desechos orgánicos.
-
-Anote dónde se juntan Y a qué hora.
-
-Cocina, bodega o zona de carga.
-
-Ventanas y puertas abiertas.
-
-En fincas Cuente lo que observa.
-
-Rastrojos, broza o estiércol cerca.
-
-Cuántas moscas ve por animal.
-
-Cuéntele a Truly AI qué está viendo
-
-## ¿Por dónde empezamos?
-
-Elija una opción y Truly AI le responde aquí mismo, o escríbale lo que está viendo.
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
 
 ### Truly AI
 
 Asistente virtual · Costa Rica
 
-Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
-
-Servicios
-
-## Proteja su casa, su negocio o su planta.
-
-### Hogares
-
-Casas, apartamentos y condominios: cocina, baños, perímetro y patio.
-
-### Comercios
-
-Sodas, restaurantes, pulperías, hoteles y oficinas, con la visita coordinada a su horario.
-
-### Industria
-
-Plantas, bodegas y centros de distribución. La norma pide una hoja de servicio por cada aplicación.
-
-Preguntas frecuentes
-
-## Lo que más nos preguntan.
-
-¿Cómo comienza el servicio? +
-
-El equipo revisa su consulta, confirma si podemos atenderle y coordina la evaluación que corresponda.
-
-¿Puedo solicitar atención para mi negocio? +
-
-Sí. El tipo de actividad, los horarios y las condiciones del espacio ayudan a definir el programa.
-
-¿Qué debo preparar antes de la visita? +
-
-Le indicaremos las medidas que aplican al servicio, incluyendo cualquier precaución para personas y mascotas.
-
-¿Cómo consulto la cobertura? +
-
-Indique su provincia, su cantón y el tipo de espacio. Le confirmaremos si podemos atenderle y cómo coordinar la atención.
-
-¿La evaluación tiene costo? +
-
-Pregúntele al equipo antes de coordinar la visita. El costo y las condiciones dependen de la ubicación y del servicio que necesite.
-
-¿Una visita es suficiente? +
-
-El equipo define el alcance y el seguimiento después de evaluar su situación. Las visitas y condiciones se explican en la propuesta.
-
-Cómo trabajamos
-
-## Cuatro pasos, de la consulta al seguimiento.
-
-### Nos cuenta
-
-Díganos qué vio, dónde y desde cuándo.
-
-### Evaluamos
-
-Revisamos la zona y buscamos qué le da agua, comida y refugio a la plaga.
-
-### Proponemos
-
-Explicamos el plan y las indicaciones antes de comenzar.
-
-### Seguimiento
-
-Las visitas de seguimiento se acuerdan en la propuesta.
-
-Fuentes
-
-## De dónde sale esta información.
-
-Cada dato de esta página viene de una fuente pública que usted puede revisar.
-
-Bolaños, R. (1959). Frecuencia de Salmonella y Shigella en moscas domésticas colectadas en la ciudad de San José. Revista de Biología Tropical, UCR
-
-Semanario Universidad (12-oct-2016). Brote de moscas hematófagas genera emergencia sanitaria
-
-Truly Nolen · Costa Rica
-
-## Cuéntenos qué necesita proteger.
-
-Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
-
-Costa Rica · Volcán Arenal
-
-Control de plagas en Costa Rica.
-
-## Guía de plagas
-
-## Truly Nolen Costa Rica
-
-## Hablemos
-
-© Truly Nolen · Costa Rica
-
-Converse aquí
-
-<!-- /oficinas/costa-rica/plagas/pulgas-y-garrapatas/ -->
-
-Costa Rica
-
-Servicios ⌄
-
-Plagas ⌄
-
-Guía de pulgas y garrapatas · Costa Rica
-
-# Llegan con la mascota y se quedan en la casa.
-
-En Costa Rica, la garrapata del perro es la principal transmisora de enfermedades a las mascotas, y las pulgas y garrapatas se propagan más en la época seca.
-
-Cómo es
-
-## Un riesgo para su mascota.
-
-### La garrapata del perro
-
-Rhipicephalus sanguineus es la principal transmisora de enfermedades en Costa Rica, según un veterinario investigador citado por Teletica (2026).
-
-### Ehrlichiosis
-
-Provoca fiebre, hemorragias y daño en distintos órganos, y los casos graves pueden causar la muerte. La UNA la describe como muy común a nivel nacional.
-
-### Época seca
-
-Según la Escuela de Medicina Veterinaria de la UNA, pulgas y garrapatas tienden a propagarse más en la época seca.
-
-Prevención
-
-## Lo que recomiendan los veterinarios.
-
-### Todo el año
-
-Usar productos para el control de garrapatas durante todo el año.
-
-### Después de pasear
-
-Revisar a los perros después de visitar fincas, potreros, playas o zonas con mucha vegetación.
-
-### En la casa
-
-Si el perro duerme en un sillón de tela, aspirar el área tres veces a la semana: ahí se concentran las pupas de las pulgas.
-
-Prepare la inspección
-
-## Lo que ayuda al técnico.
-
-Qué hacer
-
-Qué mirar
-
-Dónde duerme la mascota Es el primer lugar a revisar.
-
-Camas, sillones y alfombras.
-
-Rincones y grietas cerca.
-
-El patio Por donde entran.
-
-Zacate alto y zonas con sombra.
-
-Con su veterinario La mascota también se trata.
-
-Cuéntenos si ya recibe tratamiento.
-
 Cuéntele a Truly AI qué está viendo
 
-## ¿Por dónde empezamos?
-
-Elija una opción y Truly AI le responde aquí mismo, o escríbale lo que está viendo.
-
-### Truly AI
-
-Asistente virtual · Costa Rica
-
 Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
-
-Servicios
-
-## Proteja su casa o su negocio.
-
-### Hogares
-
-Casas, apartamentos y condominios: cocina, baños, perímetro y patio.
-
-### Comercios
-
-Sodas, restaurantes, pulperías, hoteles y oficinas, con la visita coordinada a su horario.
-
-Preguntas frecuentes
-
-## Lo que más nos preguntan.
-
-¿Cómo comienza el servicio? +
-
-El equipo revisa su consulta, confirma si podemos atenderle y coordina la evaluación que corresponda.
-
-¿Puedo solicitar atención para mi negocio? +
-
-Sí. El tipo de actividad, los horarios y las condiciones del espacio ayudan a definir el programa.
-
-¿Qué debo preparar antes de la visita? +
-
-Le indicaremos las medidas que aplican al servicio, incluyendo cualquier precaución para personas y mascotas.
-
-¿Cómo consulto la cobertura? +
-
-Indique su provincia, su cantón y el tipo de espacio. Le confirmaremos si podemos atenderle y cómo coordinar la atención.
-
-¿La evaluación tiene costo? +
-
-Pregúntele al equipo antes de coordinar la visita. El costo y las condiciones dependen de la ubicación y del servicio que necesite.
-
-¿Una visita es suficiente? +
-
-El equipo define el alcance y el seguimiento después de evaluar su situación. Las visitas y condiciones se explican en la propuesta.
-
-Cómo trabajamos
-
-## Cuatro pasos, de la consulta al seguimiento.
-
-### Nos cuenta
-
-Díganos qué vio, dónde y desde cuándo.
-
-### Evaluamos
-
-Revisamos la zona y buscamos qué le da agua, comida y refugio a la plaga.
-
-### Proponemos
-
-Explicamos el plan y las indicaciones antes de comenzar.
-
-### Seguimiento
-
-Las visitas de seguimiento se acuerdan en la propuesta.
-
-Fuentes
-
-## De dónde sale esta información.
-
-Cada dato de esta página viene de una fuente pública que usted puede revisar.
-
-Teletica (18-jul-2026). Nuevo virus detectado en garrapatas en Costa Rica: cómo afecta a sus mascotas
-
-El Mundo CR (25-nov-2018). Pulgas y garrapatas proliferan en verano, señala Escuela de Veterinaria de la UNA
-
-Truly Nolen · Costa Rica
-
-## Cuéntenos qué necesita proteger.
-
-Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
 
 Costa Rica · Volcán Arenal
 
@@ -1842,6 +1340,8 @@ Guía de ratas y ratones · Costa Rica
 
 Ratas y ratones buscan comida, agua y refugio en la casa o el negocio. En Costa Rica, las ratas están entre los reservorios más frecuentes de la leptospirosis.
 
+Foto: Truly Nolen (trulynolen.com, Norway Rats)
+
 Lo que se ha medido en Costa Rica
 
 ## Roedores cerca de los casos.
@@ -1854,15 +1354,25 @@ Por qué importa
 
 ## Un riesgo para la salud.
 
-### Reservorio
+Tema
+
+Qué significa
+
+01
+
+Reservorio
 
 El Ministerio de Salud menciona a las ratas entre los animales donde la leptospira se encuentra con más frecuencia.
 
-### Cómo se transmite
+02
+
+Cómo se transmite
 
 Por contacto con la orina de animales infectados, o con agua estancada, tierra o alimentos contaminados.
 
-### Prevención
+03
+
+Prevención
 
 El protocolo nacional incluye proteger los alimentos, eliminar la basura y controlar los roedores.
 
@@ -1870,15 +1380,15 @@ Señales
 
 ## Cómo saber si las tiene.
 
-### Excrementos
+Excrementos
 
 Pequeños y oscuros, cerca de la comida, en gavetas o junto a las paredes.
 
-### Roeduras
+Roeduras
 
 Bolsas, empaques, cables o madera mordidos.
 
-### Ruidos de noche
+Ruidos de noche
 
 Movimiento en el cielorraso, las paredes o la bodega.
 
@@ -1888,33 +1398,29 @@ Prepare la inspección
 
 Qué hacer
 
+Detalle
+
 Qué mirar
 
-Anote dónde Las señales y los lugares.
+Anote dónde
+
+Las señales y los lugares.
 
 Cocina, bodega y cielorraso.
 
 Basureros y accesos exteriores.
 
-Guarde la comida En recipientes cerrados.
+Guarde la comida
+
+En recipientes cerrados.
 
 Granos, pan y alimento de mascotas.
 
-Con cuidado No toque los excrementos con las manos.
+Con cuidado
+
+No toque los excrementos con las manos.
 
 Use guantes si debe limpiar.
-
-Cuéntele a Truly AI qué está viendo
-
-## ¿Por dónde empezamos?
-
-Elija una opción y Truly AI le responde aquí mismo, o escríbale lo que está viendo.
-
-### Truly AI
-
-Asistente virtual · Costa Rica
-
-Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Servicios
 
@@ -1956,26 +1462,6 @@ Pregúntele al equipo antes de coordinar la visita. El costo y las condiciones d
 
 El equipo define el alcance y el seguimiento después de evaluar su situación. Las visitas y condiciones se explican en la propuesta.
 
-Cómo trabajamos
-
-## Cuatro pasos, de la consulta al seguimiento.
-
-### Nos cuenta
-
-Díganos qué vio, dónde y desde cuándo.
-
-### Evaluamos
-
-Revisamos la zona y buscamos qué le da agua, comida y refugio a la plaga.
-
-### Proponemos
-
-Explicamos el plan y las indicaciones antes de comenzar.
-
-### Seguimiento
-
-Las visitas de seguimiento se acuerdan en la propuesta.
-
 Fuentes
 
 ## De dónde sale esta información.
@@ -1991,6 +1477,16 @@ Truly Nolen · Costa Rica
 ## Cuéntenos qué necesita proteger.
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
+
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
+
+### Truly AI
+
+Asistente virtual · Costa Rica
+
+Cuéntele a Truly AI qué está viendo
+
+Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Costa Rica · Volcán Arenal
 
@@ -2020,6 +1516,8 @@ Guía de zancudos · Costa Rica
 
 El zancudo del dengue, Aedes aegypti, se cría en los recipientes donde se guarda agua. En Costa Rica los casos de dengue aumentaron en 2026, según el Ministerio de Salud.
 
+Foto: Federico Figueroa Cabezas, iNaturalist, licencia CC BY (Costa Rica, 2022)
+
 Costa Rica en 2026
 
 ## El dengue sigue activo.
@@ -2038,15 +1536,25 @@ Cómo es
 
 ## Un zancudo que pica de día.
 
-### El del dengue
+Tema
+
+Qué significa
+
+01
+
+El del dengue
 
 El virus del dengue se transmite por la picadura de hembras infectadas, principalmente de Aedes aegypti.
 
-### De día
+02
+
+De día
 
 Los mosquitos que transmiten el dengue están activos durante el día.
 
-### Lo que pide el Ministerio
+03
+
+Lo que pide el Ministerio
 
 Revisar seguido patios, jardines y lotes, y eliminar recipientes y objetos que acumulen agua, como llantas, botellas y latas.
 
@@ -2056,35 +1564,31 @@ Prepare la inspección
 
 Qué hacer
 
+Detalle
+
 Qué mirar
 
-Recorra el patio Y anote dónde hay agua quieta.
+Recorra el patio
+
+Y anote dónde hay agua quieta.
 
 Baldes, pilas, macetas y llantas.
 
 Canoas tapadas y desagües.
 
-Anote las horas Cuándo pican más.
+Anote las horas
+
+Cuándo pican más.
 
 En la mañana o al final de la tarde.
 
 Dentro o fuera de la casa.
 
-No espere Vacíe y tape lo que pueda.
+No espere
+
+Vacíe y tape lo que pueda.
 
 Cada semana, sin falta.
-
-Cuéntele a Truly AI qué está viendo
-
-## ¿Por dónde empezamos?
-
-Elija una opción y Truly AI le responde aquí mismo, o escríbale lo que está viendo.
-
-### Truly AI
-
-Asistente virtual · Costa Rica
-
-Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Servicios
 
@@ -2126,26 +1630,6 @@ Pregúntele al equipo antes de coordinar la visita. El costo y las condiciones d
 
 El equipo define el alcance y el seguimiento después de evaluar su situación. Las visitas y condiciones se explican en la propuesta.
 
-Cómo trabajamos
-
-## Cuatro pasos, de la consulta al seguimiento.
-
-### Nos cuenta
-
-Díganos qué vio, dónde y desde cuándo.
-
-### Evaluamos
-
-Revisamos la zona y buscamos qué le da agua, comida y refugio a la plaga.
-
-### Proponemos
-
-Explicamos el plan y las indicaciones antes de comenzar.
-
-### Seguimiento
-
-Las visitas de seguimiento se acuerdan en la propuesta.
-
 Fuentes
 
 ## De dónde sale esta información.
@@ -2163,6 +1647,16 @@ Truly Nolen · Costa Rica
 ## Cuéntenos qué necesita proteger.
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
+
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
+
+### Truly AI
+
+Asistente virtual · Costa Rica
+
+Cuéntele a Truly AI qué está viendo
+
+Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Costa Rica · Volcán Arenal
 
@@ -2195,6 +1689,16 @@ Lo que usted escriba en el chat de este sitio o por WhatsApp lo recibe y respond
 ## Cuéntenos qué necesita proteger.
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
+
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
+
+### Truly AI
+
+Asistente virtual · Costa Rica
+
+Cuéntele a Truly AI qué está viendo
+
+Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Costa Rica · Volcán Arenal
 
@@ -2252,9 +1756,15 @@ Cada tipo de negocio tiene sus puntos críticos. La inspección los reconoce y d
 
 Tipo de negocio
 
+Detalle
+
 Puntos críticos
 
-Sodas, restaurantes y panaderías Desde que entra la mercadería hasta que sale el plato.
+01
+
+Sodas, restaurantes y panaderías
+
+Desde que entra la mercadería hasta que sale el plato.
 
 Sacos, cajas y bodega de alimentos.
 
@@ -2262,7 +1772,11 @@ Cocinas, hornos y zonas cálidas.
 
 Desagües y trampas de grasa.
 
-Pulperías y supermercados Mercadería que entra y sale todos los días.
+02
+
+Pulperías y supermercados
+
+Mercadería que entra y sale todos los días.
 
 Recepción de cajas y tarimas.
 
@@ -2270,7 +1784,11 @@ Estantes y bodega.
 
 Accesos de servicio y basura.
 
-Hoteles y oficinas Habitaciones, oficinas y áreas del personal.
+03
+
+Hoteles y oficinas
+
+Habitaciones, oficinas y áreas del personal.
 
 Habitaciones, salas y cocinas del personal.
 
@@ -2318,25 +1836,15 @@ Por qué importa
 
 ## En un negocio de alimentos, una plaga es un riesgo de salud.
 
-### Alérgenos en el polvo
+Qué significa
+
+Alérgenos en el polvo
 
 Las heces, los vómitos y los restos del exoesqueleto de las cucarachas aportan alérgenos al polvo.
 
-### Roedores
+Roedores
 
 El protocolo nacional de leptospirosis incluye la protección de alimentos, la eliminación de basuras y el control de roedores.
-
-Cuéntele a Truly AI qué está viendo
-
-## ¿Por dónde empezamos?
-
-Elija una opción y Truly AI le responde aquí mismo, o escríbale lo que está viendo.
-
-### Truly AI
-
-Asistente virtual · Costa Rica
-
-Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Guía de plagas
 
@@ -2344,23 +1852,35 @@ Guía de plagas
 
 ### Ratas y ratones
 
+Guía de ratas y ratones
+
+Ratas y ratones buscan comida, agua y refugio en la casa o el negocio.
+
 ### Cucarachas
 
+Guía de cucarachas
+
+En Costa Rica, varios autores señalan como las más frecuentes en las casas a la cucaracha americana, la australiana, la alemana y la de Madeira.
+
 ### Hormigas y zompopas
+
+Guía de hormigas y zompopas
+
+Además de las hormigas que entran a la cocina, en Costa Rica están las zompopas, las hormigas cortadoras de hojas que pueden dejar sin hojas un jardín.
 
 Antes de conversar
 
 ## Qué conviene contarnos.
 
-### Su actividad
+Su actividad
 
 Cuéntenos a qué se dedica su negocio y qué espacios necesita revisar.
 
-### Sus horarios
+Sus horarios
 
 Indique los horarios de atención al público y cuándo podría recibir al equipo.
 
-### Su consulta
+Su consulta
 
 Señale dónde ve actividad y si hay requisitos de acceso que debamos conocer.
 
@@ -2380,26 +1900,6 @@ Tengo varias sucursales. ¿Cómo se organiza? +
 
 Se acuerda el alcance de cada local en la propuesta. Cada aplicación deja su hoja de servicio, como pide el Decreto 38335-S-MTSS.
 
-Cómo trabajamos
-
-## Cuatro pasos, de la consulta al seguimiento.
-
-### Nos cuenta
-
-Díganos qué vio, dónde y desde cuándo.
-
-### Evaluamos
-
-Revisamos la zona y buscamos qué le da agua, comida y refugio a la plaga.
-
-### Proponemos
-
-Explicamos el plan y las indicaciones antes de comenzar.
-
-### Seguimiento
-
-Las visitas de seguimiento se acuerdan en la propuesta.
-
 Fuentes
 
 ## De dónde sale esta información.
@@ -2417,6 +1917,16 @@ Truly Nolen · Costa Rica
 ## Cuéntenos qué necesita proteger.
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
+
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
+
+### Truly AI
+
+Asistente virtual · Costa Rica
+
+Cuéntele a Truly AI qué está viendo
+
+Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Costa Rica · Volcán Arenal
 
@@ -2464,17 +1974,15 @@ Recomendaciones para que no vuelvan a entrar y visitas de seguimiento según el 
 
 Antes de empezar recibe una propuesta con el alcance y las condiciones para su casa.
 
-Protocolo de tres zonas
+Tres zonas para revisar
 
-## Tres zonas: interior, perímetro y patio.
+## Revisamos adentro, el perímetro y el patio.
 
-El programa divide su casa en tres áreas que se complementan. La inspección define qué hace falta en cada una.
+El perímetro es por donde entran. Díganos dónde ve la plaga.
 
-Zona
+### Interior
 
-Qué se revisa
-
-01 · Interior Donde vive y guarda la comida.
+Donde vive y guarda la comida.
 
 Debajo del fregadero y detrás de la refrigeradora.
 
@@ -2482,7 +1990,9 @@ Baños, desagües y filtraciones.
 
 Dónde y a qué hora ha visto actividad.
 
-02 · Perímetro Por donde entran.
+### Perímetro
+
+Por donde entran.
 
 Puertas, ventanas y verjas.
 
@@ -2490,7 +2000,9 @@ Grietas y pasos de tuberías.
 
 Lo que está guardado junto a las paredes.
 
-03 · Patio y áreas verdes Lo que rodea la casa.
+### Patio y áreas verdes
+
+Lo que rodea la casa.
 
 Jardín, macetas y plantas.
 
@@ -2498,59 +2010,59 @@ Canoas, pilas, baldes y cualquier recipiente con agua.
 
 Escombros, leña y hojarasca acumulados.
 
-Cuéntele a Truly AI qué está viendo
-
-## ¿Por dónde empezamos?
-
-Elija una opción y Truly AI le responde aquí mismo, o escríbale lo que está viendo.
-
-### Truly AI
-
-Asistente virtual · Costa Rica
-
-Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
-
 Lo que hay que saber en Costa Rica
 
 ## Las plagas que más vemos en casa.
 
 ### Zancudos
 
+Guía de zancudos
+
 El Aedes aegypti transmite el dengue y se cría en los recipientes donde se guarda agua. A la semana 40 de 2026 el Ministerio de Salud contaba 5.814 casos, más que los 3.798 de la misma semana de 2025.
 
 ### Ratas y ratones
+
+Guía de ratas y ratones
 
 El Ministerio de Salud señala a las ratas entre los reservorios más frecuentes de la leptospirosis, que se transmite por la orina de animales infectados.
 
 ### Cucarachas
 
+Guía de cucarachas
+
 Varios autores señalan como las más frecuentes en las casas a la cucaracha americana, la australiana, la alemana y la de Madeira.
 
 ### Comején
 
+Guía de comején
+
 Así se les dice a las termitas. La de madera seca es el problema más frecuente en las construcciones del país.
 
-### Dónde empieza la revisión
-
-Cocina, baños, recipientes con agua, techos y patios: ahí se buscan las señales y lo que favorece a cada plaga.
-
-Guía de plagas
-
-## Conozca cada plaga en su guía.
+Dónde empieza la revisión. Cocina, baños, recipientes con agua, techos y patios: ahí se buscan las señales y lo que favorece a cada plaga.
 
 Antes de conversar
 
 ## Qué conviene contarnos.
 
-### Su espacio
+Tema
+
+Qué significa
+
+01
+
+Su espacio
 
 Indique si es una casa o un apartamento y qué ambientes requieren atención.
 
-### Su rutina
+02
+
+Su rutina
 
 Cuéntenos qué horarios le quedan cómodos para una visita.
 
-### Lo que observa
+03
+
+Lo que observa
 
 Describa las señales y desde cuándo las nota. Puede mencionar si hay niños o mascotas.
 
@@ -2574,26 +2086,6 @@ El equipo define el alcance y el seguimiento después de evaluar su situación. 
 
 Escríbale a Truly AI su provincia, su cantón y el tipo de espacio. Le confirmaremos si podemos atenderle y cómo coordinar la atención.
 
-Cómo trabajamos
-
-## Cuatro pasos, de la consulta al seguimiento.
-
-### Nos cuenta
-
-Díganos qué vio, dónde y desde cuándo.
-
-### Evaluamos
-
-Revisamos la zona y buscamos qué le da agua, comida y refugio a la plaga.
-
-### Proponemos
-
-Explicamos el plan y las indicaciones antes de comenzar.
-
-### Seguimiento
-
-Las visitas de seguimiento se acuerdan en la propuesta.
-
 Fuentes
 
 ## De dónde sale esta información.
@@ -2616,11 +2108,23 @@ Truly Nolen · Costa Rica
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
 
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
+
+### Truly AI
+
+Asistente virtual · Costa Rica
+
+Cuéntele a Truly AI qué está viendo
+
+Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
+
 Costa Rica · Volcán Arenal
 
 Control de plagas en Costa Rica.
 
 ## Servicios
+
+## Guía de plagas
 
 ## Truly Nolen Costa Rica
 
@@ -2670,9 +2174,15 @@ La inspección recorre la operación en el mismo orden que la mercancía.
 
 Zona
 
+Detalle
+
 Qué se revisa
 
-Recepción y bodega Donde entra la materia prima.
+01
+
+Recepción y bodega
+
+Donde entra la materia prima.
 
 Tarimas, sacos y empaques.
 
@@ -2680,7 +2190,11 @@ Puertas de carga y andenes.
 
 Orden y separación de las paredes.
 
-Proceso Donde el control se coordina con la producción.
+02
+
+Proceso
+
+Donde el control se coordina con la producción.
 
 Turnos y paradas de línea.
 
@@ -2688,7 +2202,11 @@ Desagües y zonas húmedas.
 
 Requisitos de acceso del personal.
 
-Perímetro Lo que rodea a la planta.
+03
+
+Perímetro
+
+Lo que rodea a la planta.
 
 Zonas verdes y drenajes.
 
@@ -2718,19 +2236,7 @@ Quién la guarda
 
 El original es para el cliente y la copia queda con la empresa como comprobante. Las autoridades pueden solicitarla.
 
-Pregunte lo que aplica a su caso: Cada industria tiene sus propios requisitos de inocuidad y auditoría. Cuéntenos cuáles le piden para preparar la propuesta.
-
-Cuéntele a Truly AI qué está viendo
-
-## ¿Por dónde empezamos?
-
-Elija una opción y Truly AI le responde aquí mismo, o escríbale lo que está viendo.
-
-### Truly AI
-
-Asistente virtual · Costa Rica
-
-Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
+Pregunte lo que aplica a su caso. Cada industria tiene sus propios requisitos de inocuidad y auditoría. Cuéntenos cuáles le piden para preparar la propuesta.
 
 Guía de plagas
 
@@ -2738,23 +2244,37 @@ Guía de plagas
 
 ### Ratas y ratones
 
+Guía de ratas y ratones
+
+Ratas y ratones buscan comida, agua y refugio en la casa o el negocio.
+
 ### Cucarachas
 
+Guía de cucarachas
+
+En Costa Rica, varios autores señalan como las más frecuentes en las casas a la cucaracha americana, la australiana, la alemana y la de Madeira.
+
 ### Comején
+
+Guía de comején
+
+En Costa Rica se les dice comején a las termitas.
 
 Antes de conversar
 
 ## Qué conviene contarnos.
 
-### Su operación
+Qué significa
+
+Su operación
 
 Qué produce o almacena, cuántos turnos tiene y qué áreas necesita incluir.
 
-### Sus requisitos
+Sus requisitos
 
 Las auditorías, certificaciones o clientes que le piden documentación de control de plagas.
 
-### Lo que observa
+Lo que observa
 
 Dónde ha visto actividad y desde cuándo.
 
@@ -2774,26 +2294,6 @@ Tenemos varias plantas. ¿Cómo se organiza? +
 
 Se acuerda el alcance de cada instalación en la propuesta, con su propio registro.
 
-Cómo trabajamos
-
-## Cuatro pasos, de la consulta al seguimiento.
-
-### Nos cuenta
-
-Díganos qué vio, dónde y desde cuándo.
-
-### Evaluamos
-
-Revisamos la zona y buscamos qué le da agua, comida y refugio a la plaga.
-
-### Proponemos
-
-Explicamos el plan y las indicaciones antes de comenzar.
-
-### Seguimiento
-
-Las visitas de seguimiento se acuerdan en la propuesta.
-
 Fuentes
 
 ## De dónde sale esta información.
@@ -2807,6 +2307,16 @@ Truly Nolen · Costa Rica
 ## Cuéntenos qué necesita proteger.
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
+
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
+
+### Truly AI
+
+Asistente virtual · Costa Rica
+
+Cuéntele a Truly AI qué está viendo
+
+Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Costa Rica · Volcán Arenal
 
@@ -2840,25 +2350,27 @@ La información de este sitio es general. Los servicios, la cobertura, los preci
 
 Algunas fotos de este sitio se usan con licencia libre:
 
-«Modern kitchen design featuring minimalistic elements, warm lighting, and high-end appliances in a contemporary setting», de Shixart1985, Wikimedia Commons, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+Zompopas (Atta cephalotes, Costa Rica): foto de Hans Hillewaert, Wikimedia Commons, licencia CC BY-SA 4.0
 
-«Modern kitchen and dining area in a bright apartment on a sunny day with simple decor and furniture», de Shixart1985, Wikimedia Commons, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+Nido de comején en Costa Rica (portada del blog): foto de ImagePerson, Wikimedia Commons, licencia CC BY 4.0
 
-«Modern cafe interior design with empty tables and stylish decor located in an urban area», de Shixart1985, Wikimedia Commons, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+Zancudo Aedes aegypti en Costa Rica (guía de zancudos y blog): foto de Federico Figueroa Cabezas, iNaturalist, licencia CC BY 4.0
 
-«Distribution centre (J Sainsbury's)», de Nick Saltmarsh, Wikimedia Commons, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
-
-«Atta cephalotes (Costa Rica) 2», de Hans Hillewaert, Wikimedia Commons, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-
-Chinche de cama: dibujo de John Curtis, British Entomology, vol. 7, lámina 569 (1836), dominio público, Wikimedia Commons
-
-Portada del blog: ImagePerson, Termite Nest Costa Rica, Wikimedia Commons, licencia CC BY 4.0
-
-Portada del blog: Federico Figueroa Cabezas, Aedes aegypti en Costa Rica, iNaturalist, licencia CC BY 4.0
+Comején, ratas, cucarachas y chinches de cama: fotos de Truly Nolen (trulynolen.com)
 
 ## Cuéntenos qué necesita proteger.
 
 Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.
+
+Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso. Consultar mi zona
+
+### Truly AI
+
+Asistente virtual · Costa Rica
+
+Cuéntele a Truly AI qué está viendo
+
+Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.
 
 Costa Rica · Volcán Arenal
 

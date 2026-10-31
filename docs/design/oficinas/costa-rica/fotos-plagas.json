@@ -1,0 +1,56 @@
+[
+  {
+    "plaga": "comejen",
+    "file": "sitio/oficinas/costa-rica/assets/cr-plaga-comejen-foto.webp",
+    "alt": "Soldado de termita de madera seca junto a sus bolitas de excremento",
+    "original": "688x420",
+    "credito": "Truly Nolen (trulynolen.com, Drywood Termites)",
+    "pagina": "https://www.trulynolen.com/termite-control/drywood-termites/",
+    "archivo": "https://www.trulynolen.com/u_media/bc16949f77d0490489c51e1bc18ab9ba.jpg"
+  },
+  {
+    "plaga": "ratas-y-ratones",
+    "file": "sitio/oficinas/costa-rica/assets/cr-plaga-ratas-y-ratones-foto.webp",
+    "alt": "Rata parda junto a una pared de ladrillo",
+    "original": "688x447",
+    "credito": "Truly Nolen (trulynolen.com, Norway Rats)",
+    "pagina": "https://www.trulynolen.com/rodent-control/norway-rats/",
+    "archivo": "https://www.trulynolen.com/u_media/1b1d83eed4d04495901b063575923810.jpeg"
+  },
+  {
+    "plaga": "cucarachas",
+    "file": "sitio/oficinas/costa-rica/assets/cr-plaga-cucarachas-foto.webp",
+    "alt": "Cucaracha americana sobre una tela amarilla",
+    "original": "688x447",
+    "credito": "Truly Nolen (trulynolen.com)",
+    "pagina": "https://www.trulynolen.com/pest-control/mosquitoes/",
+    "archivo": "https://www.trulynolen.com/u_media/bd7a37aa0cbe4fa28eb0989ce7da6503.jpg"
+  },
+  {
+    "plaga": "chinches-de-cama",
+    "file": "sitio/oficinas/costa-rica/assets/cr-plaga-chinches-de-cama-foto.webp",
+    "alt": "Chinche de cama de cerca, sobre una tela",
+    "original": "688x447",
+    "credito": "Truly Nolen (trulynolen.com, Bed Bugs)",
+    "pagina": "https://www.trulynolen.com/pest-control/bed-bugs/",
+    "archivo": "https://www.trulynolen.com/u_media/2718471b8a154b69a1b426a88d17e20e.jpg"
+  },
+  {
+    "plaga": "zancudos",
+    "file": "sitio/oficinas/costa-rica/assets/cr-plaga-zancudos-foto.webp",
+    "alt": "Zancudo Aedes aegypti, con sus patas de franjas blancas, sobre una hoja en Costa Rica",
+    "original": "2000x1328",
+    "credito": "Federico Figueroa Cabezas, iNaturalist, licencia CC BY (Costa Rica, 2022)",
+    "pagina": "https://www.inaturalist.org/observations/134488408",
+    "archivo": "https://www.inaturalist.org/photos/229239357"
+  },
+  {
+    "plaga": "hormigas-y-zompopas",
+    "file": "sitio/oficinas/costa-rica/assets/cr-plaga-hormigas-y-zompopas-foto.webp",
+    "alt": "Zompopas Atta cephalotes cargando pedazos de hoja",
+    "original": "1861x1396",
+    "credito": "Hans Hillewaert, Wikimedia Commons, licencia CC BY-SA 4.0 (Costa Rica)",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Atta_cephalotes_(Costa_Rica)_2.jpg",
+    "archivo": "https://commons.wikimedia.org/wiki/File:Atta_cephalotes_(Costa_Rica)_2.jpg"
+  }
+]
