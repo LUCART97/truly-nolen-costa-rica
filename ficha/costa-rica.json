@@ -59,7 +59,7 @@
       {
         "plaga": "cucarachas",
         "titulo": "Limpie el polvo donde se esconden",
-        "texto": "Las heces, los vómitos y los restos de las cucarachas aportan alérgenos al polvo de la casa. En un estudio con pacientes alérgicos de Costa Rica, el 68 % reaccionó a por lo menos un extracto de cucaracha.",
+        "texto": "Las heces, los vómitos y los restos de las cucarachas aportan alérgenos al polvo de la casa. En un estudio con pacientes alérgicos de Costa Rica, el 68 % reaccionó a por lo menos un extracto de cucaracha.",
         "fuente": "Revista Costarricense de Salud Pública"
       },
       {
@@ -145,13 +145,13 @@
   },
   "inicio": {
     "h1": "Pura vida en casa, sin plagas.",
-    "intro": "Prevención y atención para compartir su hogar con tranquilidad.",
+    "intro": "Le explicamos qué plaga tiene, qué la atrae y qué hacer primero.",
     "cta": "Conversemos",
     "descubre": "Descubra el cuidado Truly Nolen ↓",
     "serviciosTitulo": "Control de plagas para su casa, negocio e industria.",
-    "serviciosTexto": "Elija el espacio que necesita proteger. La evaluación ayuda a definir el plan, las indicaciones y el seguimiento.",
-    "nosotrosTitulo": "El cuidado está en cada detalle.",
-    "nosotrosTexto": "Conocer su situación es el punto de partida. Así puede entender qué necesita su espacio y conversar con el equipo con claridad.",
+    "serviciosTexto": "Elija dónde tiene el problema: su casa, su negocio o su planta.",
+    "nosotrosTitulo": "Una plaga se ve por los detalles.",
+    "nosotrosTexto": "Bolitas finas, excrementos, zancudos que pican de día: con esas señales empezamos.",
     "beneficios": [
       [
         "gt-benefit-personal.png",
@@ -184,8 +184,8 @@
         "Avísenos de cualquier cambio que note para orientarle en el siguiente paso."
       ]
     ],
-    "casaTitulo": "Su casa es más que cuatro paredes.",
-    "casaTexto": "Cada zona aporta información para evaluar lo que ocurre. Comparta dónde ve actividad y qué espacios necesita revisar.",
+    "casaTitulo": "Revisamos adentro, el perímetro y el patio.",
+    "casaTexto": "El perímetro es por donde entran. Díganos dónde ve la plaga.",
     "casaZonas": [
       [
         "Interior",
@@ -201,13 +201,13 @@
       ]
     ],
     "casaLink": "Conozca la atención residencial",
-    "operacionTitulo": "Su operación tiene su propio ritmo.",
+    "operacionTitulo": "En un negocio, la visita se acomoda a su horario.",
     "operacionTexto": "Restaurantes, sodas, hoteles, supermercados, oficinas y plantas necesitan una evaluación que considere sus horarios, actividad y requisitos de documentación.",
     "operacionBotones": [
       "Conozca la atención comercial",
       "Conozca la atención industrial"
     ],
-    "coberturaTitulo": "La atención empieza por su ubicación.",
+    "coberturaTitulo": "¿En qué provincia y cantón está?",
     "coberturaTexto": "Comparta su provincia y su cantón para revisar si podemos atenderle y coordinar el siguiente paso.",
     "coberturaPrompt": "Quiero saber si atienden en mi zona. Mi provincia y cantón: ",
     "consultaTitulo": "¿Qué necesita proteger?",
@@ -229,20 +229,20 @@
   },
   "metodo": [
     [
-      "Escuchamos",
-      "Cuéntenos qué observa y qué necesita proteger."
+      "Nos cuenta",
+      "Díganos qué vio, dónde y desde cuándo."
     ],
     [
       "Evaluamos",
-      "Revisamos el espacio y las condiciones que favorecen la actividad."
+      "Revisamos la zona y buscamos qué le da agua, comida y refugio a la plaga."
     ],
     [
       "Proponemos",
       "Explicamos el plan y las indicaciones antes de comenzar."
     ],
     [
-      "Acompañamos",
-      "El seguimiento se define según las necesidades de su servicio."
+      "Seguimiento",
+      "Las visitas de seguimiento se acuerdan en la propuesta."
     ]
   ],
   "faq": [
@@ -273,11 +273,11 @@
   ],
   "textos": {
     "contactoTitulo": "Cuéntenos qué necesita proteger.",
-    "contactoTexto": "La atención comienza con una conversación. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.",
+    "contactoTexto": "Todo empieza con contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.",
     "consultaDetalleTexto": "Elija una opción y Truly AI le responde aquí mismo, o escríbale lo que está viendo.",
     "nota": "Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.",
     "fuentesNota": "Cada dato de esta página viene de una fuente pública que usted puede revisar.",
-    "footerLema": "Cuidamos lo que<br/>más le importa.",
+    "footerLema": "Control de plagas<br/>en Costa Rica.",
     "chatSaludo": "¡Hola! Soy Truly AI, de Truly Nolen Costa Rica. Cuénteme qué necesita proteger y le oriento en el siguiente paso.",
     "chatCampo": "Escríbale a Truly AI…",
     "chatInvitaSub": "Truly AI le responde al instante",
@@ -299,11 +299,11 @@
       {
         "slug": "hogares",
         "titulo": "Hogares",
-        "resumen": "Prevención para los espacios que comparte cada día.",
+        "resumen": "Casas, apartamentos y condominios: cocina, baños, perímetro y patio.",
         "imagen": "cr-hogar-cocina.webp",
         "imagenOrigen": "Wikimedia Commons, Shixart1985, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Modern_kitchen_design_featuring_minimalistic_elements,_warm_lighting,_and_high-end_appliances_in_a_contemporary_setting.jpg). Elegida por el dueño el 30-oct-2026.",
         "eyebrow": "Servicio residencial",
-        "lema": "Su casa merece<br/>una protección completa.",
+        "lema": "Su casa,<br/>de adentro hacia afuera.",
         "intro": "Desde la cocina hasta el patio. Revisamos su casa o apartamento para encontrar dónde está la actividad de plagas y qué la favorece, cuidando a su familia y a sus mascotas.",
         "nota": "Antes de empezar recibe una propuesta con el alcance y las condiciones para su casa.",
         "bloques": [
@@ -328,38 +328,48 @@
             ]
           },
           {
-            "tipo": "tarjetas",
+            "tipo": "tabla",
             "eyebrow": "Protocolo de tres zonas",
-            "titulo": "Cada rincón<br/>cuenta.",
+            "titulo": "Tres zonas: interior,<br/>perímetro y patio.",
             "texto": "El programa divide su casa en tres áreas que se complementan. La inspección define qué hace falta en cada una.",
-            "items": [
-              {
-                "h": "01 · Interior",
-                "p": "Donde vive y guarda la comida.",
-                "checks": [
+            "columnas": [
+              "Zona",
+              "Qué se revisa"
+            ],
+            "filas": [
+              [
+                [
+                  "01 · Interior",
+                  "Donde vive y guarda la comida."
+                ],
+                [
                   "Debajo del fregadero y detrás de la refrigeradora.",
                   "Baños, desagües y filtraciones.",
                   "Dónde y a qué hora ha visto actividad."
                 ]
-              },
-              {
-                "h": "02 · Perímetro",
-                "p": "Por donde entran.",
-                "checks": [
+              ],
+              [
+                [
+                  "02 · Perímetro",
+                  "Por donde entran."
+                ],
+                [
                   "Puertas, ventanas y verjas.",
                   "Grietas y pasos de tuberías.",
                   "Lo que está guardado junto a las paredes."
                 ]
-              },
-              {
-                "h": "03 · Patio y áreas verdes",
-                "p": "El entorno que hay que entender.",
-                "checks": [
+              ],
+              [
+                [
+                  "03 · Patio y áreas verdes",
+                  "Lo que rodea la casa."
+                ],
+                [
                   "Jardín, macetas y plantas.",
                   "Canoas, pilas, baldes y cualquier recipiente con agua.",
                   "Escombros, leña y hojarasca acumulados."
                 ]
-              }
+              ]
             ]
           },
           {
@@ -398,7 +408,7 @@
             "items": [
               {
                 "h": "Zancudos",
-                "p": "El Aedes aegypti transmite el dengue y se cría en los recipientes donde se guarda agua. A la semana 40 de 2026 el Ministerio de Salud contaba 5.814 casos, un 35 % más que en 2025."
+                "p": "El Aedes aegypti transmite el dengue y se cría en los recipientes donde se guarda agua. A la semana 40 de 2026 el Ministerio de Salud contaba 5.814 casos, un 35 % más que en 2025."
               },
               {
                 "h": "Ratas y ratones",
@@ -494,12 +504,12 @@
       {
         "slug": "comercios",
         "titulo": "Comercios",
-        "resumen": "Atención a las necesidades de su equipo y sus clientes.",
+        "resumen": "Sodas, restaurantes, pulperías, hoteles y oficinas, con la visita coordinada a su horario.",
         "imagen": "cr-comercio-cafeteria.webp",
         "imagenOrigen": "Wikimedia Commons, Shixart1985, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Modern_cafe_interior_design_with_empty_tables_and_stylish_decor_located_in_an_urban_area.jpg). Elegida por el dueño el 30-oct-2026.",
         "eyebrow": "Servicio comercial",
-        "lema": "Su negocio,<br/>protegido.",
-        "intro": "Un programa que considera su local, a sus clientes y el ritmo de su operación: sodas, restaurantes, pulperías, supermercados, hoteles y oficinas.",
+        "lema": "Control de plagas<br/>para su negocio.",
+        "intro": "Para sodas, restaurantes, pulperías, supermercados, hoteles y oficinas en Costa Rica.",
         "bloques": [
           {
             "tipo": "tarjetas",
@@ -522,58 +532,85 @@
             ]
           },
           {
-            "tipo": "tarjetas",
+            "tipo": "tabla",
             "eyebrow": "Por tipo de negocio",
             "titulo": "Cada punto<br/>del proceso.",
             "texto": "Cada tipo de negocio tiene sus puntos críticos. La inspección los reconoce y define qué hace falta en cada uno.",
-            "items": [
-              {
-                "h": "Sodas, restaurantes y panaderías",
-                "p": "Recepción, preparación, almacenamiento y servicio son una sola operación.",
-                "checks": [
+            "columnas": [
+              "Tipo de negocio",
+              "Puntos críticos"
+            ],
+            "filas": [
+              [
+                [
+                  "Sodas, restaurantes y panaderías",
+                  "Desde que entra la mercadería hasta que sale el plato."
+                ],
+                [
                   "Sacos, cajas y bodega de alimentos.",
                   "Cocinas, hornos y zonas cálidas.",
                   "Desagües y trampas de grasa."
                 ]
-              },
-              {
-                "h": "Pulperías y supermercados",
-                "p": "Mercancía que entra y sale todos los días.",
-                "checks": [
+              ],
+              [
+                [
+                  "Pulperías y supermercados",
+                  "Mercadería que entra y sale todos los días."
+                ],
+                [
                   "Recepción de cajas y tarimas.",
                   "Estantes y bodega.",
                   "Accesos de servicio y basura."
                 ]
-              },
-              {
-                "h": "Hoteles y oficinas",
-                "p": "La protección acompaña la atención al público.",
-                "checks": [
+              ],
+              [
+                [
+                  "Hoteles y oficinas",
+                  "Habitaciones, oficinas y áreas del personal."
+                ],
+                [
                   "Habitaciones, salas y cocinas del personal.",
                   "Archivos y bodegas.",
                   "Horarios para trabajar sin interrumpir."
                 ]
-              }
+              ]
             ]
           },
           {
-            "tipo": "tarjetas",
+            "tipo": "tabla",
             "eyebrow": "Lo que dice la norma en Costa Rica",
             "titulo": "Pida su<br/>hoja de servicio.",
             "texto": "El Decreto 38335-S-MTSS (La Gaceta, 6 de mayo de 2014) regula a las empresas que controlan plagas con plaguicidas de uso doméstico y profesional.",
-            "items": [
-              {
-                "h": "Permiso sanitario",
-                "p": "Las empresas controladoras de plagas tramitan su permiso sanitario de funcionamiento ante el Ministerio de Salud, y ese permiso tiene una vigencia de un año (arts. 5 y 7)."
-              },
-              {
-                "h": "Hoja de servicio",
-                "p": "Después de cada aplicación, la empresa entrega al cliente el original de una hoja de servicio y guarda la copia (art. 6)."
-              },
-              {
-                "h": "Qué debe decir",
-                "p": "Fecha de la aplicación, plaguicidas aplicados, medidas de seguridad antes, durante y después, y el tiempo de reingreso al área tratada (art. 6)."
-              }
+            "columnas": [
+              "Tema",
+              "Qué pide el Decreto 38335-S-MTSS",
+              "Artículo"
+            ],
+            "filas": [
+              [
+                [
+                  "Permiso sanitario",
+                  ""
+                ],
+                "Las empresas controladoras de plagas tramitan su permiso sanitario de funcionamiento ante el Ministerio de Salud, y ese permiso tiene una vigencia de un año.",
+                "arts. 5 y 7"
+              ],
+              [
+                [
+                  "Hoja de servicio",
+                  ""
+                ],
+                "Después de cada aplicación, la empresa entrega al cliente el original de una hoja de servicio y guarda la copia.",
+                "art. 6"
+              ],
+              [
+                [
+                  "Qué debe decir",
+                  ""
+                ],
+                "Fecha de la aplicación, plaguicidas aplicados, medidas de seguridad antes, durante y después, y el tiempo de reingreso al área tratada.",
+                "art. 6"
+              ]
             ]
           },
           {
@@ -582,7 +619,7 @@
             "titulo": "Las cucarachas también<br/>afectan la salud.",
             "items": [
               {
-                "valor": "68 %",
+                "valor": "68 %",
                 "texto": "de ochenta pacientes alérgicos severos de Costa Rica reaccionó a por lo menos un extracto de cucaracha.",
                 "fuente": "Revista Costarricense de Salud Pública (Calderón)"
               }
@@ -683,11 +720,11 @@
       {
         "slug": "industria",
         "titulo": "Industria",
-        "resumen": "Un programa que parte de conocer su operación.",
+        "resumen": "Plantas, bodegas y centros de distribución. La norma pide una hoja de servicio por cada aplicación.",
         "imagen": "cr-industria-bodega.webp",
         "imagenOrigen": "Wikimedia Commons, Nick Saltmarsh, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Distribution_centre_(J_Sainsbury%27s).jpg). Elegida por el dueño el 30-oct-2026.",
         "eyebrow": "Servicio industrial",
-        "lema": "Su planta,<br/>bajo control.",
+        "lema": "Control de plagas<br/>para plantas y bodegas.",
         "intro": "Plantas de alimentos, bodegas, centros de distribución y agroindustria. El programa parte de conocer su proceso, sus turnos y la documentación que le piden.",
         "bloques": [
           {
@@ -711,59 +748,79 @@
             ]
           },
           {
-            "tipo": "tarjetas",
+            "tipo": "tabla",
             "eyebrow": "Por zonas",
             "titulo": "De la recepción<br/>al despacho.",
             "texto": "La inspección recorre la operación en el mismo orden que la mercancía.",
-            "items": [
-              {
-                "h": "Recepción y bodega",
-                "p": "Donde entra la materia prima.",
-                "checks": [
+            "columnas": [
+              "Zona",
+              "Qué se revisa"
+            ],
+            "filas": [
+              [
+                [
+                  "Recepción y bodega",
+                  "Donde entra la materia prima."
+                ],
+                [
                   "Tarimas, sacos y empaques.",
                   "Puertas de carga y andenes.",
                   "Orden y separación de las paredes."
                 ]
-              },
-              {
-                "h": "Proceso",
-                "p": "Donde el control se coordina con la producción.",
-                "checks": [
+              ],
+              [
+                [
+                  "Proceso",
+                  "Donde el control se coordina con la producción."
+                ],
+                [
                   "Turnos y paradas de línea.",
                   "Desagües y zonas húmedas.",
                   "Requisitos de acceso del personal."
                 ]
-              },
-              {
-                "h": "Perímetro",
-                "p": "Lo que rodea a la planta.",
-                "checks": [
+              ],
+              [
+                [
+                  "Perímetro",
+                  "Lo que rodea a la planta."
+                ],
+                [
                   "Zonas verdes y drenajes.",
                   "Basura y desechos.",
                   "Grietas, rejillas y pasos de tuberías."
                 ]
-              }
+              ]
             ]
           },
           {
-            "tipo": "tarjetas",
+            "tipo": "tabla",
             "eyebrow": "Lo que dice la norma en Costa Rica",
             "titulo": "Documentación<br/>de cada aplicación.",
             "texto": "El Decreto 38335-S-MTSS (La Gaceta, 6 de mayo de 2014) pide a las empresas controladoras de plagas una hoja de servicio por cada aplicación.",
-            "items": [
-              {
-                "h": "Qué registra",
-                "p": "Fecha, plaguicidas aplicados con su nombre comercial y genérico, medidas de seguridad y tiempo de reingreso al área tratada (art. 6)."
-              },
-              {
-                "h": "Quién la guarda",
-                "p": "El original es para el cliente y la copia queda con la empresa como comprobante; las autoridades pueden solicitarla (art. 6)."
-              },
-              {
-                "h": "Pregunte lo que aplica a su caso",
-                "p": "Cada industria tiene sus propios requisitos de inocuidad y auditoría. Cuéntenos cuáles le piden para preparar la propuesta."
-              }
-            ]
+            "columnas": [
+              "Tema",
+              "Qué pide el Decreto 38335-S-MTSS",
+              "Artículo"
+            ],
+            "filas": [
+              [
+                [
+                  "Qué registra",
+                  ""
+                ],
+                "Fecha, plaguicidas aplicados con su nombre comercial y genérico, medidas de seguridad y tiempo de reingreso al área tratada.",
+                "art. 6"
+              ],
+              [
+                [
+                  "Quién la guarda",
+                  ""
+                ],
+                "El original es para el cliente y la copia queda con la empresa como comprobante; las autoridades pueden solicitarla.",
+                "art. 6"
+              ]
+            ],
+            "nota": "Pregunte lo que aplica a su caso: Cada industria tiene sus propios requisitos de inocuidad y auditoría. Cuéntenos cuáles le piden para preparar la propuesta."
           },
           {
             "tipo": "consulta",
@@ -856,7 +913,7 @@
                 "fuente": "Ministerio de Salud, Boletín Epidemiológico N.º 39 (23-oct-2026)"
               },
               {
-                "valor": "35 %",
+                "valor": "35 %",
                 "texto": "más casos que a la misma semana de 2025, cuando se reportaron 3.798.",
                 "fuente": "Ministerio de Salud, Boletín Epidemiológico N.º 39"
               },
@@ -887,33 +944,43 @@
             ]
           },
           {
-            "tipo": "tarjetas",
+            "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
             "titulo": "Lo que ayuda<br/>al técnico.",
-            "items": [
-              {
-                "h": "Recorra el patio",
-                "p": "Y anote dónde hay agua quieta.",
-                "checks": [
+            "columnas": [
+              "Qué hacer",
+              "Qué mirar"
+            ],
+            "filas": [
+              [
+                [
+                  "Recorra el patio",
+                  "Y anote dónde hay agua quieta."
+                ],
+                [
                   "Baldes, pilas, macetas y llantas.",
                   "Canoas tapadas y desagües."
                 ]
-              },
-              {
-                "h": "Anote las horas",
-                "p": "Cuándo pican más.",
-                "checks": [
+              ],
+              [
+                [
+                  "Anote las horas",
+                  "Cuándo pican más."
+                ],
+                [
                   "En la mañana o al final de la tarde.",
                   "Dentro o fuera de la casa."
                 ]
-              },
-              {
-                "h": "No espere",
-                "p": "Vacíe y tape lo que pueda.",
-                "checks": [
+              ],
+              [
+                [
+                  "No espere",
+                  "Vacíe y tape lo que pueda."
+                ],
+                [
                   "Cada semana, sin falta."
                 ]
-              }
+              ]
             ]
           },
           {
@@ -966,7 +1033,7 @@
         "imagen": "cr-plaga-ratas.webp",
         "imagenOrigen": "Ilustración del borrador de Venezuela, reutilizada.",
         "eyebrow": "Guía de ratas y ratones",
-        "lema": "Lo que no se ve<br/>también cuenta.",
+        "lema": "Excrementos, roeduras<br/>y ruidos de noche.",
         "intro": "Ratas y ratones buscan comida, agua y refugio en la casa o el negocio. En Costa Rica, las ratas están entre los reservorios más frecuentes de la leptospirosis.",
         "bloques": [
           {
@@ -975,7 +1042,7 @@
             "titulo": "Roedores cerca<br/>de los casos.",
             "items": [
               {
-                "valor": "52,6 %",
+                "valor": "52,6 %",
                 "texto": "de los casos sospechosos de leptospirosis estudiados en cinco regiones reportó presencia de roedores.",
                 "fuente": "Acta Médica Costarricense (2012), datos de 2004 a 2008"
               }
@@ -1020,32 +1087,42 @@
             ]
           },
           {
-            "tipo": "tarjetas",
+            "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
             "titulo": "Lo que ayuda<br/>al técnico.",
-            "items": [
-              {
-                "h": "Anote dónde",
-                "p": "Las señales y los lugares.",
-                "checks": [
+            "columnas": [
+              "Qué hacer",
+              "Qué mirar"
+            ],
+            "filas": [
+              [
+                [
+                  "Anote dónde",
+                  "Las señales y los lugares."
+                ],
+                [
                   "Cocina, bodega y cielorraso.",
                   "Basureros y accesos exteriores."
                 ]
-              },
-              {
-                "h": "Guarde la comida",
-                "p": "En recipientes cerrados.",
-                "checks": [
+              ],
+              [
+                [
+                  "Guarde la comida",
+                  "En recipientes cerrados."
+                ],
+                [
                   "Granos, pan y alimento de mascotas."
                 ]
-              },
-              {
-                "h": "Con cuidado",
-                "p": "No toque los excrementos con las manos.",
-                "checks": [
+              ],
+              [
+                [
+                  "Con cuidado",
+                  "No toque los excrementos con las manos."
+                ],
+                [
                   "Use guantes si debe limpiar."
                 ]
-              }
+              ]
             ]
           },
           {
@@ -1102,12 +1179,12 @@
             "titulo": "También causan<br/>alergias.",
             "items": [
               {
-                "valor": "68 %",
+                "valor": "68 %",
                 "texto": "de ochenta pacientes alérgicos severos de Costa Rica reaccionó a por lo menos un extracto de cucaracha.",
                 "fuente": "Revista Costarricense de Salud Pública (Calderón)"
               },
               {
-                "valor": "61,3 %",
+                "valor": "61,3 %",
                 "texto": "de esos pacientes reaccionó a la cucaracha americana, Periplaneta americana.",
                 "fuente": "Revista Costarricense de Salud Pública (Calderón)"
               }
@@ -1133,33 +1210,43 @@
             ]
           },
           {
-            "tipo": "tarjetas",
+            "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
             "titulo": "Lo que ayuda<br/>al técnico.",
-            "items": [
-              {
-                "h": "Mire de noche",
-                "p": "Es cuando más salen.",
-                "checks": [
+            "columnas": [
+              "Qué hacer",
+              "Qué mirar"
+            ],
+            "filas": [
+              [
+                [
+                  "Mire de noche",
+                  "Es cuando más salen."
+                ],
+                [
                   "Cocina, baños y desagües.",
                   "Detrás de la refrigeradora y la cocina."
                 ]
-              },
-              {
-                "h": "Busque rastros",
-                "p": "Además de los insectos.",
-                "checks": [
+              ],
+              [
+                [
+                  "Busque rastros",
+                  "Además de los insectos."
+                ],
+                [
                   "Puntos negros como pimienta.",
                   "Cápsulas de huevos en rincones."
                 ]
-              },
-              {
-                "h": "Una foto ayuda",
-                "p": "Para saber cuál es.",
-                "checks": [
+              ],
+              [
+                [
+                  "Una foto ayuda",
+                  "Para saber cuál es."
+                ],
+                [
                   "El tamaño y el color cambian según la especie."
                 ]
-              }
+              ]
             ]
           },
           {
@@ -1245,32 +1332,42 @@
             ]
           },
           {
-            "tipo": "tarjetas",
+            "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
             "titulo": "Lo que ayuda<br/>al técnico.",
-            "items": [
-              {
-                "h": "Siga la fila",
-                "p": "Hasta donde pueda.",
-                "checks": [
+            "columnas": [
+              "Qué hacer",
+              "Qué mirar"
+            ],
+            "filas": [
+              [
+                [
+                  "Siga la fila",
+                  "Hasta donde pueda."
+                ],
+                [
                   "De dónde vienen.",
                   "Hacia dónde van."
                 ]
-              },
-              {
-                "h": "Ubique la tierra suelta",
-                "p": "Puede ser la entrada al nido.",
-                "checks": [
+              ],
+              [
+                [
+                  "Ubique la tierra suelta",
+                  "Puede ser la entrada al nido."
+                ],
+                [
                   "Montículos en el jardín o junto a paredes."
                 ]
-              },
-              {
-                "h": "Anote desde cuándo",
-                "p": "Y qué plantas afectan.",
-                "checks": [
+              ],
+              [
+                [
+                  "Anote desde cuándo",
+                  "Y qué plantas afectan."
+                ],
+                [
                   "Una foto de la fila y de las hojas cortadas ayuda."
                 ]
-              }
+              ]
             ]
           },
           {
@@ -1322,7 +1419,7 @@
         "imagen": "cr-plaga-comejen.webp",
         "imagenOrigen": "Ilustración del borrador de Venezuela, reutilizada.",
         "eyebrow": "Guía de comején",
-        "lema": "Mire también la madera<br/>que ya está dañada.",
+        "lema": "Si ve bolitas finas,<br/>no las barra.",
         "intro": "En Costa Rica se les dice comején a las termitas. Trabajan en silencio dentro de la madera de la casa, la decoración y los muebles.",
         "bloques": [
           {
@@ -1383,33 +1480,43 @@
             ]
           },
           {
-            "tipo": "tarjetas",
+            "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
             "titulo": "Lo que ayuda<br/>al técnico.",
-            "items": [
-              {
-                "h": "Fotografíe las señales",
-                "p": "Y anote dónde están.",
-                "checks": [
+            "columnas": [
+              "Qué hacer",
+              "Qué mirar"
+            ],
+            "filas": [
+              [
+                [
+                  "Fotografíe las señales",
+                  "Y anote dónde están."
+                ],
+                [
                   "Bolitas, alas sueltas o madera hueca.",
                   "Puertas, marcos, closets y muebles."
                 ]
-              },
-              {
-                "h": "Revise la madera",
-                "p": "La que ya está dañada también cuenta.",
-                "checks": [
+              ],
+              [
+                [
+                  "Revise la madera",
+                  "La que ya está dañada también cuenta."
+                ],
+                [
                   "Zonas que suenan huecas.",
                   "Muebles de madera dañados."
                 ]
-              },
-              {
-                "h": "No barra las bolitas",
-                "p": "Ayudan a identificarlo.",
-                "checks": [
+              ],
+              [
+                [
+                  "No barra las bolitas",
+                  "Ayudan a identificarlo."
+                ],
+                [
                   "Déjelas donde están hasta la visita."
                 ]
-              }
+              ]
             ]
           },
           {
@@ -1457,13 +1564,13 @@
         "imagen": "cr-plaga-alacran.webp",
         "imagenOrigen": "Ilustración del borrador de Venezuela, reutilizada.",
         "eyebrow": "Guía de alacranes",
-        "lema": "Molestos y dolorosos,<br/>pero conocidos.",
+        "lema": "La picadura duele,<br/>pero casi nunca es letal.",
         "intro": "Los alacranes se esconden en lugares oscuros de la casa. Según investigadores del Instituto Clodomiro Picado de la UCR, los de Costa Rica no son letales.",
         "bloques": [
           {
             "tipo": "cifras",
             "eyebrow": "Lo que se ha registrado",
-            "titulo": "Las picaduras<br/>se registran.",
+            "titulo": "De 24 casos en 1992<br/>a 405 en 1999.",
             "items": [
               {
                 "valor": "405",
@@ -1492,32 +1599,42 @@
             ]
           },
           {
-            "tipo": "tarjetas",
+            "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
             "titulo": "Lo que ayuda<br/>al técnico.",
-            "items": [
-              {
-                "h": "Revise antes de usar",
-                "p": "Zapatos, ropa y toallas.",
-                "checks": [
+            "columnas": [
+              "Qué hacer",
+              "Qué mirar"
+            ],
+            "filas": [
+              [
+                [
+                  "Revise antes de usar",
+                  "Zapatos, ropa y toallas."
+                ],
+                [
                   "Sacúdalos antes de ponérselos."
                 ]
-              },
-              {
-                "h": "Anote dónde aparecen",
-                "p": "Y a qué hora.",
-                "checks": [
+              ],
+              [
+                [
+                  "Anote dónde aparecen",
+                  "Y a qué hora."
+                ],
+                [
                   "Baños, bodegas y cielorraso.",
                   "Patio, leña y escombros."
                 ]
-              },
-              {
-                "h": "Ordene lo guardado",
-                "p": "Menos escondites.",
-                "checks": [
+              ],
+              [
+                [
+                  "Ordene lo guardado",
+                  "Menos escondites."
+                ],
+                [
                   "Cajas, ropa y objetos contra la pared."
                 ]
-              }
+              ]
             ]
           },
           {
@@ -1607,33 +1724,43 @@
             ]
           },
           {
-            "tipo": "tarjetas",
+            "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
             "titulo": "Lo que ayuda<br/>al técnico.",
-            "items": [
-              {
-                "h": "Revise la cama",
-                "p": "Donde se esconden de día.",
-                "checks": [
+            "columnas": [
+              "Qué hacer",
+              "Qué mirar"
+            ],
+            "filas": [
+              [
+                [
+                  "Revise la cama",
+                  "Donde se esconden de día."
+                ],
+                [
                   "Costuras del colchón y el somier.",
                   "Marco y cabecera de la cama.",
                   "Grietas y muebles cercanos."
                 ]
-              },
-              {
-                "h": "Después de viajar",
-                "p": "Revise la maleta.",
-                "checks": [
+              ],
+              [
+                [
+                  "Después de viajar",
+                  "Revise la maleta."
+                ],
+                [
                   "Costuras y pliegues del equipaje."
                 ]
-              },
-              {
-                "h": "Una foto ayuda",
-                "p": "Para confirmar qué es.",
-                "checks": [
+              ],
+              [
+                [
+                  "Una foto ayuda",
+                  "Para confirmar qué es."
+                ],
+                [
                   "Del insecto, las manchas o las picaduras."
                 ]
-              }
+              ]
             ]
           },
           {
@@ -1695,7 +1822,7 @@
             "titulo": "Un problema<br/>con historia.",
             "items": [
               {
-                "valor": "24 %",
+                "valor": "24 %",
                 "texto": "de los cultivos de moscas domésticas recogidas en el Matadero y el Mercado de San José mostró Salmonella.",
                 "fuente": "Revista de Biología Tropical, UCR (1959)"
               },
@@ -1707,53 +1834,76 @@
             ]
           },
           {
-            "tipo": "tarjetas",
+            "tipo": "tabla",
             "eyebrow": "Cómo es",
             "titulo": "Dos moscas<br/>distintas.",
-            "items": [
-              {
-                "h": "Mosca doméstica",
-                "p": "La que entra a la casa y al negocio. Un estudio de la UCR en San José encontró Salmonella y Shigella en moscas recogidas en el Matadero y el Mercado."
-              },
-              {
-                "h": "Mosca del establo",
-                "p": "Stomoxys calcitrans pica al ganado y se reproduce en desechos orgánicos como el rastrojo de piña. Se le llama mosca de la piña, aunque Senasa aclara que es un nombre erróneo."
-              },
-              {
-                "h": "Cuánto afecta",
-                "p": "Con 25 moscas por animal, el ganado pierde cerca de un kilo diario, y la producción de leche baja hasta un 50 %."
-              }
+            "columnas": [
+              "Tema",
+              "Lo que se sabe"
+            ],
+            "filas": [
+              [
+                [
+                  "Mosca doméstica",
+                  ""
+                ],
+                "La que entra a la casa y al negocio. Un estudio de la UCR en San José encontró Salmonella y Shigella en moscas recogidas en el Matadero y el Mercado."
+              ],
+              [
+                [
+                  "Mosca del establo",
+                  ""
+                ],
+                "Stomoxys calcitrans pica al ganado y se reproduce en desechos orgánicos como el rastrojo de piña. Se le llama mosca de la piña, aunque Senasa aclara que es un nombre erróneo."
+              ],
+              [
+                [
+                  "Cuánto afecta",
+                  ""
+                ],
+                "Con 25 moscas por animal, el ganado pierde cerca de un kilo diario, y la producción de leche baja hasta un 50 %."
+              ]
             ]
           },
           {
-            "tipo": "tarjetas",
+            "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
             "titulo": "Lo que ayuda<br/>al técnico.",
-            "items": [
-              {
-                "h": "Ubique la basura",
-                "p": "Es donde se crían.",
-                "checks": [
+            "columnas": [
+              "Qué hacer",
+              "Qué mirar"
+            ],
+            "filas": [
+              [
+                [
+                  "Ubique la basura",
+                  "Es donde se crían."
+                ],
+                [
                   "Basureros sin tapa.",
                   "Restos de comida y desechos orgánicos."
                 ]
-              },
-              {
-                "h": "Anote dónde se juntan",
-                "p": "Y a qué hora.",
-                "checks": [
+              ],
+              [
+                [
+                  "Anote dónde se juntan",
+                  "Y a qué hora."
+                ],
+                [
                   "Cocina, bodega o zona de carga.",
                   "Ventanas y puertas abiertas."
                 ]
-              },
-              {
-                "h": "En fincas",
-                "p": "Cuente lo que observa.",
-                "checks": [
+              ],
+              [
+                [
+                  "En fincas",
+                  "Cuente lo que observa."
+                ],
+                [
                   "Rastrojos, broza o estiércol cerca.",
                   "Cuántas moscas ve por animal."
                 ]
-              }
+              ]
             ]
           },
           {
@@ -1845,32 +1995,42 @@
             ]
           },
           {
-            "tipo": "tarjetas",
+            "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
             "titulo": "Lo que ayuda<br/>al técnico.",
-            "items": [
-              {
-                "h": "Dónde duerme la mascota",
-                "p": "Es el primer lugar a revisar.",
-                "checks": [
+            "columnas": [
+              "Qué hacer",
+              "Qué mirar"
+            ],
+            "filas": [
+              [
+                [
+                  "Dónde duerme la mascota",
+                  "Es el primer lugar a revisar."
+                ],
+                [
                   "Camas, sillones y alfombras.",
                   "Rincones y grietas cerca."
                 ]
-              },
-              {
-                "h": "El patio",
-                "p": "Por donde entran.",
-                "checks": [
+              ],
+              [
+                [
+                  "El patio",
+                  "Por donde entran."
+                ],
+                [
                   "Zacate alto y zonas con sombra."
                 ]
-              },
-              {
-                "h": "Con su veterinario",
-                "p": "La mascota también se trata.",
-                "checks": [
+              ],
+              [
+                [
+                  "Con su veterinario",
+                  "La mascota también se trata."
+                ],
+                [
                   "Cuéntenos si ya recibe tratamiento."
                 ]
-              }
+              ]
             ]
           },
           {
@@ -1980,7 +2140,7 @@
     "poster": "cr-portada-arenal.webp",
     "video": "cr-portada-arenal.mp4",
     "videoStatus": "reviewed",
-    "origen": "Foto real «Volcan Arenal - panoramio» de Hiram Montiel Calderón (30-jul-2008), Wikimedia Commons, CC BY-SA 3.0, espejada, con el letrero y el «KPH 40» del asfalto borrados. Carrito: carro-con-bigotes-cuadro1.jpg (carpeta PRÁCTICA del escritorio) recortado con rembg y con el color ajustado. Animación por cuadro sin IA (asfalto que avanza, acercamiento coseno 5 %, ruedas girando, baches), 1920x1080, 12 s, 25 cps, H.264 con el color del catálogo. Póster = cuadro 0.",
+    "origen": "Foto real «Volcan Arenal - panoramio» de Hiram Montiel Calderón (30-jul-2008), Wikimedia Commons, CC BY-SA 3.0, espejada, con el letrero y el «KPH 40» del asfalto borrados. Carrito: carro-con-bigotes-cuadro1.jpg (carpeta PRÁCTICA del escritorio) recortado con rembg y con el color ajustado. Animación por cuadro sin IA (asfalto que avanza, acercamiento coseno 5 %, ruedas girando, baches), 1920x1080, 12 s, 25 cps, H.264 con el color del catálogo. Póster = cuadro 0.",
     "encuadre": "right center"
   },
   "peliculaRecreacion": {
@@ -2006,7 +2166,7 @@
     "video": "cr-portada-cr22.mp4",
     "videoStatus": "reviewed",
     "encuadre": "right center",
-    "origen": "«cr 22.jpeg» entregada por Cesar (Descargas, 30-oct-2026; origen y licencia POR CONFIRMAR). Película sin IA desde la foto: acercamiento 7 % con curva coseno, 1920x1080, 12 s, 25 cps, H.264 con el color del catálogo. Póster = cuadro 0."
+    "origen": "«cr 22.jpeg» entregada por Cesar (Descargas, 30-oct-2026; origen y licencia POR CONFIRMAR). Película sin IA desde la foto: acercamiento 7 % con curva coseno, 1920x1080, 12 s, 25 cps, H.264 con el color del catálogo. Póster = cuadro 0."
   },
   "peliculaCr22Avance": {
     "poster": "cr-portada-cr22-avance.webp",
@@ -2035,6 +2195,66 @@
       "file": "cr-operacion-tecnico.webp",
       "alt": "Técnico de Truly Nolen inspeccionando con linterna la base de un equipo",
       "origen": "Catálogo Truly Inbound (uniforme-residencial-20261021), provisional."
+    }
+  },
+  "fotosIAv1": {
+    "nosotros": {
+      "file": "cr-nosotros-tecnica-cr.webp",
+      "alt": "Técnica de Truly Nolen destapando un estañón en el patio de una casa para revisar si hay agua estancada",
+      "origen": "Generada con IA (FLUX.1-schnell, licencia Apache 2.0, en el espacio público de Hugging Face black-forest-labs/FLUX.1-schnell), semilla 101, 864x1152, 30-oct-2026. Técnica costarricense de la escena «zancudos en el patio» elegida por Cesar. Se le quitó un tatuaje con letras inventadas y se puso el emblema real (tn-emblema.png, sin su relleno amarillo para que se vea la tela de la camisa) con emblema.py, 74 px de alto, sobre el bolsillo."
+    },
+    "operacion": {
+      "file": "cr-operacion-tecnico-cr.webp",
+      "alt": "Técnico de Truly Nolen agachado revisando una estación de cebo para roedores en la pared de una bodega con sacos apilados",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo y se puso el emblema real (tn-emblema.png, sin su relleno amarillo) con emblema.py, 64 px de alto."
+    }
+  },
+  "fotosIAv2": {
+    "nosotros": {
+      "file": "cr-nosotros-tecnica-cr-v2.webp",
+      "alt": "Técnica de Truly Nolen sosteniendo la tapa de un estañón y revisando con linterna si hay agua estancada en el patio de una casa",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido a1c0a8f8-4674-4f14-9cc7-d1d4e1c11720, opción 2 de 4), 768x1024, 30-oct-2026. Técnica costarricense, escena «zancudos en el patio», sin carnet (pedido de Cesar). Emblema real (tn-emblema.png, sin su relleno amarillo) puesto con emblema.py sobre el bolsillo, 54 px de alto."
+    },
+    "operacion": {
+      "file": "cr-operacion-tecnico-cr-v2.webp",
+      "alt": "Técnico de Truly Nolen arrodillado abriendo una estación de cebo para roedores en el piso de una bodega con sacos apilados",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido 7aa7d8f1-b760-4ba4-bf4d-17a762452b60, opción 2 de 4), 1024x768, 30-oct-2026. Técnico costarricense, escena «bodega de café», estación en el piso y sin carnet (pedido de Cesar). Se quitó una marca falsa del pecho y se puso el emblema real (tn-emblema.png, sin su relleno amarillo) con emblema.py, 46 px de alto, inclinado como el torso."
+    }
+  },
+  "fotosIAhd1": {
+    "nosotros": {
+      "file": "cr-nosotros-tecnica-cr-hd.webp",
+      "alt": "Técnica de Truly Nolen sosteniendo la tapa de un estañón y revisando con linterna si hay agua estancada en el patio de una casa",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido a1c0a8f8-4674-4f14-9cc7-d1d4e1c11720, opción 2 de 4), ampliada x2 con Real-ESRGAN en AI Horde (pedido dac9000c-6391-4ed3-a20b-d4b4d1189121), 30-oct-2026. Técnica costarricense, escena «zancudos en el patio», sin carnet (pedido de Cesar). Emblema real (tn-emblema.png, sin su relleno amarillo) estampado sobre el bolsillo siguiendo luz, textura y pliegues de la tela (scratchpad techorde/estampa.py). Guardada a 1080x1440."
+    },
+    "operacion": {
+      "file": "cr-operacion-tecnico-cr-hd.webp",
+      "alt": "Técnico de Truly Nolen agachado junto a una estación de cebo para roedores, al pie de la pared de una bodega con sacos apilados",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido 77b7e1cd-efe3-483c-adf5-6022fc62ee2b, opción 1 de 4), ampliada x2 con Real-ESRGAN en AI Horde (pedido 4aa06b7b-416b-448b-883d-9d79ec91cd13), 30-oct-2026. Técnico costarricense, escena «bodega de café», estación de cebo baja y cerrada contra la pared, sin carnet (pedido de Cesar). Se borró un logo inventado del pecho y se estampó el emblema real (tn-emblema.png, sin su relleno amarillo) siguiendo luz, textura y pliegues (estampa.py). Guardada a 1600x1200."
+    }
+  },
+  "fotosIAhd3": {
+    "nosotros": {
+      "file": "cr-nosotros-tecnica-cr-hd3.webp",
+      "alt": "Técnica de Truly Nolen con la tapa de un estañón y una linterna en la mano, junto al estañón con agua en el patio de una casa",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido a1c0a8f8-4674-4f14-9cc7-d1d4e1c11720, opción 2 de 4), ampliada x2 con Real-ESRGAN en AI Horde (pedido dac9000c-6391-4ed3-a20b-d4b4d1189121), 30-oct-2026. Técnica costarricense, escena «zancudos en el patio», sin carnet (pedido de Cesar). Emblema real (tn-emblema.png, sin su relleno amarillo) estampado sobre el bolsillo siguiendo luz, textura y pliegues de la tela (scratchpad techorde/estampa.py). Se borraron letras inventadas y un brillo en forma de L dentro del estañón. Emblema reestampado con menos doblez (las orejas se tocan como en el original) y grano fino de foto. Guardada a 1080x1440."
+    },
+    "operacion": {
+      "file": "cr-operacion-tecnico-cr-hd3.webp",
+      "alt": "Técnico de Truly Nolen agachado observando una caja negra con orificios junto a la pared de una bodega con sacos apilados",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido 77b7e1cd-efe3-483c-adf5-6022fc62ee2b, opción 2 de 4), ampliada x2 con Real-ESRGAN en AI Horde (pedido 778a1bd0-173a-45e6-ae90-053fc28fac5f), 30-oct-2026. Técnico costarricense, escena «bodega de café», caja con orificios junto a la pared, sin carnet (pedido de Cesar). Se borró un logo inventado del pecho y se estampó el emblema real (tn-emblema.png, sin su relleno amarillo) en perspectiva (62 % de ancho, el pecho está girado), más nítido y con el borde del cuello por encima, como en una camisa real siguiendo luz, textura y pliegues (estampa.py), más grano fino de foto. Queda un bordado inventado negro sobre negro en la gorra: borrarlo dejaba una mancha peor, se dejó. Guardada a 1600x1200."
+    }
+  },
+  "fotosIAhd2": {
+    "nosotros": {
+      "file": "cr-nosotros-tecnica-cr-hd2.webp",
+      "alt": "Técnica de Truly Nolen con la tapa de un estañón y una linterna en la mano, junto al estañón con agua en el patio de una casa",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido a1c0a8f8-4674-4f14-9cc7-d1d4e1c11720, opción 2 de 4), ampliada x2 con Real-ESRGAN en AI Horde (pedido dac9000c-6391-4ed3-a20b-d4b4d1189121), 30-oct-2026. Técnica costarricense, escena «zancudos en el patio», sin carnet (pedido de Cesar). Emblema real (tn-emblema.png, sin su relleno amarillo) estampado sobre el bolsillo siguiendo luz, textura y pliegues de la tela (scratchpad techorde/estampa.py). Se borraron letras inventadas dentro del estañón. Emblema reestampado con menos doblez (las orejas se tocan como en el original) y grano fino de foto. Guardada a 1080x1440."
+    },
+    "operacion": {
+      "file": "cr-operacion-tecnico-cr-hd2.webp",
+      "alt": "Técnico de Truly Nolen agachado observando una caja negra con orificios junto a la pared de una bodega con sacos apilados",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido 77b7e1cd-efe3-483c-adf5-6022fc62ee2b, opción 2 de 4), ampliada x2 con Real-ESRGAN en AI Horde (pedido 778a1bd0-173a-45e6-ae90-053fc28fac5f), 30-oct-2026. Técnico costarricense, escena «bodega de café», caja con orificios junto a la pared, sin carnet (pedido de Cesar). Se borró un logo inventado del pecho y se estampó el emblema real (tn-emblema.png, sin su relleno amarillo) en perspectiva (62 % de ancho, el pecho está girado) siguiendo luz, textura y pliegues (estampa.py), más grano fino de foto. Guardada a 1600x1200."
     }
   }
 }

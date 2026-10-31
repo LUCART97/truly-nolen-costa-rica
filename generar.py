@@ -42,6 +42,21 @@ HEAD_INICIO = INICIO_TPL[INICIO_TPL.index('<link rel="stylesheet" href="/machote
 HEAD_DETALLE = DETALLE_TPL[DETALLE_TPL.index('<link rel="stylesheet" href="/machotes/assets/countries.css'):DETALLE_TPL.index("</head>")]
 # Las páginas de detalle traen estilos propios (cifras, notas) dentro del <body>: se suben al <head>.
 HEAD_DETALLE += "".join(re.findall(r"<style>.*?</style>", DETALLE_TPL[DETALLE_TPL.index("</head>"):], flags=re.S))
+# Bloque «tabla» de la receta: marco blanco, encabezado oscuro con letra amarilla; en el celular cada fila se apila con su etiqueta.
+HEAD_DETALLE += """<style>.detail-tabla .tabla-marco{margin-top:36px;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.tabla-tn{width:100%;border-collapse:collapse;font-size:16px;line-height:1.5}
+.tabla-tn thead th{background:var(--ink);color:var(--yellow);text-align:left;font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:14px 22px}
+.tabla-tn tbody tr+tr>*{border-top:1px solid var(--line)}
+.tabla-tn tbody th,.tabla-tn td{padding:18px 22px;text-align:left;vertical-align:top}
+.tabla-tn tbody th{width:34%;font-weight:400}.tabla-tn tbody th strong{display:block;font-size:18px;color:var(--ink)}
+.tabla-tn tbody th span{display:block;margin-top:4px;color:var(--muted)}.tabla-tn td{color:var(--muted)}
+.tabla-tn ul{list-style:none;margin:0;padding:0}.tabla-tn li{position:relative;padding:3px 0 3px 20px}
+.tabla-tn li::before{content:"";position:absolute;left:0;top:12px;width:8px;height:8px;border-radius:50%;background:var(--yellow);box-shadow:0 0 0 1px var(--ink)}
+@media(max-width:760px){.tabla-tn thead{display:none}.tabla-tn tr,.tabla-tn tbody th,.tabla-tn td{display:block;width:auto}
+.tabla-tn tbody th,.tabla-tn td{padding:12px 18px}.tabla-tn tbody tr+tr>th{border-top:1px solid var(--line)}.tabla-tn tbody tr>td,.tabla-tn tbody tr+tr>td{border-top:0;padding-top:0}
+.tabla-tn [data-label]::before{content:attr(data-label);display:block;margin-bottom:4px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);font-weight:700}
+.tabla-tn tbody th[data-label]::before{color:var(--muted)}
+.detail-hero h1 br,.section-heading h2 br{display:none}}</style>"""
 BODY_DETALLE = re.search(r"<body[^>]*>", DETALLE_TPL).group(0).replace("venezuela", ID)
 BODY_INICIO = f'<body class="country-site jardin" data-machote="{ID}" data-oficina="{ID}">'
 
@@ -178,7 +193,7 @@ def consulta(eyebrow, titulo, texto, lista, ident=""):
 
 def metodo(eyebrow):
     items = "".join(f"<article><span>{i:02d}</span><h3>{escape(h)}</h3><p>{escape(p)}</p></article>" for i, (h, p) in enumerate(FICHA["metodo"], 1))
-    return f'<section id="metodo" class="section method"><div class="section-heading"><p class="eyebrow">{eyebrow}</p><h2>Un siguiente paso claro, en cada momento.</h2></div><div class="method-grid">{items}</div></section>\n'
+    return f'<section id="metodo" class="section method"><div class="section-heading"><p class="eyebrow">{eyebrow}</p><h2>Cuatro pasos, de la consulta al seguimiento.</h2></div><div class="method-grid">{items}</div></section>\n'
 
 
 def faq(eyebrow, titulo, preguntas, ident='id="preguntas" '):
@@ -210,11 +225,27 @@ def bloque(b):
         texto = f'<p>{escape(b["texto"])}</p>' if b.get("texto") else ""
         nota = f'<p class="nota-bloque">{escape(b["nota"])}</p>' if b.get("nota") else ""
         return f'<section class="section detail-guidance"><div class="section-heading"><p class="eyebrow">{escape(b["eyebrow"])}</p><h2>{b["titulo"]}</h2>{texto}</div><div class="guidance-grid">{arts}</div>{nota}</section>\n'
+    if tipo == "tabla":
+        cols = b["columnas"]
+
+        def celda(c, i):
+            etiqueta = f' data-label="{escape(cols[i])}"' if cols[i] else ""
+            if i == 0 and isinstance(c, list):        # [título, subtítulo]
+                sub = f"<span>{escape(c[1])}</span>" if len(c) > 1 and c[1] else ""
+                return f"<th scope=\"row\" role=\"rowheader\"{etiqueta}><strong>{escape(c[0])}</strong>{sub}</th>"
+            if isinstance(c, list):                   # lista de puntos
+                return f"<td role=\"cell\"{etiqueta}><ul>{''.join(f'<li>{escape(x)}</li>' for x in c)}</ul></td>"
+            return f"<td role=\"cell\"{etiqueta}>{escape(c)}</td>"
+        cabeza = "".join(f'<th scope="col" role="columnheader">{escape(c)}</th>' for c in cols)
+        filas = "".join('<tr role="row">' + "".join(celda(c, i) for i, c in enumerate(f)) + "</tr>" for f in b["filas"])
+        texto = f'<p>{escape(b["texto"])}</p>' if b.get("texto") else ""
+        nota = f'<p class="nota-bloque">{escape(b["nota"])}</p>' if b.get("nota") else ""
+        return f'<section class="section detail-tabla"><div class="section-heading"><p class="eyebrow">{escape(b["eyebrow"])}</p><h2>{b["titulo"]}</h2>{texto}</div><div class="tabla-marco"><table class="tabla-tn" role="table" aria-label="{escape(re.sub("<[^>]+>", " ", b["titulo"]).strip())}"><thead><tr role="row">{cabeza}</tr></thead><tbody>{filas}</tbody></table></div>{nota}</section>\n'
     if tipo == "cifras":
         arts = "".join(f'<article><strong>{escape(it["valor"])}</strong><p>{escape(it["texto"])}</p><small>{escape(it["fuente"])}</small></article>' for it in b["items"])
         return f'<section class="section detail-stats"><div class="section-heading"><p class="eyebrow">{escape(b["eyebrow"])}</p><h2>{b["titulo"]}</h2></div><div class="stats">{arts}</div></section>\n'
     if tipo == "consulta":
-        return consulta("Una pregunta es un buen comienzo", "¿Por dónde<br/>empezamos?", T["consultaDetalleTexto"], b["starters"])
+        return consulta("Cuéntele a Truly AI qué está viendo", "¿Por dónde<br/>empezamos?", T["consultaDetalleTexto"], b["starters"])
     if tipo == "relacionadas":
         if b["lista"] == "plagas":
             items = "".join(tarjeta_plaga(x) for x in PLAG if x["slug"] in b["slugs"])
@@ -238,7 +269,7 @@ def pagina_detalle(x, ruta, tipo):
 <img src="{ASSETS}{x['imagen']}" alt="{escape(x['titulo'])}"/></div></section>
 """
     html += "".join(bloque(b) for b in x["bloques"])
-    html += faq("Preguntas frecuentes", "Lo que más nos preguntan." if tipo == "servicio" else "Hablemos con claridad.", x.get("preguntas") or FICHA["faq"], ident="")
+    html += faq("Preguntas frecuentes", "Lo que más nos preguntan.", x.get("preguntas") or FICHA["faq"], ident="")
     html += metodo("Cómo trabajamos") + fuentes(x["fuentes"]) + contacto() + "</main>" + footer() + CHAT + "</body></html>\n"
     return html
 
@@ -376,8 +407,8 @@ def pagina_inicio():
     html += f"""<section id="cobertura" class="section local-coverage"><div><p class="eyebrow">Aquí, en {PAIS}</p><h2>{escape(I['coberturaTitulo'])}</h2></div>
 <div><p>{escape(I['coberturaTexto'])}</p><a class="text-link" href="#contacto" data-abrir-chat data-chat-prompt="{escape(I['coberturaPrompt'])}">Consultar mi zona</a></div></section>
 """
-    html += faq("03 / Preguntas frecuentes", "Hablemos con claridad.", FICHA["faq"])
-    html += consulta("Una pregunta es un buen comienzo", escape(I["consultaTitulo"]), I["consultaTexto"], I["consultaStarters"], ident='id="consulta" ')
+    html += faq("03 / Preguntas frecuentes", "Lo que más nos preguntan.", FICHA["faq"])
+    html += consulta("Cuéntele a Truly AI qué está viendo", escape(I["consultaTitulo"]), I["consultaTexto"], I["consultaStarters"], ident='id="consulta" ')
     html += contacto() + "</main>" + footer() + CHAT + "</body></html>\n"
     return html
 
@@ -385,6 +416,8 @@ def pagina_inicio():
 def escribir(ruta, html):
     destino = SITIO / "oficinas" / ID / ruta / "index.html"
     destino.parent.mkdir(parents=True, exist_ok=True)
+    # Un espacio antes de cada salto en los títulos: en el celular los saltos se ocultan y las palabras no se pegan.
+    html = re.sub(r"<(h[12])\b[^>]*>.*?</\1>", lambda m: re.sub(r"(?<! )<br/>", " <br/>", m.group(0)), html, flags=re.S)
     destino.write_text(html, encoding="utf-8")
     return destino
 
