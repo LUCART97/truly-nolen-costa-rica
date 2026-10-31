@@ -382,6 +382,9 @@ def pagina_inicio():
     pel = FICHA["pelicula"]
     html = head(FICHA["seo"]["titulo"], FICHA["seo"]["descripcion"], "", inicio=True)
     html += f'<body class="country-site jardin" data-machote="{ID}" data-oficina="{ID}">' + nav() + '<main id="contenido">'
+    # Sombra de Guatemala: solo a la izquierda, donde va el texto, y un poco abajo (no la oscura del catálogo, que apaga todo).
+    html += ('<style>body.country-site[data-oficina] .cinema::after{background:linear-gradient(90deg,rgba(21,33,40,.65) 0,'
+             'rgba(21,33,40,.6) 21%,transparent 54%),linear-gradient(0deg,rgba(21,33,40,.51),transparent 30%)}</style>')
     html += f"""<section class="cinema" id="inicio"><div class="film"><picture><source media="(max-width:760px)" srcset="{ASSETS}{pel['poster']}"/><img src="{ASSETS}{pel['poster']}" alt=""/></picture>
 {f'<video muted loop playsinline preload="none" aria-hidden="true" data-src="{ASSETS}{pel["video"]}"></video>' if pel.get("video") else ""}{carrito()}</div>
 {f'<style>@media(min-width:761px){{body.country-site #inicio .film :is(img,video){{object-position:{pel["encuadre"]}}}}}</style>' if pel.get("encuadre") else ""}
