@@ -38,19 +38,19 @@
   {
     "plaga": "zancudos",
     "file": "sitio/oficinas/costa-rica/assets/cr-plaga-zancudos-foto.webp",
-    "alt": "Zancudo Aedes aegypti, con sus patas de franjas blancas, sobre una hoja en Costa Rica",
-    "original": "2000x1328",
-    "credito": "Federico Figueroa Cabezas, iNaturalist, licencia CC BY (Costa Rica, 2022)",
-    "pagina": "https://www.inaturalist.org/observations/134488408",
-    "archivo": "https://www.inaturalist.org/photos/229239357"
+    "alt": "Zancudo Aedes aegypti, con sus patas de franjas blancas, sobre un dedo",
+    "original": "1374x1832",
+    "credito": "Apurv013, Wikimedia Commons, CC0 (dominio público)",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Aedes_aegypti_-_Dengue_Mosquito.jpg",
+    "archivo": "https://commons.wikimedia.org/wiki/File:Aedes_aegypti_-_Dengue_Mosquito.jpg"
   },
   {
     "plaga": "hormigas-y-zompopas",
     "file": "sitio/oficinas/costa-rica/assets/cr-plaga-hormigas-y-zompopas-foto.webp",
-    "alt": "Zompopas Atta cephalotes cargando pedazos de hoja",
-    "original": "1861x1396",
-    "credito": "Hans Hillewaert, Wikimedia Commons, licencia CC BY-SA 4.0 (Costa Rica)",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Atta_cephalotes_(Costa_Rica)_2.jpg",
-    "archivo": "https://commons.wikimedia.org/wiki/File:Atta_cephalotes_(Costa_Rica)_2.jpg"
+    "alt": "Zompopas (Atta cephalotes) cargando pedazos de hoja sobre una cuerda",
+    "original": "1589x1109",
+    "credito": "Adrian Pingstone, Wikimedia Commons, dominio público",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Leaf_cutter_ants_arp.jpg",
+    "archivo": "https://commons.wikimedia.org/wiki/File:Leaf_cutter_ants_arp.jpg"
   }
 ]

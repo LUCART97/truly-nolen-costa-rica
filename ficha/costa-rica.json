@@ -118,13 +118,13 @@
     "poster": "costa-rica-desktop.webp",
     "video": "costa-rica-desktop.mp4",
     "videoStatus": "reviewed",
-    "sha256Poster": "2cdb87582bd7115c08f2c868f42d56521d47c88d4d08c55c787e829d9a0b3352",
-    "sha256Video": "444e271c1c03e815a257f0ece4da3abe42231f91e9480f95dae38e579d9390f8",
+    "sha256Poster": "fceec95d8e28f82d5cb70f567a0017651fb2877affd1914f2875b6de7c548902",
+    "sha256Video": "2998818f02f2dda65a83c2d1447312fb629f73abd084cfb8bea3d80c55a50f22",
     "width": 3840,
     "height": 2160,
     "duration": 10.0,
     "medicion": "flujo.py: asfalto con el mismo signo en los 20 tramos (avanza, nunca retrocede); quieto.py: nariz 22,0-23,4 px (cambio 6 %), x 78-79 %, y 67-68 %; 12 cuadros revisados sin otros carros. 4K (1-nov-2026): flujo.py con los 20 tramos del asfalto en el mismo signo (-0,11 a -2,71); letras de la puerta revisadas en los cuadros 0, 60, 120, 180 y 239 al lado del video anterior.",
-    "origen": "Video generado con Gemini (Crear vídeo, modelo Pro) en la cuenta de Cesar el 31-oct-2026, a partir de «Carro costarica.jfif» (imagen entregada por Cesar) con el texto de la receta; sin audio, recodificado al color del catálogo; póster = cuadro 0. Licencia de uso comercial del contenido de Gemini: POR CONFIRMAR. El 1-nov-2026: agrandado a 4K con Real-ESRGAN (realesrgan-x4plus, release oficial v0.2.5.0) y corregidas SOLO las letras mal escritas de la puerta («TRULN NOLEN» → «TRULY NOLEN», con las letras rojas del emblema real tn-emblema.png, seguidas cuadro por cuadro); el resto del video queda igual. Póster nuevo = cuadro 0 del video 4K. Las letras van pegadas a la puerta con seguimiento fino (ECC, fracciones de píxel) y rojo suavizado en el tiempo: se mueven 0,4 px respecto a la puerta (las originales, 1,6 px). Las letras toman en cada punto la luz, los reflejos y la textura de la puerta (como pintura de la carrocería). En los cuadros 99-101 y 187 se quitó una placa clara detrás de las letras que venía del video original (zona tomada de los cuadros vecinos). Logo de la puerta rígido: la zona completa del logo sale del cuadro 120 y se pone igual en todos los cuadros, pegada a la puerta y con su luz (cambio de forma entre cuadros 1,1 frente a 3,4 antes)."
+    "origen": "Video generado con Gemini (Crear vídeo, modelo Pro) en la cuenta de Cesar el 31-oct-2026, a partir de «Carro costarica.jfif» (imagen entregada por Cesar) con el texto de la receta; sin audio, recodificado al color del catálogo; póster = cuadro 0. Licencia de uso comercial del contenido de Gemini: POR CONFIRMAR. El 1-nov-2026: agrandado a 4K con Real-ESRGAN (realesrgan-x4plus, release oficial v0.2.5.0) y corregidas SOLO las letras mal escritas de la puerta («TRULN NOLEN» → «TRULY NOLEN», con las letras rojas del emblema real tn-emblema.png, seguidas cuadro por cuadro); el resto del video queda igual. Póster nuevo = cuadro 0 del video 4K. Las letras van pegadas a la puerta con seguimiento fino (ECC, fracciones de píxel) y rojo suavizado en el tiempo: se mueven 0,4 px respecto a la puerta (las originales, 1,6 px). Las letras toman en cada punto la luz, los reflejos y la textura de la puerta (como pintura de la carrocería). En los cuadros 99-101 y 187 se quitó una placa clara detrás de las letras que venía del video original (zona tomada de los cuadros vecinos). Logo de la puerta rígido: la zona completa del logo sale del cuadro 120 y se pone igual en todos los cuadros, pegada a la puerta y con su luz (cambio de forma entre cuadros 1,1 frente a 3,4 antes). Logo de la puerta = emblema real en tinta (orejas, bigotes, TRULY NOLEN, INTERNATIONAL y cola; receta 1-nov, «Logos»), rígido sobre la puerta; revisado en los cuadros 0, 55, 109, 163, 217 y 239."
   },
   "footer": {
     "file": "footer-costa-rica.webp",
@@ -2129,24 +2129,7 @@
       }
     ]
   },
-  "creditosFotos": [
-    [
-      "Zompopas (Atta cephalotes, Costa Rica): foto de Hans Hillewaert, Wikimedia Commons, licencia CC BY-SA 4.0",
-      "https://commons.wikimedia.org/wiki/File:Atta_cephalotes_(Costa_Rica)_2.jpg"
-    ],
-    [
-      "Zancudo Aedes aegypti en Costa Rica (guía de zancudos y consejos del blog): foto de Federico Figueroa Cabezas, iNaturalist, licencia CC BY 4.0",
-      "https://www.inaturalist.org/observations/134488408"
-    ],
-    [
-      "Comején, ratas, cucarachas y chinches de cama: fotos de Truly Nolen (trulynolen.com)",
-      "https://www.trulynolen.com/"
-    ],
-    [
-      "Garrapata café del perro (portada del blog): foto de @dineshphotography7797, Wikimedia Commons, licencia CC BY 4.0",
-      "https://commons.wikimedia.org/wiki/File:Rhipicephalus_sanguineus_228608115.jpg"
-    ]
-  ],
+  "creditosFotos": [],
   "legalesDescripcion": {
     "privacidad": "Cómo se usan los mensajes que escribe en el chat de Truly AI y por WhatsApp en el sitio de Truly Nolen Costa Rica, y qué datos no conviene compartir.",
     "terminos": "Términos de uso del sitio de Truly Nolen Costa Rica: alcance de la información, confirmación de servicios y créditos de las fotos con licencia libre.",
@@ -2456,6 +2439,22 @@
     [
       "Nido de comején en Costa Rica (portada del blog): foto de ImagePerson, Wikimedia Commons, licencia CC BY 4.0",
       "https://commons.wikimedia.org/wiki/File:Termite_Nest_Costa_Rica_0329.jpg"
+    ],
+    [
+      "Zompopas (Atta cephalotes, Costa Rica): foto de Hans Hillewaert, Wikimedia Commons, licencia CC BY-SA 4.0",
+      "https://commons.wikimedia.org/wiki/File:Atta_cephalotes_(Costa_Rica)_2.jpg"
+    ],
+    [
+      "Zancudo Aedes aegypti en Costa Rica (guía de zancudos y consejos del blog): foto de Federico Figueroa Cabezas, iNaturalist, licencia CC BY 4.0",
+      "https://www.inaturalist.org/observations/134488408"
+    ],
+    [
+      "Comején, ratas, cucarachas y chinches de cama: fotos de Truly Nolen (trulynolen.com)",
+      "https://www.trulynolen.com/"
+    ],
+    [
+      "Garrapata café del perro (portada del blog): foto de @dineshphotography7797, Wikimedia Commons, licencia CC BY 4.0",
+      "https://commons.wikimedia.org/wiki/File:Rhipicephalus_sanguineus_228608115.jpg"
     ]
   ],
   "peliculaGemini5s": {

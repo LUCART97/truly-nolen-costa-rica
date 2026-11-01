@@ -172,6 +172,7 @@ body.country-site[data-oficina] .local-footer .footer-place img{mix-blend-mode:n
 .blog-consejos{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
 .g-zonas-lista .g-lista{margin-top:10px}
 /* Ojo de diseño (1-nov-2026) */
+""" + leer("molde-1nov.css") + """
 h1,h2,h3{text-wrap:balance}
 @media(min-width:901px){.blog-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
 .g-zonas-grid{align-items:start}.g-zonas-fig{position:sticky;top:140px}}
@@ -207,9 +208,9 @@ def footer():
 <figure class="footer-place"><img src="{ASSETS}{f['file']}" alt="{escape(f['alt'])}" width="1414" height="558" loading="lazy" decoding="async"/><figcaption>{escape(f['caption'])}</figcaption></figure>
 <div class="footer-intro"><a class="brand" href="{BASE}"><img src="/tn-emblema.png" alt=""/><span>Truly Nolen <small data-preview-office>{PAIS}</small></span></a><p>{T['footerLema']}</p><a class="text-link" href="{BASE}#contacto">Conversemos</a></div>
 <div class="footer-columns">
-<nav aria-label="Servicios del pie"><h2>Servicios</h2>{s}<a href="{BASE}#consulta">Otras consultas</a><a href="{BASE}#metodo">Cómo trabajamos</a></nav>
-<nav aria-label="Guía de plagas del pie"><h2>Guía de plagas</h2>{p}<a href="{BASE}#consulta">Consultar por otra plaga</a></nav>
-<nav aria-label="Truly Nolen"><h2>Truly Nolen {PAIS}</h2><a href="{BASE}#nosotros">Nuestra forma de cuidar</a><a href="{BASE}#metodo">Cómo trabajamos</a><a href="{BASE}#cobertura">Consultar cobertura</a><a href="{BASE}#preguntas">Preguntas frecuentes</a>{f'<a href="{BASE}blog/">Blog</a>' if ARTICULOS else ""}<a href="{BASE}#contacto">Solicitar atención</a></nav>
+<details class="pie-col" open><summary>Servicios</summary><nav aria-label="Servicios del pie">{s}<a href="{BASE}#consulta">Otras consultas</a><a href="{BASE}#metodo">Cómo trabajamos</a></nav></details>
+<details class="pie-col" open><summary>Guía de plagas</summary><nav aria-label="Guía de plagas del pie">{p}<a href="{BASE}#consulta">Consultar por otra plaga</a></nav></details>
+<details class="pie-col" open><summary>Truly Nolen {PAIS}</summary><nav aria-label="Truly Nolen"><a href="{BASE}#nosotros">Nuestra forma de cuidar</a><a href="{BASE}#metodo">Cómo trabajamos</a><a href="{BASE}#cobertura">Consultar cobertura</a><a href="{BASE}#preguntas">Preguntas frecuentes</a>{f'<a href="{BASE}blog/">Blog</a>' if ARTICULOS else ""}<a href="{BASE}#contacto">Solicitar atención</a></nav></details>
 <div class="footer-office"><h2>Hablemos</h2><p data-preview-office>{PAIS}</p><a href="#contacto" data-abrir-chat>Escribir a Truly AI</a></div>
 </div>
 <div class="footer-legal"><p>© Truly Nolen · {PAIS}</p><nav aria-label="Información legal"><a href="{BASE}privacidad/">Privacidad</a><a href="{BASE}terminos/">Términos de uso</a><a href="{BASE}accesibilidad/">Accesibilidad</a></nav></div>
@@ -243,11 +244,27 @@ def contacto(lista=None):
     I = FICHA["inicio"]
     lista = lista or I["consultaStarters"]
     return f"""<section id="contacto" class="section local-consult g-cierre"><div><span id="consulta"></span><span id="cobertura"></span><p class="eyebrow">Truly Nolen · {PAIS}</p><h2>{escape(T['contactoTitulo'])}</h2><p>{escape(T['contactoTexto'])}</p>
-<p class="g-cierre-zona">{escape(I['coberturaTexto'])} <a class="text-link" href="#contacto" data-abrir-chat data-chat-prompt="{escape(I['coberturaPrompt'])}">Consultar mi zona</a></p>
+{zona_form()}
 <div class="contact-channels" style="display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px;align-self:end"><a class="button" href="#contacto" data-abrir-chat>Escribir en el chat</a><a class="text-link" href="{WA}" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a></div></div>
 <div class="marco-entry"><div class="marco-entry-heading"><img src="/oficinas/assets/truly-carrito-asistente.svg" alt="" width="72" height="48" loading="lazy"/><div><h3>Truly AI</h3><p>Asistente virtual · {PAIS}</p></div></div>
 <p class="marco-entry-label">Cuéntele a Truly AI qué está viendo</p><div class="marco-starts">{starters(lista)}</div><p class="marco-entry-note">{escape(T['nota'])}</p></div></section>
 """
+
+
+PROVINCIAS = ["San José", "Alajuela", "Cartago", "Heredia", "Guanacaste", "Puntarenas", "Limón"]   # las 7 provincias (INEC)
+
+
+def zona_form():
+    """Filtro de cobertura del molde (zona.js): arma el primer mensaje y abre Truly AI; no envía nada solo."""
+    ops = "".join(f"<option>{p}</option>" for p in PROVINCIAS)
+    return (f'<form class="g-zona" data-zona data-n1="Provincia" data-n2="Cantón"><p class="g-zona-txt">{escape(FICHA["inicio"]["coberturaTexto"])}</p>'
+            f'<div class="g-zona-campos"><label>Provincia<select name="n1" required><option value="">Elegir</option>{ops}</select></label>'
+            '<label>Cantón<input name="n2" autocomplete="address-level2"/></label>'
+            '<label>Código postal <small>(opcional)</small><input name="cp" inputmode="numeric" maxlength="5" pattern="[0-9]{5}" autocomplete="postal-code"/></label></div>'
+            '<fieldset class="g-zona-espacio"><legend>Espacio</legend><label class="g-zona-op"><input type="radio" name="espacio" value="Hogar" checked/>Hogar</label>'
+            '<label class="g-zona-op"><input type="radio" name="espacio" value="Comercio"/>Comercio</label><label class="g-zona-op"><input type="radio" name="espacio" value="Industria"/>Industria</label></fieldset>'
+            f'<div class="g-zona-acciones"><button type="submit" class="button">Consultar cobertura</button><a class="text-link" href="#contacto" data-abrir-chat data-chat-prompt="{escape(FICHA["inicio"]["coberturaPrompt"])}">Prefiero escribirlo</a></div>'
+            '<button type="button" hidden data-abrir-chat data-zona-enviar></button></form>')
 
 
 def tarjeta_servicio(i, x):
@@ -363,7 +380,7 @@ def fuentes(lista):
 def imagen_hero(x, tipo):
     if tipo == "plaga" and x["slug"] in FOTOS_PLAGAS:
         f = FOTOS_PLAGAS[x["slug"]]
-        return f'<figure style="margin:0"><img src="{ASSETS}{foto_plaga(x)}" alt="{escape(f["alt"])}"/><figcaption class="r2-credito">Foto: <a href="{escape(f["pagina"])}" target="_blank" rel="noopener noreferrer">{escape(f["credito"])}</a></figcaption></figure>'
+        return f'<figure style="margin:0"><img src="{ASSETS}{foto_plaga(x)}" alt="{escape(f["alt"])}"/></figure>'
     return f'<img src="{ASSETS}{x["imagen"]}" alt="{escape(x["titulo"])}"/>'
 
 
@@ -539,7 +556,7 @@ def pagina_inicio():
     if ARTICULOS:
         a = ARTICULOS[0]
         url = f"{BASE}blog/{a['slug']}/"
-        blog = (f'<article class="g-blog"><div class="g-blog-top"><img src="{ASSETS}{a["cover"]}" alt="" loading="lazy"/><p class="g-ey">Del blog</p></div>'
+        blog = (f'<article class="g-blog"><div class="g-blog-top"><img src="{ASSETS}{a["cover"]}" alt="" loading="lazy"/><p class="g-ey">Del blog · {fecha_larga(a["fecha"])}</p></div>'
                 f'<h3><a href="{url}">{escape(a["title"])}</a></h3><p>{escape(a["excerpt"])}</p><a class="g-link" href="{url}">Leer el artículo<span aria-hidden="true">→</span></a>'
                 f'<a class="g-link g-link-2" href="{BASE}blog/">Ver todo el blog<span aria-hidden="true">→</span></a></article>')
     html += (f'<section class="section g g-ayuda">{g_cab("Blog y preguntas", "Prevención y respuestas<br/>para usted.", I["ayudaTexto"])}<div class="g-ayuda-grid">{blog}'
@@ -565,6 +582,7 @@ def escribir(ruta, html):
     # Marca de versión según el contenido (?v=…): si una foto o el video cambian con el mismo nombre,
     # el navegador baja el nuevo en vez de mostrar el que tenía guardado.
     html = re.sub(r'((?:src|srcset|data-src)=")(' + re.escape(ASSETS) + r'[^"?#\s]+)"', lambda m: f'{m.group(1)}{m.group(2)}?v={version(m.group(2))}"', html)
+    html = html.replace("</body>", '<script defer src="/oficinas/assets/zona.js"></script><script defer src="/oficinas/assets/pie.js"></script></body>', 1)
     destino.write_text(html, encoding="utf-8")
     return destino
 
