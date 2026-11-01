@@ -74,7 +74,8 @@ HEAD_BLOG += "".join(s for s in re.findall(r"<style>.*?</style>", leer("blog.htm
 # Goteo del blog: solo sale lo que tiene fecha de hoy o anterior, en hora de Costa Rica (UTC-6).
 HOY = date.fromisoformat(os.environ["FECHA_HOY"]) if os.environ.get("FECHA_HOY") else (datetime.now(timezone.utc) - timedelta(hours=6)).date()
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
-TODOS_ARTICULOS = sorted((json.loads(p.read_text(encoding="utf-8")) for p in (RAIZ / "ficha" / "blog").glob("*.json")),
+# Artículos con "excluido" (retirados por el dueño) no salen ni cuentan en el goteo; su archivo se conserva.
+TODOS_ARTICULOS = sorted((a for a in (json.loads(p.read_text(encoding="utf-8")) for p in (RAIZ / "ficha" / "blog").glob("*.json")) if not a.get("excluido")),
                          key=lambda a: (a["fecha"], a["slug"]), reverse=True)
 # Pausa del goteo (decisión del dueño): con blog.pausadoHasta no sale nada con fecha posterior, aunque llegue su día.
 PAUSA = date.fromisoformat(FICHA["blog"]["pausadoHasta"]) if FICHA["blog"].get("pausadoHasta") else None

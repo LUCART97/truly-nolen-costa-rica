@@ -37,7 +37,6 @@
   "url": "https://trulyinbound.ai/oficinas/costa-rica/",
   "blog": {
     "porDia": 2,
-    "pausadoHasta": "2026-10-30",
     "consejos": [
       {
         "plaga": "zancudos",
@@ -71,14 +70,14 @@
       },
       {
         "plaga": "pulgas-y-garrapatas",
-        "titulo": "Aspire donde duerme la mascota",
-        "texto": "Si el perro duerme en un sillón de tela, la UNA recomienda aspirar tres veces a la semana, porque ahí se concentran las pupas de las pulgas. Y revisar a los perros después de visitar fincas, potreros o playas.",
-        "fuente": "UNA (2018) · Teletica (2026)"
+        "titulo": "Control de garrapatas todo el año",
+        "texto": "Un veterinario citado por Teletica recomienda usar productos para el control de garrapatas durante todo el año y revisar a los perros después de visitar fincas, potreros, playas o zonas con mucha vegetación.",
+        "fuente": "Teletica (2026)"
       },
       {
         "plaga": "chinches-de-cama",
         "titulo": "Revise la maleta al volver",
-        "texto": "Las chinches de cama viajan escondidas en el equipaje, los muebles y las pertenencias. Antes de deshacer la maleta, revise sus costuras y pliegues, y busque manchas oscuras en el colchón.",
+        "texto": "Las chinches de cama viajan escondidas en el equipaje, los muebles y las pertenencias. Antes de deshacer la maleta, revise sus costuras y pliegues, y busque manchas color óxido en el colchón.",
         "fuente": "UCR (2020) · CDC"
       },
       {
@@ -2146,6 +2145,10 @@
     [
       "Comején, ratas, cucarachas y chinches de cama: fotos de Truly Nolen (trulynolen.com)",
       "https://www.trulynolen.com/"
+    ],
+    [
+      "Garrapata del perro (portada del blog): foto de gailhampshire, Wikimedia Commons, licencia CC BY 2.0",
+      "https://commons.wikimedia.org/wiki/File:Brown_Dog_Tick._Rhipicephalus_sanguineus_-_Flickr_-_gailhampshire_(1).jpg"
     ]
   ],
   "legalesDescripcion": {
