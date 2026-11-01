@@ -118,13 +118,13 @@
     "poster": "costa-rica-desktop.webp",
     "video": "costa-rica-desktop.mp4",
     "videoStatus": "reviewed",
-    "sha256Poster": "4afbbff04fd12b34957f16ad4edac08088f18a0a7835a8d0e3a711f03af7dd00",
-    "sha256Video": "09562dd2793b762944c526fb89a018a71f5e6dc4c6f4b61ccfe8e12d801e8ece",
-    "width": 1280,
-    "height": 720,
-    "duration": 10.03,
-    "medicion": "flujo.py: asfalto con el mismo signo en los 20 tramos (avanza, nunca retrocede); quieto.py: nariz 22,0-23,4 px (cambio 6 %), x 78-79 %, y 67-68 %; 12 cuadros revisados sin otros carros.",
-    "origen": "Video generado con Gemini (Crear vídeo, modelo Pro) en la cuenta de Cesar el 31-oct-2026, a partir de «Carro costarica.jfif» (imagen entregada por Cesar) con el texto de la receta; sin audio, recodificado al color del catálogo; póster = cuadro 0. Licencia de uso comercial del contenido de Gemini: POR CONFIRMAR."
+    "sha256Poster": "1927fcd9d7a0e71eab164279c21781b1fb746c38d8c24cdc7fcc3b7237bffe26",
+    "sha256Video": "122011ef3730a843a648a7205ad6e9428f3ac2057c2aac0bd90b0136a9a982ea",
+    "width": 3840,
+    "height": 2160,
+    "duration": 10.0,
+    "medicion": "flujo.py: asfalto con el mismo signo en los 20 tramos (avanza, nunca retrocede); quieto.py: nariz 22,0-23,4 px (cambio 6 %), x 78-79 %, y 67-68 %; 12 cuadros revisados sin otros carros. 4K (1-nov-2026): flujo.py con los 20 tramos del asfalto en el mismo signo (-0,11 a -2,71); letras de la puerta revisadas en los cuadros 0, 60, 120, 180 y 239 al lado del video anterior.",
+    "origen": "Video generado con Gemini (Crear vídeo, modelo Pro) en la cuenta de Cesar el 31-oct-2026, a partir de «Carro costarica.jfif» (imagen entregada por Cesar) con el texto de la receta; sin audio, recodificado al color del catálogo; póster = cuadro 0. Licencia de uso comercial del contenido de Gemini: POR CONFIRMAR. El 1-nov-2026: agrandado a 4K con Real-ESRGAN (realesrgan-x4plus, release oficial v0.2.5.0) y corregidas SOLO las letras mal escritas de la puerta («TRULN NOLEN» → «TRULY NOLEN», con las letras rojas del emblema real tn-emblema.png, seguidas cuadro por cuadro); el resto del video queda igual. Póster nuevo = cuadro 0 del video 4K. Las letras van pegadas a la puerta con seguimiento fino (ECC, fracciones de píxel) y rojo suavizado en el tiempo: se mueven 0,4 px respecto a la puerta (las originales, 1,6 px). Las letras toman en cada punto la luz, los reflejos y la textura de la puerta (como pintura de la carrocería). En los cuadros 99-101 y 187 se quitó una placa clara detrás de las letras que venía del video original (zona tomada de los cuadros vecinos)."
   },
   "footer": {
     "file": "footer-costa-rica.webp",
@@ -357,13 +357,13 @@
         "eyebrow": "Servicio residencial",
         "lema": "Su casa,<br/>de adentro hacia afuera.",
         "intro": "Desde la cocina hasta el patio. Revisamos su casa o apartamento para encontrar dónde está la actividad de plagas y qué la favorece, cuidando a su familia y a sus mascotas.",
-        "nota": "Antes de empezar recibe una propuesta con el alcance y las condiciones para su casa.",
+        "nota": "Antes de empezar, usted recibe una propuesta con el alcance y las condiciones para su casa.",
         "bloques": [
           {
             "tipo": "tarjetas",
             "eyebrow": "Qué puede esperar",
             "titulo": "Protección para su hogar.",
-            "nota": "Antes de empezar recibe una propuesta con el alcance y las condiciones para su casa.",
+            "nota": "Antes de empezar, usted recibe una propuesta con el alcance y las condiciones para su casa.",
             "items": [
               {
                 "h": "¿Para quién?",
@@ -568,7 +568,7 @@
             "tipo": "tarjetas",
             "eyebrow": "Qué puede esperar",
             "titulo": "Control para su negocio.",
-            "nota": "Antes de empezar recibe una propuesta con el alcance y las condiciones para su negocio.",
+            "nota": "Antes de empezar, usted recibe una propuesta con el alcance y las condiciones para su negocio.",
             "items": [
               {
                 "h": "¿Para quién?",
@@ -785,7 +785,7 @@
             "tipo": "tarjetas",
             "eyebrow": "Qué puede esperar",
             "titulo": "Un programa para su operación.",
-            "nota": "Antes de empezar recibe una propuesta con el alcance y las condiciones para su instalación.",
+            "nota": "Antes de empezar, usted recibe una propuesta con el alcance y las condiciones para su instalación.",
             "items": [
               {
                 "h": "¿Para quién?",
@@ -896,7 +896,7 @@
           {
             "tipo": "relacionadas",
             "eyebrow": "Guía de plagas",
-            "titulo": "Las plagas que más<br/>cuidan en una planta.",
+            "titulo": "Las plagas que más<br/>preocupan en una planta.",
             "lista": "plagas",
             "slugs": [
               "ratas-y-ratones",
@@ -2135,11 +2135,7 @@
       "https://commons.wikimedia.org/wiki/File:Atta_cephalotes_(Costa_Rica)_2.jpg"
     ],
     [
-      "Nido de comején en Costa Rica (portada del blog): foto de ImagePerson, Wikimedia Commons, licencia CC BY 4.0",
-      "https://commons.wikimedia.org/wiki/File:Termite_Nest_Costa_Rica_0329.jpg"
-    ],
-    [
-      "Zancudo Aedes aegypti en Costa Rica (guía de zancudos y blog): foto de Federico Figueroa Cabezas, iNaturalist, licencia CC BY 4.0",
+      "Zancudo Aedes aegypti en Costa Rica (guía de zancudos y consejos del blog): foto de Federico Figueroa Cabezas, iNaturalist, licencia CC BY 4.0",
       "https://www.inaturalist.org/observations/134488408"
     ],
     [
@@ -2147,8 +2143,8 @@
       "https://www.trulynolen.com/"
     ],
     [
-      "Garrapata del perro (portada del blog): foto de gailhampshire, Wikimedia Commons, licencia CC BY 2.0",
-      "https://commons.wikimedia.org/wiki/File:Brown_Dog_Tick._Rhipicephalus_sanguineus_-_Flickr_-_gailhampshire_(1).jpg"
+      "Garrapata café del perro (portada del blog): foto de @dineshphotography7797, Wikimedia Commons, licencia CC BY 4.0",
+      "https://commons.wikimedia.org/wiki/File:Rhipicephalus_sanguineus_228608115.jpg"
     ]
   ],
   "legalesDescripcion": {
@@ -2456,6 +2452,10 @@
     [
       "«Distribution centre (J Sainsbury's)», de Nick Saltmarsh, Wikimedia Commons, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
       "https://commons.wikimedia.org/wiki/File:Distribution_centre_(J_Sainsbury%27s).jpg"
+    ],
+    [
+      "Nido de comején en Costa Rica (portada del blog): foto de ImagePerson, Wikimedia Commons, licencia CC BY 4.0",
+      "https://commons.wikimedia.org/wiki/File:Termite_Nest_Costa_Rica_0329.jpg"
     ]
   ],
   "peliculaGemini5s": {

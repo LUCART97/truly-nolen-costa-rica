@@ -5,6 +5,7 @@ de ahí salen las hojas de estilo, los scripts y el chat. Todo el contenido sale
 
 Uso:  uv run --python 3.12 python generar.py
 """
+import hashlib
 import json
 import os
 import re
@@ -164,12 +165,22 @@ def foto_plaga(x):
 
 
 # Diseño de las oficinas: el CSS del molde oficial (copiado de la página de Venezuela) más dos ajustes propios.
-R2_CSS = "<style>" + leer("diseno-oficina.css") + """
+R2_CSS = "<style>" + re.sub(r"/\*.*?\*/", "", leer("diseno-oficina.css"), flags=re.S) + """
 .r2-credito{font-size:12px;color:var(--muted);margin:8px 0 0;overflow-wrap:anywhere}
 body.country-site[data-oficina] .local-footer .footer-place img{mix-blend-mode:normal}
 @media(min-width:901px){.g-plagas-grid[style*="--n:4"]{grid-template-columns:repeat(2,minmax(0,1fr))}.g-plagas-grid[style*="--n:2"]{grid-template-columns:repeat(2,minmax(0,1fr))}
 .blog-consejos{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
 .g-zonas-lista .g-lista{margin-top:10px}
+/* Ojo de diseño (1-nov-2026) */
+h1,h2,h3{text-wrap:balance}
+@media(min-width:901px){.blog-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+.g-zonas-grid{align-items:start}.g-zonas-fig{position:sticky;top:140px}}
+@media(max-width:760px){.service-grid[style]{grid-template-columns:1fr!important}}
+.service-grid>a.service{display:flex;flex-direction:column}.service-grid>a.service>div{display:flex;flex-direction:column;flex:1}.service-grid>a.service .service-action{margin-top:auto;align-self:flex-start}
+.legal-content h2{font-size:clamp(24px,2.4vw,32px)}
+@media(min-width:901px){.blog-grid.n2{grid-template-columns:repeat(2,minmax(0,1fr))!important}.blog-grid.n1{grid-template-columns:1fr!important}
+.detail-hero h1{font-size:clamp(44px,4.6vw,68px)}}
+.blog-consejos .text-link{white-space:normal}
 </style>"""
 
 
@@ -420,7 +431,7 @@ def pagina_blog():
         p = plagas[c["plaga"]]
         url = f"{BASE}plagas/{p['slug']}/"
         consejos += f"""<article class="blog-card"><a href="{url}" tabindex="-1" aria-hidden="true"><img src="{ASSETS}{foto_plaga(p)}" alt="" loading="lazy"/></a>
-<div><p class="eyebrow">{escape(p['titulo'])}</p><h2><a href="{url}">{escape(c['titulo'])}</a></h2><p>{escape(c['texto'])}</p><p style="font-size:13px;color:var(--muted)">Fuente: {escape(c['fuente'])}</p><a class="text-link" href="{url}">Ver la guía de {escape(p['titulo'].lower())} →</a></div></article>"""
+<div><p class="eyebrow">{escape(p['titulo'])}</p><h2><a href="{url}">{escape(c['titulo'])}</a></h2><p>{escape(c['texto'])}</p><p style="font-size:13px;color:var(--muted)">Fuente: {escape(c['fuente'])}</p><a class="text-link" href="{url}">Ver la guía de {escape(p['titulo'].lower())}&nbsp;→</a></div></article>"""
     if consejos:
         html += f"""<section class="section blog-lista"><div class="section-heading"><p class="eyebrow">Prevención · {PAIS}</p><h2>Cómo prevenir<br/>cada plaga.</h2>
 <p>Un consejo concreto por plaga, con su fuente, para empezar hoy mismo en su casa o su negocio.</p></div><div class="blog-grid blog-consejos">{consejos}</div></section>
@@ -454,9 +465,9 @@ def pagina_articulo(a):
 """
     html += faq(escape(a["tema"]), "Preguntas frecuentes", a["faqs"], ident="")
     html += fuentes(a["fuentes"])
-    otros = [x for x in ARTICULOS if x["slug"] != a["slug"]][:2]
+    otros = [x for x in ARTICULOS if x["slug"] != a["slug"]][:3]
     if otros:
-        html += f'<section class="section"><div class="section-heading"><p class="eyebrow">Blog</p><h2>Artículos relacionados</h2></div><div class="blog-grid">{"".join(tarjeta_articulo(x, len(otros) == 1) for x in otros)}</div></section>\n'
+        html += f'<section class="section"><div class="section-heading"><p class="eyebrow">Blog</p><h2>Artículos relacionados</h2></div><div class="blog-grid n{len(otros)}">{"".join(tarjeta_articulo(x, len(otros) == 1) for x in otros)}</div></section>\n'
     return html + contacto() + "</main>" + footer() + CHAT + "</body></html>\n"
 
 
@@ -538,11 +549,22 @@ def pagina_inicio():
     return html
 
 
+_VERSIONES = {}
+def version(url):
+    if url not in _VERSIONES:
+        archivo = SITIO / url.lstrip("/")
+        _VERSIONES[url] = hashlib.sha256(archivo.read_bytes()).hexdigest()[:10] if archivo.exists() else "0"
+    return _VERSIONES[url]
+
+
 def escribir(ruta, html):
     destino = SITIO / "oficinas" / ID / ruta / "index.html"
     destino.parent.mkdir(parents=True, exist_ok=True)
     # Un espacio antes de cada salto en los títulos: en el celular los saltos se ocultan y las palabras no se pegan.
     html = re.sub(r"<(h[12])\b[^>]*>.*?</\1>", lambda m: re.sub(r"(?<! )<br/>", " <br/>", m.group(0)), html, flags=re.S)
+    # Marca de versión según el contenido (?v=…): si una foto o el video cambian con el mismo nombre,
+    # el navegador baja el nuevo en vez de mostrar el que tenía guardado.
+    html = re.sub(r'((?:src|srcset|data-src)=")(' + re.escape(ASSETS) + r'[^"?#\s]+)"', lambda m: f'{m.group(1)}{m.group(2)}?v={version(m.group(2))}"', html)
     destino.write_text(html, encoding="utf-8")
     return destino
 
