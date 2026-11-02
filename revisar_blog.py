@@ -18,6 +18,8 @@ CLAVES = {
     "ratas-y-leptospirosis": "leptospirosis",
     "chinches-de-cama": "chinches de cama",
     "pulgas-y-garrapatas": "pulgas y garrapatas",
+    "cucarachas-en-costa-rica": "cucarachas en costa rica",
+    "alacranes-en-costa-rica": "alacranes en costa rica",
 }
 
 
