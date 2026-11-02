@@ -260,7 +260,7 @@ def zona_form():
     return (f'<form class="g-zona" data-zona data-n1="Provincia" data-n2="Cantón"><p class="g-zona-txt">{escape(FICHA["inicio"]["coberturaTexto"])}</p>'
             f'<div class="g-zona-campos"><label>Provincia<select name="n1" required><option value="">Elegir</option>{ops}</select></label>'
             '<label>Cantón<input name="n2" autocomplete="address-level2"/></label>'
-            '<label>Código postal <small>(opcional)</small><input name="cp" inputmode="numeric" maxlength="5" pattern="[0-9]{5}" autocomplete="postal-code"/></label></div>'
+            '<label>Código postal<input name="cp" placeholder="Opcional" inputmode="numeric" maxlength="5" pattern="[0-9]{5}" autocomplete="postal-code"/></label></div>'
             '<fieldset class="g-zona-espacio"><legend>Espacio</legend><label class="g-zona-op"><input type="radio" name="espacio" value="Hogar" checked/>Hogar</label>'
             '<label class="g-zona-op"><input type="radio" name="espacio" value="Comercio"/>Comercio</label><label class="g-zona-op"><input type="radio" name="espacio" value="Industria"/>Industria</label></fieldset>'
             f'<div class="g-zona-acciones"><button type="submit" class="button">Consultar cobertura</button><a class="text-link" href="#contacto" data-abrir-chat data-chat-prompt="{escape(FICHA["inicio"]["coberturaPrompt"])}">Prefiero escribirlo</a></div>'
@@ -327,7 +327,7 @@ def g_zonas(detalle=None):
                         for c, f in zip(colores, detalle))
     else:
         zonas = "".join(f'<li class="{c}"><h3>{escape(a)}</h3><p>{escape(b)}</p></li>' for c, (a, b) in zip(colores, I["casaZonas"]))
-    return (f'<section class="section g g-zonas"><div class="g-zonas-grid"><figure class="g-zonas-fig"><img src="{ASSETS}{casa_img}" alt="{escape(casa_alt)}" loading="lazy"/></figure>'
+    return (f'<section class="section g g-zonas"><div class="g-zonas-grid{" g-zonas-detalle" if detalle else ""}"><figure class="g-zonas-fig"><img src="{ASSETS}{casa_img}" alt="{escape(casa_alt)}" loading="lazy"/></figure>'
             f'<div>{g_cab("Tres zonas para revisar", escape(I["casaTitulo"]), I["casaTexto"])}<ul class="g-zonas-lista">{zonas}</ul>'
             f'<a class="g-link" href="{BASE}servicios/hogares/">{escape(I["casaLink"])}<span aria-hidden="true">→</span></a></div></div></section>\n')
 

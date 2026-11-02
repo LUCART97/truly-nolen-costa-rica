@@ -53,3 +53,20 @@ body.country-site[data-oficina] .service div>span:first-of-type{font-size:12px}
 body.country-site[data-oficina] .footer-office h2{font-size:15px;line-height:1.4;margin:0 0 8px;color:var(--ink)}
 .g-faq details p{font-size:16px}
 .blog-card img[src*="cr-blog-pulgas-y-garrapatas"],.g-blog img[src*="cr-blog-pulgas-y-garrapatas"]{object-fit:contain!important;background:transparent;mix-blend-mode:multiply}
+/* Tercera pasada del ojo de diseño (2-nov-2026) */
+main h1 br,main h2 br{display:none}
+@media(max-width:960px){#country-navigation details.nav-menu>summary{padding-left:4px;padding-right:4px}#country-navigation details.nav-menu>summary{display:flex;align-items:center;justify-content:space-between}#country-navigation details.nav-menu>summary span{font-size:22px;line-height:1;position:static;transform:translateY(-5px)}}
+@media(max-width:760px){body.country-site[data-oficina] .detail-hero .story img{height:auto;object-fit:cover}
+body.country-site[data-oficina] #inicio .hero-text>p:not(.eyebrow){text-shadow:0 1px 3px rgba(12,28,34,.75)}}
+.g-faq details[open]>summary span[aria-hidden]{display:inline-block;transform:rotate(45deg);transition:transform .2s}
+.g-blog .g-link{width:100%;min-height:44px;align-items:center}
+.g-zonas-grid.g-zonas-detalle{grid-template-columns:1fr;gap:40px}
+.g-zonas-detalle .g-zonas-fig{position:static;max-width:860px}
+@media(min-width:901px){.g-zonas-detalle .g-zonas-lista{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;align-items:start}.g-zonas-detalle .g-zonas-lista>li{border-bottom:0}.g-zonas-grid:not(.g-zonas-detalle){align-items:center}.g-zonas-grid:not(.g-zonas-detalle) .g-zonas-fig{position:static}}
+@media(max-width:960px){#country-navigation details.nav-menu>summary span{font-size:0!important;transform:none!important;width:12px;height:12px;display:inline-flex;align-items:center;justify-content:center}
+#country-navigation details.nav-menu>summary span::before{content:"";width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .2s}
+#country-navigation details.nav-menu[open]>summary span::before{transform:translateY(2px) rotate(225deg)}}
+@media(min-width:901px){.g-zonas-grid.g-zonas-detalle{grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:64px;row-gap:40px;align-items:center}
+.g-zonas-detalle>div{display:contents}.g-zonas-detalle .g-zonas-fig{grid-column:1;grid-row:1;max-width:none}
+.g-zonas-detalle .g-cab{grid-column:2;grid-row:1}.g-zonas-detalle .g-zonas-lista{grid-column:1/-1;grid-row:2}.g-zonas-detalle>div>.g-link{grid-column:1/-1;grid-row:3;justify-self:start}}
+.g-zonas-detalle .g-link{display:none}

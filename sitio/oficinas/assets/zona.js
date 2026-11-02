@@ -16,3 +16,12 @@
     });
   });
 })();
+
+// Mensajes de validación en «usted» (el navegador los pondría en tú según su idioma).
+(function () {
+  document.querySelectorAll('[data-zona] select[required], [data-zona] input[required]').forEach(function (c) {
+    c.addEventListener('invalid', function () { c.setCustomValidity(c.tagName === 'SELECT' ? 'Elija una provincia de la lista.' : 'Complete este campo.'); });
+    c.addEventListener('input', function () { c.setCustomValidity(''); });
+    c.addEventListener('change', function () { c.setCustomValidity(''); });
+  });
+})();
