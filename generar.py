@@ -521,7 +521,7 @@ def pagina_inicio():
     html = head(FICHA["seo"]["titulo"], FICHA["seo"]["descripcion"], "", inicio=True).replace("</head>", '<script defer src="/oficinas/assets/escenas.js"></script></head>')
     html += f'<body class="country-site jardin" data-machote="{ID}" data-oficina="{ID}">' + nav() + '<main id="contenido">'
     # 1 · película (carro y mundo, escenas.js)
-    html += f"""<section class="cinema" id="inicio"><div class="film"><picture><source media="(max-width:760px)" srcset="{ASSETS}{pel['poster']}"/><img src="{ASSETS}{pel['poster']}" alt=""/></picture>{f'<video muted loop playsinline preload="none" aria-hidden="true" data-src="{ASSETS}{pel["video"]}"></video>' if pel.get("video") else ""}</div>
+    html += f"""<section class="cinema" id="inicio"><div class="film" style="--poster:url({ASSETS}{pel['poster']}?v={version(ASSETS + pel['poster'])})"><picture><source media="(max-width:760px)" srcset="{ASSETS}{pel['poster']}"/><img src="{ASSETS}{pel['poster']}" alt=""/></picture>{f'<video muted loop playsinline preload="none" aria-hidden="true" data-src="{ASSETS}{pel["video"]}"></video>' if pel.get("video") else ""}</div>
 <div class="hero-text"><p class="eyebrow">Truly Nolen · <span data-preview-office>{PAIS}</span></p><h1>{escape(I['h1'])}</h1><p>{escape(I['intro'])}</p><a class="button" href="#contacto">{escape(I['cta'])}</a></div><a class="discover" href="#servicios">{escape(I['descubre'])}</a></section>
 """
     # 2 · cifras de la marca (globaltni.com/es)
