@@ -34,3 +34,22 @@ body.country-site[data-oficina],body.country-site[data-oficina] .machote-chat-ho
 body.country-site[data-oficina] #inicio .film::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#bfd0e4 0,#cad8e8 45%,#d6dde6 100%)}
 body.country-site[data-oficina] #inicio .film>picture,body.country-site[data-oficina] #inicio .film>video{top:auto;bottom:0;height:var(--alto-movil,62%);-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 22%);mask-image:linear-gradient(180deg,transparent 0,#000 22%)}
 body.country-site[data-oficina] #inicio .film>picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:var(--pos-movil,100%) center}}
+/* Celular: letras de 12 px como mínimo y enlaces de 44 px de alto (receta 1-nov) */
+@media(max-width:760px){body.country-site[data-oficina] .brand small{font-size:12px}
+body.country-site[data-oficina] .g-zona small{font-size:12px}
+body[data-oficina] .tia-fab-txt{font-size:12px}
+body.country-site[data-oficina] .service span:first-child,body.country-site[data-oficina] .service div>span:first-of-type{font-size:12px}
+body.country-site[data-oficina] #inicio .discover{font-size:12px}
+body.country-site[data-oficina] .g-link{min-height:44px;display:inline-flex;align-items:center}
+.blog-migas a{display:inline-flex;align-items:center;min-height:44px}}
+/* Segunda pasada del ojo de diseño (1-nov-2026) */
+body.country-site[data-oficina] .brand small{font-size:12px}
+body.country-site[data-oficina] .service div>span:first-of-type{font-size:12px}
+@media(min-width:761px) and (max-width:1200px){body.country-site[data-oficina] #inicio .hero-text>p:not(.eyebrow){max-width:34ch}}
+@media(max-width:760px){.g-com-foto::after{background:linear-gradient(0deg,rgba(15,18,24,.92) 0,rgba(15,18,24,.78) 45%,rgba(15,18,24,.15) 85%)}.g-com-foto b{font-size:28px}}
+.g-zona-campos{align-items:end}
+@media(min-width:761px){.g-zona-campos{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.service-grid>a.service p{margin-bottom:20px}
+body.country-site[data-oficina] .footer-office h2{font-size:15px;line-height:1.4;margin:0 0 8px;color:var(--ink)}
+.g-faq details p{font-size:16px}
+.blog-card img[src*="cr-blog-pulgas-y-garrapatas"],.g-blog img[src*="cr-blog-pulgas-y-garrapatas"]{object-fit:contain!important;background:transparent;mix-blend-mode:multiply}

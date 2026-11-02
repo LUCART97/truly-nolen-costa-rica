@@ -464,7 +464,7 @@ def pagina_articulo(a):
                "author": {"@type": "Organization", "name": f"Truly Nolen {PAIS}"}, "publisher": {"@type": "Organization", "name": "Truly Nolen"}}
     faqpage = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
         {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r in a["faqs"]]}
-    html = head(f"{a['title']} · Truly Nolen {PAIS}", a["meta_description"], ruta, migas=[("Blog", "blog/"), (a["title"], ruta)],
+    html = head(a['title'] if len(a['title']) > 48 else f"{a['title']} · Truly Nolen {PAIS}", a["meta_description"], ruta, migas=[("Blog", "blog/"), (a["title"], ruta)],
                 estilos=HEAD_BLOG, og_tipo="article", extra_ld=[posting, faqpage])
     credito = ""
     if a.get("credito"):
