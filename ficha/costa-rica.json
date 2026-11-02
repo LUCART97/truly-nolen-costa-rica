@@ -144,9 +144,9 @@
       "origen": "Wikimedia Commons, Shixart1985, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Modern_kitchen_and_dining_area_in_a_bright_apartment_on_a_sunny_day_with_simple_decor_and_furniture.jpg). Elegida por el dueño el 30-oct-2026."
     },
     "operacion": {
-      "file": "cr-operacion-tecnico-cr-b25g.webp",
+      "file": "cr-operacion-tecnico-cr-emblema.webp",
       "alt": "Técnico de Truly Nolen agachado revisando una estación de cebo para roedores en la pared de una bodega con sacos apilados",
-      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo y se puso el emblema real (tn-emblema.png, sin su relleno amarillo) con emblema.py, 64 px de alto. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela). Opción B elegida por defecto: logo inclinado 8° hacia la derecha con perspectiva (pecho girado). Logo BORDADO (opción 2 elegida por Cesar, 31-oct-2026): textura de hilo, relieve leve, puntada de borde y sombra corta sobre la tela; girado 25° a la derecha, en diagonal con la inclinación de la camisa (pedido de Cesar), con perspectiva (bordado.py). Logo corrido a la derecha para centrarlo con el bolsillo (pedido de Cesar). Logo bajado un poco (pedido de Cesar). Logo un poco a la izquierda y más abajo, por encima del bolsillo (pedido de Cesar). Bajado y corrido a la izquierda otra vez (pedido de Cesar)."
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo (op1-limpia) y se puso el emblema real (tn-emblema.png sin su relleno amarillo) DERECHO en el pecho con emblema.py de la receta (BLUR=0.9 LUZ=0.88, 64 px de alto, ángulo 0), 1-nov-2026, reemplazando la versión bordada girada 25° que se leía como logo inventado."
     }
   },
   "inicio": {
@@ -2395,9 +2395,9 @@
       "origen": "Imagen entregada por Cesar (Escritorio, «Captura de pantalla 2026-10-31 163449.png», 31-oct-2026) como pie final; fondo igualado al papel 247,246,241. Origen y licencia de la imagen: POR CONFIRMAR con Cesar."
     },
     "casaZonas": {
-      "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas-v2.webp",
-      "alt": "Casa moderna de dos pisos en las colinas de Costa Rica, con el interior iluminado en rojo, el perímetro y el jardín, y el Volcán Arenal al fondo",
-      "origen": "Foto de arquitectura generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido a9993ea2-0309-4251-89d8-47bd029cdaf3, opción 1 elegida por Cesar (31-oct-2026); ampliada x2 con Real-ESRGAN."
+      "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas-v3.webp",
+      "alt": "Casa de una planta en Costa Rica con porche, rejas en las ventanas, portón y jardín con zacate y plantas tropicales",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde, pedido 137f50ac-63da-41b1-ad72-bfb36351c88f, opción 1 de 4, 1024x768, 1-nov-2026, como foto realista (no render) de una casa típica costarricense; agrandada con Real-ESRGAN x4plus y bajada a 1600x1200. Reemplaza la casa con interior rojo tipo render."
     },
     "footerAnterior": {
       "estado": "listo",
@@ -2417,6 +2417,11 @@
       "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas.webp",
       "alt": "Casa moderna en corte con el interior en rojo, el perímetro en amarillo y el jardín en verde, con el Volcán Arenal al fondo",
       "origen": "Render generado con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido a71f4242-cec6-450d-953a-9f73f0a6f669, opción 1 elegida por Cesar (31-oct-2026); ampliado x2 con Real-ESRGAN (AI Horde 0146757b-6070-4890-b032-b7f25fe347dd)."
+    },
+    "casaZonasAnteriorV2": {
+      "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas-v2.webp",
+      "alt": "Casa moderna de dos pisos en las colinas de Costa Rica, con el interior iluminado en rojo, el perímetro y el jardín, y el Volcán Arenal al fondo",
+      "origen": "Foto de arquitectura generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido a9993ea2-0309-4251-89d8-47bd029cdaf3, opción 1 elegida por Cesar (31-oct-2026); ampliada x2 con Real-ESRGAN."
     }
   },
   "creditosFotosAnteriores": [

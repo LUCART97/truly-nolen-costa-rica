@@ -22,9 +22,10 @@
     "file": "sitio/oficinas/costa-rica/assets/cr-plaga-cucarachas-foto.webp",
     "alt": "Cucaracha americana sobre una tela amarilla",
     "original": "688x447",
-    "credito": "Truly Nolen (trulynolen.com)",
-    "pagina": "https://www.trulynolen.com/pest-control/mosquitoes/",
-    "archivo": "https://www.trulynolen.com/u_media/bd7a37aa0cbe4fa28eb0989ce7da6503.jpg"
+    "credito": "Truly Nolen (trulynolen.com, artículo «Keep Unwanted Guests Out of Your Restaurant»)",
+    "pagina": "https://www.trulynolen.com/pest-expert-tips/keep-unwanted-guests-out-of-your-restaurant",
+    "archivo": "https://www.trulynolen.com/u_media/bd7a37aa0cbe4fa28eb0989ce7da6503.jpg",
+    "nota": "En trulynolen.com esta foto es la miniatura del artículo «Keep Unwanted Guests Out of Your Restaurant» (pagina). Se bajó de la lista de artículos que muestra la página de mosquitos (https://www.trulynolen.com/pest-control/mosquitoes/), en el srcset de 315 px; la página del artículo no la muestra en su HTML."
   },
   {
     "plaga": "chinches-de-cama",
@@ -52,5 +53,17 @@
     "credito": "Adrian Pingstone, Wikimedia Commons, dominio público",
     "pagina": "https://commons.wikimedia.org/wiki/File:Leaf_cutter_ants_arp.jpg",
     "archivo": "https://commons.wikimedia.org/wiki/File:Leaf_cutter_ants_arp.jpg"
+  },
+  {
+    "plaga": "pulgas-y-garrapatas",
+    "uso": "portada del artículo del blog «Pulgas y garrapatas en casa» (no hay guía de esta plaga)",
+    "file": "sitio/oficinas/costa-rica/assets/cr-blog-pulgas-y-garrapatas.webp",
+    "alt": "Garrapata café del perro (Rhipicephalus sanguineus) vista desde arriba",
+    "original": "1580x1536",
+    "credito": "CDC Public Health Image Library, PHIL 31722; fotos de Anna Kang y Dr. Gary Alpert",
+    "licencia": "Dominio público (CDC, gobierno de EE. UU.)",
+    "pagina": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31722",
+    "archivo": "https://phil.cdc.gov/PHIL_Images/31722/31722.tif",
+    "arreglo": "Regla de escala quitada, fondo blanco, lienzo 4:3 con margen, WebP 1280x960."
   }
 ]
