@@ -560,8 +560,8 @@
         "slug": "comercios",
         "titulo": "Comercios",
         "resumen": "Sodas, restaurantes, pulperías, hoteles y oficinas, con la visita coordinada a su horario.",
-        "imagen": "cr-comercio-soda-v2.webp",
-        "imagenOrigen": "Generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido 2fd0fd13-67cc-4f66-bac1-d4233a7c671c, opción 4 elegida por Cesar (31-oct-2026); ampliada x2 con Real-ESRGAN (AI Horde a1c8c44b-2b30-4365-9eb5-dfdea2c953a7).",
+        "imagen": "cr-comercio-supermercado.webp",
+        "imagenOrigen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde, pedido 80bd2153-613e-4d6d-9371-1ac86ddf33a7, opción 5 de 10 elegida por Cesar el 2-nov-2026 (supermercado con exhibidor de piñas y mangos); agrandada con Real-ESRGAN x4plus a 1600x1200.",
         "eyebrow": "Servicio comercial",
         "lema": "Control de plagas<br/>para su negocio.",
         "intro": "Para sodas, restaurantes, pulperías, supermercados, hoteles y oficinas en Costa Rica.",
@@ -771,7 +771,9 @@
             "https://www.binasss.sa.cr/opac-ms/media/digitales/Leptospirosis%20-%20Protocolo%20para%20Prevenci%c3%b3n%20y%20Control.pdf"
           ]
         ],
-        "imagenAnterior": "cr-comercio-cafeteria.webp"
+        "imagenAnterior": "cr-comercio-cafeteria.webp",
+        "imagenAnterior2": "cr-comercio-soda-v2.webp",
+        "imagenOrigenAnterior2": "Generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido 2fd0fd13-67cc-4f66-bac1-d4233a7c671c, opción 4 elegida por Cesar (31-oct-2026); ampliada x2 con Real-ESRGAN (AI Horde a1c8c44b-2b30-4365-9eb5-dfdea2c953a7)."
       },
       {
         "slug": "industria",
@@ -2397,9 +2399,9 @@
       "origen": "Imagen entregada por Cesar (Escritorio, «Captura de pantalla 2026-10-31 163449.png», 31-oct-2026) como pie final; fondo igualado al papel 247,246,241. Origen y licencia de la imagen: POR CONFIRMAR con Cesar."
     },
     "casaZonas": {
-      "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas-v4.webp",
-      "alt": "Casa de una planta en Costa Rica con las tres zonas marcadas: el interior en rojo, el perímetro en amarillo y el patio en verde",
-      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde, pedido 137f50ac-63da-41b1-ad72-bfb36351c88f, opción 1 de 4, 1024x768, 1-nov-2026, como foto realista (no render) de una casa típica costarricense; agrandada con Real-ESRGAN x4plus y bajada a 1600x1200. Reemplaza la casa con interior rojo tipo render. Zonas marcadas encima con los colores de la página (zonas.py, 2-nov-2026): interior en rojo #e1262d (ventana y puerta), perímetro en amarillo #ffd900 (base, porche y verja), patio en verde #3f9b4a (zacate y plantas)."
+      "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas-v10.webp",
+      "alt": "Casa moderna blanca en Costa Rica con las tres zonas marcadas: el interior en rojo, el perímetro en amarillo y el patio en verde",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde, pedido 85c10dfa-d426-4c22-ba13-b9297c05cfdf, opción 3 de 10 elegida por Cesar el 2-nov-2026 (casa moderna blanca con terraza alta y portón negro); agrandada con Real-ESRGAN x4plus a 1600x1200. Zonas marcadas con los colores de la página (zonas4.py, esquinas medidas a 2x-3x): interior en rojo #e1262d solo dentro de cada vidrio en perspectiva (sin teñir las plantas de delante); perímetro en amarillo #ffd900, línea fina de 6 px por el contorno real de la casa (muros, losa, pilar y base) y otra por el portón y su muro; patio en verde #3f9b4a en el zacate y las plantas del jardín. La línea amarilla del piso pasa por detrás de las matas y las macetas. Línea de la base pegada al piso (medida a 4x) siguiendo cada ángulo: muro izquierdo, columna, ventanal, muro derecho, esquina de la terraza y pilar hasta el zacate; 5 px. Línea amarilla nítida (dibujada a 3x y reducida), completa en la esquina superior izquierda."
     },
     "footerAnterior": {
       "estado": "listo",
@@ -2424,6 +2426,11 @@
       "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas-v2.webp",
       "alt": "Casa moderna de dos pisos en las colinas de Costa Rica, con el interior iluminado en rojo, el perímetro y el jardín, y el Volcán Arenal al fondo",
       "origen": "Foto de arquitectura generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido a9993ea2-0309-4251-89d8-47bd029cdaf3, opción 1 elegida por Cesar (31-oct-2026); ampliada x2 con Real-ESRGAN."
+    },
+    "casaZonasAnteriorV3": {
+      "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas-v4.webp",
+      "alt": "Casa de una planta en Costa Rica con las tres zonas marcadas: el interior en rojo, el perímetro en amarillo y el patio en verde",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde, pedido 137f50ac-63da-41b1-ad72-bfb36351c88f, opción 1 de 4, 1024x768, 1-nov-2026, como foto realista (no render) de una casa típica costarricense; agrandada con Real-ESRGAN x4plus y bajada a 1600x1200. Reemplaza la casa con interior rojo tipo render. Zonas marcadas encima con los colores de la página (zonas.py, 2-nov-2026): interior en rojo #e1262d (ventana y puerta), perímetro en amarillo #ffd900 (base, porche y verja), patio en verde #3f9b4a (zacate y plantas)."
     }
   },
   "creditosFotosAnteriores": [
