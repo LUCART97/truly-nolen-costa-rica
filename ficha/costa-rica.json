@@ -2395,9 +2395,9 @@
       "origen": "Imagen entregada por Cesar (Escritorio, «Captura de pantalla 2026-10-31 163449.png», 31-oct-2026) como pie final; fondo igualado al papel 247,246,241. Origen y licencia de la imagen: POR CONFIRMAR con Cesar."
     },
     "casaZonas": {
-      "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas-v3.webp",
-      "alt": "Casa de una planta en Costa Rica con porche, rejas en las ventanas, portón y jardín con zacate y plantas tropicales",
-      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde, pedido 137f50ac-63da-41b1-ad72-bfb36351c88f, opción 1 de 4, 1024x768, 1-nov-2026, como foto realista (no render) de una casa típica costarricense; agrandada con Real-ESRGAN x4plus y bajada a 1600x1200. Reemplaza la casa con interior rojo tipo render."
+      "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas-v4.webp",
+      "alt": "Casa de una planta en Costa Rica con las tres zonas marcadas: el interior en rojo, el perímetro en amarillo y el patio en verde",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde, pedido 137f50ac-63da-41b1-ad72-bfb36351c88f, opción 1 de 4, 1024x768, 1-nov-2026, como foto realista (no render) de una casa típica costarricense; agrandada con Real-ESRGAN x4plus y bajada a 1600x1200. Reemplaza la casa con interior rojo tipo render. Zonas marcadas encima con los colores de la página (zonas.py, 2-nov-2026): interior en rojo #e1262d (ventana y puerta), perímetro en amarillo #ffd900 (base, porche y verja), patio en verde #3f9b4a (zacate y plantas)."
     },
     "footerAnterior": {
       "estado": "listo",
