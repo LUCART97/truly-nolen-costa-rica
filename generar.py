@@ -521,7 +521,7 @@ def pagina_inicio():
     html = head(FICHA["seo"]["titulo"], FICHA["seo"]["descripcion"], "", inicio=True).replace("</head>", '<script defer src="/oficinas/assets/escenas.js"></script></head>')
     html += f'<body class="country-site jardin" data-machote="{ID}" data-oficina="{ID}">' + nav() + '<main id="contenido">'
     # 1 · película (carro y mundo, escenas.js)
-    html += f"""<section class="cinema" id="inicio"><div class="film" style="--poster:url({ASSETS}{pel['poster']}?v={version(ASSETS + pel['poster'])})"><picture><source media="(max-width:760px)" srcset="{ASSETS}{pel['poster']}"/><img src="{ASSETS}{pel['poster']}" alt=""/></picture>{f'<video muted loop playsinline preload="none" aria-hidden="true" data-src="{ASSETS}{pel["video"]}"></video>' if pel.get("video") else ""}</div>
+    html += f"""<section class="cinema" id="inicio"><div class="film" style="--poster:url({ASSETS}{pel['poster']}?v={version(ASSETS + pel['poster'])})"><picture><source media="(max-width:760px)" srcset="{ASSETS}{pel['poster']}"/><img src="{ASSETS}{pel['poster']}" alt=""/></picture>{f'<video muted loop playsinline preload="none" aria-hidden="true" data-src-movil="{ASSETS}costa-rica-movil.mp4" data-src="{ASSETS}{pel["video"]}"></video><script src="/oficinas/assets/video-movil.js"></script>' if pel.get("video") else ""}</div>
 <div class="hero-text"><p class="eyebrow">Truly Nolen · <span data-preview-office>{PAIS}</span></p><h1>{escape(I['h1'])}</h1><p>{escape(I['intro'])}</p><a class="button" href="#contacto">{escape(I['cta'])}</a></div><a class="discover" href="#servicios">{escape(I['descubre'])}</a></section>
 """
     # 2 · cifras de la marca (globaltni.com/es)
@@ -581,7 +581,7 @@ def escribir(ruta, html):
     html = re.sub(r"<(h[12])\b[^>]*>.*?</\1>", lambda m: re.sub(r"(?<! )<br/>", " <br/>", m.group(0)), html, flags=re.S)
     # Marca de versión según el contenido (?v=…): si una foto o el video cambian con el mismo nombre,
     # el navegador baja el nuevo en vez de mostrar el que tenía guardado.
-    html = re.sub(r'((?:src|srcset|data-src)=")(' + re.escape(ASSETS) + r'[^"?#\s]+)"', lambda m: f'{m.group(1)}{m.group(2)}?v={version(m.group(2))}"', html)
+    html = re.sub(r'((?:src|srcset|data-src|data-src-movil)=")(' + re.escape(ASSETS) + r'[^"?#\s]+)"', lambda m: f'{m.group(1)}{m.group(2)}?v={version(m.group(2))}"', html)
     html = html.replace("</body>", '<script defer src="/oficinas/assets/zona.js"></script><script defer src="/oficinas/assets/pie.js"></script></body>', 1)
     destino.write_text(html, encoding="utf-8")
     return destino
