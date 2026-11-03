@@ -205,7 +205,6 @@ def footer():
     s = "".join(f'<a href="{BASE}servicios/{x["slug"]}/">{escape(x["titulo"])}</a>' for x in SERV)
     p = "".join(f'<a href="{BASE}plagas/{x["slug"]}/">{escape(x["titulo"])}</a>' for x in PLAG)
     return f"""<footer class="country-footer local-footer" aria-label="Pie de página">
-<figure class="footer-place"><img src="{ASSETS}{f['file']}" alt="{escape(f['alt'])}" width="1414" height="558" loading="lazy" decoding="async"/><figcaption>{escape(f['caption'])}</figcaption></figure>
 <div class="footer-intro"><a class="brand" href="{BASE}"><img src="/tn-emblema.png" alt=""/><span>Truly Nolen <small data-preview-office>{PAIS}</small></span></a><p>{T['footerLema']}</p><a class="text-link" href="{BASE}#contacto">Conversemos</a></div>
 <div class="footer-columns">
 <details class="pie-col" open><summary>Servicios</summary><nav aria-label="Servicios del pie">{s}<a href="{BASE}#consulta">Otras consultas</a><a href="{BASE}#metodo">Cómo trabajamos</a></nav></details>
@@ -213,6 +212,7 @@ def footer():
 <details class="pie-col" open><summary>Truly Nolen {PAIS}</summary><nav aria-label="Truly Nolen"><a href="{BASE}#nosotros">Nuestra forma de cuidar</a><a href="{BASE}#metodo">Cómo trabajamos</a><a href="{BASE}#cobertura">Consultar cobertura</a><a href="{BASE}#preguntas">Preguntas frecuentes</a>{f'<a href="{BASE}blog/">Blog</a>' if ARTICULOS else ""}<a href="{BASE}#contacto">Solicitar atención</a></nav></details>
 <div class="footer-office"><h2>Hablemos</h2><p data-preview-office>{PAIS}</p><a href="#contacto" data-abrir-chat>Escribir a Truly AI</a></div>
 </div>
+<figure class="footer-place"><img src="{ASSETS}{f['file']}" alt="{escape(f['alt'])}" width="1414" height="558" loading="lazy" decoding="async"/><figcaption>{escape(f['caption'])}</figcaption></figure>
 <div class="footer-legal"><p>© Truly Nolen · {PAIS}</p><nav aria-label="Información legal"><a href="{BASE}privacidad/">Privacidad</a><a href="{BASE}terminos/">Términos de uso</a><a href="{BASE}accesibilidad/">Accesibilidad</a></nav></div>
 </footer>
 """

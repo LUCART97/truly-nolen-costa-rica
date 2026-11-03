@@ -177,6 +177,16 @@ body.country-site[data-oficina] #inicio .hero-text>p:not(.eyebrow){text-shadow:0
 .g-zonas-detalle>div{display:contents}.g-zonas-detalle .g-zonas-fig{grid-column:1;grid-row:1;max-width:none}
 .g-zonas-detalle .g-cab{grid-column:2;grid-row:1}.g-zonas-detalle .g-zonas-lista{grid-column:1/-1;grid-row:2}.g-zonas-detalle>div>.g-link{grid-column:1/-1;grid-row:3;justify-self:start}}
 .g-zonas-detalle .g-link{display:none}
+/* Receta 2-nov-2026: acuarela al final del pie, a todo el ancho, antes del © */
+body.country-site[data-oficina] .local-footer .footer-place{grid-column:1/-1;width:100%;margin:40px 0 0}
+body.country-site[data-oficina] .local-footer .footer-place img{width:100%;max-width:none;height:auto;max-height:none;-webkit-mask-image:none;mask-image:none}
+@media(max-width:760px){body.country-site[data-oficina] .local-footer .footer-place img{width:100%;margin-left:0}}
+@media(min-width:761px){body.country-site[data-oficina] .footer-office{padding-top:25px}}
+/* Video vertical del celular (2160x3840, receta regla 9): ocupa toda la portada como en Venezuela */
+@media(max-width:760px){body.country-site[data-oficina] #inicio .film::before{display:none}
+body.country-site[data-oficina] #inicio .film>picture,body.country-site[data-oficina] #inicio .film>video{top:0;bottom:0;height:100%;-webkit-mask-image:none;mask-image:none}
+body.country-site[data-oficina] #inicio .film>video{object-position:center bottom!important}
+body.country-site[data-oficina] #inicio .film>picture img{object-position:82% center}}
 
 h1,h2,h3{text-wrap:balance}
 @media(min-width:901px){.blog-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
@@ -212,7 +222,6 @@ h1,h2,h3{text-wrap:balance}
 <div class="marco-entry"><div class="marco-entry-heading"><img src="/oficinas/assets/truly-carrito-asistente.svg" alt="" width="72" height="48" loading="lazy"/><div><h3>Truly AI</h3><p>Asistente virtual · Costa Rica</p></div></div>
 <p class="marco-entry-label">Cuéntele a Truly AI qué está viendo</p><div class="marco-starts"><a href="#contacto" data-abrir-chat data-chat-prompt="Vi cucarachas en mi cocina. ¿Cómo las controlo?">Vi cucarachas en la cocina<span aria-hidden="true">→</span></a><a href="#contacto" data-abrir-chat data-chat-prompt="Salen cucarachas por el desagüe del baño.">Salen por el desagüe<span aria-hidden="true">→</span></a><a href="#contacto" data-abrir-chat data-chat-prompt="Hay cucarachas en el local y necesitamos una evaluación.">Hay cucarachas en mi negocio<span aria-hidden="true">→</span></a></div><p class="marco-entry-note">Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.</p></div></section>
 </main><footer class="country-footer local-footer" aria-label="Pie de página">
-<figure class="footer-place"><img src="/oficinas/costa-rica/assets/footer-costa-rica-arenal-final.webp?v=53f6257d58" alt="Volcán Arenal y la laguna de Arenal vistos desde un camino empedrado con casas de teja y flores, con el escarabajo de Truly. Acuarela" width="1414" height="558" loading="lazy" decoding="async"/><figcaption>Costa Rica · Volcán Arenal</figcaption></figure>
 <div class="footer-intro"><a class="brand" href="/oficinas/costa-rica/"><img src="/tn-emblema.png" alt=""/><span>Truly Nolen <small data-preview-office>Costa Rica</small></span></a><p>Control de plagas<br/>en Costa Rica.</p><a class="text-link" href="/oficinas/costa-rica/#contacto">Conversemos</a></div>
 <div class="footer-columns">
 <details class="pie-col" open><summary>Servicios</summary><nav aria-label="Servicios del pie"><a href="/oficinas/costa-rica/servicios/hogares/">Hogares</a><a href="/oficinas/costa-rica/servicios/comercios/">Comercios</a><a href="/oficinas/costa-rica/servicios/industria/">Industria</a><a href="/oficinas/costa-rica/#consulta">Otras consultas</a><a href="/oficinas/costa-rica/#metodo">Cómo trabajamos</a></nav></details>
@@ -220,6 +229,7 @@ h1,h2,h3{text-wrap:balance}
 <details class="pie-col" open><summary>Truly Nolen Costa Rica</summary><nav aria-label="Truly Nolen"><a href="/oficinas/costa-rica/#nosotros">Nuestra forma de cuidar</a><a href="/oficinas/costa-rica/#metodo">Cómo trabajamos</a><a href="/oficinas/costa-rica/#cobertura">Consultar cobertura</a><a href="/oficinas/costa-rica/#preguntas">Preguntas frecuentes</a><a href="/oficinas/costa-rica/blog/">Blog</a><a href="/oficinas/costa-rica/#contacto">Solicitar atención</a></nav></details>
 <div class="footer-office"><h2>Hablemos</h2><p data-preview-office>Costa Rica</p><a href="#contacto" data-abrir-chat>Escribir a Truly AI</a></div>
 </div>
+<figure class="footer-place"><img src="/oficinas/costa-rica/assets/footer-costa-rica-arenal-final.webp?v=53f6257d58" alt="Volcán Arenal y la laguna de Arenal vistos desde un camino empedrado con casas de teja y flores, con el escarabajo de Truly. Acuarela" width="1414" height="558" loading="lazy" decoding="async"/><figcaption>Costa Rica · Volcán Arenal</figcaption></figure>
 <div class="footer-legal"><p>© Truly Nolen · Costa Rica</p><nav aria-label="Información legal"><a href="/oficinas/costa-rica/privacidad/">Privacidad</a><a href="/oficinas/costa-rica/terminos/">Términos de uso</a><a href="/oficinas/costa-rica/accesibilidad/">Accesibilidad</a></nav></div>
 </footer>
 <!-- immersive:start --><div class="machote-chat-host"><div class="tia" data-chat data-quiet="true" data-storage-scope="oficina-costa-rica">

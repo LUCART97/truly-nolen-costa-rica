@@ -70,3 +70,13 @@ body.country-site[data-oficina] #inicio .hero-text>p:not(.eyebrow){text-shadow:0
 .g-zonas-detalle>div{display:contents}.g-zonas-detalle .g-zonas-fig{grid-column:1;grid-row:1;max-width:none}
 .g-zonas-detalle .g-cab{grid-column:2;grid-row:1}.g-zonas-detalle .g-zonas-lista{grid-column:1/-1;grid-row:2}.g-zonas-detalle>div>.g-link{grid-column:1/-1;grid-row:3;justify-self:start}}
 .g-zonas-detalle .g-link{display:none}
+/* Receta 2-nov-2026: acuarela al final del pie, a todo el ancho, antes del © */
+body.country-site[data-oficina] .local-footer .footer-place{grid-column:1/-1;width:100%;margin:40px 0 0}
+body.country-site[data-oficina] .local-footer .footer-place img{width:100%;max-width:none;height:auto;max-height:none;-webkit-mask-image:none;mask-image:none}
+@media(max-width:760px){body.country-site[data-oficina] .local-footer .footer-place img{width:100%;margin-left:0}}
+@media(min-width:761px){body.country-site[data-oficina] .footer-office{padding-top:25px}}
+/* Video vertical del celular (2160x3840, receta regla 9): ocupa toda la portada como en Venezuela */
+@media(max-width:760px){body.country-site[data-oficina] #inicio .film::before{display:none}
+body.country-site[data-oficina] #inicio .film>picture,body.country-site[data-oficina] #inicio .film>video{top:0;bottom:0;height:100%;-webkit-mask-image:none;mask-image:none}
+body.country-site[data-oficina] #inicio .film>video{object-position:center bottom!important}
+body.country-site[data-oficina] #inicio .film>picture img{object-position:82% center}}
