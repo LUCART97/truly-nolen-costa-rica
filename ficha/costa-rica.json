@@ -118,18 +118,20 @@
     "poster": "costa-rica-desktop.webp",
     "video": "costa-rica-desktop.mp4",
     "videoStatus": "reviewed",
-    "sha256Poster": "fa42c45229c8f34f49e25e15670ddf3f97b0243d9901db076a8c42f555a4cc99",
-    "sha256Video": "07dfbe295721f921279e928e7b41ed12fb7372f0a1a8b0dfa1261572a3ba962f",
+    "sha256Poster": "ed89bd982d06b83682800884134445e2834da2db68b601e5ec112fb04c909db8",
+    "sha256Video": "52b1d4d344406cda969e90e0506766acf6f0e09d8a45dc7cdca456e34ef4167c",
     "width": 3840,
     "height": 2160,
-    "duration": 10.0,
-    "medicion": "flujo.py: 20 de 20 tramos con el mismo signo (avanza). Hoja del logo sobre el mp4 final (cuadros 0, 60, 120, 180, 239): coincide con tn-emblema.png. Temblor del logo respecto a la puerta: 0,08 px de promedio (máx. 0,66 px).",
-    "origen": "Video generado con Gemini (Create video, cuenta de trabajo de Cesar) el 2-nov-2026 a partir de la imagen «Gemini_Generated_Image_bq2v9zbq2v9zbq2v.jfif» entregada por Cesar (carretera vacía al Volcán Arenal). Bigotes de la receta al 70 % (bigotes.py, BIGOTE=0.7; esta versión no trae ALARGO_DER). 4K con Real-ESRGAN x4plus. Emblema real pintado en la puerta sobre los cuadros 4K (puerta.py: sigue la carrocería con ECC suavizado, borra el logo de la IA sin tocar el canto del cromo y pinta la tinta con la luz de cada cuadro), sustituto de logo-puerta.py, que no está en esta computadora. Recodificado al color del catálogo en 3 pasos (CRF 22, -tune film). Celular: video vertical 2160x3840 con el carro completo abajo (recorte del 4K) y arriba cielo del color de la foto fundido con el paisaje. Al fondo hay rótulos que traía la imagen. Licencia de uso comercial del contenido de Gemini: POR CONFIRMAR.",
+    "duration": 8.07,
+    "medicion": "saltos.py: 0,1 saltos/s (PASA, meta ≤ 3), 0 quietos. Ruedas: diferencia mínima entre cuadros 5,56 (antes 0,1-0,4 en 92 cuadros quietos). flujo.py: asfalto con el mismo signo en todos los tramos (avanza); el fondo corre −0,1 a −0,45 px por cuadro, menos que el de Pablo (−1,5 a −5,2): es del video de origen.",
+    "origen": "Mismo video de Gemini del 2-nov-2026 (emblema real pintado, 4K). Arreglos del 3-nov-2026 pedidos por el dueño: ruedas detenidas del cuadro 134 al 226 reemplazadas por ruedas girando de los cuadros 25-117 del mismo video (el carro está fijo en el cuadro); todos los bigotes del capó borrados (los fijos pintados y los pixelados) y puestos de nuevo con herramientas/bigotes.py de la receta (BIGOTE=0.7 ALARGO_DER=1.4, con su sombra; salida crf 17); ×1,17 de velocidad conservando todos los cuadros (226 a 28 cps = 8,07 s, la receta pide ≥ 8 s); empalme final-principio con fundido de 0,5 s (5b); color del catálogo en 3 pasos (punto 11). Celular = el mismo video ampliado 1,33 y corrido (−2392, 965), con el cielo de arriba del video vertical. Póster = cuadro 0.",
     "origenAnterior": "Video generado con Gemini (Crear vídeo, modelo Pro) en la cuenta de Cesar el 31-oct-2026, a partir de «Carro costarica.jfif» (imagen entregada por Cesar) con el texto de la receta; sin audio, recodificado al color del catálogo; póster = cuadro 0. Licencia de uso comercial del contenido de Gemini: POR CONFIRMAR. El 1-nov-2026: agrandado a 4K con Real-ESRGAN (realesrgan-x4plus, release oficial v0.2.5.0) y corregidas SOLO las letras mal escritas de la puerta («TRULN NOLEN» → «TRULY NOLEN», con las letras rojas del emblema real tn-emblema.png, seguidas cuadro por cuadro); el resto del video queda igual. Póster nuevo = cuadro 0 del video 4K. Las letras van pegadas a la puerta con seguimiento fino (ECC, fracciones de píxel) y rojo suavizado en el tiempo: se mueven 0,4 px respecto a la puerta (las originales, 1,6 px). Las letras toman en cada punto la luz, los reflejos y la textura de la puerta (como pintura de la carrocería). En los cuadros 99-101 y 187 se quitó una placa clara detrás de las letras que venía del video original (zona tomada de los cuadros vecinos). Logo de la puerta rígido: la zona completa del logo sale del cuadro 120 y se pone igual en todos los cuadros, pegada a la puerta y con su luz (cambio de forma entre cuadros 1,1 frente a 3,4 antes). Logo de la puerta = emblema real en tinta (orejas, bigotes, TRULY NOLEN, INTERNATIONAL y cola; receta 1-nov, «Logos»), rígido sobre la puerta; revisado en los cuadros 0, 55, 109, 163, 217 y 239. 1-nov: el emblema se pinta cuadro por cuadro con la luz de la puerta y sigue a la carrocería (manija, molduras, espejo), con el movimiento suavizado: sin temblor propio.",
     "medicionAnterior": "flujo.py: asfalto con el mismo signo en los 20 tramos (avanza, nunca retrocede); quieto.py: nariz 22,0-23,4 px (cambio 6 %), x 78-79 %, y 67-68 %; 12 cuadros revisados sin otros carros. 4K (1-nov-2026): flujo.py con los 20 tramos del asfalto en el mismo signo (-0,11 a -2,71); letras de la puerta revisadas en los cuadros 0, 60, 120, 180 y 239 al lado del video anterior.",
     "origenAnterior2": "Video generado con Gemini (Crear vídeo, Gemini 3.1 Pro) en la cuenta de Cesar el 2-nov-2026, a partir de la imagen «Gemini_Generated_Image_3f6uo93f6uo93f6u.jfif» entregada por Cesar (carro con el logo de Truly en la puerta frente al Volcán Arenal); agrandado a 4K con Real-ESRGAN x4plus, recodificado al color del catálogo; póster = cuadro 0; versión de celular = recorte vertical 720 px centrado en el carro. Al fondo quedan un bus, dos carros y el rótulo «P.N. Volcán Arenal», que traía la imagen. Licencia de uso comercial del contenido de Gemini: POR CONFIRMAR.",
     "medicionAnterior2": "flujo.py: asfalto con el mismo signo en los 20 tramos (avanza siempre); logo de la puerta revisado en los segundos 0, 2,5, 5, 7,5 y 9,9: igual y sin deformarse.",
-    "sha256Movil": "cf4bfa451edf316f71de706fdb22364c650637886489ac88baa4c77c4f02b1b8"
+    "sha256Movil": "816e977ad4690b4cde61f62354e058b7bd174001503bbd7882e4597e1be41034",
+    "origenAnterior3": "Video generado con Gemini (Create video, cuenta de trabajo de Cesar) el 2-nov-2026 a partir de la imagen «Gemini_Generated_Image_bq2v9zbq2v9zbq2v.jfif» entregada por Cesar (carretera vacía al Volcán Arenal). Bigotes de la receta al 70 % (bigotes.py, BIGOTE=0.7; esta versión no trae ALARGO_DER). 4K con Real-ESRGAN x4plus. Emblema real pintado en la puerta sobre los cuadros 4K (puerta.py: sigue la carrocería con ECC suavizado, borra el logo de la IA sin tocar el canto del cromo y pinta la tinta con la luz de cada cuadro), sustituto de logo-puerta.py, que no está en esta computadora. Recodificado al color del catálogo en 3 pasos (CRF 22, -tune film). Celular: video vertical 2160x3840 con el carro completo abajo (recorte del 4K) y arriba cielo del color de la foto fundido con el paisaje. Al fondo hay rótulos que traía la imagen. Licencia de uso comercial del contenido de Gemini: POR CONFIRMAR.",
+    "medicionAnterior3": "flujo.py: 20 de 20 tramos con el mismo signo (avanza). Hoja del logo sobre el mp4 final (cuadros 0, 60, 120, 180, 239): coincide con tn-emblema.png. Temblor del logo respecto a la puerta: 0,08 px de promedio (máx. 0,66 px)."
   },
   "footer": {
     "file": "footer-costa-rica.webp",
@@ -139,9 +141,10 @@
   },
   "fotos": {
     "nosotros": {
-      "file": "cr-nosotros-tecnica-cr-b25e.webp",
-      "alt": "Técnica de Truly Nolen destapando un estañón en el patio de una casa para revisar si hay agua estancada",
-      "origen": "Generada con IA (FLUX.1-schnell, licencia Apache 2.0, en el espacio público de Hugging Face black-forest-labs/FLUX.1-schnell), semilla 101, 864x1152, 30-oct-2026. Técnica costarricense de la escena «zancudos en el patio» elegida por Cesar. Se le quitó un tatuaje con letras inventadas y se puso el emblema real (tn-emblema.png, sin su relleno amarillo para que se vea la tela de la camisa) con emblema.py, 74 px de alto, sobre el bolsillo. Logo reestampado (31-oct-2026) para que se vea unido a la tela: sigue luz, arrugas y textura de la camisa y la tinta toma su tono (estampa.py, mezcla tinta sobre tela). Opción B elegida por defecto: logo inclinado 8° hacia la derecha con perspectiva (pecho girado). Logo BORDADO (opción 2 elegida por Cesar, 31-oct-2026): textura de hilo, relieve leve, puntada de borde y sombra corta sobre la tela; girado 25° a la derecha, en diagonal con la inclinación de la camisa (pedido de Cesar), con perspectiva (bordado.py). Logo corrido a la derecha para centrarlo con el bolsillo (pedido de Cesar). Logo bajado un poco (pedido de Cesar)."
+      "file": "cr-nosotros-tecnica-natural.webp",
+      "alt": "Técnica de Truly Nolen agachada junto a un tanque de agua en el patio de una casa, revisando con una linterna",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, 3-nov-2026, estilo foto documental con luz natural (opción 4 elegida por Cesar); agrandada con Real-ESRGAN x4plus a 900x1200. Emblema real (tn-emblema.png sin relleno amarillo) puesto con emblema.py de la receta, girado 25° a la derecha sobre el bolsillo.",
+      "fileAnterior": "cr-nosotros-tecnica-cr-b25e.webp"
     },
     "casa": {
       "file": "cr-casa-cocina.webp",
@@ -149,9 +152,10 @@
       "origen": "Wikimedia Commons, Shixart1985, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Modern_kitchen_and_dining_area_in_a_bright_apartment_on_a_sunny_day_with_simple_decor_and_furniture.jpg). Elegida por el dueño el 30-oct-2026."
     },
     "operacion": {
-      "file": "cr-operacion-tecnico-cr-emblema25.webp",
-      "alt": "Técnico de Truly Nolen agachado revisando una estación de cebo para roedores en la pared de una bodega con sacos apilados",
-      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde (red gratuita de voluntarios, pedido efb0de64-159f-4cd6-9a31-658e5c508f0f, trabajador tazlin-larger-machine-2), 1024x768, 30-oct-2026. Técnico costarricense de la escena «bodega de café» elegida por Cesar (opción 1 de 4). Se quitó una tira negra del bolsillo (op1-limpia) y se puso el emblema real (tn-emblema.png sin su relleno amarillo) DERECHO en el pecho con emblema.py de la receta (BLUR=0.9 LUZ=0.88, 64 px de alto, girado 25° a la derecha, en línea con la costura del bolsillo, pedido de Cesar 2-nov-2026), 1-nov-2026, reemplazando la versión bordada girada 25° que se leía como logo inventado."
+      "file": "cr-operacion-tecnico-real.webp",
+      "alt": "Técnico de Truly Nolen revisando el reporte en una tableta dentro de una bodega",
+      "origen": "Generada con ICBINP XL (AI Horde), agrandada con Real-ESRGAN x4; logo inventado de la gorra borrado y emblema real con emblema.py de la receta, girado 25°. Elegida por el dueño (opción 4), 3-nov-2026.",
+      "fileAnterior": "cr-operacion-tecnico-natural.webp"
     }
   },
   "inicio": {
@@ -360,7 +364,7 @@
         "imagen": "cr-hogar-cocina-v2.webp",
         "imagenOrigen": "Generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido 5547d035-dcc1-4fd6-abb8-41421149e283, opción 2 elegida por Cesar (31-oct-2026); ampliada x2 con Real-ESRGAN (AI Horde c70879cc-72f9-4b54-838f-887301b0eb87).",
         "eyebrow": "Servicio residencial",
-        "lema": "Su casa,<br/>de adentro hacia afuera.",
+        "lema": "Su casa, de adentro hacia afuera.",
         "intro": "Desde la cocina hasta el patio. Revisamos su casa o apartamento para encontrar dónde está la actividad de plagas y qué la favorece, cuidando a su familia y a sus mascotas.",
         "nota": "Antes de empezar, usted recibe una propuesta con el alcance y las condiciones para su casa.",
         "bloques": [
@@ -387,7 +391,7 @@
           {
             "tipo": "tabla",
             "eyebrow": "Protocolo de tres zonas",
-            "titulo": "Tres zonas: interior,<br/>perímetro y patio.",
+            "titulo": "Tres zonas: interior, perímetro y patio.",
             "texto": "El programa divide su casa en tres áreas que se complementan. La inspección define qué hace falta en cada una.",
             "columnas": [
               "Zona",
@@ -461,7 +465,7 @@
           {
             "tipo": "tarjetas",
             "eyebrow": "Lo que hay que saber en Costa Rica",
-            "titulo": "Las plagas que más<br/>vemos en casa.",
+            "titulo": "Las plagas que más vemos en casa.",
             "items": [
               {
                 "h": "Zancudos",
@@ -488,7 +492,7 @@
           {
             "tipo": "relacionadas",
             "eyebrow": "Guía de plagas",
-            "titulo": "Conozca cada plaga<br/>en su guía.",
+            "titulo": "Conozca cada plaga en su guía.",
             "lista": "plagas",
             "slugs": [
               "zancudos",
@@ -566,7 +570,7 @@
         "imagen": "cr-comercio-supermercado.webp",
         "imagenOrigen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde, pedido 80bd2153-613e-4d6d-9371-1ac86ddf33a7, opción 5 de 10 elegida por Cesar el 2-nov-2026 (supermercado con exhibidor de piñas y mangos); agrandada con Real-ESRGAN x4plus a 1600x1200.",
         "eyebrow": "Servicio comercial",
-        "lema": "Control de plagas<br/>para su negocio.",
+        "lema": "Control de plagas para su negocio.",
         "intro": "Para sodas, restaurantes, pulperías, supermercados, hoteles y oficinas en Costa Rica.",
         "bloques": [
           {
@@ -592,7 +596,7 @@
           {
             "tipo": "tabla",
             "eyebrow": "Por tipo de negocio",
-            "titulo": "Cada punto<br/>del proceso.",
+            "titulo": "Cada punto del proceso.",
             "texto": "Cada tipo de negocio tiene sus puntos críticos. La inspección los reconoce y define qué hace falta en cada uno.",
             "columnas": [
               "Tipo de negocio",
@@ -624,7 +628,7 @@
               [
                 [
                   "Hoteles y oficinas",
-                  "Habitaciones, oficinas y áreas del personal."
+                  "Espacios donde la gente duerme, come o trabaja todo el día."
                 ],
                 [
                   "Habitaciones, salas y cocinas del personal.",
@@ -637,7 +641,7 @@
           {
             "tipo": "tabla",
             "eyebrow": "Lo que dice la norma en Costa Rica",
-            "titulo": "Pida su<br/>hoja de servicio.",
+            "titulo": "Pida su hoja de servicio.",
             "texto": "El Decreto 38335-S-MTSS (La Gaceta, 6 de mayo de 2014) regula a las empresas que controlan plagas con plaguicidas de uso doméstico y profesional.",
             "columnas": [
               "Tema",
@@ -674,7 +678,7 @@
           {
             "tipo": "cifras",
             "eyebrow": "Lo que se ha medido en Costa Rica",
-            "titulo": "Las cucarachas también<br/>afectan la salud.",
+            "titulo": "Las cucarachas también afectan la salud.",
             "items": [
               {
                 "valor": "68 %",
@@ -686,7 +690,7 @@
           {
             "tipo": "tarjetas",
             "eyebrow": "Por qué importa",
-            "titulo": "En un negocio de alimentos,<br/>una plaga es un riesgo de salud.",
+            "titulo": "En un negocio de alimentos, una plaga es un riesgo de salud.",
             "items": [
               {
                 "h": "Alérgenos en el polvo",
@@ -718,7 +722,7 @@
           {
             "tipo": "relacionadas",
             "eyebrow": "Guía de plagas",
-            "titulo": "Las plagas que más<br/>afectan a un negocio.",
+            "titulo": "Las plagas que más afectan a un negocio.",
             "lista": "plagas",
             "slugs": [
               "ratas-y-ratones",
@@ -785,7 +789,7 @@
         "imagen": "cr-industria-planta-v2.webp",
         "imagenOrigen": "Generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido 7b0e170a-f2a4-4f8e-9fcf-691bbd6d0b93, opción 4 elegida por Cesar (31-oct-2026); ampliada x2 con Real-ESRGAN (AI Horde 3ccca4fd-3ff6-41d8-b246-e33af620e83c).",
         "eyebrow": "Servicio industrial",
-        "lema": "Control de plagas<br/>para plantas y bodegas.",
+        "lema": "Control de plagas para plantas y bodegas.",
         "intro": "Plantas de alimentos, bodegas, centros de distribución y agroindustria. El programa parte de conocer su proceso, sus turnos y la documentación que le piden.",
         "bloques": [
           {
@@ -811,7 +815,7 @@
           {
             "tipo": "tabla",
             "eyebrow": "Por zonas",
-            "titulo": "De la recepción<br/>al despacho.",
+            "titulo": "De la recepción al despacho.",
             "texto": "La inspección recorre la operación en el mismo orden que la mercancía.",
             "columnas": [
               "Zona",
@@ -856,7 +860,7 @@
           {
             "tipo": "tabla",
             "eyebrow": "Lo que dice la norma en Costa Rica",
-            "titulo": "Documentación<br/>de cada aplicación.",
+            "titulo": "Documentación de cada aplicación.",
             "texto": "El Decreto 38335-S-MTSS (La Gaceta, 6 de mayo de 2014) pide a las empresas controladoras de plagas una hoja de servicio por cada aplicación.",
             "columnas": [
               "Tema",
@@ -881,7 +885,7 @@
                 "art. 6"
               ]
             ],
-            "nota": "Pregunte lo que aplica a su caso: Cada industria tiene sus propios requisitos de inocuidad y auditoría. Cuéntenos cuáles le piden para preparar la propuesta."
+            "nota": "Pregunte lo que aplica a su caso: cada industria tiene sus propios requisitos de inocuidad y auditoría. Cuéntenos cuáles le piden para preparar la propuesta."
           },
           {
             "tipo": "consulta",
@@ -903,7 +907,7 @@
           {
             "tipo": "relacionadas",
             "eyebrow": "Guía de plagas",
-            "titulo": "Las plagas que más<br/>preocupan en una planta.",
+            "titulo": "Las plagas que más preocupan en una planta.",
             "lista": "plagas",
             "slugs": [
               "ratas-y-ratones",
@@ -961,13 +965,13 @@
         "imagen": "cr-plaga-zancudo.webp",
         "imagenOrigen": "Ilustración del borrador de Venezuela, reutilizada.",
         "eyebrow": "Guía de zancudos",
-        "lema": "El agua quieta<br/>es donde empiezan.",
+        "lema": "El agua quieta es donde empiezan.",
         "intro": "El zancudo del dengue, Aedes aegypti, se cría en los recipientes donde se guarda agua. En Costa Rica los casos de dengue aumentaron en 2026, según el Ministerio de Salud.",
         "bloques": [
           {
             "tipo": "cifras",
             "eyebrow": "Costa Rica en 2026",
-            "titulo": "El dengue<br/>sigue activo.",
+            "titulo": "El dengue sigue activo.",
             "items": [
               {
                 "valor": "5.814",
@@ -989,7 +993,7 @@
           {
             "tipo": "tarjetas",
             "eyebrow": "Cómo es",
-            "titulo": "Un zancudo<br/>que pica de día.",
+            "titulo": "Un zancudo que pica de día.",
             "items": [
               {
                 "h": "El del dengue",
@@ -1008,7 +1012,7 @@
           {
             "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
-            "titulo": "Lo que ayuda<br/>al técnico.",
+            "titulo": "Lo que ayuda al técnico.",
             "columnas": [
               "Qué hacer",
               "Qué mirar"
@@ -1065,7 +1069,7 @@
           {
             "tipo": "relacionadas",
             "eyebrow": "Servicios",
-            "titulo": "Proteja su casa<br/>o su negocio.",
+            "titulo": "Proteja su casa o su negocio.",
             "lista": "servicios",
             "slugs": [
               "hogares",
@@ -1095,13 +1099,13 @@
         "imagen": "cr-plaga-ratas.webp",
         "imagenOrigen": "Ilustración del borrador de Venezuela, reutilizada.",
         "eyebrow": "Guía de ratas y ratones",
-        "lema": "Excrementos, roeduras<br/>y ruidos de noche.",
+        "lema": "Excrementos, roeduras y ruidos de noche.",
         "intro": "Ratas y ratones buscan comida, agua y refugio en la casa o el negocio. En Costa Rica, las ratas están entre los reservorios más frecuentes de la leptospirosis.",
         "bloques": [
           {
             "tipo": "cifras",
             "eyebrow": "Lo que se ha medido en Costa Rica",
-            "titulo": "Roedores cerca<br/>de los casos.",
+            "titulo": "Roedores cerca de los casos.",
             "items": [
               {
                 "valor": "52,6 %",
@@ -1113,7 +1117,7 @@
           {
             "tipo": "tarjetas",
             "eyebrow": "Por qué importa",
-            "titulo": "Un riesgo<br/>para la salud.",
+            "titulo": "Un riesgo para la salud.",
             "items": [
               {
                 "h": "Reservorio",
@@ -1132,7 +1136,7 @@
           {
             "tipo": "tarjetas",
             "eyebrow": "Señales",
-            "titulo": "Cómo saber<br/>si las tiene.",
+            "titulo": "Cómo saber si las tiene.",
             "items": [
               {
                 "h": "Excrementos",
@@ -1151,7 +1155,7 @@
           {
             "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
-            "titulo": "Lo que ayuda<br/>al técnico.",
+            "titulo": "Lo que ayuda al técnico.",
             "columnas": [
               "Qué hacer",
               "Qué mirar"
@@ -1207,7 +1211,7 @@
           {
             "tipo": "relacionadas",
             "eyebrow": "Servicios",
-            "titulo": "Proteja su casa<br/>o su negocio.",
+            "titulo": "Proteja su casa o su negocio.",
             "lista": "servicios",
             "slugs": [
               "hogares",
@@ -1232,13 +1236,13 @@
         "imagen": "cr-plaga-cucarachas.webp",
         "imagenOrigen": "Ilustración del borrador de Venezuela, reutilizada.",
         "eyebrow": "Guía de cucarachas",
-        "lema": "Donde hay humedad<br/>y comida, aparecen.",
+        "lema": "Donde hay humedad y comida, aparecen.",
         "intro": "En Costa Rica, varios autores señalan como las más frecuentes en las casas a la cucaracha americana, la australiana, la alemana y la de Madeira.",
         "bloques": [
           {
             "tipo": "cifras",
             "eyebrow": "Lo que se ha medido en Costa Rica",
-            "titulo": "También causan<br/>alergias.",
+            "titulo": "También causan alergias.",
             "items": [
               {
                 "valor": "68 %",
@@ -1255,7 +1259,7 @@
           {
             "tipo": "tarjetas",
             "eyebrow": "Cómo es",
-            "titulo": "Cuatro especies<br/>conocidas.",
+            "titulo": "Cuatro especies conocidas.",
             "items": [
               {
                 "h": "Las más frecuentes",
@@ -1274,7 +1278,7 @@
           {
             "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
-            "titulo": "Lo que ayuda<br/>al técnico.",
+            "titulo": "Lo que ayuda al técnico.",
             "columnas": [
               "Qué hacer",
               "Qué mirar"
@@ -1331,7 +1335,7 @@
           {
             "tipo": "relacionadas",
             "eyebrow": "Servicios",
-            "titulo": "Proteja su casa<br/>o su negocio.",
+            "titulo": "Proteja su casa o su negocio.",
             "lista": "servicios",
             "slugs": [
               "hogares",
@@ -1352,13 +1356,13 @@
         "imagen": "cr-plaga-hormigas.webp",
         "imagenOrigen": "Ilustración del borrador de Venezuela, reutilizada. Pendiente: ilustración de zompopa.",
         "eyebrow": "Guía de hormigas y zompopas",
-        "lema": "De la fila en la cocina<br/>al nido en el jardín.",
+        "lema": "De la fila en la cocina al nido en el jardín.",
         "intro": "Además de las hormigas que entran a la cocina, en Costa Rica están las zompopas, las hormigas cortadoras de hojas que pueden dejar sin hojas un jardín.",
         "bloques": [
           {
             "tipo": "tarjetas",
             "eyebrow": "Cómo es",
-            "titulo": "Zompopas,<br/>cada vez más cerca.",
+            "titulo": "Zompopas, cada vez más cerca.",
             "items": [
               {
                 "h": "La especie",
@@ -1377,7 +1381,7 @@
           {
             "tipo": "tarjetas",
             "eyebrow": "Señales",
-            "titulo": "Cómo saber<br/>si las tiene.",
+            "titulo": "Cómo saber si las tiene.",
             "items": [
               {
                 "h": "Caminos de hojas",
@@ -1396,7 +1400,7 @@
           {
             "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
-            "titulo": "Lo que ayuda<br/>al técnico.",
+            "titulo": "Lo que ayuda al técnico.",
             "columnas": [
               "Qué hacer",
               "Qué mirar"
@@ -1452,7 +1456,7 @@
           {
             "tipo": "relacionadas",
             "eyebrow": "Servicios",
-            "titulo": "Proteja su casa<br/>o su negocio.",
+            "titulo": "Proteja su casa o su negocio.",
             "lista": "servicios",
             "slugs": [
               "hogares",
@@ -1481,13 +1485,13 @@
         "imagen": "cr-plaga-comejen.webp",
         "imagenOrigen": "Ilustración del borrador de Venezuela, reutilizada.",
         "eyebrow": "Guía de comején",
-        "lema": "Si ve bolitas finas,<br/>no las barra.",
+        "lema": "Si ve bolitas finas, no las barra.",
         "intro": "En Costa Rica se les dice comején a las termitas. Trabajan en silencio dentro de la madera de la casa, la decoración y los muebles.",
         "bloques": [
           {
             "tipo": "tarjetas",
             "eyebrow": "Cómo es",
-            "titulo": "Termitas que trabajan<br/>en silencio.",
+            "titulo": "Termitas que trabajan en silencio.",
             "items": [
               {
                 "h": "Tres tipos",
@@ -1506,7 +1510,7 @@
           {
             "tipo": "tarjetas",
             "eyebrow": "Lo que se ha probado en Costa Rica",
-            "titulo": "La madera tratada<br/>resiste más.",
+            "titulo": "La madera tratada resiste más.",
             "items": [
               {
                 "h": "Preservar con boro",
@@ -1525,7 +1529,7 @@
           {
             "tipo": "tarjetas",
             "eyebrow": "Señales",
-            "titulo": "Cómo saber<br/>si lo tiene.",
+            "titulo": "Cómo saber si lo tiene.",
             "items": [
               {
                 "h": "Bolitas finas",
@@ -1544,7 +1548,7 @@
           {
             "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
-            "titulo": "Lo que ayuda<br/>al técnico.",
+            "titulo": "Lo que ayuda al técnico.",
             "columnas": [
               "Qué hacer",
               "Qué mirar"
@@ -1601,7 +1605,7 @@
           {
             "tipo": "relacionadas",
             "eyebrow": "Servicios",
-            "titulo": "Proteja la madera<br/>de su casa o su negocio.",
+            "titulo": "Proteja la madera de su casa o su negocio.",
             "lista": "servicios",
             "slugs": [
               "hogares",
@@ -1626,13 +1630,13 @@
         "imagen": "cr-plaga-alacran.webp",
         "imagenOrigen": "Ilustración del borrador de Venezuela, reutilizada.",
         "eyebrow": "Guía de alacranes",
-        "lema": "La picadura duele,<br/>pero casi nunca es letal.",
+        "lema": "La picadura duele, pero casi nunca es letal.",
         "intro": "Los alacranes se esconden en lugares oscuros de la casa. Según un investigador del Instituto Clodomiro Picado de la UCR, los de Costa Rica no son letales.",
         "bloques": [
           {
             "tipo": "cifras",
             "eyebrow": "Lo que se ha registrado",
-            "titulo": "De 24 casos en 1992<br/>a 405 en 1999.",
+            "titulo": "De 24 casos en 1992 a 405 en 1999.",
             "items": [
               {
                 "valor": "405",
@@ -1644,7 +1648,7 @@
           {
             "tipo": "tarjetas",
             "eyebrow": "Cómo es",
-            "titulo": "Lo que dicen<br/>en el país.",
+            "titulo": "Lo que dicen en el país.",
             "items": [
               {
                 "h": "No son letales",
@@ -1663,7 +1667,7 @@
           {
             "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
-            "titulo": "Lo que ayuda<br/>al técnico.",
+            "titulo": "Lo que ayuda al técnico.",
             "columnas": [
               "Qué hacer",
               "Qué mirar"
@@ -1719,7 +1723,7 @@
           {
             "tipo": "relacionadas",
             "eyebrow": "Servicios",
-            "titulo": "Proteja su casa<br/>o su negocio.",
+            "titulo": "Proteja su casa o su negocio.",
             "lista": "servicios",
             "slugs": [
               "hogares",
@@ -1744,13 +1748,13 @@
         "imagen": "cr-plaga-chinches.webp",
         "imagenOrigen": "Dibujo de John Curtis, British Entomology, vol. 7, lámina 569 (1836), dominio público, vía Biodiversity Heritage Library y Wikimedia Commons (https://commons.wikimedia.org/wiki/File:British_Entomology_Volume_7_(John_Curtis)_Plate_569.jpg). Recortado, sin la regla de escala y con el fondo fundido al papel.",
         "eyebrow": "Guía de chinches de cama",
-        "lema": "Se esconden de día,<br/>cerca de la cama.",
+        "lema": "Se esconden de día, cerca de la cama.",
         "intro": "En 2017 se encontraron chinches de cama en un apartamento de Heredia, y la Universidad de Costa Rica lo confirmó como el primer caso con métodos moleculares en Centroamérica.",
         "bloques": [
           {
             "tipo": "tarjetas",
             "eyebrow": "Cómo es",
-            "titulo": "Un insecto que viaja<br/>en el equipaje.",
+            "titulo": "Un insecto que viaja en el equipaje.",
             "items": [
               {
                 "h": "En Costa Rica",
@@ -1769,7 +1773,7 @@
           {
             "tipo": "tarjetas",
             "eyebrow": "Señales",
-            "titulo": "Cómo saber<br/>si las tiene.",
+            "titulo": "Cómo saber si las tiene.",
             "items": [
               {
                 "h": "Manchas",
@@ -1788,7 +1792,7 @@
           {
             "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
-            "titulo": "Lo que ayuda<br/>al técnico.",
+            "titulo": "Lo que ayuda al técnico.",
             "columnas": [
               "Qué hacer",
               "Qué mirar"
@@ -1845,7 +1849,7 @@
           {
             "tipo": "relacionadas",
             "eyebrow": "Servicios",
-            "titulo": "Proteja su casa<br/>o su negocio.",
+            "titulo": "Proteja su casa o su negocio.",
             "lista": "servicios",
             "slugs": [
               "hogares",
@@ -1875,13 +1879,13 @@
         "imagen": "cr-plaga-mosca.webp",
         "imagenOrigen": "Ilustración del catálogo Truly Inbound (international, a-pest-fly-editorial), fondo fundido al papel.",
         "eyebrow": "Guía de moscas",
-        "lema": "Donde hay desechos,<br/>llegan las moscas.",
+        "lema": "Donde hay desechos, llegan las moscas.",
         "intro": "La mosca doméstica busca basura y restos de comida. En el campo, la mosca del establo se cría en desechos orgánicos como el rastrojo de piña, y en 2016 provocó una emergencia sanitaria.",
         "bloques": [
           {
             "tipo": "cifras",
             "eyebrow": "Lo que se ha medido en Costa Rica",
-            "titulo": "Un problema<br/>con historia.",
+            "titulo": "Un problema con historia.",
             "items": [
               {
                 "valor": "24 %",
@@ -1898,7 +1902,7 @@
           {
             "tipo": "tabla",
             "eyebrow": "Cómo es",
-            "titulo": "Dos moscas<br/>distintas.",
+            "titulo": "Dos moscas distintas.",
             "columnas": [
               "Tema",
               "Lo que se sabe"
@@ -1930,7 +1934,7 @@
           {
             "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
-            "titulo": "Lo que ayuda<br/>al técnico.",
+            "titulo": "Lo que ayuda al técnico.",
             "columnas": [
               "Qué hacer",
               "Qué mirar"
@@ -1988,7 +1992,7 @@
           {
             "tipo": "relacionadas",
             "eyebrow": "Servicios",
-            "titulo": "Proteja su casa,<br/>su negocio o su planta.",
+            "titulo": "Proteja su casa, su negocio o su planta.",
             "lista": "servicios",
             "slugs": [
               "hogares",
@@ -2015,13 +2019,13 @@
         "imagen": "cr-plaga-pulga.webp",
         "imagenOrigen": "Ilustración del catálogo Truly Inbound (international, a-pest-flea-editorial), fondo fundido al papel.",
         "eyebrow": "Guía de pulgas y garrapatas",
-        "lema": "Llegan con la mascota<br/>y se quedan en la casa.",
+        "lema": "Llegan con la mascota y se quedan en la casa.",
         "intro": "En Costa Rica, la garrapata del perro es la principal transmisora de enfermedades a las mascotas, y las pulgas y garrapatas se propagan más en la época seca.",
         "bloques": [
           {
             "tipo": "tarjetas",
             "eyebrow": "Cómo es",
-            "titulo": "Un riesgo<br/>para su mascota.",
+            "titulo": "Un riesgo para su mascota.",
             "items": [
               {
                 "h": "La garrapata del perro",
@@ -2040,7 +2044,7 @@
           {
             "tipo": "tarjetas",
             "eyebrow": "Prevención",
-            "titulo": "Lo que recomiendan<br/>los veterinarios.",
+            "titulo": "Lo que recomiendan los veterinarios.",
             "items": [
               {
                 "h": "Todo el año",
@@ -2059,7 +2063,7 @@
           {
             "tipo": "tabla",
             "eyebrow": "Prepare la inspección",
-            "titulo": "Lo que ayuda<br/>al técnico.",
+            "titulo": "Lo que ayuda al técnico.",
             "columnas": [
               "Qué hacer",
               "Qué mirar"
@@ -2115,7 +2119,7 @@
           {
             "tipo": "relacionadas",
             "eyebrow": "Servicios",
-            "titulo": "Proteja su casa<br/>o su negocio.",
+            "titulo": "Proteja su casa o su negocio.",
             "lista": "servicios",
             "slugs": [
               "hogares",
@@ -2402,9 +2406,9 @@
       "origen": "Imagen entregada por Cesar (Escritorio, «Captura de pantalla 2026-10-31 163449.png», 31-oct-2026) como pie final; fondo igualado al papel 247,246,241. Origen y licencia de la imagen: POR CONFIRMAR con Cesar."
     },
     "casaZonas": {
-      "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas-v10.webp",
-      "alt": "Casa moderna blanca en Costa Rica con las tres zonas marcadas: el interior en rojo, el perímetro en amarillo y el patio en verde",
-      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde, pedido 85c10dfa-d426-4c22-ba13-b9297c05cfdf, opción 3 de 10 elegida por Cesar el 2-nov-2026 (casa moderna blanca con terraza alta y portón negro); agrandada con Real-ESRGAN x4plus a 1600x1200. Zonas marcadas con los colores de la página (zonas4.py, esquinas medidas a 2x-3x): interior en rojo #e1262d solo dentro de cada vidrio en perspectiva (sin teñir las plantas de delante); perímetro en amarillo #ffd900, línea fina de 6 px por el contorno real de la casa (muros, losa, pilar y base) y otra por el portón y su muro; patio en verde #3f9b4a en el zacate y las plantas del jardín. La línea amarilla del piso pasa por detrás de las matas y las macetas. Línea de la base pegada al piso (medida a 4x) siguiendo cada ángulo: muro izquierdo, columna, ventanal, muro derecho, esquina de la terraza y pilar hasta el zacate; 5 px. Línea amarilla nítida (dibujada a 3x y reducida), completa en la esquina superior izquierda."
+      "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas-natural.webp",
+      "alt": "Casa blanca de una planta en Costa Rica con las tres zonas marcadas: el interior en rojo, el perímetro en amarillo y el patio en verde",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, 3-nov-2026, estilo foto real de inmobiliaria con luz natural (opción 2 elegida por Cesar); agrandada con Real-ESRGAN x4plus a 1600x1200. Zonas con los colores de la página (zonas5.py): rojo solo en los vidrios (sin teñir macetas ni plantas), línea amarilla fina por el contorno de la casa y del portón, por detrás de las matas; verde suave en el zacate."
     },
     "footerAnterior": {
       "estado": "listo",
@@ -2434,6 +2438,11 @@
       "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas-v4.webp",
       "alt": "Casa de una planta en Costa Rica con las tres zonas marcadas: el interior en rojo, el perímetro en amarillo y el patio en verde",
       "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde, pedido 137f50ac-63da-41b1-ad72-bfb36351c88f, opción 1 de 4, 1024x768, 1-nov-2026, como foto realista (no render) de una casa típica costarricense; agrandada con Real-ESRGAN x4plus y bajada a 1600x1200. Reemplaza la casa con interior rojo tipo render. Zonas marcadas encima con los colores de la página (zonas.py, 2-nov-2026): interior en rojo #e1262d (ventana y puerta), perímetro en amarillo #ffd900 (base, porche y verja), patio en verde #3f9b4a (zacate y plantas)."
+    },
+    "casaZonasAnteriorV4": {
+      "file": "sitio/oficinas/costa-rica/assets/costa-rica-casa-zonas-v10.webp",
+      "alt": "Casa moderna blanca en Costa Rica con las tres zonas marcadas: el interior en rojo, el perímetro en amarillo y el patio en verde",
+      "origen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde, pedido 85c10dfa-d426-4c22-ba13-b9297c05cfdf, opción 3 de 10 elegida por Cesar el 2-nov-2026 (casa moderna blanca con terraza alta y portón negro); agrandada con Real-ESRGAN x4plus a 1600x1200. Zonas marcadas con los colores de la página (zonas4.py, esquinas medidas a 2x-3x): interior en rojo #e1262d solo dentro de cada vidrio en perspectiva (sin teñir las plantas de delante); perímetro en amarillo #ffd900, línea fina de 6 px por el contorno real de la casa (muros, losa, pilar y base) y otra por el portón y su muro; patio en verde #3f9b4a en el zacate y las plantas del jardín. La línea amarilla del piso pasa por detrás de las matas y las macetas. Línea de la base pegada al piso (medida a 4x) siguiendo cada ángulo: muro izquierdo, columna, ventanal, muro derecho, esquina de la terraza y pilar hasta el zacate; 5 px. Línea amarilla nítida (dibujada a 3x y reducida), completa en la esquina superior izquierda."
     }
   },
   "creditosFotosAnteriores": [
@@ -2479,5 +2488,55 @@
     "video": "cr-portada-gemini-5s.mp4",
     "videoStatus": "reviewed",
     "origen": "gemini_generated_video_bb304fdd.mp4 entregado por Cesar (Descargas, 30-oct-2026), generado con Gemini (IA). Recortado a los segundos 0 a 5 exactos (120 cuadros, pedido de Cesar), sin fundido ni audio, H.264 con el color del catálogo, 1280x720, 24 cps. Ojo: según flujo.py el carro retrocede del segundo 1 al 5, casi todo el clip (Cesar eligió este tramo igual). Licencia de uso comercial POR CONFIRMAR."
+  },
+  "sectoresFotos": {
+    "restaurantes": [
+      {
+        "file": "cr-sector-soda-cocina-1.webp",
+        "alt": "Cocina de una soda con ollas en la cocina de gas.",
+        "w": 1400,
+        "h": 1050,
+        "origen": "Generada con ICBINP XL (AI Horde) el 3-nov-2026 y agrandada con Real-ESRGAN x4 (sin personas ni letras). Sección por sector de Comercios, como /es/services/commercial/ de globaltni (opción B del dueño)."
+      },
+      {
+        "file": "cr-sector-soda-bodega-0.webp",
+        "alt": "Bodega de granos en sacos sobre estantes.",
+        "w": 1050,
+        "h": 1400,
+        "origen": "Generada con ICBINP XL (AI Horde) el 3-nov-2026 y agrandada con Real-ESRGAN x4 (sin personas ni letras). Sección por sector de Comercios, como /es/services/commercial/ de globaltni (opción B del dueño)."
+      }
+    ],
+    "comercio-alimentos": [
+      {
+        "file": "cr-sector-pulperia-0.webp",
+        "alt": "Mostrador y estantes de una pulpería.",
+        "w": 1400,
+        "h": 1050,
+        "origen": "Generada con ICBINP XL (AI Horde) el 3-nov-2026 y agrandada con Real-ESRGAN x4 (sin personas ni letras). Sección por sector de Comercios, como /es/services/commercial/ de globaltni (opción B del dueño)."
+      },
+      {
+        "file": "cr-sector-super-bodega-0.webp",
+        "alt": "Bodega de cajas en estantes metálicos.",
+        "w": 1050,
+        "h": 1400,
+        "origen": "Generada con ICBINP XL (AI Horde) el 3-nov-2026 y agrandada con Real-ESRGAN x4 (sin personas ni letras). Sección por sector de Comercios, como /es/services/commercial/ de globaltni (opción B del dueño)."
+      }
+    ],
+    "hoteles-oficinas": [
+      {
+        "file": "cr-sector-hotel-1.webp",
+        "alt": "Habitación de hotel con vista al jardín.",
+        "w": 1400,
+        "h": 1050,
+        "origen": "Generada con ICBINP XL (AI Horde) el 3-nov-2026 y agrandada con Real-ESRGAN x4 (sin personas ni letras). Sección por sector de Comercios, como /es/services/commercial/ de globaltni (opción B del dueño)."
+      },
+      {
+        "file": "cr-sector-oficina-1.webp",
+        "alt": "Cocineta y comedor del personal de una oficina.",
+        "w": 1050,
+        "h": 1400,
+        "origen": "Generada con ICBINP XL (AI Horde) el 3-nov-2026 y agrandada con Real-ESRGAN x4 (sin personas ni letras). Sección por sector de Comercios, como /es/services/commercial/ de globaltni (opción B del dueño)."
+      }
+    ]
   }
 }

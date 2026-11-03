@@ -15,15 +15,15 @@
 .pie-col>summary {list-style:none;font-size:15px;font-weight:700;line-height:1.4;margin:0 0 8px;color:var(--ink);cursor:default}
 .pie-col>summary::-webkit-details-marker {display:none}
 body.country-site[data-oficina] .brand small {font-size:11px}
-body.country-site[data-oficina] .cinema .button,body.country-site[data-oficina] .country-footer .button {background:#ffd900}
-body.country-site[data-oficina] .country-footer a:focus-visible,body.country-site[data-oficina] .cinema :is(a,button):focus-visible {outline-color:#ffd900}
+body.country-site[data-oficina] .cinema .button,body.country-site[data-oficina] .country-footer .button {background:#ffd800}
+body.country-site[data-oficina] .country-footer a:focus-visible,body.country-site[data-oficina] .cinema :is(a,button):focus-visible {outline-color:#ffd800}
 body.country-site[data-oficina] .footer-columns h2 {color:var(--ink)}
 body.country-site[data-oficina] .local-footer [data-abrir-chat] {display:block;margin-bottom:8px}
-body.country-site[data-oficina] .machote-chat-host .tia-fab,body.country-site[data-oficina] .machote-chat-host .tia-fab svg {color:#ffd900;stroke:#ffd900}
-body.country-site[data-oficina] .machote-chat-host .tia-send {color:#ffd900}
-body.country-site[data-oficina] .machote-modal button {background:#ffd900}
-body.country-site[data-oficina] .service:hover .service-action {background:#ffd900;border-color:#ffd900}
-body.country-site[data-oficina],body.country-site[data-oficina] .machote-chat-host {--yellow:#ffd900;--brand-yellow:#ffd900}
+body.country-site[data-oficina] .machote-chat-host .tia-fab,body.country-site[data-oficina] .machote-chat-host .tia-fab svg {color:#ffd800;stroke:#ffd800}
+body.country-site[data-oficina] .machote-chat-host .tia-send {color:#ffd800}
+body.country-site[data-oficina] .machote-modal button {background:#ffd800}
+body.country-site[data-oficina] .service:hover .service-action {background:#ffd800;border-color:#ffd800}
+body.country-site[data-oficina],body.country-site[data-oficina] .machote-chat-host {--yellow:#ffd800;--brand-yellow:#ffd800}
 @media(max-width:760px){.g-plagas-grid {grid-template-columns:1fr;gap:0}.g-plagas-grid .g-mas {padding-top:10px;min-height:44px;align-items:center}.g-plagas-grid .g-pl-fig {grid-row:1/span 4;aspect-ratio:1;margin:0}.g-plagas-grid h3 {font-size:21px;padding-top:0;border-top:0;margin-bottom:4px}.g-plagas-grid p {font-size:15px}.g-plagas-grid>article {display:grid;grid-template-columns:88px minmax(0,1fr);column-gap:16px;align-items:start;padding:18px 0;border-top:1px solid var(--line)}.pie-col {border-top:1px solid var(--line)}.pie-col>nav {padding-bottom:14px}.pie-col>nav a {min-height:40px;display:flex;align-items:center}.pie-col>summary {display:flex;justify-content:space-between;align-items:center;min-height:52px;margin:0;cursor:pointer}.pie-col>summary::after {content:"+";font-size:20px;font-weight:400}.pie-col[open]>summary::after {content:"−"}body.country-site[data-oficina] #inicio .hero-text .eyebrow {font-size:13px}body.country-site[data-oficina] .eyebrow,body.country-site[data-oficina] .g-ey {font-size:13px}body.country-site[data-oficina] .footer-columns {grid-template-columns:1fr;gap:0}body.country-site[data-oficina] .footer-office {border-top:1px solid var(--line);padding-top:18px}body.country-site[data-oficina] .footer-place figcaption {font-size:12px}body.country-site[data-oficina] .local-footer .footer-intro .text-link {display:none}body.country-site[data-oficina] .local-footer .footer-place figcaption {font-size:12px!important}body.country-site[data-oficina]>.site-nav {background:#ffd800!important}}
 @media(min-width:961px) and (max-width:1100px){body.country-site[data-oficina] .country-dropdown {position:absolute!important;top:100%!important;left:-20px!important;width:250px!important;padding:16px 20px!important;background:var(--paper)!important;border:1px solid var(--line)!important;box-shadow:0 12px 30px #17212a18!important}body.country-site[data-oficina] .country-menu-toggle {display:none!important}body.country-site[data-oficina] .site-nav .nav-menu {position:relative}body.country-site[data-oficina] .site-nav .truly-portals,body.country-site[data-oficina] .site-nav nav>a[href="#contacto"],body.country-site[data-oficina] .site-nav .mobile-contact {display:none!important}body.country-site[data-oficina] .site-nav nav {position:static!important;display:flex!important;flex-direction:row!important;align-items:center!important;order:0!important;flex-basis:auto!important;gap:20px!important;border-top:0!important;padding-top:0!important;background:transparent!important;box-shadow:none!important}body.country-site[data-oficina] .site-nav nav>a,body.country-site[data-oficina] .site-nav .nav-menu>summary {padding:10px 0!important;min-height:0!important;border-bottom:0!important;font-size:15px!important;font-weight:500!important;white-space:nowrap}body.country-site[data-oficina] .site-nav>.brand {margin-right:auto;white-space:nowrap}body.country-site[data-oficina] .site-nav>.button {display:inline-flex!important;white-space:nowrap}body.country-site[data-oficina] main>section:not(.cinema) h1 {font-size:46px}body.country-site[data-oficina]:has(.cinema)>.site-nav:before {display:none!important}body.country-site[data-oficina]>.site-nav {display:flex!important;flex-wrap:nowrap!important;align-items:center!important;gap:22px!important}body.country-site[data-oficina][data-machote] .cinema::after {background:linear-gradient(180deg,#f7f6f1ed 0,#f7f6f1c9 70px,transparent 170px),linear-gradient(90deg,rgba(21,33,40,.65) 0,rgba(21,33,40,.6) 21%,transparent 54%),linear-gradient(0deg,rgba(21,33,40,.51),transparent 30%)}body.country-site[data-oficina][data-machote]:has(.cinema)>.site-nav {position:absolute!important;inset:0 0 auto 0!important;z-index:5;min-height:0!important;padding:18px 28px!important;background:transparent!important;box-shadow:none!important;border:0!important}}
 
@@ -80,3 +80,28 @@ body.country-site[data-oficina] .local-footer .footer-place img{width:100%;max-w
 body.country-site[data-oficina] #inicio .film>picture,body.country-site[data-oficina] #inicio .film>video{top:0;bottom:0;height:100%;-webkit-mask-image:none;mask-image:none}
 body.country-site[data-oficina] #inicio .film>video{object-position:center bottom!important}
 body.country-site[data-oficina] #inicio .film>picture img{object-position:82% center}}
+/* Cierre amarillo con la foto de la técnica (como el técnico del cierre de globaltni) */
+.s-closing .wrap{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;column-gap:40px}
+.s-closing-figure{margin:0;align-self:end}
+.s-closing-figure img{display:block;width:260px;height:300px;object-fit:cover;object-position:center 25%;border-radius:6px}
+@media(max-width:760px){.s-closing .wrap{grid-template-columns:1fr}.s-closing-figure{display:none}}
+/* Candado gate-replica: acuarela del pie a todo el ancho de la pantalla, como globaltni */
+body.country-site[data-oficina] .local-footer .footer-place{width:100vw;max-width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+body.country-site[data-oficina] .local-footer .footer-place img{width:100vw!important;max-width:100vw!important;margin-left:0!important}
+/* Ojo de diseño 3-nov-2026 */
+/* 1 · celular: botón y rutas debajo del texto, el carro queda libre abajo */
+@media(max-width:760px){body.country-site[data-oficina] #inicio .hero-text>.button{margin-top:22px!important}
+body.country-site[data-oficina] #inicio .hero-text{flex:0 0 auto!important}
+body.country-site[data-oficina] .hero-routes{margin-top:8px!important}}
+/* 2 · computadora: más sombra detrás del título (el letrero del video no compite con el texto) */
+@media(min-width:761px){html body.country-site[data-oficina][data-machote] .cinema::after{background:linear-gradient(180deg,#f7f6f1ed 0,#f7f6f1c9 70px,transparent 170px),radial-gradient(ellipse 36% 32% at 15% 52%,rgba(21,33,40,.6),transparent 100%),linear-gradient(90deg,rgba(21,33,40,.65) 0,rgba(21,33,40,.6) 21%,transparent 54%),linear-gradient(0deg,rgba(21,33,40,.51),transparent 30%)}}
+/* 3 · acuarela del pie fundida con el gris, sin rótulo ni hueco */
+body.country-site[data-oficina] .local-footer .footer-place{background:transparent!important;margin-bottom:0!important;padding-bottom:0!important}
+body.country-site[data-oficina] .local-footer .footer-place img{mix-blend-mode:darken}
+body.country-site[data-oficina] .local-footer .footer-place figcaption{display:none!important}
+/* 6 · pestañas de plagas en una sola línea */
+body.country-site[data-oficina] .pest-families a{white-space:nowrap;flex:0 0 auto}
+/* Ojo de diseño 3-nov-2026 (tarde): blancos táctiles de 44 px en celular */
+@media(max-width:760px){body.country-site[data-oficina] :is(.network-links a,.blog-consejos h2 a,.g-cierre .text-link,.s-closing .text-link,.network .text-link,.history-links .text-link){display:inline-flex;align-items:center;min-height:44px}}
+/* Consejos de prevención solo con texto: las fotos ya están arriba y en cada guía (sin fotos repetidas) */
+body.country-site[data-oficina] .blog-consejos .blog-card{grid-template-columns:1fr}

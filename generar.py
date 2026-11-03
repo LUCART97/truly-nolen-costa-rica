@@ -540,9 +540,9 @@ def pagina_inicio():
     com = next(x for x in SERV if x["slug"] == "comercios"); ind = next(x for x in SERV if x["slug"] == "industria")
     esperar = next(b for b in com["bloques"] if b["tipo"] == "tarjetas" and b["eyebrow"].startswith("Qué puede esperar"))
     sect = "".join(f'<a class="g-sector" href="{BASE}servicios/comercios/"><span><h3>{escape(it["h"])}</h3><p>{escape(it["p"])}</p></span><span aria-hidden="true">→</span></a>' for it in esperar["items"])
-    sect += f'<a class="g-sector" href="{BASE}servicios/industria/"><span><h3>{escape(ind["titulo"])}</h3><p>{escape(ind["resumen"])}</p></span><span aria-hidden="true">→</span></a>'
+    sect += f'<a class="g-sector" href="{BASE}servicios/industria/"><span><h3>{escape(ind["titulo"])}</h3><p>{escape(ind["intro"])}</p></span><span aria-hidden="true">→</span></a>'
     F = FICHA["fotos"]["operacion"]
-    html += (f'<section class="section g g-comercial">{g_cab("Comercio e industria", escape(I["comercialTitulo"]), com["resumen"])}<div class="g-com-grid">'
+    html += (f'<section class="section g g-comercial">{g_cab("Comercio e industria", escape(I["comercialTitulo"]), com["intro"])}<div class="g-com-grid">'
              f'<a class="g-com-foto" href="{BASE}servicios/comercios/"><img src="{ASSETS}{F["file"]}" alt="" loading="lazy"/><span><b>{escape(I["comercialFrase"])}</b><em>{escape(I["operacionBotones"][0])} →</em></span></a>'
              f'<div class="g-sectores">{sect}</div></div></section>\n')
     # 6 · cómo trabajamos

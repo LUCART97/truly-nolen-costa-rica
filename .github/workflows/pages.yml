@@ -35,6 +35,11 @@ jobs:
           python-version: "3.12"
       - name: Generar el sitio (con el goteo del blog al día)
         run: python generar.py
+      - name: Réplica de globaltni (páginas internas, portada corporativa y comercios por sector)
+        run: |
+          python master.py
+          python corporativo.py
+          python sectores.py
       - name: Ajustar rutas para Pages
         run: python publicar_pages.py "/${{ github.event.repository.name }}"
       - uses: actions/configure-pages@v5
