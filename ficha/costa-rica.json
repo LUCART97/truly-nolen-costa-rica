@@ -567,8 +567,8 @@
         "slug": "comercios",
         "titulo": "Comercios",
         "resumen": "Sodas, restaurantes, pulperías, hoteles y oficinas, con la visita coordinada a su horario.",
-        "imagen": "cr-comercio-supermercado.webp",
-        "imagenOrigen": "Generada con IA (FLUX.1-schnell fp8, licencia Apache 2.0) en AI Horde, pedido 80bd2153-613e-4d6d-9371-1ac86ddf33a7, opción 5 de 10 elegida por Cesar el 2-nov-2026 (supermercado con exhibidor de piñas y mangos); agrandada con Real-ESRGAN x4plus a 1600x1200.",
+        "imagen": "cr-comercio-mercado.webp",
+        "imagenOrigen": "Generada con Juggernaut XL (AI Horde) el 4-nov-2026 como foto de celular de un puesto de frutas en un mercado de Costa Rica, sin personas ni letras; agrandada con Real-ESRGAN x4. Elegida por el dueño (opción 3).",
         "eyebrow": "Servicio comercial",
         "lema": "Control de plagas para su negocio.",
         "intro": "Para sodas, restaurantes, pulperías, supermercados, hoteles y oficinas en Costa Rica.",
@@ -938,7 +938,7 @@
             "https://globaltni.com/es/services/commercial/"
           ]
         ],
-        "imagenAnterior": "cr-comercio-cafeteria.webp",
+        "imagenAnterior": "cr-comercio-supermercado.webp",
         "imagenAnterior2": "cr-comercio-soda-v2.webp",
         "imagenOrigenAnterior2": "Generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, pedido 2fd0fd13-67cc-4f66-bac1-d4233a7c671c, opción 4 elegida por Cesar (31-oct-2026); ampliada x2 con Real-ESRGAN (AI Horde a1c8c44b-2b30-4365-9eb5-dfdea2c953a7)."
       },
