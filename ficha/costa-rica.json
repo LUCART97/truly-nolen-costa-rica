@@ -118,18 +118,18 @@
     "poster": "costa-rica-desktop.webp",
     "video": "costa-rica-desktop.mp4",
     "videoStatus": "reviewed",
-    "sha256Poster": "ed89bd982d06b83682800884134445e2834da2db68b601e5ec112fb04c909db8",
-    "sha256Video": "52b1d4d344406cda969e90e0506766acf6f0e09d8a45dc7cdca456e34ef4167c",
+    "sha256Poster": "7fb98e8e2dafbfee6172cf41b19b388dfd0f7fad14b3d6277313629a89123551",
+    "sha256Video": "80139e2c665ddea24353470508ac6ad1319629383b9cbd8986ad8f6241fc9979",
     "width": 3840,
     "height": 2160,
     "duration": 8.07,
-    "medicion": "saltos.py: 0,1 saltos/s (PASA, meta ≤ 3), 0 quietos. Ruedas: diferencia mínima entre cuadros 5,56 (antes 0,1-0,4 en 92 cuadros quietos). flujo.py: asfalto con el mismo signo en todos los tramos (avanza); el fondo corre −0,1 a −0,45 px por cuadro, menos que el de Pablo (−1,5 a −5,2): es del video de origen.",
-    "origen": "Mismo video de Gemini del 2-nov-2026 (emblema real pintado, 4K). Arreglos del 3-nov-2026 pedidos por el dueño: ruedas detenidas del cuadro 134 al 226 reemplazadas por ruedas girando de los cuadros 25-117 del mismo video (el carro está fijo en el cuadro); todos los bigotes del capó borrados (los fijos pintados y los pixelados) y puestos de nuevo con herramientas/bigotes.py de la receta (BIGOTE=0.7 ALARGO_DER=1.4, con su sombra; salida crf 17); ×1,17 de velocidad conservando todos los cuadros (226 a 28 cps = 8,07 s, la receta pide ≥ 8 s); empalme final-principio con fundido de 0,5 s (5b); color del catálogo en 3 pasos (punto 11). Celular = el mismo video ampliado 1,33 y corrido (−2392, 965), con el cielo de arriba del video vertical. Póster = cuadro 0.",
+    "medicion": "medir-bigotes.py: der/izq mediana 1,002 (rango 0,995-1,016; meta 1,00 ± 0,01). saltos.py: 0,1 saltos/s (PASA, meta ≤ 3), 0 quietos. Ruedas: diferencia mínima entre cuadros 5,56 en 226 cuadros. flujo.py: asfalto con el mismo signo en todos los tramos; el fondo corre −0,1 a −0,45 px por cuadro (del video de origen).",
+    "origen": "Mismo video de Gemini del 2-nov-2026 (emblema real pintado, 4K). Arreglos del 3-nov-2026 pedidos por el dueño: ruedas detenidas del cuadro 134 al 226 reemplazadas por ruedas girando de los cuadros 25-117 del mismo video (el carro está fijo en el cuadro); todos los bigotes del capó borrados (los fijos pintados y los pixelados) y puestos de nuevo con herramientas/bigotes.py, método parejo de la receta del 4-nov (HUECOS=1 MIN_PUNTOS=10 IGUALAR=1 SOMBRA_DIFUSA=2.2 BIGOTE=0.7 CALIDAD=0.01 ROI_ABAJO=0.85 CRF=16, IGUALAR_DER=1); ×1,17 de velocidad conservando todos los cuadros (226 a 28 cps = 8,07 s, la receta pide ≥ 8 s); empalme final-principio con fundido de 0,5 s (5b); color del catálogo en 3 pasos (punto 11). Celular = el mismo video ampliado 1,33 y corrido (−2392, 965), con el cielo de arriba del video vertical. Póster = cuadro 0.",
     "origenAnterior": "Video generado con Gemini (Crear vídeo, modelo Pro) en la cuenta de Cesar el 31-oct-2026, a partir de «Carro costarica.jfif» (imagen entregada por Cesar) con el texto de la receta; sin audio, recodificado al color del catálogo; póster = cuadro 0. Licencia de uso comercial del contenido de Gemini: POR CONFIRMAR. El 1-nov-2026: agrandado a 4K con Real-ESRGAN (realesrgan-x4plus, release oficial v0.2.5.0) y corregidas SOLO las letras mal escritas de la puerta («TRULN NOLEN» → «TRULY NOLEN», con las letras rojas del emblema real tn-emblema.png, seguidas cuadro por cuadro); el resto del video queda igual. Póster nuevo = cuadro 0 del video 4K. Las letras van pegadas a la puerta con seguimiento fino (ECC, fracciones de píxel) y rojo suavizado en el tiempo: se mueven 0,4 px respecto a la puerta (las originales, 1,6 px). Las letras toman en cada punto la luz, los reflejos y la textura de la puerta (como pintura de la carrocería). En los cuadros 99-101 y 187 se quitó una placa clara detrás de las letras que venía del video original (zona tomada de los cuadros vecinos). Logo de la puerta rígido: la zona completa del logo sale del cuadro 120 y se pone igual en todos los cuadros, pegada a la puerta y con su luz (cambio de forma entre cuadros 1,1 frente a 3,4 antes). Logo de la puerta = emblema real en tinta (orejas, bigotes, TRULY NOLEN, INTERNATIONAL y cola; receta 1-nov, «Logos»), rígido sobre la puerta; revisado en los cuadros 0, 55, 109, 163, 217 y 239. 1-nov: el emblema se pinta cuadro por cuadro con la luz de la puerta y sigue a la carrocería (manija, molduras, espejo), con el movimiento suavizado: sin temblor propio.",
     "medicionAnterior": "flujo.py: asfalto con el mismo signo en los 20 tramos (avanza, nunca retrocede); quieto.py: nariz 22,0-23,4 px (cambio 6 %), x 78-79 %, y 67-68 %; 12 cuadros revisados sin otros carros. 4K (1-nov-2026): flujo.py con los 20 tramos del asfalto en el mismo signo (-0,11 a -2,71); letras de la puerta revisadas en los cuadros 0, 60, 120, 180 y 239 al lado del video anterior.",
     "origenAnterior2": "Video generado con Gemini (Crear vídeo, Gemini 3.1 Pro) en la cuenta de Cesar el 2-nov-2026, a partir de la imagen «Gemini_Generated_Image_3f6uo93f6uo93f6u.jfif» entregada por Cesar (carro con el logo de Truly en la puerta frente al Volcán Arenal); agrandado a 4K con Real-ESRGAN x4plus, recodificado al color del catálogo; póster = cuadro 0; versión de celular = recorte vertical 720 px centrado en el carro. Al fondo quedan un bus, dos carros y el rótulo «P.N. Volcán Arenal», que traía la imagen. Licencia de uso comercial del contenido de Gemini: POR CONFIRMAR.",
     "medicionAnterior2": "flujo.py: asfalto con el mismo signo en los 20 tramos (avanza siempre); logo de la puerta revisado en los segundos 0, 2,5, 5, 7,5 y 9,9: igual y sin deformarse.",
-    "sha256Movil": "816e977ad4690b4cde61f62354e058b7bd174001503bbd7882e4597e1be41034",
+    "sha256Movil": "d0a1af68bd9db77509f2b02e0fcb2382dc7dc935fc354c01ba5fdd7620bbc926",
     "origenAnterior3": "Video generado con Gemini (Create video, cuenta de trabajo de Cesar) el 2-nov-2026 a partir de la imagen «Gemini_Generated_Image_bq2v9zbq2v9zbq2v.jfif» entregada por Cesar (carretera vacía al Volcán Arenal). Bigotes de la receta al 70 % (bigotes.py, BIGOTE=0.7; esta versión no trae ALARGO_DER). 4K con Real-ESRGAN x4plus. Emblema real pintado en la puerta sobre los cuadros 4K (puerta.py: sigue la carrocería con ECC suavizado, borra el logo de la IA sin tocar el canto del cromo y pinta la tinta con la luz de cada cuadro), sustituto de logo-puerta.py, que no está en esta computadora. Recodificado al color del catálogo en 3 pasos (CRF 22, -tune film). Celular: video vertical 2160x3840 con el carro completo abajo (recorte del 4K) y arriba cielo del color de la foto fundido con el paisaje. Al fondo hay rótulos que traía la imagen. Licencia de uso comercial del contenido de Gemini: POR CONFIRMAR.",
     "medicionAnterior3": "flujo.py: 20 de 20 tramos con el mismo signo (avanza). Hoja del logo sobre el mp4 final (cuadros 0, 60, 120, 180, 239): coincide con tn-emblema.png. Temblor del logo respecto a la puerta: 0,08 px de promedio (máx. 0,66 px)."
   },
@@ -141,10 +141,10 @@
   },
   "fotos": {
     "nosotros": {
-      "file": "cr-nosotros-tecnica-natural.webp",
-      "alt": "Técnica de Truly Nolen agachada junto a un tanque de agua en el patio de una casa, revisando con una linterna",
-      "origen": "Generada con IA (FLUX.1-schnell fp8, Apache 2.0) en AI Horde, 3-nov-2026, estilo foto documental con luz natural (opción 4 elegida por Cesar); agrandada con Real-ESRGAN x4plus a 900x1200. Emblema real (tn-emblema.png sin relleno amarillo) puesto con emblema.py de la receta, girado 25° a la derecha sobre el bolsillo.",
-      "fileAnterior": "cr-nosotros-tecnica-cr-b25e.webp"
+      "file": "cr-nosotros-tecnica-uniforme.webp",
+      "alt": "Técnica de Truly Nolen revisando recipientes con agua en el patio de una casa",
+      "origen": "Uniforme real de Truly (receta 6b, 4-nov-2026): generada con ICBINP XL (AI Horde), agrandada con Real-ESRGAN x4; logos inventados de la gorra y del pecho borrados; emblema real bordado con herramientas/fotos/parche8.py (parche a color en el pecho, monocromo amarillo en la gorra); guantes pasados a azul de nitrilo. Elegida por el dueño (opción 8), 4-nov-2026.",
+      "fileAnterior": "cr-nosotros-tecnica-natural.webp"
     },
     "casa": {
       "file": "cr-casa-cocina.webp",
@@ -152,10 +152,10 @@
       "origen": "Wikimedia Commons, Shixart1985, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Modern_kitchen_and_dining_area_in_a_bright_apartment_on_a_sunny_day_with_simple_decor_and_furniture.jpg). Elegida por el dueño el 30-oct-2026."
     },
     "operacion": {
-      "file": "cr-operacion-tecnico-real.webp",
-      "alt": "Técnico de Truly Nolen revisando el reporte en una tableta dentro de una bodega",
-      "origen": "Generada con ICBINP XL (AI Horde), agrandada con Real-ESRGAN x4; logo inventado de la gorra borrado y emblema real con emblema.py de la receta, girado 25°. Elegida por el dueño (opción 4), 3-nov-2026.",
-      "fileAnterior": "cr-operacion-tecnico-natural.webp"
+      "file": "cr-operacion-tecnico-uniforme.webp",
+      "alt": "Técnico de Truly Nolen revisando una estación de cebo en la bodega de un supermercado",
+      "origen": "Uniforme real de Truly (receta 6b, 4-nov-2026): generada con ICBINP XL (AI Horde), agrandada con Real-ESRGAN x4; logos inventados de la gorra y del pecho borrados; emblema real bordado con herramientas/fotos/parche8.py (parche a color en el pecho, monocromo amarillo en la gorra). Elegida por el dueño (opción 2), 4-nov-2026.",
+      "fileAnterior": "cr-operacion-tecnico-real.webp"
     }
   },
   "inicio": {
@@ -594,6 +594,162 @@
             ]
           },
           {
+            "tipo": "sectores",
+            "eyebrow": "Servicios comerciales",
+            "benefTitulo": "¿Quién se beneficia con este programa?",
+            "contacto": "Consultar por su sector",
+            "volver": "Volver a los sectores",
+            "titulo": "Su industria. Su mundo, protegido.",
+            "texto": "Truly Nolen International ofrece sus servicios de control de plagas para clientes de todo el mundo en una gran variedad de sectores. Estos son cuatro sectores clave en los que tiene una gran presencia.",
+            "indiceTitulo": "Encuentre su sector",
+            "sectores": [
+              {
+                "id": "salud",
+                "nombre": "Salud",
+                "titulo": "El cuidado empieza con la prevención.",
+                "fotos": [
+                  {
+                    "imagen": "cr-sector4-salud-pasillo.webp",
+                    "pie": "Pasillo de un hospital."
+                  },
+                  {
+                    "imagen": "cr-sector4-salud-habitacion.webp",
+                    "pie": "Una habitación de atención médica."
+                  }
+                ],
+                "textos": [
+                  "Los profesionales sanitarios que dirigen instalaciones de atención médica a largo plazo, centros de atención médica de emergencia e instalaciones de rehabilitación física o mental enfrentan muchos desafíos para garantizar que se cumpla con el nivel más alto de saneamiento mientras atienden a grupos vulnerables de la población.",
+                  "Truly Elite Protection System (TEPS) se desarrolló para instalaciones de atención médica donde los servicios deben ir más allá del control. Nuestro sistema ofrece prevención y minimiza el riesgo de actividad de plagas y contaminación química.",
+                  "Brindamos un servicio completamente auditable, con toda la documentación y los registros que piden las normas de la industria o los clientes más exigentes del mundo."
+                ],
+                "teps": "Conozca el programa TEPS",
+                "benef": [
+                  "Laboratorios de diagnóstico",
+                  "Hospitales",
+                  "Centros de asistencia prolongada",
+                  "Centros de atención de emergencias",
+                  "Centros de rehabilitación",
+                  "Consultorios médicos",
+                  "Instalaciones de atención o tratamiento de pacientes",
+                  "Suministros médicos y almacenes"
+                ]
+              },
+              {
+                "id": "industria",
+                "nombre": "Industrias",
+                "titulo": "Protección en cada operación.",
+                "fotos": [
+                  {
+                    "imagen": "cr-sector4-industria-almacen.webp",
+                    "pie": "Instalaciones de almacenamiento."
+                  },
+                  {
+                    "imagen": "cr-sector4-industria-lab.webp",
+                    "pie": "Trabajo de laboratorio."
+                  },
+                  {
+                    "imagen": "cr-sector4-industria-planta.webp",
+                    "pie": "Operación industrial."
+                  }
+                ],
+                "textos": [
+                  "Truly Elite Protection System (TEPS) previene y reduce el riesgo de plagas y de contaminación química en la planta.",
+                  "Cada visita queda documentada y se puede auditar: los registros responden a lo que exige cada cliente."
+                ],
+                "teps": "Conozca el programa TEPS",
+                "benef": [
+                  "Plantas de procesamiento de alimentos",
+                  "Almacenamiento y distribución de alimentos",
+                  "Envasado y reenvasado de alimentos",
+                  "Proveedores de la industria alimentaria",
+                  "Laboratorios farmacéuticos",
+                  "Catering",
+                  "Hoteles",
+                  "Hospitales",
+                  "Cadenas de comida rápida",
+                  "Supermercados",
+                  "Almacenamiento de documentos",
+                  "Otras industrias"
+                ],
+                "portada": [
+                  0,
+                  4,
+                  10
+                ]
+              },
+              {
+                "id": "alimentos",
+                "nombre": "Venta minorista de alimentos",
+                "titulo": "Cuidar donde se encuentran personas y alimentos.",
+                "fotos": [
+                  {
+                    "imagen": "cr-sector4-alimentos-super.webp",
+                    "pie": "Venta minorista de alimentos."
+                  },
+                  {
+                    "imagen": "cr-sector4-alimentos-rest.webp",
+                    "pie": "Servicios de alimentación y hospitalidad."
+                  }
+                ],
+                "textos": [
+                  "Las instalaciones de venta minorista de alimentos se encuentran entre las más difíciles en cuanto al desarrollo de estrategias de saneamiento y manejo de plagas. Es primordial garantizar que suministren productos seguros en un entorno limpio y libre de plagas.",
+                  "TEPS se pensó para tiendas y locales que necesitan algo más que control: busca prevenir y bajar el riesgo de plagas y de contaminación química cerca de los alimentos.",
+                  "El servicio es auditable de principio a fin y deja la documentación que piden las normas del sector y las auditorías de sus clientes."
+                ],
+                "teps": "Conozca el programa TEPS",
+                "benef": [
+                  "Supermercados",
+                  "Hipermercados",
+                  "Centros de distribución",
+                  "Locales de comida rápida",
+                  "Restaurantes",
+                  "Panaderías"
+                ]
+              },
+              {
+                "id": "carga",
+                "nombre": "Logística",
+                "titulo": "Los productos viajan. La protección los acompaña.",
+                "fotos": [
+                  {
+                    "imagen": "cr-sector4-logistica-muelle.webp",
+                    "pie": "Carga y transporte."
+                  }
+                ],
+                "textos": [
+                  "Para cualquier empresa que se encarga del traslado diario de bienes y servicios: ya sea que exporte o importe de otros países o mueva productos de un lugar a otro, Truly Nolen International está para que no haya contaminación por plagas.",
+                  "En la carga, TEPS va más allá del control: ayuda a prevenir plagas y a reducir el riesgo de contaminación química en cada traslado.",
+                  "Todo el trabajo queda registrado, listo para las auditorías que exigen las normas del sector y sus propios clientes."
+                ],
+                "teps": "Conozca el programa TEPS",
+                "benef": [
+                  "Empresas de transporte",
+                  "Agentes de carga",
+                  "Transportistas",
+                  "Logística externa",
+                  "Campos de logística",
+                  "Logística de adquisiciones",
+                  "Logística de producto",
+                  "Logística de ventas"
+                ]
+              }
+            ],
+            "otros": "Si usted no se encuentra dentro de estos sectores, no se preocupe: Truly Nolen International también tiene clientes en turismo, educación, fabricación, catering y mucho más.",
+            "cierre": [
+              "Cada industria merece atención.",
+              "Cuéntenos a qué se dedica su negocio y le orientamos en el siguiente paso.",
+              "Escribir a Truly AI"
+            ],
+            "mas": [
+              "Más formas de proteger su mundo.",
+              [
+                "Servicios residenciales",
+                "Sanitización",
+                "Programa TEPS"
+              ]
+            ]
+          },
+          {
             "tipo": "tabla",
             "eyebrow": "Por tipo de negocio",
             "titulo": "Cada punto del proceso.",
@@ -776,6 +932,10 @@
           [
             "Ministerio de Salud de Costa Rica (2002). Protocolo para la prevención y control de la leptospirosis",
             "https://www.binasss.sa.cr/opac-ms/media/digitales/Leptospirosis%20-%20Protocolo%20para%20Prevenci%c3%b3n%20y%20Control.pdf"
+          ],
+          [
+            "Truly Nolen International. Servicios comerciales (globaltni.com)",
+            "https://globaltni.com/es/services/commercial/"
           ]
         ],
         "imagenAnterior": "cr-comercio-cafeteria.webp",
@@ -809,6 +969,59 @@
               {
                 "h": "¿Cómo sigue?",
                 "p": "Seguimiento con la frecuencia acordada y la hoja de servicio de cada aplicación para sus revisiones."
+              }
+            ]
+          },
+          {
+            "tipo": "sectores",
+            "eyebrow": "Servicios comerciales",
+            "benefTitulo": "¿Quién se beneficia con este programa?",
+            "contacto": "Consultar por su sector",
+            "titulo": "",
+            "texto": "",
+            "sectores": [
+              {
+                "id": "industria",
+                "nombre": "Industrias",
+                "titulo": "Protección en cada operación.",
+                "fotos": [
+                  {
+                    "imagen": "cr-sector4-industria-almacen.webp",
+                    "pie": "Instalaciones de almacenamiento."
+                  },
+                  {
+                    "imagen": "cr-sector4-industria-lab.webp",
+                    "pie": "Trabajo de laboratorio."
+                  },
+                  {
+                    "imagen": "cr-sector4-industria-planta.webp",
+                    "pie": "Operación industrial."
+                  }
+                ],
+                "textos": [
+                  "En una planta, TEPS trabaja sobre la prevención: reduce el riesgo de plagas y de contaminación química en cada área del proceso.",
+                  "Lo que se hace en cada visita queda escrito, para que usted lo muestre en sus auditorías."
+                ],
+                "teps": "Conozca el programa TEPS",
+                "benef": [
+                  "Plantas de procesamiento de alimentos",
+                  "Almacenamiento y distribución de alimentos",
+                  "Envasado y reenvasado de alimentos",
+                  "Proveedores de la industria alimentaria",
+                  "Laboratorios farmacéuticos",
+                  "Catering",
+                  "Hoteles",
+                  "Hospitales",
+                  "Cadenas de comida rápida",
+                  "Supermercados",
+                  "Almacenamiento de documentos",
+                  "Otras industrias"
+                ],
+                "portada": [
+                  0,
+                  4,
+                  10
+                ]
               }
             ]
           },
@@ -953,6 +1166,10 @@
           [
             "Decreto Ejecutivo 38335-S-MTSS (2014). Reglamento para regular la actividad de control de plagas mediante la aplicación de plaguicidas de uso doméstico y profesional",
             "https://www.binasss.sa.cr/opac-ms/media/digitales/Regulaci%c3%b3n%20de%20la%20actividad%20de%20control%20de%20plagas%20mediante%20la%20aplicaci%c3%b3n%20de%20plaguicidas%20de%20uso%20dom%c3%a9stico%20y%20profesional.pdf"
+          ],
+          [
+            "Truly Nolen International. Servicios comerciales (globaltni.com)",
+            "https://globaltni.com/es/services/commercial/"
           ]
         ],
         "imagenAnterior": "cr-industria-bodega.webp"
@@ -2488,55 +2705,5 @@
     "video": "cr-portada-gemini-5s.mp4",
     "videoStatus": "reviewed",
     "origen": "gemini_generated_video_bb304fdd.mp4 entregado por Cesar (Descargas, 30-oct-2026), generado con Gemini (IA). Recortado a los segundos 0 a 5 exactos (120 cuadros, pedido de Cesar), sin fundido ni audio, H.264 con el color del catálogo, 1280x720, 24 cps. Ojo: según flujo.py el carro retrocede del segundo 1 al 5, casi todo el clip (Cesar eligió este tramo igual). Licencia de uso comercial POR CONFIRMAR."
-  },
-  "sectoresFotos": {
-    "restaurantes": [
-      {
-        "file": "cr-sector-soda-cocina-1.webp",
-        "alt": "Cocina de una soda con ollas en la cocina de gas.",
-        "w": 1400,
-        "h": 1050,
-        "origen": "Generada con ICBINP XL (AI Horde) el 3-nov-2026 y agrandada con Real-ESRGAN x4 (sin personas ni letras). Sección por sector de Comercios, como /es/services/commercial/ de globaltni (opción B del dueño)."
-      },
-      {
-        "file": "cr-sector-soda-bodega-0.webp",
-        "alt": "Bodega de granos en sacos sobre estantes.",
-        "w": 1050,
-        "h": 1400,
-        "origen": "Generada con ICBINP XL (AI Horde) el 3-nov-2026 y agrandada con Real-ESRGAN x4 (sin personas ni letras). Sección por sector de Comercios, como /es/services/commercial/ de globaltni (opción B del dueño)."
-      }
-    ],
-    "comercio-alimentos": [
-      {
-        "file": "cr-sector-pulperia-0.webp",
-        "alt": "Mostrador y estantes de una pulpería.",
-        "w": 1400,
-        "h": 1050,
-        "origen": "Generada con ICBINP XL (AI Horde) el 3-nov-2026 y agrandada con Real-ESRGAN x4 (sin personas ni letras). Sección por sector de Comercios, como /es/services/commercial/ de globaltni (opción B del dueño)."
-      },
-      {
-        "file": "cr-sector-super-bodega-0.webp",
-        "alt": "Bodega de cajas en estantes metálicos.",
-        "w": 1050,
-        "h": 1400,
-        "origen": "Generada con ICBINP XL (AI Horde) el 3-nov-2026 y agrandada con Real-ESRGAN x4 (sin personas ni letras). Sección por sector de Comercios, como /es/services/commercial/ de globaltni (opción B del dueño)."
-      }
-    ],
-    "hoteles-oficinas": [
-      {
-        "file": "cr-sector-hotel-1.webp",
-        "alt": "Habitación de hotel con vista al jardín.",
-        "w": 1400,
-        "h": 1050,
-        "origen": "Generada con ICBINP XL (AI Horde) el 3-nov-2026 y agrandada con Real-ESRGAN x4 (sin personas ni letras). Sección por sector de Comercios, como /es/services/commercial/ de globaltni (opción B del dueño)."
-      },
-      {
-        "file": "cr-sector-oficina-1.webp",
-        "alt": "Cocineta y comedor del personal de una oficina.",
-        "w": 1050,
-        "h": 1400,
-        "origen": "Generada con ICBINP XL (AI Horde) el 3-nov-2026 y agrandada con Real-ESRGAN x4 (sin personas ni letras). Sección por sector de Comercios, como /es/services/commercial/ de globaltni (opción B del dueño)."
-      }
-    ]
   }
 }

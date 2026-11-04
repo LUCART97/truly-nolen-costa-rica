@@ -684,6 +684,15 @@ body.country-site[data-oficina] .pest-families a{white-space:nowrap;flex:0 0 aut
 @media(max-width:760px){body.country-site[data-oficina] :is(.network-links a,.blog-consejos h2 a,.g-cierre .text-link,.s-closing .text-link,.network .text-link,.history-links .text-link){display:inline-flex;align-items:center;min-height:44px}}
 /* Consejos de prevención solo con texto: las fotos ya están arriba y en cada guía (sin fotos repetidas) */
 body.country-site[data-oficina] .blog-consejos .blog-card{grid-template-columns:1fr}
+/* Receta 4-nov-2026: el pie a 100vw cuenta la barra de desplazamiento y desbordaba 8 px */
+body.country-site[data-oficina]{overflow-x:clip}
+/* Ojo de diseño 4-nov: en celular las rutas del hero van en UNA línea y no tocan las orejas del carro */
+@media(max-width:760px){body.country-site[data-oficina] .hero-routes{flex-wrap:nowrap!important;padding-right:0!important;gap:0 14px!important;margin-top:2px!important}
+body.country-site[data-oficina] .hero-routes a{white-space:nowrap;font-size:12px}
+body.country-site[data-oficina] #inicio .hero-text>.hero-premium{margin-top:8px!important}
+body.country-site[data-oficina] #inicio .hero-text>.button{margin-top:16px!important}}
+/* Comercios e Industria: los bloques propios de la ficha con el mismo peso de título que los sectores de globaltni */
+body.country-site[data-oficina]:has(.ct-commercial) .s-flow h2{font-weight:800;letter-spacing:-.016em}
 
 h1,h2,h3{text-wrap:balance}
 @media(min-width:901px){.blog-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}

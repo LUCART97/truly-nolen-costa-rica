@@ -70,7 +70,7 @@ def parrafos(b):
         li = "".join(f'<li><a href="{BASE}{clase}/{s}/">{e(ts[s])}</a></li>' for s in b.get("slugs", []) if s in ts and (CARPETA / clase / s / "index.html").exists())
         if li:
             out.append(f'<ul class="s-enlaces">{li}</ul>')
-    elif tipo == "consulta":
+    elif tipo in ("consulta", "sectores"):
         return []
     if b.get("nota"):
         out.append(f'<p class="s-note">{e(b["nota"])}</p>')

@@ -360,6 +360,8 @@ def bloque(b):
     if tipo == "cifras":
         arts = "".join(f'<article><b>{escape(it["valor"])}</b><p>{escape(it["texto"])}</p><small>{escape(it["fuente"])}</small></article>' for it in b["items"])
         return f'<section class="section g g-dato">{g_cab(b["eyebrow"], b["titulo"])}<div class="g-dato-fila">{arts}</div></section>\n'
+    if tipo == "sectores":
+        return ""   # lo arma sectores.py con el diseño de globaltni (receta 6c)
     if tipo == "consulta":
         return ""   # un solo cierre por página (receta): sus atajos van en la tarjeta de Truly AI del cierre
     if tipo == "relacionadas":
