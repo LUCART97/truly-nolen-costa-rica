@@ -13,8 +13,8 @@ RAIZ = Path(__file__).resolve().parent
 ORIGEN = RAIZ / "sitio"
 DESTINO = RAIZ / "_site"
 PREFIJO = (sys.argv[1] if len(sys.argv) > 1 else "/truly-nolen-costa-rica").rstrip("/")
-# una ruta absoluta del sitio, justo después de una comilla, un paréntesis, un igual o un espacio (srcset, url(), data-src…)
-RUTA = re.compile(r"""(?<=["'(=\s,])/(?=(oficinas|machotes|landing|tn-emblema)\b)""")
+# una ruta absoluta del sitio, justo después de una comilla (también `), un paréntesis, un igual o un espacio (srcset, url(), data-src…)
+RUTA = re.compile(r"""(?<=["'`(=\s,])/(?=(oficinas|machotes|landing|tn-emblema)\b)""")
 PORTADA = f"{PREFIJO}/oficinas/costa-rica/"
 
 

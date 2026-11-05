@@ -40,6 +40,7 @@ jobs:
           python master.py
           python corporativo.py
           python sectores.py
+          python globaltni.py
       - name: Ajustar rutas para Pages
         run: python publicar_pages.py "/${{ github.event.repository.name }}"
       - uses: actions/configure-pages@v5
