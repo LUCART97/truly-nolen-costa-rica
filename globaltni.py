@@ -178,6 +178,8 @@ body.a-site .tia--on{left:0!important;right:0!important;bottom:0!important;top:7
 body.a-site .tia--on .tia-panel{width:100%!important;height:100%!important;max-height:none!important;border-radius:16px 16px 0 0!important}}
 body.a-site .tia-panel{max-height:calc(100dvh - 150px)}
 </style>"""
+# listas de sectores en celular: globaltni parte «Supermercado/s» a mitad de palabra; aquí se silabea en español (única diferencia a propósito)
+CARRITO += "<style>@media(max-width:620px){.ct-facilities li{-webkit-hyphens:manual!important;hyphens:manual!important;overflow-wrap:normal!important}}</style>"
 
 HOJAS = re.findall(r'<link href="(/a/[^"?]+\.css)[^"]*" rel="stylesheet"/>|<link href="(/assets/franchise-chat\.css)[^"]*" rel="stylesheet"/>', HOME)
 
@@ -281,6 +283,29 @@ for slug, n in (("hogares", "residential"), ("comercios", "commercial")):
 # ---------- 5 · resto de páginas: su contenido + encabezado y pie de globaltni ----------
 RES = gtpage("residential")
 hechas = 0
+
+
+def css_reforzado(ruta):
+    """Las reglas .ct-* de globaltni con más peso (html body.gt-interna.gt-interna …) para ganarle al molde viejo
+    (body.country-site[data-oficina] h2 …) sin cambiar ni un valor."""
+    c = re.sub(r"/\*.*?\*/", "", ruta.read_text(encoding="utf-8"), flags=re.S)
+    def bloque(t):
+        out, i = [], 0
+        while True:
+            j = t.find("{", i)
+            if j < 0: return "".join(out)
+            sel = t[i:j].strip()
+            if sel.startswith("@"):
+                d, k = 1, j + 1
+                while d: d += (t[k] == "{") - (t[k] == "}"); k += 1
+                dentro = bloque(t[j + 1:k - 1])
+                if dentro: out.append(f"{sel}{{{dentro}}}")
+                i = k; continue
+            k = t.find("}", j)
+            if ".ct-" in sel:
+                out.append(",".join(f"html body.gt-interna.gt-interna {s.strip()}" for s in sel.split(",")) + t[j:k + 1])
+            i = k + 1
+    return bloque(c)
 _pl = (C / "plagas/cucarachas/index.html").read_text(encoding="utf-8")
 CIERRE_INTERNO = re.search(r'<section id="contacto" class="s-closing">.*?</section>', _pl, re.S).group(0).replace('/oficinas/costa-rica/#consulta"', '/oficinas/costa-rica/#contacto"')
 for f in C.rglob("index.html"):
@@ -289,14 +314,28 @@ for f in C.rglob("index.html"):
     t = f.read_text(encoding="utf-8")
     m = re.search(r"<main\b.*?</main>", t, re.S).group(0)
     m = m.replace('/oficinas/costa-rica/#consulta"', '/oficinas/costa-rica/#contacto"')   # la portada nueva cierra con #contacto
+    mas = ""
+    if rel == "servicios/industria":   # mismo sector que Comercios: las fotos reales de globaltni y su hoja de estilos
+        for viejo, gt in (("cr-sector4-industria-almacen.webp", "industrial-storage.png"), ("cr-sector4-industria-lab.webp", "industrial-laboratory.png"),
+                          ("cr-sector4-industria-planta.webp", "industrial-operations.png")):
+            assert f"{A}{viejo}" in m, viejo; m = m.replace(f"{A}{viejo}", f"{G}en/services/media/{gt}")
+        m, n = re.subn(r'(cr-industria-unsplash-[^"]*" alt=")Industria"', r'\1Personal caminando por el pasillo de una bodega con estanterías"', m)
+        assert n == 1, "industria: foto de arriba"
+        mas = f'<link rel="stylesheet" href="{G}a/commercial-editorial.css"/><style>{css_reforzado(GT / "a/commercial-editorial.css")}{css_reforzado(GT / "a/brand-2026.css")}{(R / "plantilla/ajuste-industria.css").read_text(encoding="utf-8")}</style>'
+    # «Proteja su casa o su negocio»: dos enlaces sueltos → dos filas con texto y flecha, como el menú de globaltni
+    m = m.replace(f'<ul class="s-enlaces"><li><a href="{B}servicios/hogares/">Hogares</a></li><li><a href="{B}servicios/comercios/">Comercios</a></li></ul>',
+                  f'<div class="gt-destinos"><a href="{B}servicios/hogares/"><strong>Hogares</strong><span>Un programa para toda su casa, en tres zonas.</span><i aria-hidden="true">→</i></a>'
+                  f'<a href="{B}servicios/comercios/"><strong>Comercios</strong><span>Protección para los retos de cada sector.</span><i aria-hidden="true">→</i></a></div>')
     if rel == "blog":   # el blog cerraba con el formulario viejo y el chat abierto en línea: mismo cierre que las demás internas
         i = m.find('<section id="contacto" class="section local-consult'); assert i > 0, "blog: cierre viejo"
         m = m[:i] + CIERRE_INTERNO + "</main>"
     estilo = "".join(re.findall(r"<style>.*?</style>", t[t.find("<head>"):t.find("</head>")], re.S))
     extra = "".join(re.findall(r'<script src="/oficinas/assets/pestanas\.js" defer></script>', t))
-    # el molde viejo agrega 64 px vacíos tras cada sección; con el CSS de globaltni el espacio sale doble
-    estilo += "<style>body.gt-interna main>:is(section,article,div,nav)::after{content:none!important;display:none!important}body.gt-interna main>section.section{width:min(1312px,100% - 128px);margin-inline:auto}body.gt-interna main>section.s-intro>figure.s-figure{width:min(100%,760px)!important;max-width:100%!important;margin:28px 0 0!important}body.gt-interna main>section.s-intro>figure.s-figure img{border-radius:6px}@media(max-width:760px){body.gt-interna main>section.section{width:calc(100% - 44px)}}</style>"
-    out = pagina(RES, t, m, "country-site gt-interna", estilo + extra)
+    # el molde viejo agrega 64 px vacíos tras cada sección; en computadora el espacio sale doble con el CSS de globaltni
+    # (en celular se queda: la receta lo pide para que el globo del chat no tape enlaces)
+    estilo += "<style>body.gt-interna .gt-destinos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px;margin-top:24px;border-top:1px solid #dddcd3}body.gt-interna .gt-destinos a{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 16px;align-items:center;padding:22px 0;border-bottom:1px solid #dddcd3;color:#010007;text-decoration:none;min-height:44px}body.gt-interna .gt-destinos strong{font:700 22px/1.2 Montserrat,system-ui,sans-serif}body.gt-interna .gt-destinos span{grid-column:1;color:#4c4c4c;font-size:16px;line-height:1.5;text-align:left}body.gt-interna .gt-destinos i{grid-column:2;grid-row:1/span 2;font-style:normal;font-size:22px;transition:transform .2s}body.gt-interna .gt-destinos a:hover i{transform:translateX(4px)}@media(max-width:760px){body.gt-interna .gt-destinos{grid-template-columns:minmax(0,1fr)}}</style>"
+    estilo += "<style>@media(min-width:761px){body.gt-interna main>:is(section,article,div,nav)::after{content:none!important;display:none!important}}body.gt-interna main>section.section{width:min(1312px,100% - 128px);margin-inline:auto}body.gt-interna main>section.s-intro>figure.s-figure{width:min(100%,760px)!important;max-width:100%!important;margin:28px 0 0!important}body.gt-interna main>section.s-intro>figure.s-figure img{border-radius:6px}@media(max-width:760px){body.gt-interna main>section.section{width:calc(100% - 44px)}}</style>"
+    out = pagina(RES, t, m, "country-site gt-interna", estilo + extra + mas)
     out = out.replace("<body", '<body data-oficina="costa-rica"', 1)
     f.write_text(out, encoding="utf-8"); hechas += 1
 print("réplica de globaltni: portada, hogares y comercios copiados;", hechas, "páginas con el encabezado y el pie de globaltni")
@@ -379,3 +418,21 @@ for a, b in CORR:
 for f, t in textos.items(): f.write_text(t, encoding="utf-8")
 assert not faltan, "textos de globaltni no encontrados: " + " | ".join(faltan)
 print("texto:", len(CORR), "correcciones de estilo aplicadas")
+
+# ---------- 7 · listas de sectores: guiones suaves en las palabras largas (en celular globaltni las parte a mitad de palabra) ----------
+SILABAS = {"Almacenamiento": "Almace&shy;namiento", "almacenamiento": "almace&shy;namiento", "Supermercados": "Super&shy;mercados",
+           "procesamiento": "procesa&shy;miento", "farmacéuticos": "farma&shy;céuticos", "reenvasado": "reen&shy;vasado",
+           "alimentación": "alimen&shy;tación", "distribución": "distri&shy;bución", "alimentaria": "alimen&shy;taria",
+           "Hipermercados": "Hiper&shy;mercados", "transportistas": "transpor&shy;tistas", "rehabilitación": "rehabili&shy;tación",
+           "Instalaciones": "Instala&shy;ciones", "adquisiciones": "adquisi&shy;ciones", "Laboratorios": "Labora&shy;torios"}
+def con_silabas(t):
+    def lista(m):
+        x = m.group(0)
+        for a, b in SILABAS.items(): x = re.sub(rf"(?<=[\s>]){a}(?=[\s<,.])", b, x)
+        return x
+    return re.sub(r'<aside[^>]*class="ct-facilities".*?</aside>', lista, t, flags=re.S)
+n = 0
+for f in C.rglob("index.html"):
+    t = f.read_text(encoding="utf-8"); t2 = con_silabas(t)
+    if t2 != t: f.write_text(t2, encoding="utf-8"); n += 1
+print("listas de sectores con guiones suaves en", n, "páginas")
