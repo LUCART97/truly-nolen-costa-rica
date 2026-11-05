@@ -58,6 +58,12 @@ for p in CARPETA.rglob("*.html"):
     if p == f: s2 = s2 if 'id="teps"' in s2 else s2
     if s2 != s: hechas += 1
     p.write_text(s2 if p != f else s2, encoding="utf-8")
+# pestañas de plagas en celular: la activa se centra al cargar (receta: blancos táctiles y pestañas visibles)
+CENTRAR = '<script src="/oficinas/assets/pestanas.js" defer></script>'
+for p in CARPETA.glob("plagas/*/index.html"):
+    s = p.read_text(encoding="utf-8")
+    if 'class="pest-families"' in s and "pestanas.js" not in s:
+        p.write_text(s.replace("</body>", CENTRAR + "</body>", 1), encoding="utf-8")
 if 'id="teps"' in t:
     t = t.replace('<span id="nosotros"></span>', '')   # «Nosotros» del menú lleva a la historia, como en globaltni
     t = t.replace("/oficinas/assets/truly-carrito-asistente.svg", "/oficinas/assets/carro-truly.png")

@@ -988,6 +988,60 @@ body.country-site[data-oficina] .tia-x{width:40px;height:40px}
 @media(max-width:760px){body.country-site[data-oficina] .tia--on{left:0;right:0;bottom:0;top:76px;gap:0;align-items:stretch}
 body.country-site[data-oficina] .tia--on .tia-panel{width:100%!important;height:100%!important;max-height:none;border-radius:16px 16px 0 0;border-bottom:0}
 body.country-site[data-oficina] .tia--on .tia-form{padding-bottom:calc(12px + env(safe-area-inset-bottom))}}
+/* ===== Revisión completa en celular (4-nov-2026) ===== */
+@media(max-width:760px){
+/* pestañas de plagas: se nota que se deslizan; la activa se centra con el script de la página */
+body.country-site[data-oficina] .pest-families{-webkit-mask-image:linear-gradient(to right,#000 82%,transparent);mask-image:linear-gradient(to right,#000 82%,transparent);scroll-snap-type:x proximity}
+body.country-site[data-oficina] .pest-families a{scroll-snap-align:center}
+/* hero: frase y rutas legibles sobre el video */
+body.country-site[data-oficina] #inicio .hero-text>p:not(.eyebrow),body.country-site[data-oficina] .hero-premium,body.country-site[data-oficina] .hero-routes a{text-shadow:0 1px 8px rgba(0,0,0,.6)}
+/* cifras: la celda del carro con el mismo ritmo que las demás y sin hueco abajo */
+body.country-site[data-oficina] .g-cifras-in{padding-bottom:22px!important;row-gap:22px}
+body.country-site[data-oficina] .g-cifra-carro{display:flex!important;flex-direction:column;gap:6px}
+body.country-site[data-oficina] .g-cifra-carro img{width:64px!important;height:auto}
+body.country-site[data-oficina] .g-cifra-carro span{font-size:18px;line-height:1.25}
+body.country-site[data-oficina] .g-cifra-carro small{display:block;margin-top:4px;line-height:1.35}
+/* TEPS: sello arriba, título a todo el ancho, botón entero */
+body.country-site[data-oficina] .teps-intro{grid-template-columns:1fr!important;row-gap:16px}
+body.country-site[data-oficina] .teps-intro .teps-seal{width:72px;height:72px}
+body.country-site[data-oficina] .teps-description .button,body.country-site[data-oficina] .sanitization-copy .button{width:100%;justify-content:center;white-space:nowrap;font-size:16px}
+/* sanitización: caja gris con menos relleno */
+body.country-site[data-oficina] .sanitization-visual{padding:22px!important}
+/* cierre amarillo sin espacio vacío al final */
+body.country-site[data-oficina] .local-consult{padding-bottom:40px!important}
+/* menú abierto: cabe en pantallas bajas y se desplaza */
+body.country-site[data-oficina] .site-nav nav.is-open{max-height:calc(100dvh - 76px);overflow-y:auto;overscroll-behavior:contain}
+/* pie: el «+» de los acordeones no queda debajo del botón del chat */
+body.country-site[data-oficina] .local-footer details summary{padding-right:78px!important}
+body.country-site[data-oficina] .footer-legal nav{gap:4px 14px;flex-wrap:wrap}
+/* comercios: galerías de sectores en cuadrícula pareja */
+body.country-site[data-oficina] .ct-documentary{display:grid!important;grid-template-columns:1fr 1fr;gap:12px!important;border-top-width:0}
+body.country-site[data-oficina] .ct-documentary figure{width:100%;max-width:none!important}
+body.country-site[data-oficina] .ct-documentary figure:last-child:nth-child(odd){grid-column:1/-1}
+body.country-site[data-oficina] .ct-documentary img{width:100%!important;max-height:none!important;aspect-ratio:4/3;object-fit:cover}
+body.country-site[data-oficina] .ct-logistics .ct-documentary{border-top:8px solid #ffd800;padding-top:12px}
+/* «¿Quién se beneficia?» en una columna legible */
+body.country-site[data-oficina] .ct-facilities ul{grid-template-columns:1fr!important}
+/* títulos sin palabras sueltas */
+body.country-site[data-oficina] :is(.s-flow h2,.ct-sector h2,.s-intro h1,.pest-masthead h1,.s-lead-pair h2,.g-cab h2){text-wrap:balance}
+/* enlaces a otras guías como fichas tocables */
+body.country-site[data-oficina] .s-enlaces{display:flex;flex-wrap:wrap;gap:10px;padding:0;list-style:none}
+body.country-site[data-oficina] .s-enlaces li{margin:0}
+body.country-site[data-oficina] .s-enlaces a{border:1px solid #d9d6cc;border-radius:999px;padding:10px 16px;min-height:44px;font-size:16px;text-decoration:none;background:#fff}
+/* preguntas de las internas: se ve que se abren */
+body.country-site[data-oficina] .s-preguntas summary{justify-content:space-between;gap:16px}
+body.country-site[data-oficina] .s-preguntas summary::after{content:"+";flex:0 0 auto;font-size:24px;font-weight:400;line-height:1}
+body.country-site[data-oficina] .s-preguntas details[open] summary::after{content:"−"}
+body.country-site[data-oficina] .s-preguntas summary::-webkit-details-marker{display:none}
+/* migas alineadas */
+body.country-site[data-oficina] .s-intro nav,body.country-site[data-oficina] .pest-breadcrumb{align-items:center;flex-wrap:wrap}
+body.country-site[data-oficina] :is(.s-intro nav,.pest-breadcrumb) :is(a,span){font-weight:500}
+/* chat: foco del campo más fino */
+body.country-site[data-oficina] .tia-campo:focus-visible,body.country-site[data-oficina] .tia-campo:focus{outline-width:2px!important;outline-offset:0!important}
+}
+@media(max-width:760px){
+body.country-site[data-oficina] .site-nav nav.is-open :is(a,summary){padding-left:18px!important;padding-right:18px!important}
+body.country-site[data-oficina]:has(.site-nav nav.is-open) .tia{display:none!important}}
 
 h1,h2,h3{text-wrap:balance}
 @media(min-width:901px){.blog-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
