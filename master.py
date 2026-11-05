@@ -234,7 +234,7 @@ if 'class="hero-routes"' not in t:
         rutas = ('<div class="hero-routes" aria-label="Explore nuestros servicios"><a href="#residencial">Su hogar <span aria-hidden="true">↓</span></a>'
                  '<a href="#comercial">Su negocio <span aria-hidden="true">↓</span></a><a href="#teps">Programa TEPS <span aria-hidden="true">↓</span></a></div>')
         t = t.replace(m.group(0), m.group(1) + m.group(2) + " " + marca + m.group(3)
-                      + '<span class="hero-premium">Servicio premium · Visión internacional</span>' + m.group(4) + rutas, 1)
+                      + '<span class="hero-premium">Servicio de primera calidad · Visión internacional</span>' + m.group(4) + rutas, 1)
         hechas.append("portada (hero)")
     fp.write_text(t, encoding="utf-8")
 

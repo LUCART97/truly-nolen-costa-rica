@@ -15,6 +15,21 @@ CARPETA = RAIZ / "sitio/oficinas" / F["id"]
 o = {"id": F["id"], "language": "es", "textos": dict(F.get("textos", {}))}
 for tu, usted, _fr in CT.T:                         # usted = texto oficial de globaltni.com/es
     if usted is not None: o["textos"].setdefault(tu, usted)
+# Corrección de estilo de los textos de globaltni (revisión del 4-nov-2026): español correcto, sin calcos del inglés.
+o["textos"].update({
+    "Inspección, plan de control, registro de cada visita y revisión de tendencias. Un programa de Manejo Integrado de Plagas con trazabilidad y estándares auditados.":
+        "Inspección, plan de control, registro de cada visita y revisión de tendencias. Un programa de manejo integrado de plagas con trazabilidad y estándares auditados.",
+    "Formación sobre manejo integrado de plagas, biología, ecología, aspectos regulatorios y soporte de auditoría.":
+        "Formación sobre manejo integrado de plagas, biología, ecología, aspectos normativos y apoyo en auditorías.",
+    "Programas personalizados para las necesidades de cada cliente, especialmente instalaciones auditadas.":
+        "Programas personalizados para las necesidades de cada cliente, especialmente para instalaciones auditadas.",
+    "Una red internacional": "Presencia mundial",
+    "Conecta con una oficina local.": "Comuníquese con una oficina local.",
+    "El automóvil amarillo con orejas de ratón de Truly Nolen": "El carro amarillo con orejas de ratón de Truly Nolen",
+    "Busca tu localidad en el directorio internacional. La oficina que atiende tu zona te ayudará a conocer el servicio y el programa adecuado para tu espacio.":
+        "Busque su localidad en el directorio internacional. La oficina que atiende su zona le ayudará a conocer el servicio y el programa adecuados para su espacio.",
+    "Nuestra historia hasta ahora →": "Conozca nuestra historia →",
+})
 san, teps, red, _fra, his, fte = D.corporativas(o)  # franquicia no va en una oficina (vuelta 9)
 f = CARPETA / "index.html"; t = f.read_text(encoding="utf-8")
 if 'id="teps"' not in t:

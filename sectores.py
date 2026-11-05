@@ -1,7 +1,7 @@
 """Sectores de globaltni en Comercios e Industria (receta truly-inbound, paso 6c, 4-nov-2026). Se corre después de corporativo.py.
 - Comercios: el bloque «sectores» de la ficha (4 sectores de https://globaltni.com/es/services/commercial/) va con el marcado ct-* del
   master (franja amarilla «Encuentre su sector», Salud en negro, alimentos en gris, logística con la línea amarilla, «Volver a los
-  sectores ↑», «Cada industria merece atención.» y «Más formas de proteger su mundo.») después del primer bloque (la entrada).
+  sectores ↑», «Cada industria merece atención.» y «Más formas de proteger su negocio.») después del primer bloque (la entrada).
 - Industria: el mismo bloque con un solo sector, sin índice.
 - Portada: las filas de «Comercio e industria» salen del bloque y bajan cada una a SU ancla (#sector-<id>); Industrias va a su página.
 - CSS = plantilla/ct-commercial.css (commercial-editorial.css + reglas .ct-* de brand-2026.css de globaltni), incrustado en la página."""

@@ -376,7 +376,7 @@ def bloque(b):
 
 def fuentes(lista):
     items = "".join(f'<li><a href="{escape(u)}" target="_blank" rel="noopener noreferrer">{escape(t)}</a></li>' for t, u in lista)
-    return f'<section class="section detail-sources"><div><p class="eyebrow">Fuentes</p><h2>De dónde sale esta información.</h2><p class="nota" style="margin-top:16px">{escape(T["fuentesNota"])}</p></div><ol>{items}</ol></section>\n'
+    return f'<section class="section detail-sources"><div><p class="eyebrow">Fuentes</p><h2>De dónde sale esta información</h2><p class="nota" style="margin-top:16px">{escape(T["fuentesNota"])}</p></div><ol>{items}</ol></section>\n'
 
 
 def imagen_hero(x, tipo):
@@ -434,7 +434,7 @@ def pagina_blog():
     # El primero va ancho; los que sobran en una última fila incompleta de tres también van anchos (sin huecos al lado).
     sobran = (len(ARTICULOS) - 1) % 3
     anchas = {0} | set(range(len(ARTICULOS) - sobran, len(ARTICULOS)))
-    html = head(f"Blog de control de plagas · Truly Nolen {PAIS}", f"Guías sobre las plagas de {PAIS}: zancudos, comején, zompopas, ratas y más, con cada dato respaldado por su fuente.",
+    html = head(f"Blog de control de plagas · Truly Nolen {PAIS}", f"Guías sobre las plagas de {PAIS}: alacranes, chinches de cama, zompopas, ratas y más, con cada dato respaldado por su fuente.",
                 "blog/", migas=[("Blog", "blog/")], estilos=HEAD_BLOG)
     html += BODY_INICIO + nav() + '<main id="contenido">'
     html += f"""<section class="section blog-head"><a class="text-link" href="{BASE}">← Volver al inicio</a><p class="eyebrow">Blog · {PAIS}</p><h1>Blog de control de plagas</h1>
