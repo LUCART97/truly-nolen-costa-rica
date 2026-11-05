@@ -705,7 +705,7 @@ body.country-site[data-oficina] .tia--on .tia-form{padding-bottom:calc(12px + en
 /* ===== Revisión completa en celular (4-nov-2026) ===== */
 @media(max-width:760px){
 /* pestañas de plagas: se nota que se deslizan; la activa se centra con el script de la página */
-body.country-site[data-oficina] .pest-families{-webkit-mask-image:linear-gradient(to right,#000 82%,transparent);mask-image:linear-gradient(to right,#000 82%,transparent);scroll-snap-type:x proximity}
+body.country-site[data-oficina] .pest-families{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 22px,#000 calc(100% - 40px),transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 22px,#000 calc(100% - 40px),transparent 100%);scroll-snap-type:x proximity}
 body.country-site[data-oficina] .pest-families a{scroll-snap-align:center}
 /* hero: frase y rutas legibles sobre el video */
 body.country-site[data-oficina] #inicio .hero-text>p:not(.eyebrow),body.country-site[data-oficina] .hero-premium,body.country-site[data-oficina] .hero-routes a{text-shadow:0 1px 8px rgba(0,0,0,.6)}
@@ -718,7 +718,10 @@ body.country-site[data-oficina] .g-cifra-carro small{display:block;margin-top:4p
 /* TEPS: sello arriba, título a todo el ancho, botón entero */
 body.country-site[data-oficina] .teps-intro{grid-template-columns:1fr!important;row-gap:16px}
 body.country-site[data-oficina] .teps-intro .teps-seal{width:72px;height:72px}
-body.country-site[data-oficina] .teps-description .button,body.country-site[data-oficina] .sanitization-copy .button{width:100%;justify-content:center;white-space:nowrap;font-size:16px}
+body.country-site[data-oficina] .teps-description .button,body.country-site[data-oficina] .sanitization-copy .button{width:100%;max-width:100%;justify-content:center;font-size:16px}
+body.country-site[data-oficina] .teps-description .button{white-space:nowrap}
+body.country-site[data-oficina] .sanitization-copy .button{white-space:normal;text-align:center}
+body.country-site[data-oficina] :is(.sanitization-copy,.sanitization-visual){min-width:0;max-width:100%}
 /* sanitización: caja gris con menos relleno */
 body.country-site[data-oficina] .sanitization-visual{padding:22px!important}
 /* cierre amarillo sin espacio vacío al final */
@@ -756,6 +759,33 @@ body.country-site[data-oficina] .tia-campo:focus-visible,body.country-site[data-
 @media(max-width:760px){
 body.country-site[data-oficina] .site-nav nav.is-open :is(a,summary){padding-left:18px!important;padding-right:18px!important}
 body.country-site[data-oficina]:has(.site-nav nav.is-open) .tia{display:none!important}}
+@media(max-width:760px){
+/* menú: cada fila con el texto centrado */
+body.country-site[data-oficina] #country-navigation>a,body.country-site[data-oficina] #country-navigation details>summary{display:flex!important;align-items:center!important;min-height:56px!important;padding-top:0!important;padding-bottom:0!important}
+/* cierre amarillo e historia sin hueco al final */
+body.country-site[data-oficina] :is(.local-consult,.s-closing){padding-bottom:20px!important}
+body.country-site[data-oficina] :is(.local-consult,.s-closing)::after{height:24px!important}
+body.country-site[data-oficina] .history{padding-bottom:28px!important}
+body.country-site[data-oficina] .history::after{height:24px!important}
+body.country-site[data-oficina] .history-timeline li:last-child{margin-bottom:0!important;padding-bottom:0!important}
+/* cifras: celdas alineadas arriba, sin hueco bajo la segunda fila */
+body.country-site[data-oficina] .g-cifras-in>*{align-self:start;min-height:0!important}
+/* preguntas de la portada: signo más visible y fuera de la zona del chat */
+body.country-site[data-oficina] .g-faq summary span{font-size:22px!important;min-width:22px;text-align:center}
+body.country-site[data-oficina] .teps{margin-top:0!important}
+}
+/* celulares angostos y bajos: el texto del hero no se monta sobre el carro */
+@media(max-width:380px),(max-width:760px) and (max-height:700px){
+body.country-site[data-oficina] .hero-premium{display:none!important}
+body.country-site[data-oficina] #inicio .hero-text>p:not(.eyebrow){font-size:15px!important}
+body.country-site[data-oficina] #inicio .hero-text>.button{margin-top:10px!important}}
+@media(max-width:760px){
+body.country-site[data-oficina] #country-navigation.is-open{row-gap:0!important;gap:0!important}
+body.country-site[data-oficina] #country-navigation.is-open>:is(a,details){margin:0!important}}
+@media(max-width:380px),(max-width:760px) and (max-height:700px){body.country-site[data-oficina] .hero-routes{display:none!important}}
+@media(max-width:760px){
+body.country-site[data-oficina] .network-actions .button{width:100%;justify-content:center;white-space:normal;text-align:center;gap:8px}
+body.country-site[data-oficina] .ct-back{display:inline-flex!important;align-items:center;min-height:44px;font-size:14px!important;padding:6px 0}}
 
 h1,h2,h3{text-wrap:balance}
 @media(min-width:901px){.blog-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
