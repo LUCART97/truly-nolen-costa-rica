@@ -114,3 +114,12 @@ body.country-site[data-oficina] #inicio .hero-text>.hero-premium{margin-top:8px!
 body.country-site[data-oficina] #inicio .hero-text>.button{margin-top:16px!important}}
 /* Comercios e Industria: los bloques propios de la ficha con el mismo peso de título que los sectores de globaltni */
 body.country-site[data-oficina]:has(.ct-commercial) .s-flow h2{font-weight:800;letter-spacing:-.016em}
+/* Chat abierto (4-nov-2026): el panel ya trae su «×»; el botón flotante se oculta para que no quede cortado en la esquina */
+body.country-site[data-oficina] .tia--on .tia-fab{display:none!important}
+body.country-site[data-oficina] .tia--on{bottom:clamp(16px,3vw,24px)}
+body.country-site[data-oficina] .tia-panel{max-height:calc(100dvh - 120px)}
+body.country-site[data-oficina] .tia-x{width:40px;height:40px}
+/* Celular: el chat abre como hoja completa debajo de la barra amarilla, sin cortes ni la página asomando a media pantalla */
+@media(max-width:760px){body.country-site[data-oficina] .tia--on{left:0;right:0;bottom:0;top:76px;gap:0;align-items:stretch}
+body.country-site[data-oficina] .tia--on .tia-panel{width:100%!important;height:100%!important;max-height:none;border-radius:16px 16px 0 0;border-bottom:0}
+body.country-site[data-oficina] .tia--on .tia-form{padding-bottom:calc(12px + env(safe-area-inset-bottom))}}
