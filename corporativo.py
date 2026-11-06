@@ -22,7 +22,7 @@ o["textos"].update({
     "Formación sobre manejo integrado de plagas, biología, ecología, aspectos regulatorios y soporte de auditoría.":
         "Formación sobre manejo integrado de plagas, biología, ecología, aspectos normativos y apoyo en auditorías.",
     "Programas personalizados para las necesidades de cada cliente, especialmente instalaciones auditadas.":
-        "Programas personalizados para las necesidades de cada cliente, especialmente para instalaciones auditadas.",
+        "Programas adaptados a las necesidades de cada cliente, en especial de las instalaciones auditadas.",
     "Una red internacional": "Presencia mundial",
     "Conecta con una oficina local.": "Comuníquese con una oficina local.",
     "El automóvil amarillo con orejas de ratón de Truly Nolen": "El carro amarillo con orejas de ratón de Truly Nolen",

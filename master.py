@@ -107,7 +107,7 @@ def cierre():
     T = F.get("textos", {})
     wa = F.get("whatsappTrulyAI", "15202145675")
     return ('<section id="contacto" class="s-closing"><div class="wrap"><h2>Cuéntenos qué necesita proteger.</h2>'
-            "<p>Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.</p>"
+            "<p>Escríbale a Truly AI aquí mismo o por WhatsApp; le indicará el siguiente paso.</p>"
             '<div class="s-closing-actions"><a class="button button-dark" href="#contacto" data-abrir-chat>Escribir en el chat</a>'
             f'<a class="text-link" href="https://wa.me/{e(str(wa))}" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a>'
             f'<a class="text-link" href="{BASE}#consulta">Consultar cobertura →</a></div></div></section>')
@@ -140,7 +140,7 @@ for pg in F["paginas"]["servicios"]:
             f'<section class="wrap s-section s-lead-pair"><article class="s-prose"><h2>{tit(pg.get("lema", pg["titulo"]))}</h2></article>'
             f'<article class="s-prose"><p>{e(pg.get("intro", ""))}</p>{"".join(p0)}</article>'
             + (f'<figure class="s-figure">{img}</figure>' if img else "")
-            + f'<a class="button s-service-action" href="#contacto" data-abrir-chat>Consultar por este servicio →</a></section>')
+            + f'<a class="button s-service-action" href="#contacto" data-abrir-chat>Consultar este servicio →</a></section>')
     for b in bl[1:]:
         ps = parrafos(b)
         if ps:

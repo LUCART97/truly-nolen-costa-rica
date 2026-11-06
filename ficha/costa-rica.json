@@ -40,25 +40,25 @@
     "consejos": [
       {
         "plaga": "zancudos",
-        "titulo": "Vacíe el agua quieta cada semana",
+        "titulo": "Vacíe el agua estancada cada semana",
         "texto": "El Ministerio de Salud pide revisar patios, jardines y lotes, y eliminar llantas, botellas y latas que acumulen agua. La OMS recomienda cubrir, vaciar y limpiar cada semana los recipientes con agua.",
         "fuente": "Ministerio de Salud (2026) · OMS"
       },
       {
         "plaga": "ratas-y-ratones",
         "titulo": "Guarde la comida bien cerrada",
-        "texto": "El protocolo de leptospirosis del Ministerio de Salud incluye proteger los alimentos, eliminar la basura y controlar los roedores. Si encuentra uno muerto, la CCSS recomienda recogerlo con guantes y en doble bolsa.",
+        "texto": "El protocolo de leptospirosis del Ministerio de Salud incluye proteger los alimentos, eliminar la basura y controlar los roedores. Si encuentra uno muerto, la CCSS recomienda recogerlo con guantes y meterlo en doble bolsa.",
         "fuente": "Ministerio de Salud (2002) · CCSS"
       },
       {
         "plaga": "comejen",
         "titulo": "No barra las bolitas finas",
-        "texto": "Son el excremento del comején de madera seca y ayudan a identificarlo. Cuando aparecen, la colonia ya está establecida. Si va a construir o remodelar, pregunte por madera tratada: el TEC comprobó que el boro es muy eficaz.",
+        "texto": "Son el excremento del comején de madera seca y ayudan a identificarlo. Cuando aparecen, la colonia ya está establecida. Si va a construir o remodelar, pregunte por madera tratada: el TEC comprobó que el tratamiento con boro es muy eficaz.",
         "fuente": "Kurú, TEC (2006)"
       },
       {
         "plaga": "cucarachas",
-        "titulo": "Limpie el polvo donde se esconden",
+        "titulo": "Limpie el polvo de los rincones donde se esconden",
         "texto": "Las heces, los vómitos y los restos de las cucarachas aportan alérgenos al polvo de la casa. En un estudio de 1992 con pacientes alérgicos de Costa Rica, el 68 % reaccionó a por lo menos un extracto de cucaracha.",
         "fuente": "Revista Costarricense de Salud Pública (1992)"
       },
@@ -78,7 +78,7 @@
         "plaga": "chinches-de-cama",
         "titulo": "Revise la maleta al volver",
         "texto": "Las chinches de cama viajan escondidas en el equipaje, los muebles y las pertenencias. Antes de deshacer la maleta, revise sus costuras y pliegues, y busque manchas color óxido en el colchón.",
-        "fuente": "UCR (2020) · CDC"
+        "fuente": "The Q Costa Rica (2020) · CDC"
       },
       {
         "plaga": "moscas",
@@ -111,8 +111,8 @@
   "seo": {
     "imagen": "costa-rica-social.jpg",
     "titulo": "Control de plagas · Truly Nolen Costa Rica",
-    "descripcion": "Control de plagas en Costa Rica para hogares, comercios e industrias. Escríbale a Truly AI y le orientamos en el siguiente paso.",
-    "imagenAlt": "Carrito amarillo de Truly Nolen en una carretera de montaña con el volcán Arenal al atardecer, Costa Rica"
+    "descripcion": "Control de plagas en Costa Rica para hogares, comercios e industrias. Escríbale a Truly AI y le indicará el siguiente paso.",
+    "imagenAlt": "El carro amarillo de Truly Nolen en una carretera de montaña frente al volcán Arenal, Costa Rica"
   },
   "pelicula": {
     "poster": "costa-rica-desktop.webp",
@@ -285,7 +285,7 @@
     "programaTexto": "De su casa a su negocio o su planta. Elija el servicio que necesita conocer.",
     "comercialTitulo": "Control de plagas para su actividad.",
     "comercialFrase": "La prevención es parte de su operación.",
-    "plagasTexto": "Las que más vemos en Costa Rica. Cada guía explica las señales y qué hacer, con fuentes.",
+    "plagasTexto": "Las plagas que más vemos en Costa Rica. Cada guía explica las señales y qué hacer, y cita sus fuentes.",
     "ayudaTexto": "Consejos para prevenir plagas y respuestas sobre cómo trabajamos."
   },
   "metodo": [
@@ -309,7 +309,7 @@
   "faq": [
     [
       "¿Cómo comienza el servicio?",
-      "El equipo revisa su consulta, confirma si podemos atenderle y coordina la evaluación que corresponda."
+      "Nuestro equipo revisa su consulta, confirma si podemos atenderle y coordina la evaluación que corresponda."
     ],
     [
       "¿Puedo solicitar atención para mi negocio?",
@@ -321,7 +321,7 @@
     ],
     [
       "¿Cómo consulto la cobertura?",
-      "Indique su provincia, su cantón y el tipo de espacio. Le confirmaremos si podemos atenderle y cómo coordinar la atención."
+      "Indique su provincia, su cantón y el tipo de espacio. Le confirmaremos si podemos atenderle y cómo coordinar la visita."
     ],
     [
       "¿La evaluación tiene costo?",
@@ -329,12 +329,12 @@
     ],
     [
       "¿Una visita es suficiente?",
-      "El equipo define el alcance y el seguimiento después de evaluar su situación. Las visitas y condiciones se explican en la propuesta."
+      "El equipo define el alcance y el seguimiento después de evaluar su situación. Las visitas y las condiciones se explican en la propuesta."
     ]
   ],
   "textos": {
     "contactoTitulo": "Cuéntenos qué necesita proteger.",
-    "contactoTexto": "Todo empieza por contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp y le orienta en el siguiente paso.",
+    "contactoTexto": "Todo empieza por contarnos qué vio. Escríbale a Truly AI aquí mismo o por WhatsApp; le indicará el siguiente paso.",
     "consultaDetalleTexto": "Elija una opción y Truly AI le responde aquí mismo, o escríbale lo que está viendo.",
     "nota": "Converse aquí con Truly AI. Si lo prefiere, puede seguir por WhatsApp.",
     "fuentesNota": "Cada dato de esta página viene de una fuente pública que usted puede revisar.",
@@ -351,9 +351,9 @@
   },
   "chatContexto": "Truly Nolen Costa Rica public website (draft). Truly Nolen operates in Costa Rica, but this website does not yet publish confirmed local contact details: never give or invent an address, local phone, coverage area, technicians, schedules, availability, prices, certifications or guarantees. Help visitors describe their pest situation (homes, businesses or industry): what they see, where, since when, type of space, province and canton, children or pets. Local pest names: zancudos (mosquitoes, dengue), zompopas (leaf-cutter ants), comején (termites), alacranes (scorpions). Explain the general Truly Nolen approach (listen, evaluate, propose, follow up) and what information helps. For service requests explain that Truly Nolen will review the request and confirm whether and how it can be attended. My Truly opens the separate VIP portal; Inside Truly opens the internal portal. No access to customer account data. Do not claim the chat stores no data. Language: Costa Rican Spanish, warm and professional, always usted, never tú or voseo.",
   "legales": {
-    "privacidad": "Lo que usted escriba en el chat de este sitio o por WhatsApp lo recibe y lo responde Truly AI, el asistente de Truly Nolen International. Use este canal para sus consultas sobre control de plagas y no comparta datos sensibles, como claves, datos bancarios o información médica.",
-    "terminos": "La información de este sitio es general. Los servicios, la cobertura, los precios y las condiciones se confirman directamente con Truly Nolen antes de cualquier visita o servicio. Esta información no constituye una oferta.",
-    "accesibilidad": "Puede recorrer este sitio con el teclado, ampliar el texto y usar la preferencia de movimiento reducido de su dispositivo. Si su dispositivo pide reducir el movimiento, se muestra una imagen fija. Si encuentra una dificultad de acceso, cuénteselo a Truly AI en el chat."
+    "privacidad": "Lo que usted escriba en el chat de este sitio o por WhatsApp lo recibe y lo responde Truly AI, el asistente de Truly Nolen International. Use estos canales para sus consultas sobre control de plagas y no comparta datos sensibles, como contraseñas, números de cuenta o de tarjeta, o información médica.",
+    "terminos": "La información de este sitio es general. Los servicios, la cobertura, los precios y las condiciones se confirman directamente con Truly Nolen antes de cualquier visita o servicio. Esta información no es una oferta comercial.",
+    "accesibilidad": "Puede recorrer este sitio con el teclado, ampliar el texto y usar la preferencia de movimiento reducido de su dispositivo. Si su dispositivo pide reducir el movimiento, la portada muestra una imagen fija en lugar del video. Si encuentra una dificultad de acceso, cuénteselo a Truly AI en el chat."
   },
   "paginas": {
     "servicios": [
@@ -366,13 +366,13 @@
         "eyebrow": "Servicio residencial",
         "lema": "Su casa, de adentro hacia afuera.",
         "intro": "Desde la cocina hasta el patio. Revisamos su casa o apartamento para encontrar dónde está la actividad de plagas y qué la favorece, cuidando a su familia y a sus mascotas.",
-        "nota": "Antes de empezar, usted recibe una propuesta con el alcance y las condiciones para su casa.",
+        "nota": "Antes de empezar, usted recibirá una propuesta con el alcance y las condiciones para su casa.",
         "bloques": [
           {
             "tipo": "tarjetas",
             "eyebrow": "Qué puede esperar",
             "titulo": "Protección para su hogar.",
-            "nota": "Antes de empezar, usted recibe una propuesta con el alcance y las condiciones para su casa.",
+            "nota": "Antes de empezar, usted recibirá una propuesta con el alcance y las condiciones para su casa.",
             "items": [
               {
                 "h": "¿Para quién?",
@@ -531,11 +531,11 @@
           ],
           [
             "¿Con una visita basta?",
-            "El equipo define el alcance y el seguimiento después de evaluar su situación. Las visitas y condiciones se explican en la propuesta."
+            "El equipo define el alcance y el seguimiento después de evaluar su situación. Las visitas y las condiciones se explican en la propuesta."
           ],
           [
             "¿Cómo sé si atienden en mi zona?",
-            "Escríbale a Truly AI su provincia, su cantón y el tipo de espacio. Le confirmaremos si podemos atenderle y cómo coordinar la atención."
+            "Escríbale a Truly AI su provincia, su cantón y el tipo de espacio. Le confirmaremos si podemos atenderle y cómo coordinar la visita."
           ]
         ],
         "fuentes": [
@@ -544,7 +544,7 @@
             "https://www.ministeriodesalud.go.cr/index.php/biblioteca-de-archivos-left/documentos-ministerio-de-salud/material-informativo/material-publicado/boletines/boletines-vigilancia-vs-enfermedades-de-transmision-vectorial/boletines-epidemiologicos-2026/11248-boletin-epidemiologico-n-39-4/file"
           ],
           [
-            "Organización Mundial de la Salud. Dengue y dengue grave",
+            "Organización Mundial de la Salud (21 ago. 2025). Dengue y dengue grave",
             "https://www.who.int/es/news-room/fact-sheets/detail/dengue-and-severe-dengue"
           ],
           [
@@ -560,7 +560,7 @@
             "https://dialnet.unirioja.es/descarga/articulo/5123386.pdf"
           ]
         ],
-        "descripcion": "Control de plagas para casas y apartamentos en Costa Rica: interior, perímetro y jardín, con indicaciones para su familia y sus mascotas. Escríbale a Truly AI.",
+        "descripcion": "Control de plagas para casas y apartamentos en Costa Rica: interior, perímetro y áreas verdes, con un protocolo para cada zona. Escríbale a Truly AI.",
         "imagenAnterior": "cr-hogar-cocina.webp"
       },
       {
@@ -571,13 +571,13 @@
         "imagenOrigen": "Generada con Juggernaut XL (AI Horde) el 4 nov. 2026 como foto de celular de un puesto de frutas en un mercado de Costa Rica, sin personas ni letras; agrandada con Real-ESRGAN x4. Elegida por el dueño (opción 3).",
         "eyebrow": "Servicio comercial",
         "lema": "Control de plagas para su negocio.",
-        "intro": "Para sodas, restaurantes, pulperías, supermercados, hoteles y oficinas en Costa Rica.",
+        "intro": "Control de plagas para restaurantes, supermercados, hoteles, hospitales y empresas de logística en Costa Rica, con el programa TEPS.",
         "bloques": [
           {
             "tipo": "tarjetas",
             "eyebrow": "Qué puede esperar",
             "titulo": "Control para su negocio.",
-            "nota": "Antes de empezar, usted recibe una propuesta con el alcance y las condiciones para su negocio.",
+            "nota": "Antes de empezar, usted recibirá una propuesta con el alcance y las condiciones para su negocio.",
             "items": [
               {
                 "h": "¿Para quién?",
@@ -600,7 +600,7 @@
             "contacto": "Consultar por su sector",
             "volver": "Volver a los sectores",
             "titulo": "Su sector, protegido.",
-            "texto": "Truly Nolen International ofrece control de plagas a clientes de todo el mundo y en sectores muy variados. Estos son cuatro sectores clave en los que tiene más presencia.",
+            "texto": "Truly Nolen International ofrece control de plagas a clientes de todo el mundo y en sectores muy variados. Estos son los cuatro sectores en los que tiene más presencia.",
             "indiceTitulo": "Encuentre su sector",
             "sectores": [
               {
@@ -619,7 +619,7 @@
                 ],
                 "textos": [
                   "Quienes dirigen centros de atención prolongada, servicios de emergencias y centros de rehabilitación física o mental deben mantener el más alto nivel de higiene mientras atienden a personas vulnerables.",
-                  "Truly Elite Protection System (TEPS) se desarrolló para instalaciones de atención médica donde los servicios deben ir más allá del control. Nuestro sistema ofrece prevención y minimiza el riesgo de actividad de plagas y contaminación química.",
+                  "Truly Elite Protection System (TEPS) se desarrolló para instalaciones de atención médica donde los servicios deben ir más allá del control. Nuestro sistema ofrece prevención y minimiza el riesgo de actividad de plagas y de contaminación química.",
                   "Brindamos un servicio completamente auditable, con toda la documentación y los registros que piden las normas de la industria o los clientes más exigentes del mundo."
                 ],
                 "teps": "Conozca el programa TEPS",
@@ -680,7 +680,7 @@
               {
                 "id": "alimentos",
                 "nombre": "Venta minorista de alimentos",
-                "titulo": "Cuidar donde se encuentran personas y alimentos.",
+                "titulo": "Cuidar los lugares donde conviven personas y alimentos.",
                 "fotos": [
                   {
                     "imagen": "cr-sector4-alimentos-super.webp",
@@ -717,7 +717,7 @@
                   }
                 ],
                 "textos": [
-                  "Para cualquier empresa que se encargue del traslado diario de mercadería, ya sea que exporte, importe o mueva productos de un lugar a otro, Truly Nolen International ayuda a evitar la contaminación por plagas.",
+                  "Truly Nolen International ayuda a evitar la contaminación por plagas en las empresas que trasladan mercadería a diario, ya sea para exportar, importar o distribuir productos.",
                   "En la carga, TEPS va más allá del control: ayuda a prevenir plagas y a reducir el riesgo de contaminación química en cada traslado.",
                   "Todo el trabajo queda registrado, listo para las auditorías que exigen las normas del sector y sus propios clientes."
                 ],
@@ -734,7 +734,7 @@
                 ]
               }
             ],
-            "otros": "Si usted no se encuentra dentro de estos sectores, no se preocupe: Truly Nolen International también tiene clientes en turismo, educación, manufactura, servicios de alimentación para eventos y mucho más.",
+            "otros": "Si usted no se encuentra dentro de estos sectores, no se preocupe: Truly Nolen International también tiene clientes en turismo, educación, manufactura, servicios de alimentación para eventos y muchos otros sectores.",
             "cierre": [
               "Cada industria merece atención.",
               "Cuéntenos a qué se dedica su negocio y le orientamos en el siguiente paso.",
@@ -838,7 +838,7 @@
             "items": [
               {
                 "valor": "68 %",
-                "texto": "de 80 pacientes con alergia grave de Costa Rica reaccionó a por lo menos un extracto de cucaracha (estudio de 1992).",
+                "texto": "de 80 pacientes costarricenses con alergia grave reaccionó a por lo menos un extracto de cucaracha (estudio de 1992).",
                 "fuente": "Revista Costarricense de Salud Pública (Calderón)"
               }
             ]
@@ -950,17 +950,17 @@
         "imagenOrigen": "Foto real de Adrian Sulyok en Unsplash (https://unsplash.com/es/fotos/trabajadores-caminando-por-el-pasillo-del-almacen-c_4eaGRDSVU), Licencia Unsplash (uso comercial gratuito, sin atribución obligatoria); elegida el 5 nov. 2026 (receta, paso 8: espacios con fotos reales). Reemplaza cr-industria-planta-v2.webp (IA), que queda en assets para revertir.",
         "eyebrow": "Servicio industrial",
         "lema": "Control de plagas para plantas y bodegas.",
-        "intro": "Plantas de alimentos, bodegas, centros de distribución y agroindustria. El programa parte de conocer su proceso, sus turnos y la documentación que le piden.",
+        "intro": "Control de plagas para plantas de alimentos, bodegas, centros de distribución y agroindustria, con la hoja de servicio que pide el Decreto 38335-S-MTSS.",
         "bloques": [
           {
             "tipo": "tarjetas",
             "eyebrow": "Qué puede esperar",
             "titulo": "Un programa para su operación.",
-            "nota": "Antes de empezar, usted recibe una propuesta con el alcance y las condiciones para su instalación.",
+            "nota": "Antes de empezar, usted recibirá una propuesta con el alcance y las condiciones para su instalación.",
             "items": [
               {
                 "h": "¿Para quién?",
-                "p": "Plantas de alimentos y bebidas, bodegas, centros de distribución, beneficios y agroindustria."
+                "p": "Plantas de alimentos y bebidas, bodegas, centros de distribución, beneficios de café y agroindustria."
               },
               {
                 "h": "¿Qué incluye?",
@@ -968,7 +968,7 @@
               },
               {
                 "h": "¿Cómo sigue?",
-                "p": "Visitas de seguimiento con la frecuencia acordada y la hoja de servicio de cada aplicación para sus revisiones."
+                "p": "Visitas de seguimiento con la frecuencia acordada, cada una con su hoja de servicio."
               }
             ]
           },
@@ -1000,7 +1000,7 @@
                 ],
                 "textos": [
                   "En una planta, TEPS se centra en la prevención: reduce el riesgo de plagas y de contaminación química en cada área del proceso.",
-                  "Lo que se hace en cada visita queda escrito, para que usted lo muestre en sus auditorías."
+                  "Lo que se hace en cada visita queda registrado para que usted lo presente en sus auditorías."
                 ],
                 "teps": "Conozca el programa TEPS",
                 "benef": [
@@ -1029,7 +1029,7 @@
             "tipo": "tabla",
             "eyebrow": "Por zonas",
             "titulo": "De la recepción al despacho.",
-            "texto": "La inspección recorre la operación en el mismo orden que la mercadería.",
+            "texto": "La inspección recorre la operación en el mismo orden que sigue la mercadería.",
             "columnas": [
               "Zona",
               "Qué se revisa"
@@ -1043,7 +1043,7 @@
                 [
                   "Tarimas, sacos y empaques.",
                   "Puertas de carga y andenes.",
-                  "Orden y separación de las paredes."
+                  "Orden y espacio libre entre la mercadería y las paredes."
                 ]
               ],
               [
@@ -1064,7 +1064,7 @@
                 ],
                 [
                   "Zonas verdes y drenajes.",
-                  "Basura y desechos.",
+                  "Manejo de desechos.",
                   "Grietas, rejillas y pasos de tuberías."
                 ]
               ]
@@ -1094,7 +1094,7 @@
                   "Quién la guarda",
                   ""
                 ],
-                "El original es para el cliente y la copia queda con la empresa como comprobante. Las autoridades pueden solicitarla.",
+                "El original es para el cliente y la copia queda con la empresa de control de plagas como comprobante. Las autoridades pueden solicitarla.",
                 "art. 6"
               ]
             ],
@@ -1151,7 +1151,7 @@
         "preguntas": [
           [
             "¿Se puede trabajar sin detener la producción?",
-            "La visita se coordina con sus turnos y paradas. Cuéntenos su operación para proponer los horarios."
+            "Sí. La visita se coordina con sus turnos y paradas. Cuéntenos cómo es su operación para proponerle horarios."
           ],
           [
             "¿Entregan registros para auditorías?",
@@ -1159,7 +1159,7 @@
           ],
           [
             "Tenemos varias plantas. ¿Cómo se organiza?",
-            "Se acuerda el alcance de cada instalación en la propuesta, con su propio registro."
+            "En la propuesta se acuerda el alcance de cada instalación, y cada una lleva su propio registro."
           ]
         ],
         "fuentes": [
@@ -1192,12 +1192,12 @@
             "items": [
               {
                 "valor": "5814",
-                "texto": "casos de dengue acumulados a la semana 40 de 2026.",
+                "texto": "casos de dengue acumulados hasta la semana 40 de 2026.",
                 "fuente": "Ministerio de Salud, Boletín Epidemiológico N.º 39 (23 oct. 2026)"
               },
               {
                 "valor": "3798",
-                "texto": "casos a la misma semana de 2025. En 2026 ya son 5814.",
+                "texto": "casos hasta la misma semana de 2025, frente a 5814 en 2026.",
                 "fuente": "Ministerio de Salud, Boletín Epidemiológico N.º 39"
               },
               {
@@ -1218,7 +1218,7 @@
               },
               {
                 "h": "De día",
-                "p": "Los mosquitos que transmiten el dengue están activos durante el día."
+                "p": "Los zancudos que transmiten el dengue están activos durante el día."
               },
               {
                 "h": "Lo que pide el Ministerio",
@@ -1304,11 +1304,11 @@
             "https://delfino.cr/2026/08/salud-fortalece-acciones-de-prevencion-y-control-del-dengue-y-llama-a-la-poblacion-a-eliminar-criaderos"
           ],
           [
-            "Organización Mundial de la Salud. Dengue y dengue grave",
+            "Organización Mundial de la Salud (21 ago. 2025). Dengue y dengue grave",
             "https://www.who.int/es/news-room/fact-sheets/detail/dengue-and-severe-dengue"
           ]
         ],
-        "descripcion": "El zancudo del dengue se cría en el agua quieta de la casa. Casos de 2026 en Costa Rica, según el Ministerio de Salud; señales y qué revisar cada semana."
+        "descripcion": "El zancudo del dengue se cría en el agua quieta de la casa. Casos de 2026 en Costa Rica, según el Ministerio de Salud, y qué revisar cada semana."
       },
       {
         "slug": "ratas-y-ratones",
@@ -1317,7 +1317,7 @@
         "imagenOrigen": "Ilustración del borrador de Venezuela, reutilizada.",
         "eyebrow": "Guía de ratas y ratones",
         "lema": "Excrementos, roeduras y ruidos de noche.",
-        "intro": "Ratas y ratones buscan comida, agua y refugio en la casa o el negocio. En Costa Rica, las ratas están entre los reservorios más frecuentes de la leptospirosis.",
+        "intro": "Las ratas y los ratones buscan comida, agua y refugio en la casa o el negocio. En Costa Rica, las ratas están entre los reservorios más frecuentes de la leptospirosis.",
         "bloques": [
           {
             "tipo": "cifras",
@@ -1353,7 +1353,7 @@
           {
             "tipo": "tarjetas",
             "eyebrow": "Señales",
-            "titulo": "Cómo saber si las tiene.",
+            "titulo": "Cómo saber si los tiene.",
             "items": [
               {
                 "h": "Excrementos",
@@ -1381,7 +1381,7 @@
               [
                 [
                   "Anote dónde",
-                  "Las señales y los lugares."
+                  "Qué señales ve y en qué lugares."
                 ],
                 [
                   "Cocina, bodega y cielorraso.",
@@ -1394,7 +1394,7 @@
                   "En recipientes cerrados."
                 ],
                 [
-                  "Granos, pan y alimento de mascotas."
+                  "Granos, pan y alimento para mascotas."
                 ]
               ],
               [
@@ -1442,7 +1442,7 @@
             "https://www.binasss.sa.cr/opac-ms/media/digitales/Leptospirosis%20-%20Protocolo%20para%20Prevenci%c3%b3n%20y%20Control.pdf"
           ],
           [
-            "Sequeira-Soto y Romero-Zúñiga (2012). Comportamiento epidemiológico de casos sospechosos por leptospirosis en cinco regiones de salud de Costa Rica. Acta Médica Costarricense 54(4)",
+            "Sequeira-Soto y Romero-Zúñiga (2012). Comportamiento epidemiológico de casos sospechosos por leptospirosis en cinco regiones de salud de Costa Rica. Acta Médica Costarricense, vol. 54, n.º 4",
             "https://www.scielo.sa.cr/pdf/amc/v54n4/art06v54n4.pdf"
           ]
         ]
@@ -1454,16 +1454,16 @@
         "imagenOrigen": "Ilustración del borrador de Venezuela, reutilizada.",
         "eyebrow": "Guía de cucarachas",
         "lema": "Donde hay humedad y comida, aparecen.",
-        "intro": "En Costa Rica, varios autores señalan como las más frecuentes en las casas a la cucaracha americana, la australiana, la alemana y la de Madeira.",
+        "intro": "Varios autores señalan que las cucarachas más frecuentes en las casas del país son la americana, la australiana, la alemana y la de Madeira.",
         "bloques": [
           {
             "tipo": "cifras",
             "eyebrow": "Lo que se ha medido en Costa Rica",
-            "titulo": "También causan alergias.",
+            "titulo": "Causan alergias.",
             "items": [
               {
                 "valor": "68 %",
-                "texto": "de 80 pacientes con alergia grave de Costa Rica reaccionó a por lo menos un extracto de cucaracha (estudio de 1992).",
+                "texto": "de 80 pacientes costarricenses con alergia grave reaccionó a por lo menos un extracto de cucaracha (estudio de 1992).",
                 "fuente": "Revista Costarricense de Salud Pública (Calderón)"
               },
               {
@@ -1476,7 +1476,7 @@
           {
             "tipo": "tarjetas",
             "eyebrow": "Cómo es",
-            "titulo": "Cuatro especies conocidas.",
+            "titulo": "Cuatro especies frecuentes.",
             "items": [
               {
                 "h": "Las más frecuentes",
@@ -1517,7 +1517,7 @@
                   "Además de los insectos."
                 ],
                 [
-                  "Puntos negros como pimienta.",
+                  "Puntos negros, como granos de pimienta.",
                   "Cápsulas de huevos en rincones."
                 ]
               ],
@@ -1574,7 +1574,7 @@
         "imagenOrigen": "Ilustración del borrador de Venezuela, reutilizada. Pendiente: ilustración de zompopa.",
         "eyebrow": "Guía de hormigas y zompopas",
         "lema": "De la fila en la cocina al nido en el jardín.",
-        "intro": "Además de las hormigas que entran a la cocina, en Costa Rica están las zompopas, las hormigas cortadoras de hojas que pueden dejar pelado un jardín.",
+        "intro": "Además de las hormigas que entran a la cocina, aquí hay zompopas, las hormigas cortadoras de hojas que pueden dejar pelado un jardín.",
         "bloques": [
           {
             "tipo": "tarjetas",
@@ -1591,7 +1591,7 @@
               },
               {
                 "h": "En la ciudad",
-                "p": "El mismo reportaje relaciona su avance en la ciudad con los fragmentos de bosque y áreas verdes que quedan entre las construcciones."
+                "p": "El mismo reportaje relaciona su avance en la ciudad con los fragmentos de bosque y las áreas verdes que quedan entre las construcciones."
               }
             ]
           },
@@ -1610,7 +1610,7 @@
               },
               {
                 "h": "Filas en la cocina",
-                "p": "Otras hormigas siguen siempre el mismo camino hacia la comida o el agua."
+                "p": "Las hormigas de la casa siguen siempre el mismo camino hacia la comida o el agua."
               }
             ]
           },
@@ -1639,7 +1639,7 @@
                   "Puede ser la entrada al nido."
                 ],
                 [
-                  "Montículos en el jardín o junto a paredes."
+                  "Montículos en el jardín o junto a las paredes."
                 ]
               ],
               [
@@ -1703,7 +1703,7 @@
         "imagenOrigen": "Ilustración del borrador de Venezuela, reutilizada.",
         "eyebrow": "Guía de comején",
         "lema": "Si ve bolitas finas, no las barra.",
-        "intro": "En Costa Rica se les dice comején a las termitas. Trabajan en silencio dentro de la madera de la casa, la decoración y los muebles.",
+        "intro": "En Costa Rica se les dice comején a las termitas. Trabajan en silencio dentro de la madera de la casa, los muebles y los objetos decorativos.",
         "bloques": [
           {
             "tipo": "tarjetas",
@@ -1730,7 +1730,7 @@
             "titulo": "La madera tratada resiste más.",
             "items": [
               {
-                "h": "Preservar con boro",
+                "h": "Tratamiento con boro",
                 "p": "Un estudio del Instituto Tecnológico de Costa Rica comprobó que preservar la madera con sales inorgánicas de boro es muy eficaz contra el comején de madera seca."
               },
               {
@@ -1754,11 +1754,11 @@
               },
               {
                 "h": "Enjambres con alas",
-                "p": "A principios de la estación lluviosa, salen en vuelo de sus galerías."
+                "p": "A principios de la estación lluviosa, salen volando de sus galerías."
               },
               {
                 "h": "Silencio",
-                "p": "Según la especie, pueden pasar hasta tres años desarrollando una colonia sin mostrar señales."
+                "p": "Según la especie, las termitas pueden pasar hasta tres años formando una colonia sin dar señales."
               }
             ]
           },
@@ -1784,7 +1784,7 @@
               [
                 [
                   "Revise la madera",
-                  "La que ya está dañada también cuenta."
+                  "También la que ya está dañada."
                 ],
                 [
                   "Zonas que suenan huecas.",
@@ -1794,7 +1794,7 @@
               [
                 [
                   "No barra las bolitas",
-                  "Ayudan a identificarlo."
+                  "Ayudan a identificar la especie."
                 ],
                 [
                   "Déjelas donde están hasta la visita."
@@ -1966,7 +1966,7 @@
         "imagenOrigen": "Dibujo de John Curtis, British Entomology, vol. 7, lámina 569 (1836), dominio público, vía Biodiversity Heritage Library y Wikimedia Commons (https://commons.wikimedia.org/wiki/File:British_Entomology_Volume_7_(John_Curtis)_Plate_569.jpg). Recortado, sin la regla de escala y con el fondo fundido al papel.",
         "eyebrow": "Guía de chinches de cama",
         "lema": "Se esconden de día, cerca de la cama.",
-        "intro": "En 2017 se encontraron chinches de cama en un apartamento de Heredia, y la Universidad de Costa Rica lo identificó como el primer caso confirmado con métodos moleculares en Centroamérica.",
+        "intro": "En 2017 se encontraron chinches de cama en un apartamento de Heredia, y la Universidad de Costa Rica identificó el hallazgo como el primer caso confirmado con métodos moleculares en Centroamérica.",
         "bloques": [
           {
             "tipo": "tarjetas",
@@ -1983,7 +1983,7 @@
               },
               {
                 "h": "Lo que causan",
-                "p": "La familia de Heredia reportó erupción en pies y manos e insomnio por las picaduras. Según los CDC, no se sabe que transmitan enfermedades."
+                "p": "La familia de Heredia contó que las picaduras les causaron ronchas en los pies y las manos, e insomnio. Según los CDC, no se ha demostrado que transmitan enfermedades."
               }
             ]
           },
@@ -1994,11 +1994,11 @@
             "items": [
               {
                 "h": "Manchas",
-                "p": "Manchas de sangre color óxido en el colchón o en los muebles cercanos."
+                "p": "Manchas de sangre de color óxido en el colchón o en los muebles cercanos."
               },
               {
                 "h": "Mudas",
-                "p": "Restos de la piel que dejan al crecer, y chinches en los pliegues del colchón y las sábanas."
+                "p": "Restos de la piel que mudan al crecer. También puede ver chinches vivas en los pliegues del colchón y de las sábanas."
               },
               {
                 "h": "Olor",
@@ -2018,7 +2018,7 @@
               [
                 [
                   "Revise la cama",
-                  "Donde se esconden de día."
+                  "Es donde se esconden de día."
                 ],
                 [
                   "Costuras del colchón y el somier.",
@@ -2080,11 +2080,11 @@
             "https://kimuk.conare.ac.cr/Record/KUCR_26f9e992aae36e101786d7e40a925321"
           ],
           [
-            "The Q Costa Rica (24 feb. 2020). Las chinches de cama reaparecen en Costa Rica después de 20 años (nota en inglés)",
+            "The Q Costa Rica (24 feb. 2020). Las chinches de cama reaparecen en Costa Rica después de 20 años (artículo en inglés)",
             "https://qcostarica.com/bed-bugs-reappear-in-costa-rica-after-20-years"
           ],
           [
-            "CDC. Acerca de las chinches de cama (en inglés; referencia general, no específica de Costa Rica)",
+            "CDC. Acerca de las chinches de cama (artículo en inglés; referencia general, no específica de Costa Rica)",
             "https://www.cdc.gov/bed-bugs/about/index.html"
           ]
         ],
@@ -2359,9 +2359,9 @@
   },
   "creditosFotos": [],
   "legalesDescripcion": {
-    "privacidad": "Cómo se usan los mensajes que escribe en el chat de Truly AI y por WhatsApp en el sitio de Truly Nolen Costa Rica, y qué datos no conviene compartir.",
-    "terminos": "Términos de uso del sitio de Truly Nolen Costa Rica: alcance de la información y confirmación de servicios.",
-    "accesibilidad": "Cómo recorrer el sitio de Truly Nolen Costa Rica con el teclado, ampliar el texto y reducir el movimiento, y cómo reportar una dificultad de acceso."
+    "privacidad": "Cómo se usan los mensajes que usted le escribe a Truly AI en el chat del sitio de Truly Nolen Costa Rica o por WhatsApp, y qué datos no conviene compartir.",
+    "terminos": "Términos de uso del sitio de Truly Nolen Costa Rica: qué alcance tiene la información publicada y cómo se confirman los servicios, precios y visitas.",
+    "accesibilidad": "Cómo recorrer el sitio de Truly Nolen Costa Rica con el teclado, ampliar el texto y reducir el movimiento, y cómo avisar de una dificultad de acceso."
   },
   "peliculaCatalogo": {
     "poster": "costa-rica-desktop.webp",

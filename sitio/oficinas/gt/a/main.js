@@ -57,7 +57,7 @@
   "es": "Comercios",
   "category": "Services",
   "categoryEs": "Servicios",
-  "keywords": "comercios para sodas, restaurantes, pulperías, supermercados, hoteles y oficinas en costa rica."
+  "keywords": "comercios control de plagas para restaurantes, supermercados, hoteles, hospitales y empresas de logística en costa rica, con el programa teps."
  },
  {
   "url": "/oficinas/costa-rica/servicios/industria/",
@@ -65,7 +65,7 @@
   "es": "Industria",
   "category": "Services",
   "categoryEs": "Servicios",
-  "keywords": "industria plantas de alimentos, bodegas, centros de distribución y agroindustria. el programa parte de conocer su proceso, sus turnos y la documentación que le piden."
+  "keywords": "industria control de plagas para plantas de alimentos, bodegas, centros de distribución y agroindustria, con la hoja de servicio que pide el decreto 38335-s-mtss."
  },
  {
   "url": "/oficinas/costa-rica/plagas/zancudos/",
@@ -81,7 +81,7 @@
   "es": "Ratas y ratones",
   "category": "Pests",
   "categoryEs": "Guía de plagas",
-  "keywords": "ratas y ratones ratas y ratones buscan comida, agua y refugio en la casa o el negocio. en costa rica, las ratas están entre los reservorios más frecuentes de la leptospirosis."
+  "keywords": "ratas y ratones las ratas y los ratones buscan comida, agua y refugio en la casa o el negocio. en costa rica, las ratas están entre los reservorios más frecuentes de la leptospirosis."
  },
  {
   "url": "/oficinas/costa-rica/plagas/cucarachas/",
@@ -89,7 +89,7 @@
   "es": "Cucarachas",
   "category": "Pests",
   "categoryEs": "Guía de plagas",
-  "keywords": "cucarachas en costa rica, varios autores señalan como las más frecuentes en las casas a la cucaracha americana, la australiana, la alemana y la de madeira."
+  "keywords": "cucarachas varios autores señalan que las cucarachas más frecuentes en las casas del país son la americana, la australiana, la alemana y la de madeira."
  },
  {
   "url": "/oficinas/costa-rica/plagas/hormigas-y-zompopas/",
@@ -97,7 +97,7 @@
   "es": "Hormigas y zompopas",
   "category": "Pests",
   "categoryEs": "Guía de plagas",
-  "keywords": "hormigas y zompopas además de las hormigas que entran a la cocina, en costa rica están las zompopas, las hormigas cortadoras de hojas que pueden dejar pelado un jardín."
+  "keywords": "hormigas y zompopas además de las hormigas que entran a la cocina, aquí hay zompopas, las hormigas cortadoras de hojas que pueden dejar pelado un jardín."
  },
  {
   "url": "/oficinas/costa-rica/plagas/comejen/",
@@ -105,7 +105,7 @@
   "es": "Comején",
   "category": "Pests",
   "categoryEs": "Guía de plagas",
-  "keywords": "comején en costa rica se les dice comején a las termitas. trabajan en silencio dentro de la madera de la casa, la decoración y los muebles."
+  "keywords": "comején en costa rica se les dice comején a las termitas. trabajan en silencio dentro de la madera de la casa, los muebles y los objetos decorativos."
  },
  {
   "url": "/oficinas/costa-rica/plagas/chinches-de-cama/",
@@ -113,7 +113,7 @@
   "es": "Chinches de cama",
   "category": "Pests",
   "categoryEs": "Guía de plagas",
-  "keywords": "chinches de cama en 2017 se encontraron chinches de cama en un apartamento de heredia, y la universidad de costa rica lo identificó como el primer caso confirmado con métodos moleculares en centroamérica."
+  "keywords": "chinches de cama en 2017 se encontraron chinches de cama en un apartamento de heredia, y la universidad de costa rica identificó el hallazgo como el primer caso confirmado con métodos moleculares en centroamérica."
  },
  {
   "url": "/oficinas/costa-rica/blog/alacranes-en-costa-rica/",

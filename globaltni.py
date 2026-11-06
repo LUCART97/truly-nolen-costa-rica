@@ -243,6 +243,7 @@ cards = ""
 for p in PLAGAS[:5]:
     foto = next((f for f in (f"cr-plaga-{p['slug']}-foto.webp",) if (C / "assets" / f).exists()), None)
     frase = re.split(r"(?<=\.)\s", p.get("intro", ""))[0]
+    frase = re.sub(r"^En Costa Rica,?\s+", "", frase); frase = frase[:1].upper() + frase[1:]   # la etiqueta ya dice «En Costa Rica»
     sub = p.get("eyebrow", "").replace("Guía de ", "").capitalize()
     cards += (f'<a href="{PAG(p["slug"])}"><img alt="{e(p["titulo"])}" class="editorial-specimen" height="560" loading="lazy" src="{A}{foto}" width="840"/>'
               f'<div><h3>{e(p["titulo"])}</h3><strong>En Costa Rica</strong><p>{e(frase)}</p><span class="pest-guide-link">Ver la guía <span aria-hidden="true">→</span></span></div></a>')
@@ -285,7 +286,15 @@ RES = gtpage("residential")
 hechas = 0
 
 
-def css_reforzado(ruta):
+def _reforzar(sel):
+    """Antepone html body.gt-interna.gt-interna; si la regla ya empieza en body/html, se une a ese mismo body."""
+    x = re.sub(r"^html\s+", "", sel.strip())
+    x = re.sub(r"^\.a-home(?=[\s>+~:\[]|$)", "body", x); x = re.sub(r"^body((?:\.[\w-]+)*)\.a-home\b", r"body\1", x)   # reglas solo de la portada: también en las internas
+    m = re.match(r"body([^\s>+~]*)(.*)", x, re.S)
+    return f"html body.gt-interna.gt-interna{m.group(1)}{m.group(2)}" if m else f"html body.gt-interna.gt-interna {x}"
+
+
+def css_reforzado(ruta, clave=".ct-"):
     """Las reglas .ct-* de globaltni con más peso (html body.gt-interna.gt-interna …) para ganarle al molde viejo
     (body.country-site[data-oficina] h2 …) sin cambiar ni un valor."""
     c = re.sub(r"/\*.*?\*/", "", ruta.read_text(encoding="utf-8"), flags=re.S)
@@ -302,10 +311,15 @@ def css_reforzado(ruta):
                 if dentro: out.append(f"{sel}{{{dentro}}}")
                 i = k; continue
             k = t.find("}", j)
-            if ".ct-" in sel:
-                out.append(",".join(f"html body.gt-interna.gt-interna {s.strip()}" for s in sel.split(",")) + t[j:k + 1])
+            if clave in sel:
+                out.append(",".join(_reforzar(x) for x in sel.split(",")) + t[j:k + 1])
             i = k + 1
     return bloque(c)
+
+
+# la banda de cierre de globaltni («Cuéntenos qué necesita proteger.») en las internas, con las reglas contact-* de la portada
+CIERRE_CSS = "<style>" + "".join(css_reforzado(GT / f"a/{n}", "contact-") for n in
+                                 ("style.css", "mobile.css", "feedback-20260924.css", "brand-2026.css", "home-editorial.css")) + (R / "plantilla/ajuste-cierre.css").read_text(encoding="utf-8") + "</style>"
 _pl = (C / "plagas/cucarachas/index.html").read_text(encoding="utf-8")
 CIERRE_INTERNO = re.search(r'<section id="contacto" class="s-closing">.*?</section>', _pl, re.S).group(0).replace('/oficinas/costa-rica/#consulta"', '/oficinas/costa-rica/#contacto"')
 for f in C.rglob("index.html"):
@@ -314,21 +328,25 @@ for f in C.rglob("index.html"):
     t = f.read_text(encoding="utf-8")
     m = re.search(r"<main\b.*?</main>", t, re.S).group(0)
     m = m.replace('/oficinas/costa-rica/#consulta"', '/oficinas/costa-rica/#contacto"')   # la portada nueva cierra con #contacto
-    mas = ""
+    mas = CIERRE_CSS
     if rel == "servicios/industria":   # mismo sector que Comercios: las fotos reales de globaltni y su hoja de estilos
         for viejo, gt in (("cr-sector4-industria-almacen.webp", "industrial-storage.png"), ("cr-sector4-industria-lab.webp", "industrial-laboratory.png"),
                           ("cr-sector4-industria-planta.webp", "industrial-operations.png")):
             assert f"{A}{viejo}" in m, viejo; m = m.replace(f"{A}{viejo}", f"{G}en/services/media/{gt}")
         m, n = re.subn(r'(cr-industria-unsplash-[^"]*" alt=")Industria"', r'\1Personal caminando por el pasillo de una bodega con estanterías"', m)
         assert n == 1, "industria: foto de arriba"
-        mas = f'<link rel="stylesheet" href="{G}a/commercial-editorial.css"/><style>{css_reforzado(GT / "a/commercial-editorial.css")}{css_reforzado(GT / "a/brand-2026.css")}{(R / "plantilla/ajuste-industria.css").read_text(encoding="utf-8")}</style>'
+        mas += f'<link rel="stylesheet" href="{G}a/commercial-editorial.css"/><style>{css_reforzado(GT / "a/commercial-editorial.css")}{css_reforzado(GT / "a/brand-2026.css")}{(R / "plantilla/ajuste-industria.css").read_text(encoding="utf-8")}</style>'
     # «Proteja su casa o su negocio»: dos enlaces sueltos → dos filas con texto y flecha, como el menú de globaltni
     m = m.replace(f'<ul class="s-enlaces"><li><a href="{B}servicios/hogares/">Hogares</a></li><li><a href="{B}servicios/comercios/">Comercios</a></li></ul>',
                   f'<div class="gt-destinos"><a href="{B}servicios/hogares/"><strong>Hogares</strong><span>Un programa para toda su casa, en tres zonas.</span><i aria-hidden="true">→</i></a>'
                   f'<a href="{B}servicios/comercios/"><strong>Comercios</strong><span>Protección para los retos de cada sector.</span><i aria-hidden="true">→</i></a></div>')
-    if rel == "blog":   # el blog cerraba con el formulario viejo y el chat abierto en línea: mismo cierre que las demás internas
+    # cierre de globaltni (la banda amarilla de la portada, Hogares y Comercios) en todas las internas (6-nov-2026)
+    if rel == "blog":   # el blog cerraba con el formulario viejo y el chat abierto en línea
         i = m.find('<section id="contacto" class="section local-consult'); assert i > 0, "blog: cierre viejo"
-        m = m[:i] + CIERRE_INTERNO + "</main>"
+        m = m[:i] + CIERRE + "</main>"
+    else:
+        m, n = re.subn(r'<section id="contacto" class="s-closing">.*?</section>', lambda x: CIERRE, m, count=1, flags=re.S)
+        assert n == 1 or "s-closing" not in m, rel
     estilo = "".join(re.findall(r"<style>.*?</style>", t[t.find("<head>"):t.find("</head>")], re.S))
     extra = "".join(re.findall(r'<script src="/oficinas/assets/pestanas\.js" defer></script>', t))
     # el molde viejo agrega 64 px vacíos tras cada sección; en computadora el espacio sale doble con el CSS de globaltni
@@ -407,6 +425,47 @@ CORR = [
     (">Contactar a TNI<span", ">Escribir a Truly AI<span"),
     ("<p>Encuentre el equipo de su país para conversar sobre sus instalaciones y el servicio que necesita.</p>", "<p>Converse con nuestro equipo en Costa Rica sobre sus instalaciones y el servicio que necesita.</p>"),
     ("<h2>Más formas de proteger su mundo.</h2>", "<h2>Más formas de proteger su negocio.</h2>"),
+    # --- revisión del 6-nov-2026 (3 correctores + LanguageTool) ---
+    ('cargando pedazos de hoja sobre una cuerda', 'cargando pedazos de hojas sobre una cuerda'),
+    ('El carro amarillo de Truly Nolen en una carretera junto al volcán Arenal, Costa Rica', 'El carro amarillo de Truly Nolen en una carretera de montaña frente al volcán Arenal, Costa Rica'),
+    ('El programa se adapta a las instalaciones, sus actividades y sus necesidades de documentación.', 'El programa se adapta a sus instalaciones, su actividad y sus necesidades de documentación.'),
+    ('También trabajamos con turismo,', 'También trabajamos con empresas de turismo,'),
+    ('Fuerza global de Truly Nolen', 'Presencia internacional de Truly Nolen'),
+    ('vista de una vivienda con zonas exterior verde, perímetro amarillo e interior rojo', 'vista de una vivienda con la zona exterior en verde, el perímetro en amarillo y el interior en rojo'),
+    ('Césped y macizos de flores.', 'Césped y jardineras.'),
+    ('como el césped y los macizos de flores', 'como el césped y las jardineras'),
+    ('Brindamos un servicio que es completamente auditable y cumple con toda la documentación y los registros requeridos para satisfacer las normas del sector o los requisitos de los clientes más estrictos del mundo.', 'Brindamos un servicio totalmente auditable, con la documentación y los registros que exigen las normas del sector y los clientes más estrictos del mundo.'),
+    ('Brindamos un servicio que es totalmente auditable y cumple con toda la documentación y los registros requeridos para satisfacer las normas del sector o los requisitos de los clientes más estrictos del mundo.', 'Brindamos un servicio totalmente auditable, con la documentación y los registros que exigen las normas del sector y los clientes más estrictos del mundo.'),
+    ('Brindamos un servicio que es completamente auditable y cumple con toda la documentación y los registros requeridos para satisfacer los requisitos del cliente.', 'Brindamos un servicio totalmente auditable, con la documentación y los registros que exige cada cliente.'),
+    ('Nuestro sistema de protección Truly Elite (TEPS) está diseñado para clientes que requieren un sistema de prevención de plagas de última generación, como:', 'TEPS está pensado para clientes que necesitan una prevención de plagas de última generación, como:'),
+    ('Nuestro sistema de protección Truly Elite está diseñado para clientes que requieren sistemas de prevención de plagas de última generación, tales como:', 'TEPS está pensado para clientes que necesitan una prevención de plagas de última generación, como:'),
+    ('Nuestro sistema de protección Truly Elite está diseñado para clientes que requieren un sistema de prevención de plagas de última generación, tales como:', 'TEPS está pensado para clientes que necesitan una prevención de plagas de última generación, como:'),
+    ('>Suministros médicos y almacenes<', '>Almacenes de suministros médicos<'),
+    ('se desarrolló para instalaciones minoristas que requieren servicios que van más allá del simple control.', 'se desarrolló para comercios minoristas que necesitan algo más que el simple control.'),
+    ('>Logística externa<', '>Operadores logísticos externos<'),
+    ('>Logística de adquisiciones<', '>Logística de abastecimiento<'),
+    ('>Logística de ventas<', '>Logística de distribución<'),
+    ('<h2>Más formas de proteger su negocio.</h2>', '<h2>Otros servicios de Truly Nolen.</h2>'),
+    ('Información de servicios comerciales de Truly Nolen International.', 'Información sobre los servicios comerciales de Truly Nolen International.'),
+    ('TNI ofrece un protocolo de tres zonas', 'Truly Nolen ofrece un protocolo de tres zonas'),
+    ('Así, el cliente recibe una solución', 'Así, usted recibe una solución'),
+    ('Protección adaptada por zona', 'Protección adaptada a cada zona'),
+    ('alt="Material de Truly Nolen International"', 'alt="Diagrama de una casa con sus tres zonas de protección"'),
+    ('con sus patas de franjas blancas', 'con franjas blancas en las patas'),
+    ('Selección de producto,', 'Selección del producto,'),
+    ('Formación para clientes y empleados,', 'Formación para los clientes y su personal,'),
+    ('Programas personalizados para las necesidades de cada cliente, especialmente para instalaciones auditadas.', 'Programas adaptados a las necesidades de cada cliente, en especial de las instalaciones auditadas.'),
+    ('Se definen umbrales de acción con la administración.', 'Los umbrales de acción se definen con la gerencia del cliente.'),
+    ('hasta establecer el control.', 'hasta recuperar el control.'),
+    ('Estos son cuatro sectores clave en los que tiene más presencia.', 'Estos son los cuatro sectores en los que tiene más presencia.'),
+    ('riesgo de actividad de plagas y contaminación química', 'riesgo de actividad de plagas y de contaminación química'),
+    ('Cuidar donde se encuentran personas y alimentos.', 'Cuidar los lugares donde hay personas y alimentos.'),
+    ('Para cualquier empresa que se encargue del traslado diario de mercadería, ya sea que exporte, importe o mueva productos de un lugar a otro, Truly Nolen International ayuda a evitar la contaminación por plagas.', 'Truly Nolen International ayuda a evitar la contaminación por plagas en las empresas que trasladan mercadería a diario, ya sea para exportar, importar o distribuir productos.'),
+    ('servicios de alimentación para eventos y mucho más.', 'servicios de alimentación para eventos y muchos otros sectores.'),
+    # títulos de pestaña como los de globaltni («Control de plagas residencial | …», «Control de plagas para empresas | …»)
+    ("Hogares · Truly Nolen Costa Rica", "Control de plagas residencial · Truly Nolen Costa Rica"),
+    ("Comercios · Truly Nolen Costa Rica", "Control de plagas para empresas · Truly Nolen Costa Rica"),
+    ("Industria · Truly Nolen Costa Rica", "Control de plagas para la industria · Truly Nolen Costa Rica"),
 ]
 textos = {f: f.read_text(encoding="utf-8") for f in C.rglob("index.html")}
 faltan = []
@@ -436,3 +495,12 @@ for f in C.rglob("index.html"):
     t = f.read_text(encoding="utf-8"); t2 = con_silabas(t)
     if t2 != t: f.write_text(t2, encoding="utf-8"); n += 1
 print("listas de sectores con guiones suaves en", n, "páginas")
+
+# ---------- 8 · candado de texto: ningún error ya corregido puede volver (revision/prohibidos.txt) ----------
+_prohibidos = [l.rstrip("\n") for l in (R / "revision/prohibidos.txt").read_text(encoding="utf-8").splitlines() if l.strip() and not l.startswith("#")]
+_vuelven = []
+for f in C.rglob("index.html"):
+    t = re.sub(r"</?(em|i|strong)>", "", f.read_text(encoding="utf-8")).replace("&shy;", "").replace("\u00ad", "")
+    _vuelven += [f"{f.parent.relative_to(C).as_posix()}: «{x}»" for x in _prohibidos if x in t]
+assert not _vuelven, "volvieron errores de texto ya corregidos:\n" + "\n".join(_vuelven)
+print("candado de texto:", len(_prohibidos), "errores ya corregidos, ninguno volvió")

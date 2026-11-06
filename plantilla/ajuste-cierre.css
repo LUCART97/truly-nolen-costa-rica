@@ -1,0 +1,47 @@
+/* comparar-identico 1440 px: cierre de la portada */
+@media (min-width:1200px){
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1){color:rgb(1, 0, 7)!important;display:grid!important;column-gap:80px!important;row-gap:80px!important;align-items:end!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(1){color:rgb(1, 0, 7)!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1){font-weight:600!important;color:rgb(1, 0, 7)!important;hyphens:none!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1){color:rgb(1, 0, 7)!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(2){color:rgb(1, 0, 7)!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2){color:rgb(1, 0, 7)!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(1){color:rgb(1, 0, 7)!important}
+}
+/* comparar-identico 1024 px: cierre de la portada */
+@media (min-width:961px) and (max-width:1199px){
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1){color:rgb(1, 0, 7)!important;display:grid!important;column-gap:44px!important;row-gap:44px!important;align-items:end!important;margin-left:40px!important;margin-right:40px!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(1){color:rgb(1, 0, 7)!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1){font-weight:600!important;color:rgb(1, 0, 7)!important;hyphens:none!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1){color:rgb(1, 0, 7)!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(2){color:rgb(1, 0, 7)!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2){color:rgb(1, 0, 7)!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(1){color:rgb(1, 0, 7)!important}
+}
+/* comparar-identico 768 px: cierre de la portada */
+@media (min-width:621px) and (max-width:960px){
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1){line-height:27.2px!important;color:rgb(1, 0, 7)!important;display:grid!important;column-gap:42px!important;row-gap:42px!important;align-items:end!important;margin-left:40px!important;margin-right:40px!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(1){line-height:27.2px!important;color:rgb(1, 0, 7)!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1){font-weight:600!important;color:rgb(1, 0, 7)!important;hyphens:none!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1){color:rgb(1, 0, 7)!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(2){line-height:27.2px!important;color:rgb(1, 0, 7)!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2){color:rgb(1, 0, 7)!important;column-gap:18px!important;row-gap:18px!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(1){color:rgb(1, 0, 7)!important}
+}
+/* comparar-identico 390 px: cierre de la portada */
+@media (max-width:620px){
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1){line-height:27.2px!important;color:rgb(1, 0, 7)!important;display:grid!important;column-gap:33px!important;row-gap:33px!important;align-items:end!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(1){line-height:27.2px!important;color:rgb(1, 0, 7)!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1){font-weight:600!important;color:rgb(1, 0, 7)!important;hyphens:none!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1){color:rgb(1, 0, 7)!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(2){line-height:27.2px!important;color:rgb(1, 0, 7)!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2){color:rgb(1, 0, 7)!important;column-gap:18px!important;row-gap:18px!important}
+html body.gt-interna.gt-interna section#contacto.contact-band > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(1){color:rgb(1, 0, 7)!important}
+}
+/* columnas flexibles, valores de style.css de globaltni (.a-home .contact-layout) */
+@media (min-width:961px){html body.gt-interna.gt-interna section#contacto.contact-band .contact-layout{grid-template-columns:minmax(0,1.35fr) minmax(320px,.65fr)!important}}
+@media (max-width:960px){html body.gt-interna.gt-interna section#contacto.contact-band .contact-layout{grid-template-columns:minmax(0,1fr)!important}}
+/* a mano, medido contra la portada: enlace de WhatsApp de 48 px y el ancho de la banda de 621 a 1199 px */
+html body.gt-interna.gt-interna section#contacto.contact-band .contact-actions a.text-link{min-height:48px!important;max-width:none!important}
+@media (min-width:621px) and (max-width:1199px){html body.gt-interna.gt-interna section#contacto.contact-band > .wrap{width:calc(100% - 80px)!important;max-width:1312px!important}}
+@media (max-width:960px){html body.gt-interna.gt-interna section#contacto.contact-band h2 br{display:inline!important}}

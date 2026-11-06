@@ -438,7 +438,7 @@ def pagina_blog():
                 "blog/", migas=[("Blog", "blog/")], estilos=HEAD_BLOG)
     html += BODY_INICIO + nav() + '<main id="contenido">'
     html += f"""<section class="section blog-head"><a class="text-link" href="{BASE}">← Volver al inicio</a><p class="eyebrow">Blog · {PAIS}</p><h1>Blog de control de plagas</h1>
-<p>Guías sobre las plagas de aquí, con cada dato respaldado por su fuente.</p></section>
+<p>Guías sobre las plagas de Costa Rica, con cada dato respaldado por su fuente.</p></section>
 <section class="section blog-lista"><div class="blog-grid">{"".join(tarjeta_articulo(a, i in anchas) for i, a in enumerate(ARTICULOS))}</div></section>
 """
     # Consejos de prevención: una tarjeta por plaga, con su dibujo, su fuente y el enlace a su guía
@@ -453,7 +453,7 @@ def pagina_blog():
 <div><p class="eyebrow">{escape(p['titulo'])}</p><h2><a href="{url}">{escape(c['titulo'])}</a></h2><p>{escape(c['texto'])}</p><p style="font-size:13px;color:var(--muted)">Fuente: {escape(c['fuente'])}</p><a class="text-link" href="{url}">Ver la guía de {escape(p['titulo'].lower())}&nbsp;→</a></div></article>"""
     if consejos:
         html += f"""<section class="section blog-lista"><div class="section-heading"><p class="eyebrow">Prevención · {PAIS}</p><h2>Cómo prevenir<br/>cada plaga.</h2>
-<p>Un consejo concreto por plaga, con su fuente, para empezar hoy mismo en su casa o su negocio.</p></div><div class="blog-grid blog-consejos">{consejos}</div></section>
+<p>Un consejo concreto por plaga, con su fuente, para empezar hoy mismo en su casa o en su negocio.</p></div><div class="blog-grid blog-consejos">{consejos}</div></section>
 """
     return html + contacto(FICHA["blog"].get("consulta")) + "</main>" + footer() + CHAT + "</body></html>\n"
 
